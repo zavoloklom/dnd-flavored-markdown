@@ -22,3 +22,8 @@ Use sidebars for guidance and variants.
 AC 16; HP 45; Spd 30 ft; ATK +5 (1d8+3)  
 Traits: Immutable Form; Magic Resistance
 :::
+
+::: abilityscores title="Bear Form" pb=3
+str=19 dex=10 con=16 int=2 wis=13 cha=7
+saves="dex"
+:::

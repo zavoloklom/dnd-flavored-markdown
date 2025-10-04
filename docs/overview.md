@@ -6,6 +6,8 @@ D&D-Flavored Markdown (DFM) - надстройка над CommonMark с мини
 
 Ориентиры - [GitLab Flavored Markdown](https://docs.gitlab.com/user/markdown/) и [homebrewery](https://homebrewery.naturalcrit.com/)
 
+https://docusaurus.io/docs/markdown-features/admonitions
+
 ## Цели и принципы
 
 * Совместимость. Базовый Markdown остаётся валидным. Любые расширения — это опциональные «контейнеры» и атрибуты.

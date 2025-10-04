@@ -1,6 +1,7 @@
 // Shared DFM plugins for MarkdownIt
 // All comments in English as requested.
-import type MarkdownIt from 'markdown-it'
+import type MarkdownIt from 'markdown-it';
+import { useAbilityScores } from '../plugins/abilityscores';
 
 export function applyDfmPlugins(md: MarkdownIt) {
     // Inline directive: {@dc 15} → <span class="dc" data-value="15">DC 15</span>
@@ -28,6 +29,8 @@ export function applyDfmPlugins(md: MarkdownIt) {
         const text = tokens[idx].content
         return `<span class="${cls}" data-value="${val}">${escapeHtml(text)}</span>`
     }
+
+    useAbilityScores(md);
 }
 
 function escapeHtml(s: string) {
