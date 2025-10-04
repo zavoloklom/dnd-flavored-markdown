@@ -1,0 +1,33 @@
+{
+  "name": "dnd-flavored-markdown",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "dfm": "build/scripts/dfm.mjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build:cli": "tsc -p tsconfig.json",
+    "build:html": "tsx scripts/dfm.ts build content/index.md -o dist/index.html --inline-css",
+    "watch:html": "tsx scripts/dfm.ts watch content/index.md -o dist/index.html --inline-css"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "commander": "^12.1.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-container": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^14.1.2",
+    "@types/markdown-it-attrs": "^4.1.3",
+    "@types/markdown-it-container": "^2.0.10",
+    "@types/node": "^22.8.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8"
+  }
+}

@@ -1,0 +1,35 @@
+// Shared DFM plugins for MarkdownIt
+// All comments in English as requested.
+import type MarkdownIt from 'markdown-it'
+
+export function applyDfmPlugins(md: MarkdownIt) {
+    // Inline directive: {@dc 15} → <span class="dc" data-value="15">DC 15</span>
+    md.inline.ruler.before('text', 'dfm_dc', (state, silent) => {
+        const src = state.src
+        const pos = state.pos
+        if (src.charCodeAt(pos) !== 0x7B) return false
+        const m = /\{@dc\s+(\d+)\}/y
+        m.lastIndex = pos
+        const match = m.exec(src)
+        if (!match) return false
+        if (!silent) {
+            const token = state.push('dfm_dc', 'span', 0)
+            token.attrs = [['class', 'dc'], ['data-value', match[1]]]
+            token.content = `DC ${match[1]}`
+        }
+        state.pos = m.lastIndex
+        return true
+    })
+
+    md.renderer.rules.dfm_dc = (tokens, idx) => {
+        const t = tokens[idx]
+        const cls = t.attrs?.find(([k]) => k === 'class')?.[1] ?? ''
+        const val = t.attrs?.find(([k]) => k === 'data-value')?.[1] ?? ''
+        const text = tokens[idx].content
+        return `<span class="${cls}" data-value="${val}">${escapeHtml(text)}</span>`
+    }
+}
+
+function escapeHtml(s: string) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
