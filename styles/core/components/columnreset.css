@@ -1,0 +1,8 @@
+.columnreset {
+    column-span: all;
+    display: block;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

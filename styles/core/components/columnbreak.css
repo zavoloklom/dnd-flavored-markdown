@@ -1,0 +1,13 @@
+/* Force break to the next column inside .page (multi-column container) */
+.columnbreak {
+    break-before: column;
+    /* Legacy / WebKit prefixes for better browser coverage */
+    -webkit-column-break-before: always;
+    column-break-before: always;
+
+    /* visual-neutral */
+    height: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}

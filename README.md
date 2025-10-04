@@ -8,4 +8,7 @@ https://github.com/jonathonf/solbera-dnd-fonts
 
 ---
 
-[Alegreya SC](https://fonts.google.com/specimen/Alegreya+SC) - Designed by Juan Pablo del Peral, Huerta Tipográfica
+- Заголовки - [Alegreya SC](https://fonts.google.com/specimen/Alegreya+SC) - Designed by Juan Pablo del Peral, Huerta Tipográfica
+- Основной текст - [Bitter](https://fonts.google.com/specimen/Bitter) - Designed by Sol Matas
+- Попробовать Source Serif 4
+- 

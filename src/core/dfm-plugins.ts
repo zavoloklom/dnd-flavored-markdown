@@ -2,6 +2,10 @@
 // All comments in English as requested.
 import type MarkdownIt from 'markdown-it';
 import { useAbilityScores } from '../plugins/abilityscores';
+import { usePageBreak } from '../plugins/pagebreak';
+import { useColumnBreak } from '../plugins/columnbreak';
+import { useColumnReset } from '../plugins/columnreset';
+import { useWide } from '../plugins/wide';
 
 export function applyDfmPlugins(md: MarkdownIt) {
     // Inline directive: {@dc 15} → <span class="dc" data-value="15">DC 15</span>
@@ -31,6 +35,10 @@ export function applyDfmPlugins(md: MarkdownIt) {
     }
 
     useAbilityScores(md);
+    usePageBreak(md);
+    useColumnBreak(md);
+    useColumnReset(md);
+    useWide(md);
 }
 
 function escapeHtml(s: string) {

@@ -1,3 +1,6 @@
 /* Vite will inline these @imports */
 @import './base.css';
+@import './components/wide.css';
+@import './components/columnbreak.css';
+@import './components/columnreset.css';
 @import './components/abilityscores.css';

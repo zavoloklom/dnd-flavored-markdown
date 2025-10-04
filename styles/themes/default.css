@@ -1,7 +1,7 @@
 /* Theme tokens (minimal): page font + table backgrounds */
 :root {
-    --font-body: "Scala Sans Offc", Roboto, Helvetica, sans-serif;
-    --font-headers: "Alegreya SC", Helvetica, serif;
+    --font-body: "Bitter", Roboto, sans-serif;
+    --font-headers: "Alegreya SC", Times, serif;
 
     /** Colors **/
     --color-headers: #58180d;

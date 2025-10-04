@@ -1,5 +1,6 @@
 // Vanilla Vite preview. Reuses the shared core.
 import './polyfills';
+import { wrapIntoPages } from '../core/page-chunker'
 import { renderMarkdownToBody } from '../core/dfm-core';
 
 // Import markdown as raw for HMR reloads
@@ -10,7 +11,7 @@ const root = document.getElementById('app') as HTMLElement
 
 function render(source: string) {
     const { bodyHtml } = renderMarkdownToBody(source)
-    root.innerHTML = bodyHtml
+    root.innerHTML = wrapIntoPages(bodyHtml) // paged preview
 }
 
 // Initial render
