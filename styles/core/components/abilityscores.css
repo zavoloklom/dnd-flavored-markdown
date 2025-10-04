@@ -1,0 +1,62 @@
+/* Structure/layout only; colors come from tokens via CSS variables */
+.ability-scores {
+
+}
+
+.ability-scores__title {
+    margin: 0 0 .5rem 0;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.ability-scores__table {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: .625rem;
+}
+
+.stat-table {
+    margin: 0 0 .5rem;
+    border: 0;
+}
+
+.stat-table thead, .stat-table tr, .stat-table th, .stat-table tbody, .stat-table td {
+    border: 0;
+}
+
+.stat-table thead tr th {
+    background: inherit;
+    color: #68747b !important;
+    font-weight: 400;
+    padding: .3125rem .125rem 0;
+    text-transform: uppercase;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: .6875rem;
+}
+
+.stat-table tbody tr {
+    border-top: .0625rem solid #fff;
+    border-bottom: .0625rem solid #fff;
+    color: #5b160c;
+    text-align: center;
+    font-size: .938rem;
+}
+
+.stat-table td {
+    padding: .125rem .5rem;
+}
+
+.stat-table.physical tbody tr th, .stat-table.physical tbody tr td {
+    background: #ede6d9;
+}
+.stat-table.physical td.modifier {
+    background: #ded4cc;
+}
+
+.stat-table.mental tbody tr th, .stat-table.mental tbody tr td {
+    background: #d8dad1;
+}
+
+.stat-table.mental td.modifier {
+    background: #d0caca;
+}

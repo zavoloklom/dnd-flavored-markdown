@@ -1,191 +1,191 @@
-// markdown-it plugin: ::: abilityscores ... :::
-// Renders a two-table ability scores block (physical/mental).
-// Inherits `pb` (proficiency bonus) from parent statblock via env.dfm.statblockStack (if provided).
-//
-// Syntax examples:
-// ::: abilityscores title="Bear Form" pb=3
-// str=19 dex=10 con=16 int=2 wis=13 cha=7
-// saves="STR,CON"
-// mod_str=+5 save_wis=+7
-// :::
-//
-// Inside pairs are whitespace-separated key=value. Quotes allowed for strings.
-// Lines starting with '#' or trailing comments ` # ...` are ignored.
+// markdown-it plugin for ::: abilityscores ... ::: blocks.
+// The block accepts k=v tokens both on the opening line (after the keyword)
+// and inside the body; both are parsed uniformly. Body wins on conflicts.
 
-import type MarkdownIt from 'markdown-it';
+import type MarkdownIt from 'markdown-it'
+import {
+    clamp, escapeHtml, parseKv, parseKvCombined, signed, splitList, toInt
+} from '../utils/kv'
 
-type Abbr = 'STR' | 'DEX' | 'CON' | 'INT' | 'WIS' | 'CHA';
-
-const PHYSICAL: Abbr[] = ['STR', 'DEX', 'CON']
-const MENTAL:   Abbr[] = ['INT', 'WIS', 'CHA']
-
-interface AbilityData {
-    score?: number
-    mod?: number           // explicit override, otherwise computed
-    save?: number          // explicit override, otherwise computed
+// --- Enums requested ---
+export enum Ability {
+    STR = 'STR', DEX = 'DEX', CON = 'CON',
+    INT = 'INT', WIS = 'WIS', CHA = 'CHA'
 }
 
-interface BlockAttrs {
-    title?: string
-    pb?: number
+export enum BaseKey {
+    TITLE = 'title',
+    PB = 'pb',
+    SAVES = 'saves'
 }
 
-interface EnvDfm {
-    statblockStack?: Array<{ pb?: number }>
-    // you can extend later for more inheritance fields
-}
+// Template-literal types for dynamic keys derived from Ability
+type LowerAbbr = Lowercase<keyof typeof Ability>           // 'str' | 'dex' | ...
+type ScoreKey = LowerAbbr                                  // 'str' | ...
+type ModKey = `mod_${LowerAbbr}`                           // 'mod_str' | ...
+type SaveKey = `save_${LowerAbbr}`                         // 'save_str' | ...
+type KnownKey = `${BaseKey}` | ScoreKey | ModKey | SaveKey // union of all valid keys
+
+// Rendering order
+const PHYSICAL: Ability[] = [Ability.STR, Ability.DEX, Ability.CON]
+const MENTAL:   Ability[] = [Ability.INT, Ability.WIS, Ability.CHA]
+
+interface AbilityData { score?: number; mod?: number; save?: number }
+interface EnvDfm { statblockStack?: Array<{ pb?: number }> }
 
 // Public entry
 export function useAbilityScores(md: MarkdownIt) {
-    // Register a custom block rule to capture raw content between ::: abilityscores ... :::
     md.block.ruler.before(
         'fence',
         'dfm_abilityscores',
         abilityscoresRule as any,
         { alt: ['paragraph', 'reference', 'blockquote', 'list'] }
     )
-
-    // Renderer for our synthetic token
     md.renderer.rules['dfm_abilityscores'] = renderAbilityScores as any
 }
 
-/** Block rule: recognizes ::: abilityscores ... ::: and creates a single token with raw content + attrs. */
+/** Block rule: capture ::: abilityscores ... ::: and stash "infoTail" + inner raw text. */
 function abilityscoresRule(state: any, startLine: number, endLine: number, silent: boolean): boolean {
     const startPos = state.bMarks[startLine] + state.tShift[startLine]
     const maxPos = state.eMarks[startLine]
-    const src = state.src.slice(startPos, maxPos).trim()
+    const line = state.src.slice(startPos, maxPos).trim()
+    if (!line.startsWith(':::')) return false
 
-    if (!src.startsWith(':::')) return false
-    const after = src.slice(3).trim()
+    const after = line.slice(3).trim()
     if (!after.toLowerCase().startsWith('abilityscores')) return false
-
     if (silent) return true
 
-    // Parse inline attrs after 'abilityscores'
-    const info = after.slice('abilityscores'.length).trim()
-    const attrs = parseInlineAttrs(info) // { title?, pb? }
+    const infoTail = after.slice('abilityscores'.length).trim() // k=v on opening line (optional)
 
-    // Find closing line ':::'
-    let nextLine = startLine + 1
-    let contentLines: string[] = []
-    while (nextLine < endLine) {
-        const lineStart = state.bMarks[nextLine] + state.tShift[nextLine]
-        const lineEnd = state.eMarks[nextLine]
-        const line = state.src.slice(lineStart, lineEnd)
-
-        const trimmed = line.trim()
-        if (trimmed.startsWith(':::')) {
-            // stop on the first closing triple-colon
-            break
-        }
-        contentLines.push(line)
-        nextLine++
+    // find closing ':::'
+    let next = startLine + 1
+    const bodyLines: string[] = []
+    while (next < endLine) {
+        const s = state.bMarks[next] + state.tShift[next]
+        const e = state.eMarks[next]
+        const ln = state.src.slice(s, e)
+        if (ln.trim().startsWith(':::')) break
+        bodyLines.push(ln)
+        next++
     }
 
-    // Build a single token that carries everything needed to render
     const token = state.push('dfm_abilityscores', '', 0)
-    token.map = [startLine, nextLine]
+    token.map = [startLine, next]
     token.block = true
-    token.meta = {
-        attrs,                               // opening-line attributes (title, pb)
-        raw: contentLines.join('\n')         // raw inner text to parse pairs
-    }
+    token.meta = { infoTail, rawBody: bodyLines.join('\n') }
 
-    state.line = nextLine + 1
+    state.line = next + 1
     return true
 }
 
-/** Renderer: parse inner content → compute values → emit HTML. */
+/** Renderer: parse k=v, compute mods/saves, emit two tables. */
 function renderAbilityScores(tokens: any[], idx: number, _opts: any, env: any): string {
     const token = tokens[idx]
-    const meta = token.meta as { attrs: BlockAttrs; raw: string }
-    const blockAttrs = meta.attrs ?? {}
+    const { infoTail, rawBody } = token.meta as { infoTail: string; rawBody: string }
 
-    const inheritedPb =
-        ((env?.dfm as EnvDfm | undefined)?.statblockStack?.at(-1)?.pb) ?? undefined
-    const pb = pickNumber(blockAttrs.pb, inheritedPb, 0) // default 0 if absent
+    // Merge tail + body; last wins
+    const kv = parseKvCombined([infoTail, rawBody])
 
-    const pairs = parseKeyValuePairs(meta.raw)
-    const title = blockAttrs.title ?? pairs.get('title')
-
-    // Read scores
-    const abilities: Record<Abbr, AbilityData> = {
-        STR: {}, DEX: {}, CON: {}, INT: {}, WIS: {}, CHA: {}
-    }
-
-    for (const abbr of ['str','dex','con','int','wis','cha'] as const) {
-        const v = pairs.get(abbr)
-        if (v != null) {
-            const n = toInt(v)
-            if (!Number.isNaN(n)) abilities[abbr.toUpperCase() as Abbr].score = clamp(n, 1, 30)
-        }
-    }
-
-    // Parse saves list
-    const savesRaw = pairs.get('saves')
-    const saveSet = new Set<Abbr>()
+    // Build saves set
+    const savesSet = new Set<Ability>()
+    const savesRaw = kv.get(BaseKey.SAVES)
     if (savesRaw) {
-        for (const s of savesRaw.split(',').map(s => s.trim().toUpperCase())) {
-            if (isAbbr(s)) saveSet.add(s)
+        for (const s of splitList(savesRaw)) {
+            const ab = toAbility(s)
+            if (ab) savesSet.add(ab)
         }
     }
 
-    // Explicit overrides: mod_str=+2, save_wis=+7, etc.
-    for (const [k, v] of pairs) {
-        const m1 = /^mod_(str|dex|con|int|wis|cha)$/i.exec(k)
-        if (m1) {
-            const ab = m1[1].toUpperCase() as Abbr
-            const n = toInt(v)
+    // Resolve PB: explicit pb -> inherited -> 0
+    const explicitPb = kv.get(BaseKey.PB)
+    const inheritedPb = ((env?.dfm as EnvDfm | undefined)?.statblockStack?.at(-1)?.pb) ?? 0
+    const pb = explicitPb != null && !Number.isNaN(toInt(explicitPb)) ? toInt(explicitPb) : inheritedPb
+
+    // Title (optional)
+    const title = kv.get(BaseKey.TITLE)
+
+    // Collect ability rows
+    const abilities: Record<Ability, AbilityData> = {
+        [Ability.STR]: {}, [Ability.DEX]: {}, [Ability.CON]: {},
+        [Ability.INT]: {}, [Ability.WIS]: {}, [Ability.CHA]: {}
+    }
+
+    for (const ab of Object.values(Ability)) {
+        const lower = ab.toLowerCase() as LowerAbbr
+        const scoreStr = kv.get(lower as KnownKey as string)
+        if (scoreStr != null) {
+            const n = toInt(scoreStr)
+            if (!Number.isNaN(n)) abilities[ab].score = clamp(n, 1, 30)
+        }
+
+        const modStr = kv.get(`mod_${lower}` as KnownKey as string)
+        if (modStr != null) {
+            const n = toInt(modStr)
             if (!Number.isNaN(n)) abilities[ab].mod = n
-            continue
         }
-        const m2 = /^save_(str|dex|con|int|wis|cha)$/i.exec(k)
-        if (m2) {
-            const ab = m2[1].toUpperCase() as Abbr
-            const n = toInt(v)
+
+        const saveStr = kv.get(`save_${lower}` as KnownKey as string)
+        if (saveStr != null) {
+            const n = toInt(saveStr)
             if (!Number.isNaN(n)) abilities[ab].save = n
-            continue
         }
     }
 
-    // Compute mods & saves where not explicitly provided
-    for (const ab of Object.keys(abilities) as Abbr[]) {
+    // Compute missing mods/saves
+    for (const ab of Object.values(Ability)) {
         const a = abilities[ab]
         if (a.mod == null && a.score != null) a.mod = abilityMod(a.score)
-        if (a.save == null) {
-            if (a.mod != null) a.save = a.mod + (saveSet.has(ab) ? pb : 0)
+        if (a.save == null && a.mod != null) {
+            a.save = a.mod + (savesSet.has(ab) ? pb : 0)
         }
     }
 
-    // Build HTML
+    // Render HTML
     const out: string[] = []
-    out.push('<div class="mon-stat-block-2024__stats">')
-    if (title) {
-        out.push(`<h4 class="stat-subtitle">${escapeHtml(title)}</h4>`)
-    }
+    out.push('<div class="ability-scores">')
+    if (title) out.push(`<h4 class="ability-scores__title">${escapeHtml(title)}</h4>`)
+    out.push('<div class="ability-scores__table">')
     out.push(renderTable('physical', PHYSICAL, abilities))
     out.push(renderTable('mental',   MENTAL,   abilities))
     out.push('</div>')
-
+    out.push('</div>')
     return out.join('')
 }
 
-// ---------- helpers ----------
+// ---- helpers ----
 
-function renderTable(kind: 'physical'|'mental', order: Abbr[], abilities: Record<Abbr, AbilityData>): string {
+function abilityMod(score: number): number {
+    return Math.floor((score - 10) / 2)
+}
+
+function toAbility(s: string | undefined): Ability | null {
+    if (!s) return null
+    switch (s.trim().toUpperCase()) {
+        case 'STR': return Ability.STR
+        case 'DEX': return Ability.DEX
+        case 'CON': return Ability.CON
+        case 'INT': return Ability.INT
+        case 'WIS': return Ability.WIS
+        case 'CHA': return Ability.CHA
+        default: return null
+    }
+}
+
+function renderTable(
+    kind: 'physical'|'mental',
+    order: Ability[],
+    abilities: Record<Ability, AbilityData>
+): string {
     const rows = order.map(ab => {
         const a = abilities[ab]
-        if (!a.score && a.score !== 0) {
-            // If score is missing, render empty slots (or skip row if you prefer)
-            return `<tr><th>${ab}</th><td></td><td class="modifier"></td><td class="modifier"></td></tr>`
-        }
-        const modText  = a.mod  != null ? signed(a.mod)  : ''
-        const saveText = a.save != null ? signed(a.save) : ''
+        const score = a.score != null ? String(a.score) : ''
+        const mod   = a.mod  != null ? signed(a.mod)    : ''
+        const save  = a.save != null ? signed(a.save)   : ''
         return `<tr>
   <th>${ab}</th>
-  <td>${a.score}</td>
-  <td class="modifier">${modText}</td>
-  <td class="modifier">${saveText}</td>
+  <td>${score}</td>
+  <td class="modifier">${mod}</td>
+  <td class="modifier">${save}</td>
 </tr>`
     }).join('\n')
 
@@ -197,98 +197,4 @@ function renderTable(kind: 'physical'|'mental', order: Abbr[], abilities: Record
 ${rows}
   </tbody>
 </table>`
-}
-
-
-// Parse attrs on the opening line: key=value (quotes optional)
-function parseInlineAttrs(s: string): BlockAttrs {
-    const map = new Map<string,string>()
-    for (const [k, v] of lexKeyVals(s)) map.set(k, v)
-
-    const out: BlockAttrs = {}
-    if (map.has('title')) out.title = map.get('title')!
-    if (map.has('pb')) {
-        const n = toInt(map.get('pb')!)
-        if (!Number.isNaN(n)) out.pb = n
-    }
-    return out
-}
-
-// Parse inner body into key=value pairs; supports comments: lines starting with '#' or trailing ' # ...'
-function parseKeyValuePairs(body: string): Map<string,string> {
-    const out = new Map<string,string>()
-    const lines = body.split(/\r?\n/)
-    for (let line of lines) {
-        // strip trailing comment
-        const hash = line.indexOf('#')
-        if (hash >= 0) line = line.slice(0, hash)
-        line = line.trim()
-        if (!line) continue
-        for (const [k, v] of lexKeyVals(line)) {
-            out.set(k.toLowerCase(), v)
-        }
-    }
-    return out
-}
-
-// Lex whitespace-separated key=value tokens with quotes support.
-// Examples: str=13 saves="STR,CON" mod_str=+2
-function* lexKeyVals(s: string): Iterable<[string,string]> {
-    let i = 0
-    const n = s.length
-    while (i < n) {
-        while (i < n && /\s/.test(s[i])) i++
-        if (i >= n) break
-
-        // key
-        let k = ''
-        while (i < n && /[A-Za-z0-9_\-]/.test(s[i])) { k += s[i++]; }
-        if (!k) { // skip garbage token
-            while (i < n && !/\s/.test(s[i])) i++
-            continue
-        }
-        while (i < n && /\s/.test(s[i])) i++
-        if (s[i] !== '=') { // key without '=', ignore token
-            while (i < n && !/\s/.test(s[i])) i++
-            continue
-        }
-        i++ // skip '='
-        while (i < n && /\s/.test(s[i])) i++
-
-        // value (quoted or bare)
-        let v = ''
-        if (s[i] === '"' || s[i] === "'") {
-            const quote = s[i++]
-            while (i < n && s[i] !== quote) { v += s[i++]; }
-            if (s[i] === quote) i++
-        } else {
-            while (i < n && !/\s/.test(s[i])) { v += s[i++]; }
-        }
-        yield [k, v]
-    }
-}
-
-function abilityMod(score: number): number {
-    return Math.floor((score - 10) / 2)
-}
-function signed(n: number): string {
-    return (n >= 0 ? '+' : '') + String(n)
-}
-function toInt(s: string): number {
-    // Accept "+2", "-1", "2"
-    const m = /^[-+]?\d+$/.exec(s.trim())
-    return m ? parseInt(m[0], 10) : NaN
-}
-function clamp(n: number, lo: number, hi: number): number {
-    return Math.max(lo, Math.min(hi, n))
-}
-function isAbbr(s: string): s is Abbr {
-    return s === 'STR' || s === 'DEX' || s === 'CON' || s === 'INT' || s === 'WIS' || s === 'CHA'
-}
-function pickNumber(...vals: Array<number | undefined>): number {
-    for (const v of vals) if (typeof v === 'number') return v
-    return 0
-}
-function escapeHtml(s: string): string {
-    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
 }

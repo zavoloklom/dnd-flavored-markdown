@@ -1,0 +1,12 @@
+/* Theme tokens (minimal): page font + table backgrounds */
+:root {
+    --font-body: "Scala Sans Offc", Roboto, Helvetica, sans-serif;
+    --font-headers: "Alegreya SC", Helvetica, serif;
+
+    /** Colors **/
+    --color-headers: #58180d;
+
+    /* Ability tables backgrounds */
+    --table-physical-bg: #f7f9ff; /* light blue-ish */
+    --table-mental-bg:   #fff7fb; /* light magenta-ish */
+}

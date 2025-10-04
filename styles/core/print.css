@@ -1,0 +1,26 @@
+@page { size: A4; margin: 16mm; }
+@media print {
+    body { background: white; }
+    .content {
+        width: auto;
+        min-height: auto;
+        border: none;
+        box-shadow: none;
+    }
+    h1, h2, h3, .sidebar, .statblock, .readaloud, table {
+        break-inside: avoid;
+        break-after: avoid;
+    }
+    .page {
+        width: auto;
+        min-height: auto;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        column-count: 2;
+        column-gap: 8mm;
+        break-after: page;
+        /* background from inline style (if provided) will be printed
+           as long as your PDF generator uses printBackground: true */
+    }
+}

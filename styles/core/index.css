@@ -1,0 +1,3 @@
+/* Vite will inline these @imports */
+@import './base.css';
+@import './components/abilityscores.css';

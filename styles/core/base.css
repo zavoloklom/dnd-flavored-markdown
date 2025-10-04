@@ -1,0 +1,50 @@
+@import '../fonts/stylesheet.css';
+
+/* Base typography and preview page container (structure only) */
+html, body { height: 100%; }
+body {
+    margin: 0;
+    font-family: var(--font-body, serif), serif;
+    line-height: 1.4;
+    color: #111;
+    background: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+/* Preview page container */
+.content {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 16px auto;
+    padding: 12mm;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    column-count: 2;
+    column-gap: 8mm;
+}
+
+/** Typography **/
+h1, h2, h3 {
+    font-family: var(--font-headers, serif), serif;
+    color: var(--color-headers, #000);
+    font-weight: 400;
+}
+h1 {
+    margin-bottom: .18cm;
+    column-span: all;
+    font-size: .89cm;
+    line-height: 1em;
+}
+
+
+.sidebar { break-inside: avoid; padding: 8px 10px; border: 1px solid #bbb; background: #faf7ef; border-radius: 8px; margin: .5em 0; }
+.statblock { break-inside: avoid; border: 2px solid #333; border-radius: 8px; padding: 8px 10px; background: #fff; }
+.readaloud { break-inside: avoid; padding: 8px 10px; border-left: 4px solid #b00; background: #fff7f7; }
+.dc { font-weight: 700; padding: 0 .25em; border-radius: 4px; border: 1px solid #bbb; background: #f9f9f9; }
