@@ -1,6 +1,9 @@
 /* Vite will inline these @imports */
 @import './base.css';
+
+@import './components/page.css';
+@import './components/flow-breaks.css';
 @import './components/wide.css';
-@import './components/columnbreak.css';
-@import './components/columnreset.css';
+
+@import './components/stat-block.css';
 @import './components/abilityscores.css';

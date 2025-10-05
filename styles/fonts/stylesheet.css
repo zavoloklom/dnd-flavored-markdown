@@ -1,5 +1,7 @@
 @import './Alegreya_SC/styles.css';
+@import './Alegreya_Sans_SC/styles.css';
 @import './Bitter/styles.css';
+@import './Source_Sans_3/styles.css';
 
 @font-face {
     font-family: "Bookinsanity";

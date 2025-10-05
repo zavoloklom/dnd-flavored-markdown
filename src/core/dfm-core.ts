@@ -11,7 +11,6 @@ export function createMarkdownIt(): MarkdownIt {
     const md = new MarkdownIt({ html: true, linkify: true, typographer: true })
         .use(mkAttrs)                // {#id .class key=val}
         .use(mkContainer, 'sidebar') // ::: sidebar ... :::
-        .use(mkContainer, 'statblock')
         .use(mkContainer, 'readaloud')
     applyDfmPlugins(md)
     return md

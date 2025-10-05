@@ -30,8 +30,11 @@
     font-weight: 400;
     padding: .3125rem .125rem 0;
     text-transform: uppercase;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: var(--font-sans, sans-serif), sans-serif;
     font-size: .6875rem;
+}
+.stat-table tbody tr th {
+    font-weight: 600;
 }
 
 .stat-table tbody tr {

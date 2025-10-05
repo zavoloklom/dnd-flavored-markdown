@@ -1,8 +1,8 @@
-// Split rendered HTML into <section class="dfm-page"> chunks by <div class="dfm-pagebreak"></div>.
+// Split rendered HTML into <section class="page"> chunks by <div class="page-break"></div>.
 // The marker is removed from output. If it appears first (with no content before),
 // we do NOT emit an empty first page.
 
-const BREAK_RE = /<div\s+class=["']pagebreak["']><\/div>\s*/gi
+const BREAK_RE = /<div\s+class=["']page-break["']><\/div>\s*/gi
 
 export function wrapIntoPages(html: string): string {
     const pages: string[] = []

@@ -1,10 +1,15 @@
 /* Theme tokens (minimal): page font + table backgrounds */
 :root {
-    --font-body: "Bitter", Roboto, sans-serif;
+    --font-body: "Bitter", Georgia, serif;
     --font-headers: "Alegreya SC", Times, serif;
+    --font-sans-sc: "Alegreya Sans SC", Roboto, Helvetica, sans-serif;
+    --font-sans: "Source Sans 3", Roboto, Helvetica, sans-serif;
 
     /** Colors **/
     --color-headers: #58180d;
+
+    /** Stat-Block **/
+    --stat-block-accent: #5b160c;
 
     /* Ability tables backgrounds */
     --table-physical-bg: #f7f9ff; /* light blue-ish */

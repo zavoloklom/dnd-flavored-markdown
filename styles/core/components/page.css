@@ -1,0 +1,23 @@
+/** Page **/
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    height: 297mm;
+    margin: 0 auto 16px auto;
+    /*padding: 12mm;*/
+    padding: 1.4cm 1.9cm 1.7cm;
+    overflow: clip;
+
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+
+    column-count: 2;
+    column-gap: 8mm;
+
+    break-after: page;                /* ensures page ends at page boundary in print */
+}
+.page:last-child {
+    break-after: auto;
+}

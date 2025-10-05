@@ -5,7 +5,9 @@
 import type MarkdownIt from 'markdown-it'
 import {
     clamp, escapeHtml, parseKv, parseKvCombined, signed, splitList, toInt
-} from '../utils/kv'
+} from '../utils/kv';
+import { matchFenceOpen, isFenceClose } from '../utils/fence';
+import { getVar } from '../utils/scope';
 
 // --- Enums requested ---
 export enum Ability {
@@ -31,48 +33,47 @@ const PHYSICAL: Ability[] = [Ability.STR, Ability.DEX, Ability.CON]
 const MENTAL:   Ability[] = [Ability.INT, Ability.WIS, Ability.CHA]
 
 interface AbilityData { score?: number; mod?: number; save?: number }
-interface EnvDfm { statblockStack?: Array<{ pb?: number }> }
+interface EnvDfm { statBlockStack?: Array<{ pb?: number }> }
 
 // Public entry
 export function useAbilityScores(md: MarkdownIt) {
     md.block.ruler.before(
         'fence',
         'dfm_abilityscores',
-        abilityscoresRule as any,
+        abilityScoresRule as any,
         { alt: ['paragraph', 'reference', 'blockquote', 'list'] }
     )
     md.renderer.rules['dfm_abilityscores'] = renderAbilityScores as any
 }
 
 /** Block rule: capture ::: abilityscores ... ::: and stash "infoTail" + inner raw text. */
-function abilityscoresRule(state: any, startLine: number, endLine: number, silent: boolean): boolean {
-    const startPos = state.bMarks[startLine] + state.tShift[startLine]
-    const maxPos = state.eMarks[startLine]
-    const line = state.src.slice(startPos, maxPos).trim()
-    if (!line.startsWith(':::')) return false
+function abilityScoresRule(state: any, startLine: number, endLine: number, silent: boolean): boolean {
+    const s = state.bMarks[startLine] + state.tShift[startLine]
+    const e = state.eMarks[startLine]
+    const firstLine = state.src.slice(s, e)
 
-    const after = line.slice(3).trim()
-    if (!after.toLowerCase().startsWith('abilityscores')) return false
+    const open = matchFenceOpen(firstLine)
+    if (!open || open.name.toLowerCase() !== 'abilityscores') return false
     if (silent) return true
 
-    const infoTail = after.slice('abilityscores'.length).trim() // k=v on opening line (optional)
+    const fenceLen = open.fenceLen
+    const infoTail = open.tail
 
-    // find closing ':::'
     let next = startLine + 1
     const bodyLines: string[] = []
     while (next < endLine) {
-        const s = state.bMarks[next] + state.tShift[next]
-        const e = state.eMarks[next]
-        const ln = state.src.slice(s, e)
-        if (ln.trim().startsWith(':::')) break
+        const s2 = state.bMarks[next] + state.tShift[next]
+        const e2 = state.eMarks[next]
+        const ln = state.src.slice(s2, e2)
+        if (isFenceClose(ln, fenceLen)) break
         bodyLines.push(ln)
         next++
     }
 
-    const token = state.push('dfm_abilityscores', '', 0)
-    token.map = [startLine, next]
-    token.block = true
-    token.meta = { infoTail, rawBody: bodyLines.join('\n') }
+    const t = state.push('dfm_abilityscores', '', 0)
+    t.block = true
+    t.map = [startLine, next]
+    t.meta = { infoTail, rawBody: bodyLines.join('\n') }
 
     state.line = next + 1
     return true
@@ -98,8 +99,12 @@ function renderAbilityScores(tokens: any[], idx: number, _opts: any, env: any): 
 
     // Resolve PB: explicit pb -> inherited -> 0
     const explicitPb = kv.get(BaseKey.PB)
-    const inheritedPb = ((env?.dfm as EnvDfm | undefined)?.statblockStack?.at(-1)?.pb) ?? 0
-    const pb = explicitPb != null && !Number.isNaN(toInt(explicitPb)) ? toInt(explicitPb) : inheritedPb
+    let pb = 0
+    if (explicitPb != null && !Number.isNaN(toInt(explicitPb))) {
+        pb = toInt(explicitPb)
+    } else {
+        pb = getVar<number>(env, 'pb') ?? 0
+    }
 
     // Title (optional)
     const title = kv.get(BaseKey.TITLE)

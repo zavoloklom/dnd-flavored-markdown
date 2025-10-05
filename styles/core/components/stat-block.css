@@ -1,0 +1,103 @@
+.dfm-stat-block { break-inside: avoid; border: 2px solid #333; border-radius: 8px; padding: 8px 10px; background: #fff; }
+
+.dfm-stat-block { break-inside: avoid; margin: .5rem 0; }
+/*.dfm-stat-block .sb-basics { display: grid; grid-template-columns: auto 1fr; gap: .15rem .6rem; }*/
+/*.dfm-stat-block .sb-basics > div { display: contents; }*/
+/*.dfm-stat-block .sb-basics dt { font-weight: 700; }*/
+/*.dfm-stat-block .sb-basics dd { margin: 0; }*/
+
+
+
+.stat-block {
+    font-family: var(--font-sans, sans-serif), sans-serif;
+
+    break-inside: avoid;
+
+    box-shadow: 0 0 5px #979AA4;
+    border: 1px solid #d4d0ce;
+    padding: 15px;
+    margin: 15px 0;
+
+    background: #f5f3ee !important;
+    border: 1px solid #afa47a;
+    outline: 1px solid #afa47a;
+    outline-offset: -0.25rem;
+    border-radius: .5rem;
+}
+
+.stat-block__title {
+    font-family: var(--font-sans-sc, sans-serif), sans-serif;
+    font-weight: 500;
+    font-size: 1.75rem;
+
+    margin: 0;
+
+    font-size: .62cm;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+
+    border-bottom: .063rem solid #5b160c;
+}
+
+.wide .stat-block__title {
+    column-span: all;
+}
+
+.stat-block__meta {
+    color: #68747b;
+
+    margin: .45rem 0 0;
+
+    font-style: italic;
+}
+
+.stat-block__attributes {
+    color: var(--stat-block-accent, #000);
+
+    margin: .5rem 0 0;
+}
+.stat-block__attributes--pre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+}
+.stat-block__attributes > dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .15rem .6rem;
+    margin: 0;
+}
+.stat-block__attributes div {
+    display: contents
+}
+.stat-block__attributes dt {
+    font-weight: 600;
+
+    margin: 0;
+}
+.stat-block__attributes dd {
+    margin: 0;
+}
+
+.stat-block__section {
+
+}
+.stat-block__section-title,
+.stat-block h3 {
+    border-bottom: .063rem solid #5b160c;
+    font-size: 1.25rem;
+    font-family: var(--font-sans-sc, sans-serif), sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+
+    margin-top: 1.25rem;
+    margin-bottom: .938rem;
+}
+.stat-block__section-content {
+
+}
+
+.stat-block .ability-scores {
+    margin: .5rem 0 0;
+}

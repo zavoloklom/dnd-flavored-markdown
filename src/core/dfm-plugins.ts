@@ -1,11 +1,10 @@
-// Shared DFM plugins for MarkdownIt
-// All comments in English as requested.
-import type MarkdownIt from 'markdown-it';
-import { useAbilityScores } from '../plugins/abilityscores';
-import { usePageBreak } from '../plugins/pagebreak';
-import { useColumnBreak } from '../plugins/columnbreak';
-import { useColumnReset } from '../plugins/columnreset';
+import { useFlowBreaks } from '../plugins/flow-breaks';
 import { useWide } from '../plugins/wide';
+import { useStatBlock } from '../plugins/stat-block';
+import { useStatBlockSections } from '../plugins/stat-block-sections';
+import { useAbilityScores } from '../plugins/abilityscores';
+
+import type MarkdownIt from 'markdown-it';
 
 export function applyDfmPlugins(md: MarkdownIt) {
     // Inline directive: {@dc 15} → <span class="dc" data-value="15">DC 15</span>
@@ -34,11 +33,11 @@ export function applyDfmPlugins(md: MarkdownIt) {
         return `<span class="${cls}" data-value="${val}">${escapeHtml(text)}</span>`
     }
 
-    useAbilityScores(md);
-    usePageBreak(md);
-    useColumnBreak(md);
-    useColumnReset(md);
+    useFlowBreaks(md);
     useWide(md);
+    useStatBlock(md);
+    useStatBlockSections(md);
+    useAbilityScores(md);
 }
 
 function escapeHtml(s: string) {
