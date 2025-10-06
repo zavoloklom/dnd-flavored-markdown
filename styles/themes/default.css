@@ -28,19 +28,42 @@
     --h3-font-weight: 400;
     --h3-line-height: 1;
     --h3-letter-spacing: 0.01em;
+    --h4-font-size: 14pt;
+    --h4-font-weight: 500;
+    --h4-line-height: 1;
+    --h4-letter-spacing: 0.02em;
 
+    /** Tables **/
+    --table-font-family: var(--font-sans, sans-serif);
+    --table-header-font-weight: 500;
+    --table-row-color-light: #222;
+    --table-row-bg-light: #f1f7f9;
+    --table-row-color-dark: #222;
+    --table-row-bg-dark: #d7e8ee;
 
     /** Colors **/
     --color-headers: #58180d;
 
     /** Page **/
-    --page-background: #fff url("../../assets/background_texture.png") repeat;
+    --page-background: #fff url("../../assets/themes/default/background_texture.png") repeat;
 
     /** Stat Block **/
-    --stat-block-accent: #5b160c;
-    --stat-block-info: #68747b;
+    --stat-block-background: #f5f3ee;
+    --stat-block-border-color: #afa47a;
+    --stat-block-color-accent: #5b160c;
+    --stat-block-color-info: #68747b;
+    --stat-block-title-font-family: var(--font-sans-sc, sans-serif);
+    --stat-block-title-font-size: 18pt;
+    --stat-block-title-font-weight: 500;
+    --stat-block-title-line-height: 1;
+    --stat-block-title-letter-spacing: 0.1em;
+    --stat-block-section-title-font-family: var(--font-sans-sc, sans-serif);
+    --stat-block-section-title-font-size: 15pt;
+    --stat-block-section-title-font-weight: 400;
+    --stat-block-section-title-line-height: 1.2;
+    --stat-block-section-title-letter-spacing: 0.03em;
 
-    /* Ability tables backgrounds */
+    /* Ability Scores */
     --table-physical-bg: #f7f9ff; /* light blue-ish */
     --table-mental-bg:   #fff7fb; /* light magenta-ish */
 }

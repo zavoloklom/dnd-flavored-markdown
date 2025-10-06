@@ -55,14 +55,14 @@ export function useStatBlockSections(md: MarkdownIt) {
 
     md.renderer.rules['dfm_section_open'] = (tokens, idx) => {
         const { cssClass, heading } = tokens[idx].meta
-        return `<section class="stat-block__section ${cssClass}">\n<h3 class="stat-block__section-title">${escapeHtml(heading)}</h3>\n<div class="stat-block__section-content">\n`
+        return `<h3 class="stat-block__section-title">${escapeHtml(heading)}</h3>\n<div class="stat-block__section-content">\n`
     }
     md.renderer.rules['dfm_section_body'] = (tokens, idx, _o, env) => {
         const raw = tokens[idx].meta?.raw ?? ''
         const inner = md.parse(raw, env)
         return md.renderer.render(inner, md.options, env)
     }
-    md.renderer.rules['dfm_section_close'] = () => '</div>\n</section>\n'
+    md.renderer.rules['dfm_section_close'] = () => '</div>\n'
 
     function escapeHtml(s: string) {
         return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')

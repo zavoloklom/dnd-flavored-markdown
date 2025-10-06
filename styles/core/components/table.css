@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+
+    font-family: var(--table-font-family, sans-serif), sans-serif;
+    margin: 1mm 0;
+}
+
+table > thead > tr > th {
+    font-weight: var(--table-header-font-weight, 500);
+}
+
+table > tbody {}
+
+table th, table td {
+    padding: 1mm 2mm;
+}
+
+table > tbody > tr {
+    color: var(--table-row-color-light, #222);
+    background-color: var(--table-row-bg-light, #f1f7f9);
+}
+
+table > tbody > tr:nth-child(odd) {
+    color: var(--table-row-color-dark, #222);
+    background-color: var(--table-row-bg-dark, #d7e8ee);
+}
+
+table > tbody > tr > td {}

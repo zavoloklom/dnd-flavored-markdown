@@ -7,8 +7,6 @@ lang: "en"
 
 # Стражник
 
-_Немного бафнутый [Guard](https://next.dnd.su/bestiary/21385-guard/) из бестиария._
-
 Имперские стражники — гражданская силовая структура, подчиняющаяся напрямую герцогам и ответственная за поддержание
 порядка в городах и на подконтрольных территориях.
 
@@ -16,17 +14,19 @@ _Немного бафнутый [Guard](https://next.dnd.su/bestiary/21385-guar
 что-то в потрёпанный журнал. Они надеются, что сегодня не придётся никого ловить, особенно если этот кто-то вооружён,
 зол или магически активен.
 
-**Тактика в бою**
+## Тактика в бою
 
 - Стоит позади Капитана, прикрывает союзников.
 - Если его отравят, он теряет ход (в панике пытается прийти в себя).
 - Может испугаться и отступить, если бой идёт плохо.
 
-<https://www.dndbeyond.com/monsters/5566979-imperial-guard>
-
 ::: column-break
 
 ![guard](https://i.imgur.com/XafSfHw.png){style="width:100%"}
+
+_Немного бафнутый [Guard](https://next.dnd.su/bestiary/21385-guard/) из бестиария._ {align=right}
+
+[Link on DnDBeyond](https://www.dndbeyond.com/monsters/5566979-imperial-guard) {align=right}
 
 ::: column-reset
 
@@ -49,8 +49,6 @@ skills="Восприятие +5"
 str=13 dex=12 con=12 int=10 wis=11 cha=10
 saves="con"
 ::::
-
-::: column-break
 
 :::: traits
 
@@ -87,10 +85,72 @@ as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Cou
 ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is
 often inscrutable and whimsical.
 
+::: stat-block
+name="Q Imperial Guard"
+size="Средний"
+type="Гуманоид"
+alignment="Законопослушный Нейтральный"
+ac="14 (кольчуга)"
+hp="25 (4к8 + 4)"
+speed="30 футов"
+initiative="10"
+pb=2
+cr="1/4"
+languages="Общий"
+senses="Пассивное Восприятие 15"
+skills="Восприятие +5"
+
+:::: abilityscores
+str=13 dex=12 con=12 int=10 wis=11 cha=10
+saves="con"
+::::
+
+:::: traits
+
+**Тактика стаи.** Стражник получает преимущество при броске атаки против существа, если хотя бы один из других
+Стражников находится в пределах 5 футов от существа и не находится в состоянии недееспособности.
+
+::::
+
+:::: actions
+
+**Длинный меч.** _Атака оружием ближнего боя:_ +4 к попаданию, дистанция 5 фт., одно существо. Попадание: 7 (1к8 + 2)
+рубящего урона.
+
+**Легкий Арбалет.** _Атака оружием дальнего боя:_ +3 к попаданию, дистанция 80/320 фт., одно существо. Попадание: 7 (
+1к8 + 2) колющего урона.
+
+::::
+
+:::
+
 ### Level 3: Archfey Spells
 
 The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the
 Archfey Spells table, you thereafter always have the listed spells prepared.
+
+#### Archfey Spells
+
+| Warlock&nbsp;Level | Spells                                                          |
+|:------------------:|:----------------------------------------------------------------|
+|         3          | Calm Emotions, Faerie Fire, Misty Step, Phantasmal Force, Sleep |
+|         5          | Blink, Plant Growth                                             |
+|         7          | Dominate Beast, Greater Invisibility                            |
+|         9          | Dominate Person, Seeming                                        |
+
+### Level 3: Steps of the Fey
+
+Your patron grants you the ability to move between the boundaries of the planes. You can cast Misty Step without
+expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended
+uses when you finish a Long Rest.
+
+In addition, whenever you cast that spell, you can choose one of the following additional effects.
+
+**_Refreshing Step._** Immediately after you teleport, you or one creature you can see within 10 feet of yourself gains `1d10`
+Temporary Hit Points.
+
+**_Taunting Step._** Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell
+save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.
 
 ::: page-break
 

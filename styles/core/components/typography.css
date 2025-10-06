@@ -1,0 +1,79 @@
+/** Typography **/
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font-family, serif), serif;
+    color: var(--header-color, #000);
+
+    break-inside: avoid;
+    break-after: avoid;
+    text-wrap: balance;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--h1-font-size, 22pt);
+    font-weight: var(--h1-font-weight, 400);
+    line-height: var(--h1-line-height, 1.5);
+    letter-spacing: var(--h1-letter-spacing, 0.02em);
+
+    column-span: all;
+}
+
+h2 {
+    font-size: var(--h2-font-size, 16pt);
+    font-weight: var(--h2-font-weight, 400);
+    line-height: var(--h2-line-height, 1.5);
+    letter-spacing: var(--h2-letter-spacing, 0.02em);
+
+    margin-top: 4mm;
+
+    border-bottom: 1px solid var(--header-underline, #d1a347);
+}
+
+h3 {
+    font-size: var(--h3-font-size, 15pt);
+    font-weight: var(--h3-font-weight, 400);
+    line-height: var(--h3-line-height, 1);
+    letter-spacing: var(--h3-letter-spacing, 0.01em);
+
+    margin-top: 4mm;
+    margin-bottom: 1mm;
+}
+
+h4 {
+    font-family: var(--font-sans-sc, sans-serif), sans-serif;
+    color: var(--body-font-color, #000);
+
+    font-size: var(--h4-font-size, 14pt);
+    font-weight: var(--h4-font-weight, 500);
+    line-height: var(--h4-line-height, 1);
+    letter-spacing: var(--h4-letter-spacing, 0.02em);
+
+    margin-top: 2.5mm;
+    margin-bottom: 1mm;
+}
+
+p {
+    padding: 0;
+    margin: 1mm 0;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+a {
+    color: #242527;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #242527;
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: disc;
+
+    padding-left: 5mm;
+    margin: 1mm 0;
+}

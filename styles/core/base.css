@@ -14,86 +14,16 @@ body {
     color: var(--body-font-color, #000);
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-}
-
 /* Preview page container */
 .content {
 
 }
 
-/** Typography **/
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--header-font-family, serif), serif;
-    color: var(--header-color, #000);
-
-    break-after: avoid;
-    break-inside: avoid;
-
-    margin: 0;
-    padding: 0;
+/** Breaking Rules **/
+h1, h2, h3, h4, h5, h6, table {
+    break-inside: avoid-column;
+    page-break-inside: avoid;
 }
-h1 {
-    font-size: var(--h1-font-size, 22pt);
-    font-weight: var(--h1-font-weight, 400);
-    line-height: var(--h1-line-height, 1.5);
-    letter-spacing: var(--h1-letter-spacing, 0.02em);
-
-    column-span: all;
-}
-h2 {
-    font-size: var(--h2-font-size, 16pt);
-    font-weight: var(--h2-font-weight, 400);
-    line-height: var(--h2-line-height, 1.5);
-    letter-spacing: var(--h2-letter-spacing, 0.02em);
-}
-h2:after {
-    content: "";
-    background-color: var(--header-underline, #d1a347);
-    display: block;
-    width: 100%;
-    height: 1px;
-
-    margin-bottom: 1mm;
-}
-h3 {
-    font-size: var(--h3-font-size, 15pt);
-    font-weight: var(--h3-font-weight, 400);
-    line-height: var(--h3-line-height, 1);
-    letter-spacing: var(--h3-letter-spacing, 0.01em);
-
-    margin-top: 2.5mm;
-    margin-bottom: 1mm;
-}
-
-
-
-
-p {
-    padding: 0;
-    margin: 1mm 0;
-    overflow-wrap: break-word;
-}
-p + p {
-
-}
-p:last-child {
-
-}
-
-
-
-a {
-    color: #242527;
-    text-decoration: none;
-}
-a:visited {
-    color: #242527;
-}
-
 
 
 .sidebar { break-inside: avoid; padding: 8px 10px; border: 1px solid #bbb; background: #faf7ef; border-radius: 8px; margin: .5em 0; }

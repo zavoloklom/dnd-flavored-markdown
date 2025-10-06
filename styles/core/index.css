@@ -1,9 +1,13 @@
 /* Vite will inline these @imports */
 @import './base.css';
 
+@import './components/typography.css';
+
 @import './components/page.css';
 @import './components/flow-breaks.css';
 @import './components/wide.css';
+
+@import './components/table.css';
 
 @import './components/stat-block.css';
 @import './components/abilityscores.css';
