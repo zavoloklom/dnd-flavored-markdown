@@ -1,14 +1,17 @@
 @import '../fonts/stylesheet.css';
 
 /* Base typography and preview page container (structure only) */
-html, body { height: 100%; }
-body {
+html, body, .content {
     margin: 0;
-    font-family: var(--font-body, serif), serif;
-    font-size: .37cm;
-    line-height: 1.4;
-    color: #111;
-    background: #fff;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: var(--body-font-family), serif;
+    font-size: var(--body-font-size, 10.5pt);
+    line-height: var(--body-font-line-height, 1.4);
+    color: var(--body-font-color, #000);
 }
 
 table {
@@ -23,22 +26,65 @@ table {
 }
 
 /** Typography **/
-h1, h2, h3 {
-    font-family: var(--font-headers, serif), serif;
-    color: var(--color-headers, #000);
-    font-weight: 400;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font-family, serif), serif;
+    color: var(--header-color, #000);
+
+    break-after: avoid;
+    break-inside: avoid;
+
+    margin: 0;
+    padding: 0;
 }
 h1 {
-    margin-bottom: .18cm;
+    font-size: var(--h1-font-size, 22pt);
+    font-weight: var(--h1-font-weight, 400);
+    line-height: var(--h1-line-height, 1.5);
+    letter-spacing: var(--h1-letter-spacing, 0.02em);
+
     column-span: all;
-    font-size: .89cm;
-    line-height: 1em;
+}
+h2 {
+    font-size: var(--h2-font-size, 16pt);
+    font-weight: var(--h2-font-weight, 400);
+    line-height: var(--h2-line-height, 1.5);
+    letter-spacing: var(--h2-letter-spacing, 0.02em);
+}
+h2:after {
+    content: "";
+    background-color: var(--header-underline, #d1a347);
+    display: block;
+    width: 100%;
+    height: 1px;
+
+    margin-bottom: 1mm;
+}
+h3 {
+    font-size: var(--h3-font-size, 15pt);
+    font-weight: var(--h3-font-weight, 400);
+    line-height: var(--h3-line-height, 1);
+    letter-spacing: var(--h3-letter-spacing, 0.01em);
+
+    margin-top: 2.5mm;
+    margin-bottom: 1mm;
 }
 
+
+
+
 p {
-    line-height: 1.25em;
+    padding: 0;
+    margin: 1mm 0;
     overflow-wrap: break-word;
 }
+p + p {
+
+}
+p:last-child {
+
+}
+
+
 
 a {
     color: #242527;

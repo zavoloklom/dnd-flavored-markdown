@@ -7,6 +7,7 @@ import {
     clamp, escapeHtml, parseKv, parseKvCombined, signed, splitList, toInt
 } from '../utils/kv';
 import { matchFenceOpen, isFenceClose } from '../utils/fence';
+import { buildDataAttrsString } from '../utils/blockAttrs';
 import { getVar } from '../utils/scope';
 
 // --- Enums requested ---
@@ -58,6 +59,7 @@ function abilityScoresRule(state: any, startLine: number, endLine: number, silen
 
     const fenceLen = open.fenceLen
     const infoTail = open.tail
+    const dataAttrs = open.dataAttrs
 
     let next = startLine + 1
     const bodyLines: string[] = []
@@ -70,10 +72,10 @@ function abilityScoresRule(state: any, startLine: number, endLine: number, silen
         next++
     }
 
-    const t = state.push('dfm_abilityscores', '', 0)
-    t.block = true
-    t.map = [startLine, next]
-    t.meta = { infoTail, rawBody: bodyLines.join('\n') }
+    const token = state.push('dfm_abilityscores', '', 0)
+    token.block = true
+    token.map = [startLine, next]
+    token.meta = { infoTail, rawBody: bodyLines.join('\n'), dataAttrs }
 
     state.line = next + 1
     return true
@@ -145,9 +147,11 @@ function renderAbilityScores(tokens: any[], idx: number, _opts: any, env: any): 
         }
     }
 
+    const dataAttrsStr = buildDataAttrsString(tokens[idx].meta?.dataAttrs ?? {});
+
     // Render HTML
     const out: string[] = []
-    out.push('<div class="ability-scores">')
+    out.push(`<div class="ability-scores"${dataAttrsStr}>`)
     if (title) out.push(`<h4 class="ability-scores__title">${escapeHtml(title)}</h4>`)
     out.push('<div class="ability-scores__table">')
     out.push(renderTable('physical', PHYSICAL, abilities))

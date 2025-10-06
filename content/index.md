@@ -30,7 +30,8 @@ _Немного бафнутый [Guard](https://next.dnd.su/bestiary/21385-guar
 
 ::: column-reset
 
-::: stat-block name="Imperial Guard"
+::: stat-block {layout="wide"}
+name="Imperial Guard"
 size="Средний"
 type="Гуманоид"
 alignment="Законопослушный Нейтральный"
@@ -42,77 +43,56 @@ pb=2
 cr="1/4"
 languages="Общий"
 senses="Пассивное Восприятие 15"
+skills="Восприятие +5"
 
-:::: abilityscores 
+:::: abilityscores
 str=13 dex=12 con=12 int=10 wis=11 cha=10
 saves="con"
 ::::
 
-### Traits
-
-The guard has Advantage on an attack roll against a creature if at least one of the other guards is within 5 feet of the creature and doesn’t have the Incapacitated condition.
+::: column-break
 
 :::: traits
 
-**Тактика стаи.** Стражник получает преимущество при броске атаки против существа, если хотя бы один из других Стражников находится в пределах 5 футов от существа и не находится в состоянии недееспособности.
+**Тактика стаи.** Стражник получает преимущество при броске атаки против существа, если хотя бы один из других
+Стражников находится в пределах 5 футов от существа и не находится в состоянии недееспособности.
 
 ::::
 
 :::: actions
 
-**Длинный меч.** _Атака оружием ближнего боя:_ +4 к попаданию, дистанция 5 фт., одно существо. Попадание: 7 (1к8 + 2) рубящего урона.
+**Длинный меч.** _Атака оружием ближнего боя:_ +4 к попаданию, дистанция 5 фт., одно существо. Попадание: 7 (1к8 + 2)
+рубящего урона.
 
-**Легкий Арбалет.** _Атака оружием дальнего боя:_ +3 к попаданию, дистанция 80/320 фт., одно существо. Попадание: 7 (1к8 + 2) колющего урона.
+**Легкий Арбалет.** _Атака оружием дальнего боя:_ +3 к попаданию, дистанция 80/320 фт., одно существо. Попадание: 7 (
+1к8 + 2) колющего урона.
 
 ::::
 
 :::
 
-
-{{monster,frame,wide
-
-## Imperial Guard
-
-_Средний, Законопослушный нейтральный_
-
-___
-**Класс Доспеха** :: 14 (кольчуга)
-**Хиты**          :: 25 (4к8 + 4)
-**Скорость**      :: 30 футов
-**Инициатива**    :: +0 (10)
-___
-
-|  СИЛ  |  ЛОВ  |  ТЕЛ  |  ИНТ  |  МДР  |  ХАР  |
-|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-|13 (+1)|12 (+1)|12 (+1)|10 (+0)|11 (+0)|10 (+0)|
-
-___
-**Навыки**                          :: Восприятие +5
-**Уязвимость (двойной урон)**       :: -
-**Сопротивление (половина урона)**  :: -
-**Иммунитеты**                      :: -
-**Чувства**                         :: Пассивное Восприятие 15
-**Языки**                           :: Общий
-**Местность обитания**              :: -
-___
-
-\column
-
-### Traits
-
-**Тактика стаи.** Стражник получает преимущество при броске атаки против существа, если хотя бы один из других Стражников находится в пределах 5 футов от существа и не находится в состоянии недееспособности.
-
-### Actions
-
-**Длинный меч.** _Атака оружием ближнего боя:_ +4 к попаданию, дистанция 5 фт., одно существо. Попадание: 7 (1к8 + 2) рубящего урона.
-:
-**Легкий Арбалет.** _Атака оружием дальнего боя:_ +3 к попаданию, дистанция 80/320 фт., одно существо. Попадание: 7 (1к8 + 2) колющего урона.
-
-}}
-
 ::: page-break
 
-# The Clockwork Spire
+# Warlock Subclasses
+
+A Warlock subclass is a specialization that grants you features at certain Warlock levels, as specified in the subclass.
+This section presents the Archfey Patron, Celestial Patron, Fiend Patron, and Great Old One Patron subclasses.
+
+## Archfey Patron
+
+_Bargain with Whimsical Fey_
+
+Your pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such
+as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an
+ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is
+often inscrutable and whimsical.
+
+### Level 3: Archfey Spells
+
+The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the
+Archfey Spells table, you thereafter always have the listed spells prepared.
+
+::: page-break
 
 ::: readaloud
 **Read Aloud:**  

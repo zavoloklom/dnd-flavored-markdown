@@ -11,6 +11,7 @@ import type MarkdownIt from 'markdown-it'
 import { parseKvCombined, escapeHtml, toInt } from '../utils/kv';
 import { matchFenceOpen, isFenceClose } from '../utils/fence';
 import { pushScope, popScope } from '../utils/scope';
+import { buildDataAttrsString } from '../utils/blockAttrs';
 
 type KeyLower =
     | 'name' | 'size' | 'type' | 'alignment'
@@ -65,6 +66,7 @@ export function useStatBlock(md: MarkdownIt) {
 
         const fenceLen = open.fenceLen
         const infoTail = open.tail
+        const dataAttrs = open.dataAttrs
 
         // collect inner until matching close of the same fenceLen
         let next = startLine + 1
@@ -88,17 +90,17 @@ export function useStatBlock(md: MarkdownIt) {
             else { seenBlank = true; bodyLines.push(ln) }
         }
 
-        const openTok = state.push('dfm_stat-block_open', '', 1)
-        openTok.block = true
-        openTok.map = [startLine, next]
-        openTok.meta = { infoTail, header: headerLines.join('\n') }
+        const openToken = state.push('dfm_stat-block_open', '', 1)
+        openToken.block = true
+        openToken.map = [startLine, next]
+        openToken.meta = { infoTail, header: headerLines.join('\n'), dataAttrs }
 
-        const bodyTok = state.push('dfm_stat-block_body', '', 0)
-        bodyTok.block = true
-        bodyTok.meta = { rawBody: bodyLines.join('\n') }
+        const bodyToken = state.push('dfm_stat-block_body', '', 0)
+        bodyToken.block = true
+        bodyToken.meta = { rawBody: bodyLines.join('\n') }
 
-        const closeTok = state.push('dfm_stat-block_close', '', -1)
-        closeTok.block = true
+        const closeToken = state.push('dfm_stat-block_close', '', -1)
+        closeToken.block = true
 
         state.line = next + 1
         return true
@@ -159,8 +161,10 @@ export function useStatBlock(md: MarkdownIt) {
             ['Initiative', h.initiative],
         ].filter(([, v]) => v != null) as Array<[string, string]>
 
+        const dataAttrsStr = buildDataAttrsString(tokens[idx].meta?.dataAttrs ?? {});
+
         const html: string[] = []
-        html.push(`<article class="stat-block dfm-stat-block" role="note"${h.name ? ` aria-label="${escapeHtml(h.name)}"` : ''}>`)
+        html.push(`<article class="stat-block dfm-stat-block" role="note"${h.name ? ` aria-label="${escapeHtml(h.name)}"${dataAttrsStr}` : ''}>`)
         html.push(`<header class="stat-block__header">`)
         html.push(`<h2 class="stat-block__title">${title}</h2>`)
         if (sub) html.push(`<p class="stat-block__meta">${sub}</p>`)

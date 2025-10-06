@@ -1,15 +1,44 @@
-/* Theme tokens (minimal): page font + table backgrounds */
+/* Theme tokens */
 :root {
-    --font-body: "Bitter", Georgia, serif;
-    --font-headers: "Alegreya SC", Times, serif;
+    /** Fonts **/
+    --font-serif: "Bitter", Georgia, serif;
+    --font-serif-sc: "Alegreya SC", Times, serif;
     --font-sans-sc: "Alegreya Sans SC", Roboto, Helvetica, sans-serif;
     --font-sans: "Source Sans 3", Roboto, Helvetica, sans-serif;
+
+    /** Body Typography **/
+    --body-font-family: var(--font-serif);
+    --body-font-size: 10.1pt;
+    --body-font-line-height: 1.4;
+    --body-font-color: #000;
+
+    /** Headers Typography **/
+    --header-font-family: var(--font-serif-sc);
+    --header-color: #58180d;
+    --header-underline: #d1a347;
+    --h1-font-size: 22pt;
+    --h1-font-weight: 400;
+    --h1-line-height: 1.5;
+    --h1-letter-spacing: 0.02em;
+    --h2-font-size: 16pt;
+    --h2-font-weight: 400;
+    --h2-line-height: 1.5;
+    --h2-letter-spacing: 0.02em;
+    --h3-font-size: 15pt;
+    --h3-font-weight: 400;
+    --h3-line-height: 1;
+    --h3-letter-spacing: 0.01em;
+
 
     /** Colors **/
     --color-headers: #58180d;
 
-    /** Stat-Block **/
+    /** Page **/
+    --page-background: #fff url("../../assets/background_texture.png") repeat;
+
+    /** Stat Block **/
     --stat-block-accent: #5b160c;
+    --stat-block-info: #68747b;
 
     /* Ability tables backgrounds */
     --table-physical-bg: #f7f9ff; /* light blue-ish */

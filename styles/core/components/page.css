@@ -1,23 +1,42 @@
-/** Page **/
+/** Page - A4 **/
 .page {
     width: 210mm;
-    min-height: 297mm;
     height: 297mm;
-    margin: 0 auto 16px auto;
-    /*padding: 12mm;*/
-    padding: 1.4cm 1.9cm 1.7cm;
+    margin: 0;
+    padding: 14mm 16mm 18mm 16mm;
+    box-sizing: border-box;
     overflow: clip;
 
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    background: var(--page-background, #fff);
 
     column-count: 2;
     column-gap: 8mm;
+    column-fill: auto;
 
-    break-after: page;                /* ensures page ends at page boundary in print */
+    break-after: page; /* ensures page ends at page boundary in print */
 }
 .page:last-child {
     break-after: auto;
+}
+
+@media screen {
+    .page {
+        margin: 16px auto;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    }
+}
+
+@media print {
+    .page {
+        width: auto;
+        height: auto;
+
+        margin: 0;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        overflow: visible;
+    }
 }

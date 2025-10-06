@@ -1,26 +1,19 @@
-@page { size: A4; margin: 16mm; }
+/* Page box */
+@page {
+    /*size: A4;*/
+    margin: 0;
+}
+
 @media print {
-    body { background: white; }
-    .content {
-        width: auto;
-        min-height: auto;
-        border: none;
-        box-shadow: none;
+    /* Reset & color fidelity */
+    html, body { margin: 0 !important; padding: 0 !important; }
+    body { background: #fff !important; }
+    *, *::before, *::after {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
-    h1, h2, h3, .sidebar, .statblock, .readaloud, table {
-        break-inside: avoid;
-        break-after: avoid;
-    }
-    .page {
-        width: auto;
-        min-height: auto;
-        border: none;
-        border-radius: 0;
-        box-shadow: none;
-        column-count: 2;
-        column-gap: 8mm;
-        break-after: page;
-        /* background from inline style (if provided) will be printed
-           as long as your PDF generator uses printBackground: true */
-    }
+
+    h1, h2, h3 { break-after: avoid; break-inside: avoid; }
+    h1 + *, h2 + *, h3 + * { break-before: avoid; }
+    p, li { orphans: 2; widows: 2; }
 }
