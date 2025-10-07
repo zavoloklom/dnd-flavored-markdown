@@ -1,4 +1,5 @@
 import { useFlowBreaks } from '../plugins/flow-breaks';
+import { usePage } from '../plugins/page';
 import { useWide } from '../plugins/wide';
 import { useStatBlock } from '../plugins/stat-block';
 import { useStatBlockSections } from '../plugins/stat-block-sections';
@@ -34,6 +35,7 @@ export function applyDfmPlugins(md: MarkdownIt) {
     }
 
     useFlowBreaks(md);
+    usePage(md);
     useWide(md);
     useStatBlock(md);
     useStatBlockSections(md);

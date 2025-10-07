@@ -26,7 +26,7 @@ h2 {
     line-height: var(--h2-line-height, 1.5);
     letter-spacing: var(--h2-letter-spacing, 0.02em);
 
-    margin-top: 4mm;
+    margin-top: 3mm;
 
     border-bottom: 1px solid var(--header-underline, #d1a347);
 }
@@ -37,7 +37,7 @@ h3 {
     line-height: var(--h3-line-height, 1);
     letter-spacing: var(--h3-letter-spacing, 0.01em);
 
-    margin-top: 4mm;
+    margin-top: 3mm;
     margin-bottom: 1mm;
 }
 
@@ -54,11 +54,18 @@ h4 {
     margin-bottom: 1mm;
 }
 
+h1 + h2 {
+    margin-top: 0;
+}
+
 p {
     padding: 0;
     margin: 1mm 0;
     overflow-wrap: break-word;
     hyphens: auto;
+}
+p + p  {
+    text-indent: 2mm;
 }
 
 a {

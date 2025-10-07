@@ -3,7 +3,7 @@
 
 import type MarkdownIt from 'markdown-it'
 
-const ONE_LINE = new Set(['page-break', 'column-break', 'column-reset'])
+const ONE_LINE = new Set(['page-break', 'column-break', 'column', 'column-reset'])
 
 export function useFlowBreaks(md: MarkdownIt) {
     md.block.ruler.before(
@@ -21,8 +21,9 @@ export function useFlowBreaks(md: MarkdownIt) {
 
             const type =
                 name === 'page-break'    ? 'dfm_page-break' :
-                    name === 'column-break'  ? 'dfm_column-break'  :
-                        name === 'column-reset' ? 'dfm_column-reset' : null;
+                name === 'column-break'  ? 'dfm_column-break'  :
+                name === 'column'  ? 'dfm_column-break'  :
+                name === 'column-reset' ? 'dfm_column-reset' : null;
 
             if (!type) return false;
 

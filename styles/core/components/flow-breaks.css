@@ -1,7 +1,8 @@
 /* Force break to the next column inside .page (multi-column container) */
 .column-break {
-    break-before: column;
+    break-after: column;
 }
+.column-break + * { margin-top: 0; }
 
 .column-reset {
     column-span: all;
