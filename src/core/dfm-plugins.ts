@@ -4,6 +4,7 @@ import { useWide } from '../plugins/wide';
 import { useStatBlock } from '../plugins/stat-block';
 import { useStatBlockSections } from '../plugins/stat-block-sections';
 import { useAbilityScores } from '../plugins/abilityscores';
+import { useContainer } from '../plugins/container';
 
 import type MarkdownIt from 'markdown-it';
 
@@ -40,6 +41,9 @@ export function applyDfmPlugins(md: MarkdownIt) {
     useStatBlock(md);
     useStatBlockSections(md);
     useAbilityScores(md);
+
+    /** Must be last **/
+    useContainer(md);
 }
 
 function escapeHtml(s: string) {

@@ -30,9 +30,13 @@ export function useWide(md: MarkdownIt) {
                 next++
             }
 
-            const tOpen = state.push('dfm_wide_open', '', 1);  tOpen.block = true
-            const tBody = state.push('dfm_wide_body', '', 0);  tBody.block = true; tBody.meta = { raw: body.join('\n') }
-            const tClose= state.push('dfm_wide_close','',-1);  tClose.block = true
+            const tOpen = state.push('dfm_wide_open', '', 1);
+            tOpen.block = true;
+            const tBody = state.push('dfm_wide_body', '', 0);
+            tBody.block = true;
+            tBody.meta = { raw: body.join('\n') }
+            const tClose= state.push('dfm_wide_close','',-1);
+            tClose.block = true;
 
             state.line = next + 1
             return true

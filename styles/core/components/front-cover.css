@@ -1,0 +1,74 @@
+.page[data-type="front-cover"] {
+    column-count: 1;
+    padding-top: 2.5cm;
+}
+
+.page[data-type="front-cover"] h1 {
+    margin: 0;
+    font-family: 'Nodesto Caps Condensed', sans-serif;
+    font-size: 56pt;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: unset;
+    -webkit-text-stroke: 2mm #000;
+    paint-order: stroke;
+    text-align: center;
+}
+
+.page[data-type="front-cover"] h2 {
+    margin: 1mm 0;
+
+    font-family: 'Nodesto Caps Condensed', sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    line-height: 1;
+    color: white;
+    letter-spacing: .5mm;
+    -webkit-text-stroke: 1.2mm #000;
+    paint-order: stroke;
+    text-align: center;
+
+    border: none;
+}
+
+.page[data-type="front-cover"] .cover {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    z-index: -1;
+}
+
+.page[data-type="front-cover"] .footnote {
+    position: absolute;
+    right: 0;
+    bottom: 1.3cm;
+    left: 0;
+    width: 70%;
+    margin: 0 auto;
+    font-family: var(--font-sans-alt, sans-serif), sans-serif;
+    font-size: 14pt;
+    line-height: 1.1;
+    color: #fff;
+    text-align: center;
+    -webkit-text-stroke: .9mm #000;
+    paint-order: stroke;
+}
+
+.page[data-type="front-cover"] .line {
+    position: relative;
+    display: block;
+    visibility: visible;
+    width: 11cm;
+    height: 1cm;
+    margin: auto;
+    background-image: url(../../assets/themes/default/horizontal-rule.svg);
+    background-size: 100% 100%;
+    border: none;
+    filter: drop-shadow(0 0 3px black);
+}

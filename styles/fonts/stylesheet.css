@@ -2,6 +2,9 @@
 @import './Alegreya_Sans_SC/styles.css';
 @import './Bitter/styles.css';
 @import './Source_Sans_3/styles.css';
+@import './Open_Sans/styles.css';
+@import './Overpass/styles.css';
+@import './Nodesto/styles.css';
 
 @font-face {
     font-family: "Bookinsanity";
@@ -73,38 +76,6 @@
         local("Zatanna Misdirection"),
         url('./Zatanna Misdirection/Zatanna Misdirection Italic.otf'),
         url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Zatanna%20Misdirection/Zatanna%20Misdirection%20Italic.otf") format("opentype");
-    font-style: italic;
-}
-@font-face {
-    font-family: "Nodesto Caps Condensed";
-    src: 
-        local("Nodesto Caps Condensed"),
-        url('./NodestoCapsCondensed/NodestoCapsCondensed.otf'),
-        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf") format("opentype");
-}
-@font-face {
-    font-family: "Nodesto Caps Condensed";
-    src: 
-        local("Nodesto Caps Condensed"),
-        url('./NodestoCapsCondensed/NodestoCapsCondensed-Bold-Italic.otf'),
-        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf") format("opentype");
-    font-weight: bold;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Nodesto Caps Condensed";
-    src: 
-        local("Nodesto Caps Condensed"),
-        url('./NodestoCapsCondensed/NodestoCapsCondensed-Bold.otf'),
-        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold.otf") format("opentype");
-    font-weight: bold;
-}
-@font-face {
-    font-family: "Nodesto Caps Condensed";
-    src: 
-        local("Nodesto Caps Condensed"),
-        url('./NodestoCapsCondensed/NodestoCapsCondensed-Italic.otf'),
-        url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Italic.otf") format("opentype");
     font-style: italic;
 }
 @font-face {

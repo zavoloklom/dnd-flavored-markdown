@@ -5,6 +5,7 @@
     --font-serif-sc: "Alegreya SC", Times, serif;
     --font-sans-sc: "Alegreya Sans SC", Roboto, Helvetica, sans-serif;
     --font-sans: "Source Sans 3", Roboto, Helvetica, sans-serif;
+    --font-sans-alt: "Overpass", Roboto, Helvetica, sans-serif;
 
     /** Body Typography **/
     --body-font-family: var(--font-serif);

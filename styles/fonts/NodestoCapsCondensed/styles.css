@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src:
+            local("Nodesto Caps Condensed"),
+            url('./NodestoCapsCondensed.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed.otf") format("opentype");
+}
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src:
+            local("Nodesto Caps Condensed"),
+            url('./NodestoCapsCondensed-Bold-Italic.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold%20Italic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src:
+            local("Nodesto Caps Condensed"),
+            url('./NodestoCapsCondensed-Bold.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Bold.otf") format("opentype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Nodesto Caps Condensed";
+    src:
+            local("Nodesto Caps Condensed"),
+            url('./NodestoCapsCondensed-Italic.otf'),
+            url("https://raw.githubusercontent.com/jonathonf/solbera-dnd-fonts/master/Nodesto%20Caps%20Condensed/Nodesto%20Caps%20Condensed%20Italic.otf") format("opentype");
+    font-style: italic;
+}
