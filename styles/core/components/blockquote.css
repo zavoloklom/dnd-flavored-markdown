@@ -1,0 +1,52 @@
+.quote-box,
+blockquote {
+    position: relative;
+    display: block;
+    margin: 4mm 0;
+    padding: 2mm 3mm;
+
+    background-color: var(--quote-box-background-color, #faf8ec);
+
+    width: auto;
+    overflow: visible;
+    border-color: var(--quote-box-border-color, #620000);
+    border-radius: 0;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 0;
+    border-bottom: 0;
+    color: var(--quote-box-font-color, #222);
+    line-height: 1.4;
+    font-size: 10pt;
+
+    font-family: var(--font-sans-alt);
+}
+
+blockquote:after, blockquote:before,
+blockquote p:first-of-type:before, blockquote p:last-of-type:after {
+    content: "";
+    border-radius: 50%;
+    background-position: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    background-color: var(--quote-box-border-color, #620000);
+}
+blockquote:before,
+blockquote p:first-of-type:before {
+    top: -4px;
+}
+blockquote:after,
+blockquote p:last-of-type:after {
+    bottom: -4px;
+}
+blockquote:after, blockquote:before {
+    left: -4px;
+    right: auto;
+}
+blockquote p:first-of-type:before, blockquote p:last-of-type:after {
+    right: -4px;
+    left: auto;
+}

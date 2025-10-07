@@ -42,11 +42,14 @@
     --table-row-color-dark: #222;
     --table-row-bg-dark: #d7e8ee;
 
-    /** Colors **/
-    --color-headers: #58180d;
+    /** Blockquote (read-aloud) **/
+    --quote-box-background-color: #faf8ec;
+    --quote-box-border-color: #620000;
+    --quote-box-font-color: #222;
 
     /** Page **/
     --page-background: #fff url("../../assets/themes/default/background_texture.png") repeat;
+    --page-footer: url(../../assets/themes/default/footer.png);
 
     /** Stat Block **/
     --stat-block-background: #f5f3ee;
