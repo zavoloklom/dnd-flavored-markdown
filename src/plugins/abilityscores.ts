@@ -50,7 +50,7 @@ export function useAbilityScores(md: MarkdownIt) {
 
 /** Block rule: capture ::: abilityscores ... ::: and stash "infoTail" + inner raw text. */
 function abilityScoresRule(state: any, startLine: number, endLine: number, silent: boolean): boolean {
-    const s = state.bMarks[startLine] + state.tShift[startLine]
+    const s = state.bMarks[startLine]
     const e = state.eMarks[startLine]
     const firstLine = state.src.slice(s, e)
 

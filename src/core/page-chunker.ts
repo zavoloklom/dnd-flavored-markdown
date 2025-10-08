@@ -1,5 +1,6 @@
 import { escapeHtml } from '../utils/escape-html';
 import { buildDataAttrsString } from '../utils/blockAttrs'
+import {normalizeBoolean} from "../utils/normalize-boolean";
 
 type DataAttrs = Record<string, string>
 interface Options {
@@ -57,10 +58,12 @@ export function wrapIntoPages(html: string, opts: Options = {}): string {
             : fmt(auto)
 
         // 2) решить, показывать ли футер: глобально ИЛИ локально
-        const showLocal = normalizeBool(p.data['show-page-number'])
-        const show = showGlobal || showLocal
+        const showLocal = normalizeBoolean(p.data['show-page-number'])
+        const show = (showLocal !== null) ? showLocal : showGlobal;
 
-        const html = renderPage(i + 1, p.data, p.html, display, show)
+        const footnote = p.data['footnote'] ?? ''
+
+        const html = renderPage(i + 1, p.data, p.html, display, show, footnote)
         auto++ // авто-счётчик всё равно бежит последовательно
         return html
     }).join('\n')
@@ -74,19 +77,17 @@ function parseDataAttrs(attrStr: string): DataAttrs {
     return out
 }
 
-function renderPage(index1: number, data: DataAttrs, inner: string, pageNumberText: string, showNumber: boolean): string {
+function renderPage(pageIndex: number, data: DataAttrs, inner: string, pageNumberText: string, showNumber: boolean, footnoteText: string,): string {
     // не дублируем специальные ключи при рендере data-* (они идут отдельно)
-    const { ['page-number']: _pn, ['show-page-number']: _sp, ...rest } = data
-    const ds = buildDataAttrsString(rest)
-    const footer = showNumber
+    const { ['page-number']: _pn, ['show-page-number']: _sp, ['footnote']: _fn, ...rest } = data
+
+    const ds = buildDataAttrsString(rest);
+    const footnote = footnoteText
+        ? `<div class="footnote" aria-hidden="true">${escapeHtml(footnoteText)}</div>`
+        : ''
+    const pageNumber = showNumber
         ? `<div class="page-number" aria-hidden="true">${escapeHtml(pageNumberText)}</div>`
         : ''
     // меняем data-page → data-page-number (как просил)
-    return `<section class="page" data-page-number="${escapeHtml(pageNumberText)}"${ds}>${inner}${footer}</section>`
-}
-
-function normalizeBool(v: string | undefined): boolean {
-    if (v == null) return false
-    const s = String(v).trim().toLowerCase()
-    return s === '1' || s === 'true' || s === 'yes' || s === 'on'
+    return `<section id="p${pageIndex}" class="page" data-page-count="${pageIndex}" data-page-number="${escapeHtml(pageNumberText)}"${ds}>${inner}${footnote}${pageNumber}</section>`
 }

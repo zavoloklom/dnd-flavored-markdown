@@ -18,3 +18,12 @@ https://github.com/jonathonf/solbera-dnd-fonts
 - Альтернативный Статблок, таблицы, врезки [Overpass](https://fonts.google.com/specimen/Overpass) - Designed by Delve Withrington, Dave Bailey, Thomas Jockin
 - 
 - Заголовок обложки - [Nodesto](https://dungeonsanddragons.ru/%D1%88%D1%80%D0%B8%D1%84%D1%82%D1%8B/)
+
+---
+
+Картинки
+
+assets/themes/default/horizontal-rule.svg - Homebrewery
+assets/themes/default/footer.png - Homebrewery
+assets/themes/default/background_texture.png - DnD Beyond
+

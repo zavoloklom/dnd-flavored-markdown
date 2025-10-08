@@ -10,7 +10,7 @@ export function useFlowBreaks(md: MarkdownIt) {
         'fence',
         'dfm_flow-breaks',
         (state, startLine, _end, silent) => {
-            const s = state.bMarks[startLine] + state.tShift[startLine]
+            const s = state.bMarks[startLine]
             const e = state.eMarks[startLine]
             const line = state.src.slice(s, e).trim()
             const m = /^:{3,}\s+([A-Za-z0-9_-]+)\s*$/.exec(line)

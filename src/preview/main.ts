@@ -1,28 +1,32 @@
 // Vanilla Vite preview. Reuses the shared core.
 import './polyfills';
-import { wrapIntoPages } from '../core/page-chunker'
 import { renderMarkdownToBody } from '../core/dfm-core';
+import { wrapIntoPages } from '../core/page-chunker';
+import { hydrateToc } from '../core/toc-hydrator';
 
 // Import markdown as raw for HMR reloads
 // Vite supports the ?raw query to import file contents as string.
 import doc from '/content/index.md?raw';
 
-
 const root = document.getElementById('app') as HTMLElement
+
+function isTrue(v: unknown) {
+    return v === true || String(v ?? '').trim().toLowerCase() === 'true'
+}
 
 function render(source: string) {
     const { bodyHtml, frontmatter } = renderMarkdownToBody(source)
+
     root.innerHTML = wrapIntoPages(bodyHtml, {
-        showPageNumbers: frontmatter && String(frontmatter['show-page-numbers']).toLowerCase() === 'true',
+        showPageNumbers: isTrue(frontmatter['show-page-numbers']),
     })
+
+    // пост-проход: проставим точки и номера страниц в .toc
+    hydrateToc(root)
 }
 
-// Initial render
-render(doc)
+render(doc);
 
-// HMR: re-render on changes to the .md file
 if (import.meta.hot) {
-    import.meta.hot.accept('/content/index.md?raw', (mod: any) => {
-        render(mod?.default ?? '')
-    })
+    import.meta.hot.accept('/content/index.md?raw', (m) => render(m!.default))
 }

@@ -2,4 +2,10 @@
     column-span: all;
     break-inside: avoid;
     width: 100%;
+
+    margin-bottom: 2mm;
+}
+
+.wide + * {
+    margin-block-start: 0 !important;
 }

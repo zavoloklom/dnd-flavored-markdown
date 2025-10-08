@@ -13,6 +13,7 @@ import { escapeHtml } from '../utils/escape-html';
 import { matchFenceOpen, isFenceClose } from '../utils/fence';
 import { pushScope, popScope } from '../utils/scope';
 import { buildDataAttrsString } from '../utils/blockAttrs';
+import {collectBodyRaw} from "../utils/collect-body";
 
 type KeyLower =
     | 'name' | 'size' | 'type' | 'alignment'
@@ -57,7 +58,7 @@ export function useStatBlock(md: MarkdownIt) {
     md.renderer.rules['dfm_stat-block_close'] = renderClose as any
 
     function statBlockRule(state: any, startLine: number, endLine: number, silent: boolean): boolean {
-        const s = state.bMarks[startLine] + state.tShift[startLine]
+        const s = state.bMarks[startLine]
         const e = state.eMarks[startLine]
         const firstLine = state.src.slice(s, e)
 

@@ -18,7 +18,7 @@ export function useStatBlockSections(md: MarkdownIt) {
         'fence',
         'dfm_sections',
         (state, startLine, endLine, silent) => {
-            const s = state.bMarks[startLine] + state.tShift[startLine]
+            const s = state.bMarks[startLine]
             const e = state.eMarks[startLine]
             const first = state.src.slice(s, e)
 

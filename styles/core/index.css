@@ -8,9 +8,11 @@
 @import './components/flow-breaks.css';
 @import './components/wide.css';
 @import './components/page-number.css';
+@import './components/footnote.css';
 
 @import './components/table.css';
 @import './components/blockquote.css';
 
+@import './components/toc.css';
 @import './components/stat-block.css';
 @import './components/abilityscores.css';

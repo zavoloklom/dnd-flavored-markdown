@@ -1,0 +1,59 @@
+/* Сброс стандартных маркеров */
+.toc ul { list-style: none; margin: 0; padding: 0; }
+.toc li { margin: 1mm 0; }
+
+.toc {
+    line-height: 1.4;
+}
+
+/* Строка оглавления: три зоны — текст, лидеры, номер страницы */
+.toc a, .toc .toc__row {
+    display: flex;
+    align-items: baseline;
+    gap: 2mm;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Текст (необязательно запрет переноса) */
+.toc .toc__text { white-space: nowrap; }
+
+/* Лидеры: заполняют пространство точками (по базовой линии) */
+.toc .toc__dots {
+    flex: 1 1 auto;
+    border-bottom: 1px dotted #000;
+    opacity: .6;
+    /*transform: translateY(-.15em);*/
+}
+
+/* Номер страницы справа */
+.toc .toc__page { white-space: nowrap; }
+
+/* Вложенность c 3 уровня */
+.toc ul ul ul {
+    padding-left: 4mm;
+}
+
+/* Подсветка битых ссылок */
+.toc .is-missing .toc__page { opacity: .5; }
+
+/** Typography **/
+.toc ul .toc__text {
+    font-weight: 600;
+    color: #5b160c;
+
+    margin-top: 2mm;
+}
+.toc ul ul .toc__text {
+    font-weight: 400;
+    color: #000;
+
+    margin-top: 0;
+}
+/** Reset for first point to match second column margin **/
+.toc ul:first-child > li:first-child,
+.toc ul:first-child > li:first-child .toc__text {
+    margin-top: 0;
+}
+
+

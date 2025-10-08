@@ -1,10 +1,10 @@
 import { useFlowBreaks } from '../plugins/flow-breaks';
 import { usePage } from '../plugins/page';
-import { useWide } from '../plugins/wide';
 import { useStatBlock } from '../plugins/stat-block';
 import { useStatBlockSections } from '../plugins/stat-block-sections';
 import { useAbilityScores } from '../plugins/abilityscores';
 import { useContainer } from '../plugins/container';
+import { useBlockquoteDescription } from '../plugins/blockquote-description'
 import { escapeHtml } from '../utils/escape-html';
 
 import type MarkdownIt from 'markdown-it';
@@ -38,10 +38,10 @@ export function applyDfmPlugins(md: MarkdownIt) {
 
     useFlowBreaks(md);
     usePage(md);
-    useWide(md);
     useStatBlock(md);
     useStatBlockSections(md);
     useAbilityScores(md);
+    useBlockquoteDescription(md);
 
     /** Must be last **/
     useContainer(md);
