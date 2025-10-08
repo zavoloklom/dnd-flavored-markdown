@@ -1,5 +1,9 @@
 .page-number {
+    display: block;
+    text-decoration: none;
+
     position: absolute;
+    z-index: 200;
 
     right: 2px;
     bottom: 22px;
@@ -15,4 +19,8 @@
 
 .page:nth-child(even) .page-number {
     left: 2px;
+}
+
+.page-number:visited {
+    color: var(--page-number-color, #beb593);
 }

@@ -1,3 +1,6 @@
+import anchor from 'markdown-it-anchor';
+import slugify from '@sindresorhus/slugify';
+
 import { useFlowBreaks } from '../plugins/flow-breaks';
 import { usePage } from '../plugins/page';
 import { useStatBlock } from '../plugins/stat-block';
@@ -45,4 +48,6 @@ export function applyDfmPlugins(md: MarkdownIt) {
 
     /** Must be last **/
     useContainer(md);
+
+    md.use(anchor, { slugify: s => slugify(s, {transliterate: false}) });
 }

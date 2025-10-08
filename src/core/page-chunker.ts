@@ -2,10 +2,11 @@ import { escapeHtml } from '../utils/escape-html';
 import { buildDataAttrsString } from '../utils/blockAttrs'
 import {normalizeBoolean} from "../utils/normalize-boolean";
 
-type DataAttrs = Record<string, string>
+type DataAttrs = Record<string, string>;
 interface Options {
-    showPageNumbers?: boolean            // фронтматтер: show-page-numbers
-    numberFormat?: (n: number) => string // опционально, если хочешь кастомную авто-форматную функцию
+    contentsPageNumber?: string;
+    showPageNumbers?: boolean;            // фронтматтер: show-page-numbers
+    numberFormat?: (n: number) => string; // опционально, если хочешь кастомную авто-форматную функцию
 }
 
 const RE = /<div\s+class=["'](page-start|page-break)["']([^>]*)><\/div>\s*/gi
@@ -44,8 +45,9 @@ export function wrapIntoPages(html: string, opts: Options = {}): string {
     const filtered = pages.filter((p, i) => !(i < pages.length - 1 && p.html.trim() === ''))
 
     // глобальная опция
-    const showGlobal = !!opts.showPageNumbers
-    const fmt = opts.numberFormat ?? ((n: number) => String(n))
+    const showGlobal = !!opts.showPageNumbers;
+    const fmt = opts.numberFormat ?? ((n: number) => String(n));
+    const contentsPageNumber = opts.contentsPageNumber || null;
 
     // собрать выходной HTML
     let auto = 1
@@ -63,7 +65,7 @@ export function wrapIntoPages(html: string, opts: Options = {}): string {
 
         const footnote = p.data['footnote'] ?? ''
 
-        const html = renderPage(i + 1, p.data, p.html, display, show, footnote)
+        const html = renderPage(i + 1, p.data, p.html, display, show, footnote, contentsPageNumber)
         auto++ // авто-счётчик всё равно бежит последовательно
         return html
     }).join('\n')
@@ -77,7 +79,7 @@ function parseDataAttrs(attrStr: string): DataAttrs {
     return out
 }
 
-function renderPage(pageIndex: number, data: DataAttrs, inner: string, pageNumberText: string, showNumber: boolean, footnoteText: string,): string {
+function renderPage(pageIndex: number, data: DataAttrs, inner: string, pageNumberText: string, showNumber: boolean, footnoteText: string, contentsPageNumber: string|null): string {
     // не дублируем специальные ключи при рендере data-* (они идут отдельно)
     const { ['page-number']: _pn, ['show-page-number']: _sp, ['footnote']: _fn, ...rest } = data
 
@@ -85,9 +87,11 @@ function renderPage(pageIndex: number, data: DataAttrs, inner: string, pageNumbe
     const footnote = footnoteText
         ? `<div class="footnote" aria-hidden="true">${escapeHtml(footnoteText)}</div>`
         : ''
-    const pageNumber = showNumber
-        ? `<div class="page-number" aria-hidden="true">${escapeHtml(pageNumberText)}</div>`
-        : ''
+    const pageNumberBlock = contentsPageNumber
+        ? `<a class="page-number" aria-hidden="true" href="#p${contentsPageNumber}">${escapeHtml(pageNumberText)}</a>`
+        : `<div class="page-number" aria-hidden="true">${escapeHtml(pageNumberText)}</div>`;
+
+    const pageNumber = showNumber ? pageNumberBlock : ''
     // меняем data-page → data-page-number (как просил)
     return `<section id="p${pageIndex}" class="page" data-page-count="${pageIndex}" data-page-number="${escapeHtml(pageNumberText)}"${ds}>${inner}${footnote}${pageNumber}</section>`
 }

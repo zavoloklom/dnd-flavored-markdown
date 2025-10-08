@@ -19,6 +19,7 @@ function render(source: string) {
 
     root.innerHTML = wrapIntoPages(bodyHtml, {
         showPageNumbers: isTrue(frontmatter['show-page-numbers']),
+        contentsPageNumber: String(frontmatter['contents-page-number'])
     })
 
     // пост-проход: проставим точки и номера страниц в .toc
