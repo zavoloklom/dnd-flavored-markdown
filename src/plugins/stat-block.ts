@@ -8,7 +8,8 @@
 // - No nested stat-blocks (ignored; TODO: warn in dev if needed).
 
 import type MarkdownIt from 'markdown-it'
-import { parseKvCombined, escapeHtml, toInt } from '../utils/kv';
+import { parseKvCombined, toInt } from '../utils/kv';
+import { escapeHtml } from '../utils/escape-html';
 import { matchFenceOpen, isFenceClose } from '../utils/fence';
 import { pushScope, popScope } from '../utils/scope';
 import { buildDataAttrsString } from '../utils/blockAttrs';

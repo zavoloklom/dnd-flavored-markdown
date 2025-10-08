@@ -2,7 +2,8 @@
     column-count: 1;
     padding-top: 2.5cm;
 }
-.page[data-type="front-cover"]:after {
+.page[data-type="front-cover"]:after,
+.page[data-type="front-cover"] .page-number{
     display: none;
 }
 

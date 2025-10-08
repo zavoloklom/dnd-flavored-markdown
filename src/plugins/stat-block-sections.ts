@@ -1,5 +1,6 @@
 import type MarkdownIt from 'markdown-it'
-import { matchFenceOpen, isFenceClose } from '../utils/fence'
+import { matchFenceOpen, isFenceClose } from '../utils/fence';
+import { escapeHtml } from '../utils/escape-html';
 
 // name -> [cssClass, HeadingText]
 const StatBlockSections: Record<string,[string,string]> = {
@@ -63,8 +64,4 @@ export function useStatBlockSections(md: MarkdownIt) {
         return md.renderer.render(inner, md.options, env)
     }
     md.renderer.rules['dfm_section_close'] = () => '</div>\n'
-
-    function escapeHtml(s: string) {
-        return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-    }
 }

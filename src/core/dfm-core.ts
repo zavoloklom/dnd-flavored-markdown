@@ -4,7 +4,8 @@ import MarkdownIt from 'markdown-it'
 import mkAttrs from 'markdown-it-attrs'
 import mkContainer from 'markdown-it-container'
 import matter from 'gray-matter'
-import { applyDfmPlugins } from './dfm-plugins'
+import { applyDfmPlugins } from './dfm-plugins';
+import { escapeHtml } from '../utils/escape-html';
 
 // --- Markdown factory (shared) ---
 export function createMarkdownIt(): MarkdownIt {
@@ -59,8 +60,4 @@ ${bodyHtml}
 </main>
 </body>
 </html>`
-}
-
-function escapeHtml(s: string) {
-    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }

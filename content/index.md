@@ -3,7 +3,7 @@ title: "Пропавшая торговка"
 author: "Сергей Куплетский"
 version: "4.0.0"
 lang: "ru"
-page-numbers: "true"
+show-page-numbers: "true"
 ---
 
 ::: page {type="front-cover"}
@@ -24,7 +24,7 @@ ver 4.0.0
 
 ![Background Image](https://i.imgur.com/JPb8reR.png){class="cover"}
 
-::: page {layout="auto"}
+::: page {layout="auto" number="3"}
 
 # Аннотация
 
@@ -85,7 +85,7 @@ ver 4.0.0
 
 # Содержание
 
-::: page
+::: page {page-number=236}
 
 # Сеттинг и ограничения
 

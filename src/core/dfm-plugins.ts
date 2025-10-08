@@ -5,6 +5,7 @@ import { useStatBlock } from '../plugins/stat-block';
 import { useStatBlockSections } from '../plugins/stat-block-sections';
 import { useAbilityScores } from '../plugins/abilityscores';
 import { useContainer } from '../plugins/container';
+import { escapeHtml } from '../utils/escape-html';
 
 import type MarkdownIt from 'markdown-it';
 
@@ -44,8 +45,4 @@ export function applyDfmPlugins(md: MarkdownIt) {
 
     /** Must be last **/
     useContainer(md);
-}
-
-function escapeHtml(s: string) {
-    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }

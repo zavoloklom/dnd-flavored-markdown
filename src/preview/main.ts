@@ -5,13 +5,16 @@ import { renderMarkdownToBody } from '../core/dfm-core';
 
 // Import markdown as raw for HMR reloads
 // Vite supports the ?raw query to import file contents as string.
-import doc from '/content/index.md?raw'
+import doc from '/content/index.md?raw';
+
 
 const root = document.getElementById('app') as HTMLElement
 
 function render(source: string) {
-    const { bodyHtml } = renderMarkdownToBody(source)
-    root.innerHTML = wrapIntoPages(bodyHtml) // paged preview
+    const { bodyHtml, frontmatter } = renderMarkdownToBody(source)
+    root.innerHTML = wrapIntoPages(bodyHtml, {
+        showPageNumbers: frontmatter && String(frontmatter['show-page-numbers']).toLowerCase() === 'true',
+    })
 }
 
 // Initial render

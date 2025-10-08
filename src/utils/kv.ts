@@ -68,8 +68,3 @@ export const signed = (n: number) => (n >= 0 ? '+' : '') + String(n)
 export function splitList(s: string): string[] {
     return s.split(/[,\s;]+/).map(t => t.trim()).filter(Boolean)
 }
-
-/** HTML escape for safe literal injection */
-export function escapeHtml(s: string): string {
-    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-}

@@ -4,8 +4,9 @@
 
 import type MarkdownIt from 'markdown-it'
 import {
-    clamp, escapeHtml, parseKv, parseKvCombined, signed, splitList, toInt
+    clamp, parseKv, parseKvCombined, signed, splitList, toInt
 } from '../utils/kv';
+import { escapeHtml } from '../utils/escape-html';
 import { matchFenceOpen, isFenceClose } from '../utils/fence';
 import { buildDataAttrsString } from '../utils/blockAttrs';
 import { getVar } from '../utils/scope';

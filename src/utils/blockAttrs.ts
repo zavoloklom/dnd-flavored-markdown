@@ -2,6 +2,8 @@
 // Example: tail=' {layout="wide" name="Imperial Guard" theme=dark}'
 // -> cleanedTail: '' ; data: { layout: 'wide', name: 'Imperial Guard', theme: 'dark' }
 
+import { escapeHtml } from './escape-html';
+
 export interface ParsedBlockAttrs {
     cleanedTail: string
     data: Record<string, string>
@@ -43,8 +45,4 @@ function toKebab(s: string): string {
         .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
         .replace(/[_\s]+/g, '-')
         .toLowerCase()
-}
-
-function escapeHtml(s: string): string {
-    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')
 }
