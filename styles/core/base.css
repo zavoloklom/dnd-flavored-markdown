@@ -27,7 +27,4 @@ h1, h2, h3, h4, h5, h6, table {
 
 .sidebar { break-inside: avoid; padding: 8px 10px; border: 1px solid #bbb; background: #faf7ef; border-radius: 8px; margin: .5em 0; }
 .readaloud { break-inside: avoid; padding: 8px 10px; border-left: 4px solid #b00; background: #fff7f7; }
-.dc {
-    font-family: "Source Code Pro", var(--font-monospace, monospace), monospace;
-    font-weight: 500; padding: 0 1mm; border-radius: 4px; border: 1px solid #bbb; background: #f9f9f9;
-}
+

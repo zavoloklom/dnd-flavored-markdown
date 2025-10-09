@@ -1,0 +1,17 @@
+.dc {
+    font-family: var(--dc-font-family), monospace;
+    font-size: var(--dc-font-size);
+    line-height: var(--dc-line-height);
+    font-weight: var(--dc-font-weight);
+    padding: 0 1mm;
+    border-radius: 4px;
+    border: 1px solid var(--dc-border-color);
+    background: var(--dc-background-color);
+}
+
+.dc[data-type="skill"]   {
+    /* цвет/иконка для навыков */
+}
+.dc[data-type="ability"] {
+    /* цвет/иконка для характеристик */
+}

@@ -6,7 +6,7 @@
     --font-sans-sc: "Alegreya Sans SC", Roboto, Helvetica, sans-serif;
     --font-sans: "Source Sans 3", Roboto, Helvetica, sans-serif;
     --font-sans-alt: "Overpass", Roboto, Helvetica, sans-serif;
-    --font-monospace: "Overpass Mono", monospace;
+    --font-monospace: "Source Code Pro", monospace;
 
     /** Body Typography **/
     --body-font-family: var(--font-serif);
@@ -57,6 +57,14 @@
     --page-number-font-size: 14pt;
     --page-number-font-weight: 400;
     --page-number-color: #beb593;
+
+    /** DC **/
+    --dc-font-family: var(--font-monospace, monospace);
+    --dc-font-size: inherit;
+    --dc-font-weight: 500;
+    --dc-line-height: inherit;
+    --dc-background-color: #f9f9f9;
+    --dc-border-color: #bbb;
 
     /** Stat Block **/
     --stat-block-background: #f5f3ee;
