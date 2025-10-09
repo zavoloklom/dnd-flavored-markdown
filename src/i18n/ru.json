@@ -1,0 +1,45 @@
+{
+  "section.traits": "Черты",
+  "section.actions": "Действия",
+  "section.bonus-actions": "Бонусные действия",
+  "section.reactions": "Реакции",
+  "section.legendary-actions": "Легендарные действия",
+  "section.lair-actions": "Действия логова",
+  "section.mythic-actions": "Мифические действия",
+
+  "label.ac": "КД",
+  "label.hp": "ОЗ",
+  "label.speed": "Скорость",
+  "label.init": "Инициатива",
+
+  "table.mod": "Мод",
+  "table.save": "Спас",
+
+  "ui.contents": "Оглавление",
+
+  "ability.str": "Сила",
+  "ability.dex": "Ловкость",
+  "ability.con": "Телосложение",
+  "ability.int": "Интеллект",
+  "ability.wis": "Мудрость",
+  "ability.cha": "Харизма",
+
+  "skill.acrobatics": "Акробатика",
+  "skill.animal-handling": "Уход за животными",
+  "skill.arcana": "Магия",
+  "skill.athletics": "Атлетика",
+  "skill.deception": "Обман",
+  "skill.history": "История",
+  "skill.insight": "Проницательность",
+  "skill.intimidation": "Запугивание",
+  "skill.investigation": "Расследование",
+  "skill.medicine": "Медицина",
+  "skill.nature": "Природа",
+  "skill.perception": "Восприятие",
+  "skill.performance": "Выступление",
+  "skill.persuasion": "Убеждение",
+  "skill.religion": "Религия",
+  "skill.sleight-of-hand": "Ловкость рук",
+  "skill.stealth": "Скрытность",
+  "skill.survival": "Выживание"
+}

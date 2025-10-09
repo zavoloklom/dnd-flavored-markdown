@@ -27,11 +27,11 @@ function splitHeadRest(contentWithoutAt: string): { head: string; rest: string }
 
 /** Словарь по умолчанию: 5e abilities + skills */
 function defaultDict(): DcDict {
-    const D: DcDict = Object.create(null)
-        // abilities
-    ;['str', 'dex', 'con', 'int', 'wis', 'cha'].forEach(k => (D[k] = 'ability'))
+    const D: DcDict = Object.create(null);
+    // abilities
+    ['str', 'dex', 'con', 'int', 'wis', 'cha'].forEach(k => (D[k] = 'ability'));
     // skills
-    ;[
+    [
         'acrobatics',
         'animal-handling',
         'arcana',
@@ -50,17 +50,14 @@ function defaultDict(): DcDict {
         'sleight-of-hand',
         'stealth',
         'survival'
-    ].forEach(k => (D[k] = 'skill'))
+    ].forEach(k => (D[k] = 'skill'));
 
     // лёгкие алиасы (по желанию можно расширить):
     D['sleightofhand'] = 'skill' // без дефисов
     D['animalhandling'] = 'skill'
-    D['intim'] = 'skill'
     D['invest'] = 'skill'
     D['percep'] = 'skill'
     D['persuade'] = 'skill'
-    D['ste'] = 'skill' // stealth
-    D['athl'] = 'skill' // athletics
     return D
 }
 

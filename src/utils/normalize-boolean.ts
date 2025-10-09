@@ -1,4 +1,5 @@
-export function normalizeBoolean(v: string | undefined): boolean | null {
+export function normalizeBoolean(v: unknown): boolean | null {
+    if (typeof v === 'boolean') return v;
     if (v == null) return null
     const s = String(v).trim().toLowerCase()
     if (s === '1' || s === 'true' || s === 'yes' || s === 'on')  return true
