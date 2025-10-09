@@ -87,3 +87,7 @@ ul {
     padding-left: 5mm;
     margin: 1mm 0;
 }
+
+code {
+    font-family: var(--font-monospace, monospace), monospace;
+}

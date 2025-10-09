@@ -5,6 +5,8 @@
 @import './Open_Sans/styles.css';
 @import './Overpass/styles.css';
 @import './Nodesto/styles.css';
+@import './Overpass_Mono/styles.css';
+@import './Source_Code_Pro/styles.css';
 
 @font-face {
     font-family: "Bookinsanity";
