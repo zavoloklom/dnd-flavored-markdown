@@ -35,15 +35,33 @@ function resolveDocPath(): string {
     return key
 }
 
-async function loadCurrentSource(): Promise<string> {
+function dirname(path: string): string {
+    const i = path.lastIndexOf('/')
+    return i >= 0 ? path.slice(0, i + 1) : '/'
+}
+
+function rewriteRelativeImageSrcs(scope: Element | Document, baseDir: string) {
+    const imgs = scope.querySelectorAll<HTMLImageElement>('img[src]')
+    imgs.forEach(img => {
+        const src = img.getAttribute('src') || ''
+        // интересуют только относительные пути ./  или ../  (и без протокола/слеша в начале)
+        if (/^(?:\.{1,2}\/)/.test(src) || (!src.startsWith('/') && !/^[a-zA-Z]+:/.test(src))) {
+            // собрать абсолютный путь относительно каталога md-файла
+            const abs = new URL(src, `${location.origin}${baseDir}`).pathname
+            img.setAttribute('src', abs)
+        }
+    })
+}
+
+async function loadCurrent(): Promise<{ source: string; docDir: string }> {
     const key = resolveDocPath()
-    const loader = files[key]!
-    const source = (await loader()) as unknown as string
-    return source
+    const loader = files[key] as () => Promise<string>
+    const source = await loader()
+    return { source, docDir: dirname(key) } // например: /content/guide/
 }
 
 async function renderCurrent() {
-    const source = await loadCurrentSource()
+    const { source, docDir } = await loadCurrent()
 
     const { bodyHtml, frontmatter } = renderMarkdownToBody(source)
 
@@ -51,6 +69,9 @@ async function renderCurrent() {
         showPageNumbers: normalizeBoolean(frontmatter['show-page-numbers']) ?? false,
         contentsPageNumber: String(frontmatter['contents-page-number'] ?? '')
     })
+
+    // 🔧 починить относительные изображения относительно каталога MD
+    rewriteRelativeImageSrcs(root, docDir)
 
     const title = String(frontmatter.title ?? '').trim() || 'Preview';
     const lang = String(frontmatter.lang ?? 'en').toLowerCase() === 'ru' ? 'ru' : 'en';

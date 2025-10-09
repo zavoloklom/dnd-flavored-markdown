@@ -25,7 +25,7 @@ ver 4.0.0
 
 ![Banner](https://i.imgur.com/8ibq1UE.png){style="position:absolute;bottom:250px;left:0;z-index:1;width:400px"}
 
-![Background Image](https://i.imgur.com/JPb8reR.png){class="cover"}
+![Cover_Image](./assets/cover.png){class="cover"}
 
 ::: page {layout="auto" number="3"}
 
