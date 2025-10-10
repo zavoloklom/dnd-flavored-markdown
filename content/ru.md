@@ -23,7 +23,11 @@ ver 4.0.0
 
 :::
 
-![Banner](https://i.imgur.com/8ibq1UE.png){style="position:absolute;bottom:250px;left:0;z-index:1;width:400px"}
+::: banner
+
+Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;margin-bottom: 4px;"}
+
+:::
 
 ![Cover_Image](./assets/cover.png){class="cover"}
 
