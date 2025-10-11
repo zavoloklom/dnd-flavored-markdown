@@ -68,8 +68,6 @@ As you read, you’ll see markings used for clarity and context:
 > Text in blocks like this is meant to be read aloud (or briefly paraphrased) to the players—for example, when they
 > arrive at a location or when a scene’s conditions are met.
 
-::: column
-
 ## License
 
 All references to Dungeons & Dragons and related materials are the property of Wizards of the Coast. This material is
@@ -79,3 +77,94 @@ to Dungeons & Dragons belong to their respective owners.
 This material is for personal use only and not for commercial distribution.
 
 Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com). All images were generated with ChatGPT.
+
+::: page {show-page-number="false"}
+
+# Contents
+
+::: toc
+
+- [About the Adventure](#about-the-adventure)
+- [Setting & Constraints](#setting--constraints)
+
+:::
+
+![streets](https://i.imgur.com/SrvKjnN.png){style="position:absolute;bottom:0;right:0;width:600px;z-index:-1"}
+
+::: page
+
+# Setting & Constraints
+
+## World Overview
+
+The world of Azalia is sealed by ancient wards that isolate it from the outer planes. Only angels know of these wards.
+There is no contact with gods, patrons, or any other external powers.
+
+If the wards destabilize or break, ways to other planes open—leading to demonic incursions and magical anomalies.
+
+People in this world don’t know the gods; they venerate angels, who effectively fill that role.
+
+## The Empire & Dragonwing
+
+**Dragonwing** is a peninsular protectorate: nominally subject to the Empire but effectively pushing for
+independence—especially after the Empire failed to protect its cities from a demon incursion.
+
+Imperial representatives may encounter distrust or outright hostility from locals.
+
+## Church of Light
+
+The **Church of Light** (cult of angels) is the only sanctioned religion. Only the upper hierarchy communes directly
+with angels; everyone else believes angels exist and guide them.
+
+The Church combines spiritual and secular authority and also serves as an inquisition. Heresy, necromancy, and
+demonology are punishable by death or exile.
+
+Since the demon incursion, the Empire lives in fear and tightens control over magic and faith. Any magic outside the
+Church’s oversight is treated as a threat.
+
+## Magic
+
+All practitioners of magic must hold a permit to reside in the Empire or a **license for Magical Practice**.
+
+Any unsanctioned magic leads to interrogation, arrest, or execution.
+
+Attempts to use magic tied to other planes—_plane shift_, _gate_, _summon fiend_, _contact other plane_, etc.—may have
+catastrophic effects, or the spell simply fails.
+
+## Species of the Empire
+
+::: definition
+
+**Humans** — the primary species; they hold most positions of power in the Empire.
+
+**Dwarves, gnomes, orcs, goblins** — tolerated, but viewed as “outsiders” and potentially dangerous.
+
+**Elves** — reclusive and wild-dwelling; not a playable species.
+
+**Drow and half-elves** — face open hostility; violence against them often has few consequences.
+
+**Tieflings** — the result of mages experimenting with demonic blood in the last 2–3 years. Unknown to anyone beyond
+their creators. You may play a tiefling who somehow escaped. An unmasked tiefling will likely be taken for a demon and
+attacked on sight.
+
+**Aasimar** — humans bearing an implanted angelic soul (they don’t know this). Innate powers are restricted: in a
+critical moment, they may manifest involuntarily if the character fails a DC 15 Wisdom saving throw. The more often
+these powers are used, the stronger the angel’s influence grows (control may pass to the DM).
+
+**Dragonborn** — absent; not a playable species.
+
+:::
+
+## Class Restrictions
+
+::: definition
+
+**Warlocks.** Standard patrons (Fiend, Archfey, Great Old One) are unavailable. Possible adaptations include an internal
+source of power, planar anomalies, or ancient artifacts.
+
+**Clerics & Paladins.** Their magic works through faith in an angel (see
+[Appendix: Pantheon & Domains](#appendix-pantheon-and-domains)), usually without a direct reply.
+
+**Wizards & Sorcerers.** Allowed, but must conceal their practice or obtain legal status.
+
+:::
