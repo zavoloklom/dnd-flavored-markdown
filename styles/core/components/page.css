@@ -50,6 +50,49 @@
     column-fill: auto;
 }
 
+/* Сбрасываем multi-column и включаем 2-трековый grid */
+.page[data-layout="left"],
+.page[data-layout="right"] {
+    /* выключить мультиколонки */
+    column-count: initial;
+    column-fill: initial;
+    column-gap: initial;
+
+    /* включить grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* визуально 2 колонки */
+    /* горизонтальный зазор между колонками как у колонок */
+    gap: 0 8mm;
+
+    /* чтобы строки подстраивались под контент */
+    grid-auto-rows: min-content;
+}
+
+/* Весь контент — либо в левом, либо в правом треке */
+.page[data-layout="left"]  > :not([data-span="all"]) { grid-column: 1; }
+.page[data-layout="right"] > :not([data-span="all"]) { grid-column: 2; }
+
+/* Опционально: элементы на всю ширину (хедер/иллюстрация) */
+.page [data-span="all"] { grid-column: 1 / -1; }
+
+/** TODO: придумать как делать по другому **/
+.page[data-layout="left"] .mask {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50px center;
+    z-index: -1;
+
+    mask: url('../../../assets/masks/background_right-half.png') center / cover no-repeat;
+}
+
+.page[data-layout="right"] {
+
+}
+
 @media screen {
     .page {
         margin: 16px auto;
