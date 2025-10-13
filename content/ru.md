@@ -258,7 +258,7 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 Хурган сумел восстановить порядок. Теперь Сан-Сопригаль снова живёт обычной жизнью, хотя страхи и шрамы прошлого никуда
 не делись.
 
-![siege](https://i.imgur.com/Mtk8FRc.pngD){style="position:absolute;bottom:50px;right:50px;height:550px"}
+![](./assets/illustrations/siege.png) {style="height: 795px" class="framed-image"}
 
 ::: page
 

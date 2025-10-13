@@ -1,0 +1,42 @@
+.framed-image {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    padding: 12px;
+
+    margin-top: 3mm;
+}
+
+.framed-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+
+    border-image: url("../../../assets/themes/default/frame_image.svg") 90 90 90 90 fill / 90px 90px 90px 90px;
+    border-image-repeat: stretch;
+}
+
+.framed-image > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* картинка заполняет «окно» рамки */
+
+    --frame-image-mask-corner-radius: 20px;
+    mask-image:
+            linear-gradient(#fff, #fff),
+            radial-gradient(circle at left  top,    #fff var(--frame-image-mask-corner-radius), transparent calc(var(--frame-image-mask-corner-radius) + 1px)),
+            radial-gradient(circle at right top,    #fff var(--frame-image-mask-corner-radius), transparent calc(var(--frame-image-mask-corner-radius) + 1px)),
+            radial-gradient(circle at right bottom, #fff var(--frame-image-mask-corner-radius), transparent calc(var(--frame-image-mask-corner-radius) + 1px)),
+            radial-gradient(circle at left  bottom, #fff var(--frame-image-mask-corner-radius), transparent calc(var(--frame-image-mask-corner-radius) + 1px));
+    mask-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    mask-position: 0 0, 0 0, 0 0, 0 0, 0 0;
+    mask-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+    mask-composite:
+            subtract,
+            add,
+            add,
+            add;
+}
