@@ -2414,7 +2414,7 @@ _человек, кучер_
 
 \column
 
-![Yonas](https://i.imgur.com/DPdRVp6.png) {width:100%}
+![Jonas](https://i.imgur.com/DPdRVp6.png) {width:100%}
 
 {{wide
 

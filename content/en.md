@@ -68,6 +68,8 @@ As you read, you’ll see markings used for clarity and context:
 > Text in blocks like this is meant to be read aloud (or briefly paraphrased) to the players—for example, when they
 > arrive at a location or when a scene’s conditions are met.
 
+The page numbers in the corner allow you to quickly return to the table of contents.
+
 ## License
 
 All references to Dungeons & Dragons and related materials are the property of Wizards of the Coast. This material is
@@ -76,7 +78,10 @@ to Dungeons & Dragons belong to their respective owners.
 
 This material is for personal use only and not for commercial distribution.
 
-Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com). All images were generated with ChatGPT.
+The adventure is designed using [DnD Flavored Markdown](https://github.com/zavoloklom/dnd-flavored-markdown). All images
+were generated with ChatGPT.
+
+Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 
 ::: page {show-page-number="false"}
 
@@ -85,42 +90,25 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com). All images were gen
 ::: toc
 
 - [About the Adventure](#about-the-adventure)
-- [Setting & Constraints](#setting--constraints)
+- [Setting and Constraints](#setting-and-constraints)
+- [Backstory](#backstory)
+- [Appendix: States and Organizations](#appendix-states-and-organizations)
+- [Appendix: Pantheon and Domains](#appendix-pantheon-and-domains)
 
 :::
 
-![streets](https://i.imgur.com/SrvKjnN.png){style="position:absolute;bottom:0;right:0;width:600px;z-index:-1"}
-
 ::: page
 
-# Setting & Constraints
+# Setting and Constraints
 
 ## World Overview
 
-The world of Azalia is sealed by ancient wards that isolate it from the outer planes. Only angels know of these wards.
-There is no contact with gods, patrons, or any other external powers.
+The world of Azalia is sealed by ancient wards that isolate it from the outer planes. There is no contact with gods,
+patrons, or any other external powers.
 
 If the wards destabilize or break, ways to other planes open—leading to demonic incursions and magical anomalies.
 
-People in this world don’t know the gods; they venerate angels, who effectively fill that role.
-
-## The Empire & Dragonwing
-
-**Dragonwing** is a peninsular protectorate: nominally subject to the Empire but effectively pushing for
-independence—especially after the Empire failed to protect its cities from a demon incursion.
-
-Imperial representatives may encounter distrust or outright hostility from locals.
-
-## Church of Light
-
-The **Church of Light** (cult of angels) is the only sanctioned religion. Only the upper hierarchy communes directly
-with angels; everyone else believes angels exist and guide them.
-
-The Church combines spiritual and secular authority and also serves as an inquisition. Heresy, necromancy, and
-demonology are punishable by death or exile.
-
-Since the demon incursion, the Empire lives in fear and tightens control over magic and faith. Any magic outside the
-Church’s oversight is treated as a threat.
+People in this world don’t know about wards and gods. They blindly worship angels.
 
 ## Magic
 
@@ -128,10 +116,10 @@ All practitioners of magic must hold a permit to reside in the Empire or a **lic
 
 Any unsanctioned magic leads to interrogation, arrest, or execution.
 
-Attempts to use magic tied to other planes—_plane shift_, _gate_, _summon fiend_, _contact other plane_, etc.—may have
+Attempts to use magic tied to other planes (_plane shift_, _gate_, _summon fiend_, _contact other plane_, etc.) may have
 catastrophic effects, or the spell simply fails.
 
-## Species of the Empire
+## Species of the Holy Empire
 
 ::: definition
 
@@ -143,8 +131,8 @@ catastrophic effects, or the spell simply fails.
 
 **Drow and half-elves** — face open hostility; violence against them often has few consequences.
 
-**Tieflings** — the result of mages experimenting with demonic blood in the last 2–3 years. Unknown to anyone beyond
-their creators. You may play a tiefling who somehow escaped. An unmasked tiefling will likely be taken for a demon and
+**Tieflings** — the result of mages experimenting with demonic blood in the last 2 years. Unknown to anyone beyond their
+creators. You may play a tiefling who somehow escaped. An unmasked tiefling will likely be taken for a demon and
 attacked on sight.
 
 **Aasimar** — humans bearing an implanted angelic soul (they don’t know this). Innate powers are restricted: in a
@@ -159,12 +147,79 @@ these powers are used, the stronger the angel’s influence grows (control may p
 
 ::: definition
 
-**Warlocks.** Standard patrons (Fiend, Archfey, Great Old One) are unavailable. Possible adaptations include an internal
-source of power, planar anomalies, or ancient artifacts.
+**Warlocks.** Standard patrons (like Fiend, Archfey, Great Old One) are unavailable. Possible adaptations include an
+internal source of power, planar anomalies, or ancient artifacts.
 
 **Clerics & Paladins.** Their magic works through faith in an angel (see
-[Appendix: Pantheon & Domains](#appendix-pantheon-and-domains)), usually without a direct reply.
+[Appendix: Pantheon and Domains](#appendix-pantheon-and-domains)), usually without a direct reply.
 
 **Wizards & Sorcerers.** Allowed, but must conceal their practice or obtain legal status.
 
 :::
+
+![streets](https://i.imgur.com/SrvKjnN.png){style="position:absolute;bottom:0;right:0;width:600px;z-index:-1"}
+
+::: page {layout="left"}
+
+# Backstory
+
+## The Dragonwing Peninsula
+
+**Dragonwing** is a peninsular protectorate: formally subject to the **Holy Empire** (see
+[Appendix: States and Organizations](#appendix-states-and-organizations)) yet effectively pushing for
+independence—especially after the central authority failed to protect the peninsula’s cities from a demon incursion.
+
+Representatives of the Holy Empire are met with suspicion here, and at times with open hostility.
+
+## San-Soprigal
+
+**San-Soprigal** is an old coastal town on the Empire’s frontier, within the Dragonwing Peninsula.
+
+It was once a key stop on trade routes, thriving on commerce, fishing, and—if rumors are to be believed—smuggling. Wars,
+economic decline, and tighter imperial control took their toll; these days, dignitaries and trade caravans rarely bother
+to visit.
+
+## The Demon Incursion
+
+About _two years ago_, demonic forces overran the countryside around San-Soprigal, cutting the town off from the outside
+world and laying it under siege. Contact with other cities ceased, and no help arrived.
+
+After a month, the demons vanished as suddenly as they had appeared. Only scattered bands remained, and the town guard
+suppressed them quickly.
+
+[//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living.)
+[//]: # (The Church forbids any discussion of these tales and condemns them as heresy.)
+
+Many died during the siege, including the mayor, **Stor Sulim**; **Jonas’s grandfather**; and the entire **Günter**
+family.
+
+After the mayor’s death, the guard commander, the half-orc **Hurgkhan**, assumed leadership of the town. He retained
+military command and stayed with the garrison, repurposing the town hall as a public library.
+
+The siege left deep scars: faith in the angels has faltered (though few will say so aloud), fear and distrust linger,
+much of the guard was lost, and trade routes grew more perilous. The town seemed destined for ruin, but Hurgkhan
+restored order. San-Soprigal now goes about its daily life again—though the fears and wounds of the past have not
+healed.
+
+![Cover_Image](./assets/illustrations/siege.png){class="mask"}
+
+::: page
+
+# Appendix: States and Organizations
+
+## Church of Light
+
+The **Church of Light** (cult of angels) is the only sanctioned religion. Only the upper hierarchy communes directly
+with angels; everyone else believes angels exist and guide them.
+
+The Church combines spiritual and secular authority and also serves as an inquisition. Heresy, necromancy, and
+demonology are punishable by death or exile.
+
+Since the demon incursion, the Empire lives in fear and tightens control over magic and faith. Any magic outside the
+Church’s oversight is treated as a threat.
+
+::: page
+
+# Appendix: Pantheon and Domains
+
+f
