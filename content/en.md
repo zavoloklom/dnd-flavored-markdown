@@ -83,6 +83,8 @@ were generated with ChatGPT.
 
 Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 
+![Illustration - Fountain](./assets/illustrations/fountain.png) {style="height:895px" class="framed-image"}
+
 ::: page {show-page-number="false"}
 
 # Contents
@@ -201,7 +203,7 @@ much of the guard was lost, and trade routes grew more perilous. The town seemed
 restored order. San-Soprigal now goes about its daily life again—though the fears and wounds of the past have not
 healed.
 
-![Cover_Image](./assets/illustrations/siege.png){class="mask"}
+![Siege Cover_Image](./assets/illustrations/siege.png){class="mask"}
 
 ::: page
 
