@@ -187,8 +187,8 @@ world and laying it under siege. Contact with other cities ceased, and no help a
 After a month, the demons vanished as suddenly as they had appeared. Only scattered bands remained, and the town guard
 suppressed them quickly.
 
-[//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living.)
-[//]: # (The Church forbids any discussion of these tales and condemns them as heresy.)
+[//]: # "Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living."
+[//]: # "The Church forbids any discussion of these tales and condemns them as heresy."
 
 Many died during the siege, including the mayor, **Stor Sulim**; **Jonas’s grandfather**; and the entire **Günter**
 family.
@@ -207,16 +207,57 @@ healed.
 
 # Appendix: States and Organizations
 
-## Church of Light
+## States
+
+Brief dossiers on key powers—their governance, priorities, and limits of influence.
+
+### The Great Empire
+
+Only myths and ruins remain of the once-mighty realm now called the **Great Empire**. Nothing is known of its nature,
+its rulers, or why it fell; in the memory of nations it is something unreachable, almost mythic. All peoples date their
+years from this collapse: the calendar counts **AF—After the Fall**.
+
+### The Holy Empire
+
+The **Holy Empire** is a major human power that unites several principalities. It maintains a common market, a single
+currency, standardized measures, and imperial law. An elected **Emperor** stands at its head as arbiter and guarantor of
+unity. In matters of faith, magic, and state security, the **Church of Light** has the final say.
+
+### The United States of Magic Art
+
+**The United States of Magic Art** (a federation of mages)—a union of states on a new continent founded by gifted
+settlers. The right to freely practice magic is enshrined in the **Second Amendment** to the **USMA Constitution**.
+
+### Kaltenwald
+
+**Kaltenwald** (a dwarven-and-gnomish kingdom) is a closed, under-mountain state ruled by the
+**King-Under-the-Mountain** under the Stone Laws. The outside world knows only scraps: the names of delvings, the
+occasional diplomatic mission to the surface, and legends of mechanisms and bottomless vaults.
+
+## Organizations
+
+Supranational and covert groups with their own interests and methods.
+
+### Church of Light
 
 The **Church of Light** (cult of angels) is the only sanctioned religion. Only the upper hierarchy communes directly
-with angels; everyone else believes angels exist and guide them.
+with angels; everyone else blindly believes that angels exist and guide them.
 
-The Church combines spiritual and secular authority and also serves as an inquisition. Heresy, necromancy, and
-demonology are punishable by death or exile.
+The Church combines spiritual and secular power and also serves as an inquisition. Heresy, necromancy, and demonology
+are punished by death or exile.
 
-Since the demon incursion, the Empire lives in fear and tightens control over magic and faith. Any magic outside the
+After the demon incursion, the Empire lives in fear and tightens control over magic and faith. Any magic outside the
 Church’s oversight is treated as a threat.
+
+### Spider Cult
+
+A **necromancers’ cult** within one of the states in USMA. It is said they study ways to attain eternal life without
+becoming undead.
+
+### Black Meduza
+
+The **Black Meduza** is a transregional network of smugglers and thieves’ guilds. Specialties: “gray routes,” illicit logistics, extortion,
+bespoke thefts, and financial services for the underworld and the nobility alike.
 
 ::: page
 
