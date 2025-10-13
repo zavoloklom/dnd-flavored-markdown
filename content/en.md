@@ -93,7 +93,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [Setting and Constraints](#setting-and-constraints)
 - [Backstory](#backstory)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
-- [Appendix: Pantheon and Domains](#appendix-pantheon-and-domains)
+- [Appendix: Pantheon](#appendix-pantheon)
 
 :::
 
@@ -150,8 +150,8 @@ these powers are used, the stronger the angel’s influence grows (control may p
 **Warlocks.** Standard patrons (like Fiend, Archfey, Great Old One) are unavailable. Possible adaptations include an
 internal source of power, planar anomalies, or ancient artifacts.
 
-**Clerics & Paladins.** Their magic works through faith in an angel (see
-[Appendix: Pantheon and Domains](#appendix-pantheon-and-domains)), usually without a direct reply.
+**Clerics & Paladins.** Their magic works through faith in an angel (see [Appendix: Pantheon](#appendix-pantheon)),
+usually without a direct reply.
 
 **Wizards & Sorcerers.** Allowed, but must conceal their practice or obtain legal status.
 
@@ -256,11 +256,32 @@ becoming undead.
 
 ### Black Meduza
 
-The **Black Meduza** is a transregional network of smugglers and thieves’ guilds. Specialties: “gray routes,” illicit logistics, extortion,
-bespoke thefts, and financial services for the underworld and the nobility alike.
+The **Black Meduza** is a transregional network of smugglers and thieves’ guilds. Specialties: “gray routes,” illicit
+logistics, extortion, bespoke thefts, and financial services for the underworld and the nobility alike.
 
-::: page
+::: page {layout="wide"}
 
-# Appendix: Pantheon and Domains
+# Appendix: Pantheon
 
-f
+Since there are no gods in this world, angels fulfill their functions. Cleric domains remain in use, with each overseen
+by one or more angels.
+
+A character may honor any angel—or several. This choice grants no additional mechanical benefits to any class. For
+druids and paladins, it may be part of their concept. For clerics, mechanics are determined by the chosen domain, not by
+the specific angel. If the domain you want isn’t listed, choose the closest angel by aspect from the table.
+
+| Angel        | Description                            | Primary Followers                         | Cleric Domain(s)  |
+| :----------- | :------------------------------------- | :---------------------------------------- | :---------------- |
+| **Azarael**  | Keeper of magic and secrets            | Mages, archivists, archaeologists         | Arcana, Knowledge |
+| **Auriel**   | Embodiment of law and justice          | Judges, knights, guards                   | Order             |
+| **Gabriel**  | Embodiment of war and might            | Warriors, soldiers, mercenaries           | War               |
+| **Eldarael** | Patron of life and the harvest         | Farmers, healers, druids, midwives        | Life              |
+| **Lunoriel** | Warden of the wilds and the life-cycle | Foresters, shamans, rangers               | Nature            |
+| **Selariel** | Guide of light and the night roads     | Pilgrims, guides, bards                   | Light, Twilight   |
+| **Mavriel**  | Patron of craft and creation           | Smiths, engineers, artificers             | Forge, Arcana     |
+| **Tanariel** | Warden of repose and death             | Keepers of necropolises, funerary masters | Death, Grave      |
+| **Samael**   | Embodiment of calm and balance         | Sages, diplomats, monks                   | Peace             |
+| **Lokiel**   | Trickster of shadows and masks         | Thieves, spies, con artists, adventurers  | Trickery          |
+| **Torviel**  | Embodiment of the destructive tempest  | Sailors, devotees of destruction          | Tempest           |
+
+![panteon](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:0;left:0;width:100%;z-index:-1"}
