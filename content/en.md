@@ -189,9 +189,6 @@ world and laying it under siege. Contact with other cities ceased, and no help a
 After a month, the demons vanished as suddenly as they had appeared. Only scattered bands remained, and the town guard
 suppressed them quickly.
 
-[//]: # "Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living."
-[//]: # "The Church forbids any discussion of these tales and condemns them as heresy."
-
 Many died during the siege, including the mayor, **Stor Sulim**; **Jonas’s grandfather**; and the entire **Günter**
 family.
 
@@ -204,6 +201,9 @@ restored order. San-Soprigal now goes about its daily life again—though the fe
 healed.
 
 ![Siege Cover_Image](./assets/illustrations/siege.png){class="mask"}
+
+<!-- prettier-ignore -->
+[//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
 
 ::: page
 
