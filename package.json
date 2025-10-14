@@ -10,7 +10,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "prettier_": "prettier --write \"content/**/*.md\"",
-    "prettier": "prettier --write \"content/ru.md\" && prettier --write \"content/en.md\"",
+    "prettier": "prettier --write \"content/ru.md\" && prettier --write \"content/en.md\" && prettier --write \"content/session-zero.md\"",
     "remark": "npx remark content/ru.md -o",
     "build:cli": "tsc -p tsconfig.json",
     "build:html": "tsx scripts/dfm.ts build content/index.md -o dist/index.html --inline-css",
