@@ -94,6 +94,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [About the Adventure](#about-the-adventure)
 - [Setting and Constraints](#setting-and-constraints)
 - [Backstory](#backstory)
+- [Incident Timeline](#incident-timeline)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 
@@ -114,7 +115,7 @@ People in this world don’t know about wards and gods. They blindly worship ang
 
 ## Magic
 
-All practitioners of magic must hold a permit to reside in the Empire or a **license for Magical Practice**.
+All practitioners of magic must hold a permit to reside in the Holy Empire or a **license for Magical Practice**.
 
 Any unsanctioned magic leads to interrogation, arrest, or execution.
 
@@ -193,7 +194,7 @@ Many died during the siege, including the mayor, **Stor Sulim**; **Jonas’s gra
 family.
 
 After the mayor’s death, the guard commander, the half-orc **Hurgkhan**, assumed leadership of the town. He retained
-military command and stayed with the garrison, repurposing the town hall as a public library.
+military command and stayed in the garrison, repurposing the town hall as a public library.
 
 The siege left deep scars: faith in the angels has faltered (though few will say so aloud), fear and distrust linger,
 much of the guard was lost, and trade routes grew more perilous. The town seemed destined for ruin, but Hurgkhan
@@ -204,6 +205,102 @@ healed.
 
 <!-- prettier-ignore -->
 [//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
+
+::: page
+
+# Incident Timeline
+
+## Arrival of the Mage
+
+_3 Narvail (February)_
+
+- A necromancer, **Abraham**, arrives in town. He previously conducted forbidden experiments with spiders in the
+  **United States of Magic Art** and is now in hiding, hoping to continue his research in seclusion.
+- He rents a house from **Jonas** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham knows
+  about this house—and the passage—through old contacts: a fellow necromancer once lived in the town. Jonas doesn’t know
+  about the secret passage into the catacombs.
+- Abraham places an order with his smuggler contacts in **Black Meduza** for “goods”—his custom-bred spiders.
+- He locks himself in the cellar and doesn’t show his face around town. Rumors spread that he’s a mage.
+
+## Arrival of Rosa
+
+_1 Betalasse (March)_
+
+- **Rosa** (a paladin of the **Church of Light**) arrives in San-Soprigal and keeps the purpose of her visit secret. She
+  refuses to recognize local authority and acts under a covert mandate.
+- She lodges at the **Temple** and periodically leaves town for several days at a time.
+- Her mission is to investigate recent attacks on merchants in the region and to recover a stolen church relic.
+
+## The Delivery
+
+_1 Betalasse (March)_
+
+- Smugglers **Peter** and **Boshir** bring contraband and crates of spiders to the cove beneath the town.
+- That evening, posing as traders, they drink in the tavern, hit on Rosa, and start a brawl.
+- At night they descend into the catacombs to unload the boat. A large crate slips and breaks. The starving spiders
+  attack and kill them both.
+- Their room still contains the “trader” clothing they used as a cover. When the innkeeper **Helmut** realizes the
+  guests are gone, he hands the clothes to the server **Kenki**.
+- The next day, with no men or cargo arriving, Abraham goes into the catacombs himself. The spiders kill him as well.
+- The guard doesn’t search for Peter and Boshir: their papers mark them as ordinary merchants who often leave without
+  fanfare.
+
+## Maria & Günter
+
+_Narvail–Lotviel (February–April)_
+
+- **Maria**, an incense merchant, secretly meets **Günter**—a town guard—on the watchtower during his night shifts.
+- Günter becomes obsessed with tying the disappearances to Rosa, whom he assumes is an inquisitor.
+- His paranoia rubs off on Maria. She avoids Rosa and stops visiting the Temple, though she once went often.
+- Tensions rise, and the two quarrel.
+
+## Maria & Abraham
+
+_Narvail (February)_
+
+- Maria supplied Abraham with ingredients needed for his spider venom experiments.
+- Abraham paid a month in advance and asked for discretion.
+- In thanks, he gave Maria a scroll with a simple spell and instructions.
+- The following month he didn’t place an order, and Maria didn’t find that unusual.
+- After Rosa’s arrival—and under Günter’s influence—Maria fears arrest for dabbling in magic.
+
+::: page
+
+## The Abandoned District
+
+_Early Lotviel (April)_
+
+- At night, **Bertram** (a local drunk) falls into an old well in the Abandoned District that opens into the catacombs
+  and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
+- **Children** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,” they
+  stopped going there.
+- Relocating their games to the **Artisans’ Quarter**, the children break a window in Abraham’s house. Jonas learns his
+  lodger is gone, but he doesn’t inform the guard—he fears unwanted attention and prefers to assume the mage moved on.
+
+## Maria’s Disappearance
+
+_12 Lotviel (April), Tuesday_
+
+- After talking with her friend **Karra**, Maria decides to end things with Günter—but puts off the conversation.
+- In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to **propose** to Maria at sunset.
+- Maria heads for the tower, but when she spots Rosa returning to town, she detours into the Abandoned District to avoid
+  her.
+- At the old well, Maria notices a strange smell. She steps closer, and the starving spiders drag her down. Trying to
+  fend them off with a spell, she collapses the old masonry and the shaft caves in.
+- Günter waits for Maria, grows anxious, but doesn’t abandon his post.
+- **Gaston** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That night he tries
+  to reach the cove, but sailors spot him, and he retreats.
+
+## Maria Is Reported Missing
+
+_13 Lotviel (April), Wednesday_
+
+- In the morning, Günter finds Maria’s shop closed and no one answering at her home. He convinces **Hurgkhan** to force
+  the door and open an investigation.
+- Hurgkhan locks down the town for the duration of the investigation to maintain order and control departures. It’s a
+  good chance to remind the townsfolk who’s in charge and to show he’s on top of his duties. He believes Maria will turn
+  up within a few hours.
+- The **adventurers** arrive in San-Soprigal.
 
 ::: page
 
