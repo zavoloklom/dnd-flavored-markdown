@@ -94,7 +94,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [About the Adventure](#about-the-adventure)
 - [Setting and Constraints](#setting-and-constraints)
 - [Backstory](#backstory)
-- [Incident Timeline](#incident-timeline)
+- [Story Overview](#story-overview)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 
@@ -126,23 +126,26 @@ catastrophic effects, or the spell simply fails.
 
 ::: definition
 
-**Humans** — the primary species; they hold most positions of power in the Empire.
+**Humans** — the primary species; they hold leading positions.
 
-**Dwarves, gnomes, orcs, goblins** — tolerated, but viewed as “outsiders” and potentially dangerous.
+**Dwarves, gnomes, and halflings** — tolerated yet considered “outsiders.” Trusted with craft and trade, but kept at
+arm’s length.
 
-**Elves** — reclusive and wild-dwelling; not a playable species.
+**Orcs and goliaths** — seen as cheap labor and hire-swords. In any conflict, blame usually falls on them.
 
-**Drow and half-elves** — face open hostility; violence against them often has few consequences.
+**Drow and half-elves** — face open hostility. Violence against them often goes unpunished.
 
-**Tieflings** — the result of mages experimenting with demonic blood in the last 2 years. Unknown to anyone beyond their
-creators. You may play a tiefling who somehow escaped. An unmasked tiefling will likely be taken for a demon and
+**Elves** — feral, living in the forests (not a playable species).
+
+**Tieflings** — the result of mages experimenting with demonic blood over the last two years. Unknown to anyone but
+their creators. You may play a tiefling who somehow escaped. An unmasked tiefling will likely be taken for a demon and
 attacked on sight.
 
 **Aasimar** — humans bearing an implanted angelic soul (they don’t know this). Innate powers are restricted: in a
 critical moment, they may manifest involuntarily if the character fails a DC 15 Wisdom saving throw. The more often
-these powers are used, the stronger the angel’s influence grows (control may pass to the DM).
+these powers are used, the stronger the angel’s influence grows (control passes to the DM).
 
-**Dragonborn** — absent; not a playable species.
+**Dragonborn** — absent (not a playable species).
 
 :::
 
@@ -156,7 +159,7 @@ internal source of power, planar anomalies, or ancient artifacts.
 **Clerics & Paladins.** Their magic works through faith in an angel (see [Appendix: Pantheon](#appendix-pantheon)),
 usually without a direct reply.
 
-**Wizards & Sorcerers.** Allowed, but must conceal their practice or obtain legal status.
+**Wizards & Sorcerers.** Must conceal their practice or obtain legal status.
 
 :::
 
@@ -208,7 +211,7 @@ healed.
 
 ::: page
 
-# Incident Timeline
+# Story Overview
 
 ## Arrival of the Mage
 
