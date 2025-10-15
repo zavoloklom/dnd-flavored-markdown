@@ -95,6 +95,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [Setting and Constraints](#setting-and-constraints)
 - [Backstory](#backstory)
 - [Story Overview](#story-overview)
+- [Advice for the DM](#advice-for-the-dm)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 
@@ -304,6 +305,77 @@ _13 Lotviel (April), Wednesday_
   good chance to remind the townsfolk who’s in charge and to show he’s on top of his duties. He believes Maria will turn
   up within a few hours.
 - The **adventurers** arrive in San-Soprigal.
+
+::: page
+
+# Advice for the DM
+
+This is a mystery-first adventure: its core is social interaction and investigation, not combat. Don’t turn every
+conversation into a die roll—the party’s success should depend on **who** they ask, **when**, and **about what**.
+
+NPCs shift their attitude because of leverage, not eloquence: the party can present a clue, name a name, or catch a
+contradiction. A Persuasion check amplifies leverage that already exists.
+
+When searching locations, the more precise the question, the lower the DC. Grant advantage for relevant clues and sound
+methods. On a failure, allow partial success at a cost (time, noise, suspicion).
+
+Stay flexible. If the party forms a reasonable hypothesis, confirm it with a minor clue in the next location or
+scene—even if it wasn’t originally there.
+
+## Session Prep
+
+Before play, ask players to define why their characters are willing to help with the investigation (duty, reward, a
+mentor’s request, etc.), and how they met one another—or how they’re connected to their mentor, **Jared**.
+
+## Hints & Suspects
+
+The party’s initial suspects in the disappearances will likely be **Günter** and **Rosa**. If you notice them focusing
+suspicion elsewhere (for example, on **Hurgkhan**), support their line of thinking—let the investigation move from the
+players’ hypotheses.
+
+If the party stalls, you can nudge them via members of the town guard or **Gaston**, who also wants access to the
+catacombs.
+
+## World Reaction
+
+You determine how much in-game time scenes and travel take. Let the players know that time is passing in town, and
+gently hint that delay will have consequences.
+
+Below is an example of how events may unfold if the heroes don’t intervene.
+
+### Day One
+
+_13 Lotviel (April), Wednesday_
+
+- Günter prepares and posts missing-person flyers for Maria across town.
+- **Hurgkhan vs. Rosa:** Rosa tries to leave town; guards stop her at the gate.
+- A volunteer search party forms to look for Maria.
+- That night, Gaston breaks into Abraham’s house, spots spiders in the catacombs, and withdraws.
+
+### Day Two
+
+_14 Lotviel (April), Thursday_
+
+- **Maria dies in the catacombs** if she has not been rescued.
+- Gaston may approach the heroes, asking them to escort him into the catacombs.
+- By evening, volunteers find signs of a struggle at the old well and inform Hurgkhan.
+- On learning about the spiders, Hurgkhan musters a guard squad and descends into the catacombs. The guard assaults the
+  tunnels and destroys the spiders. Of the entire squad, only Günter returns.
+- The town mourns Hurgkhan; the immediate threat is removed.
+
+## Combat Scenes
+
+Fights in the catacombs should be tense but fair. Run them so that using the environment is profitable for the players
+(fire, webs, chokepoints, etc.).
+
+## What Comes Next
+
+You can run this as a one-shot or as a prologue to a campaign. Hooks for longer arcs are seeded in NPC writeups and
+dialogue—use them as needed, or ignore them:
+
+- A dragon-hunt in the mountains on behalf of **Duncan**.
+- Exploring ruins on the peninsula at the request of **Jassad**.
+- A joint investigation with **Rosa** into the attacks on merchants.
 
 ::: page
 
