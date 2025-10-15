@@ -1,0 +1,79 @@
+.chapter {
+    column-span: all;
+
+    text-align: center;
+
+    margin-bottom: 5mm;
+}
+
+.chapter + * {
+    margin-top: 0 !important;
+}
+
+.chapter__subtitle {
+    position: relative;
+
+    display: flex;                 /* ключ */
+    align-items: center;           /* вертикально центр по строке */
+    justify-content: center;       /* текст по центру ширины */
+    gap: 3mm;                      /* зазор между текстом и «усами» */
+
+    color: var(--chapter-subtitle-color, #9D7E5B);
+    font-family: var(--chapter-font-family, sans-serif), sans-serif;
+    font-size: var(--chapter-subtitle-font-size, 22pt);
+    line-height: 1;
+
+    text-transform: lowercase;
+
+    margin: 0 auto 3mm;
+}
+
+.chapter__subtitle::before,
+.chapter__subtitle::after {
+    content: "";
+    flex: 0 0 auto;
+    width: 200px;
+    height: var(--chapter-subtitle-font-size, 22pt);
+    background: url("../../../assets/themes/default/chapter_side.svg") no-repeat center / 100% 100%;
+    background-size: contain;
+}
+
+.chapter__subtitle:before {
+    background-position-x: left;
+    transform: rotateY(180deg);
+
+}
+.chapter__subtitle::after {
+    background-position-x: left;
+}
+
+.chapter__title {
+    position: relative;
+
+    font-family: var(--chapter-font-family, sans-serif), sans-serif;
+    font-size: var(--chapter-title-font-size, 46pt);
+    font-weight: 700;
+    line-height: 1;
+
+    margin: 0 auto 20pt;
+
+    /* градиент меняет цвет по вертикали,
+       к 80% уже почти конечный цвет */
+    background: var(--chapter-title-color, #58180d);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--chapter-title-stroke-color, #EAEAEA);
+}
+
+.chapter__title:after {
+    content: "";
+    position: absolute;
+    top: calc(var(--chapter-title-font-size, 46pt) + 2pt);
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 20pt;
+    background: url("../../../assets/themes/default/chapter_footer.svg") no-repeat center / 100% 100%;
+    background-size: contain;
+}

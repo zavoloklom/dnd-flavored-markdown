@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 502.95 16.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        fill: #c6b189;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="502.95" height="16.27"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="-9" y="-8" width="520.95" height="25.27" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-45.07" y1="545.09" x2="-44.07" y2="545.09" gradientTransform="translate(22668.85 274160.91) scale(502.95 -502.95)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="-9" y="-8" width="520.95" height="25.27" maskUnits="userSpaceOnUse">
+      <g class="cls-3">
+        <rect class="cls-4" width="502.95" height="16.27"/>
+      </g>
+    </mask>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="-9" y="-8" width="520.95" height="25.27"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-7">
+      <g class="cls-2">
+        <g class="cls-5">
+          <path class="cls-6" d="M290.59,4.92h-18.21c1.6-1.36,3.49-2.36,5.55-2.92h5.48c2.25,1.33,4.66,2.31,7.18,2.92M267.32,10.49l-3.94.05c1.91-2.37,3.11-5.32,3.32-8.54h8.36c-3.52,1.68-6.34,4.68-7.74,8.49M239.58,10.54l-3.94-.05c-1.4-3.81-4.23-6.81-7.74-8.49h8.36c.21,3.22,1.41,6.17,3.32,8.54M219.54,2h5.48c2.06.55,3.95,1.55,5.55,2.92h-18.21c2.52-.61,4.93-1.59,7.18-2.92M502.95,2V0H0v2h218.53c-2.75,1.51-5.74,2.49-8.85,2.92H0v1h231.62c1.4,1.46,2.51,3.23,3.19,5.23l.11.33,5.55.07c2.78,2.9,6.68,4.71,11.01,4.71v-1c-7.53,0-13.7-5.87-14.22-13.27h28.44c-.52,7.4-6.69,13.27-14.22,13.27v1c4.32,0,8.23-1.82,11.01-4.71l5.54-.07.11-.33c.68-2,1.79-3.77,3.19-5.23h231.62v-1h-209.69c-3.11-.43-6.09-1.41-8.84-2.92h218.53Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

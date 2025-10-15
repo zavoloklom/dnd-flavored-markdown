@@ -9,6 +9,7 @@ import { useAbilityScores } from '../plugins/abilityscores';
 import { useContainer } from '../plugins/container';
 import { useBlockquoteDescription } from '../plugins/blockquote-description';
 import { useDcInline } from '../plugins/dc';
+import { useChapter } from '../plugins/chapter';
 
 import type MarkdownIt from 'markdown-it';
 
@@ -20,6 +21,7 @@ export function applyDfmPlugins(md: MarkdownIt) {
     useAbilityScores(md);
     useBlockquoteDescription(md);
     useDcInline(md);
+    useChapter(md);
 
     /** Must be last **/
     useContainer(md);

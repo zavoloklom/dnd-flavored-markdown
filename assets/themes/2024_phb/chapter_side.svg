@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70.19 16.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-7 {
+        fill: #bba273;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="70.19" height="16.71"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="-9" y="-8" width="88.19" height="25.71" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="-307.49" y1="482.96" x2="-306.49" y2="482.96" gradientTransform="translate(21584.24 33909.49) scale(70.19 -70.19)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".02" stop-color="#000"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="-9" y="-8" width="88.19" height="25.71" maskUnits="userSpaceOnUse">
+      <g class="cls-3">
+        <rect class="cls-4" width="70.19" height="16.71"/>
+      </g>
+    </mask>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="-9" y="-8" width="88.19" height="25.71"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-6">
+      <g class="cls-2">
+        <g class="cls-5">
+          <path class="cls-7" d="M7.83,14.41c.1-1.17.07-2.33-.09-3.46h4.16c-1.76.92-3.15,2.33-4.07,3.46M70.19,9.95H7.56C6.72,5.89,4.24,2.26.52,0L0,.86c5.32,3.22,7.93,9.45,6.5,15.49l.92.36c.03-.06,3.35-5.72,8.2-5.72v-.04h54.58v-1Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

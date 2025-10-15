@@ -1,5 +1,7 @@
 ::: page {layout="auto"}
 
+::: chapter Chapter 7 | Spells
+
 # Warlock Subclasses
 
 A Warlock subclass is a specialization that grants you features at certain Warlock levels, as specified in the subclass.

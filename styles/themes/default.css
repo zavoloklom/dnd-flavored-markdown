@@ -66,6 +66,14 @@
     --dc-background-color: #f9f9f9;
     --dc-border-color: #bbb;
 
+    /** Chapter **/
+    --chapter-font-family: var(--font-serif-sc);
+    --chapter-subtitle-color: #9D7E5B;
+    --chapter-subtitle-font-size: 22pt;
+    --chapter-title-color: linear-gradient(to bottom, #58180d 0%, #58180d 60%, #9D7E5B 100%);
+    --chapter-title-stroke-color: #EAEAEA;
+    --chapter-title-font-size: 46pt;
+
     /** Stat Block **/
     --stat-block-background: #f5f3ee;
     --stat-block-border-color: #afa47a;
