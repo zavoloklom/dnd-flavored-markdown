@@ -67,7 +67,8 @@ async function renderCurrent() {
 
     root.innerHTML = wrapIntoPages(bodyHtml, {
         showPageNumbers: normalizeBoolean(frontmatter['show-page-numbers']) ?? false,
-        contentsPageNumber: String(frontmatter['contents-page-number'] ?? '')
+        contentsPageNumber: String(frontmatter['contents-page-number'] ?? ''),
+        footnoteDefault: (frontmatter['footnote'] as any) // 'auto' | 'none' | string
     })
 
     // 🔧 починить относительные изображения относительно каталога MD

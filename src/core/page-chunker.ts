@@ -1,12 +1,14 @@
-import { escapeHtml } from '../utils/escape-html';
+import { escapeHtml } from '../utils/escape-html'
 import { buildDataAttrsString } from '../utils/blockAttrs'
-import {normalizeBoolean} from "../utils/normalize-boolean";
+import { normalizeBoolean } from '../utils/normalize-boolean'
 
-type DataAttrs = Record<string, string>;
+type DataAttrs = Record<string, string>
 interface Options {
-    contentsPageNumber?: string;
-    showPageNumbers?: boolean;            // фронтматтер: show-page-numbers
-    numberFormat?: (n: number) => string; // опционально, если хочешь кастомную авто-форматную функцию
+    contentsPageNumber?: string
+    showPageNumbers?: boolean
+    numberFormat?: (n: number) => string
+    /** Глобальный дефолт футера: 'auto' | 'none' | строка */
+    footnoteDefault?: 'auto' | 'none' | string
 }
 
 const RE = /<div\s+class=["'](page-start|page-break)["']([^>]*)><\/div>\s*/gi
@@ -14,60 +16,84 @@ const RE = /<div\s+class=["'](page-start|page-break)["']([^>]*)><\/div>\s*/gi
 export function wrapIntoPages(html: string, opts: Options = {}): string {
     const pages: Array<{ data: DataAttrs; html: string }> = []
     let cursor = 0
-    let currentData: DataAttrs = {}   // активные data-* атрибуты страницы (layout и пр.)
+    let currentData: DataAttrs = {}
 
     let m: RegExpExecArray | null
     while ((m = RE.exec(html))) {
         const before = html.slice(cursor, m.index)
-        const kind = m[1]                               // "page-start" | "page-break"
-        const attrs = parseDataAttrs(m[2])              // data-*
+        const kind = m[1]                 // "page-start" | "page-break"
+        const attrs = parseDataAttrs(m[2])
 
         if (kind === 'page-start') {
-            // закрыть предыдущую страницу (если есть контент)
             if (pages.length > 0 || before.trim() !== '') {
                 pages.push({ data: currentData, html: before })
             }
-            // начать новую страницу с атрибутами из маркера
             currentData = attrs
         } else {
-            // page-break — завершить страницу, атрибуты сохраняются для следующей
             pages.push({ data: currentData, html: before })
-            // currentData не меняем
+            // currentData сохраняем
         }
         cursor = m.index + m[0].length
     }
 
-    // хвост в последнюю страницу
     const tail = html.slice(cursor)
     pages.push({ data: currentData, html: tail })
 
-    // убрать технические пустышки посреди документа
     const filtered = pages.filter((p, i) => !(i < pages.length - 1 && p.html.trim() === ''))
 
-    // глобальная опция
-    const showGlobal = !!opts.showPageNumbers;
-    const fmt = opts.numberFormat ?? ((n: number) => String(n));
-    const contentsPageNumber = opts.contentsPageNumber || null;
+    // ── Глобальные опции
+    const showGlobal = !!opts.showPageNumbers
+    const fmt = opts.numberFormat ?? ((n: number) => String(n))
+    const contentsPageNumber = opts.contentsPageNumber || null
+    const footnoteDefault = normalizeFootnoteSetting(opts.footnoteDefault)
 
-    // собрать выходной HTML
+    // ── Вычислим «эффективную» главу для каждой страницы и занесём в массив
+    const pageChapters: string[] = []
+    let lastChapter: string | '' = ''
+
+    for (let i = 0; i < filtered.length; i++) {
+        const p = filtered[i]
+        const declared = (p.data['chapter'] ?? '').trim() || ''
+        const prevLast = lastChapter
+        const foundOnPage = extractFirstChapterText(p.html) // из HTML страницы
+        // Эффективная глава этой страницы:
+        const effective = declared || foundOnPage || prevLast || ''
+        pageChapters.push(effective)
+        // Обновим глобальную «последнюю встреченную» главу, если на странице нашли новую
+        if (foundOnPage) lastChapter = foundOnPage
+    }
+
+    // ── Сборка выходного HTML
     let auto = 1
     return filtered.map((p, i) => {
-        // 1) вычисляем «отображаемый» номер для этой страницы
-        // приоритет: data-page-number (из ::: page {...}) → авто (строка)
-        const override = p.data['page-number']         // может быть любой строкой
-        const display = (override !== undefined && override !== '')
-            ? String(override)
-            : fmt(auto)
+        // отображаемый номер
+        const override = p.data['page-number']
+        const display = (override !== undefined && override !== '') ? String(override) : fmt(auto)
 
-        // 2) решить, показывать ли футер: глобально ИЛИ локально
+        // показывать номер?
         const showLocal = normalizeBoolean(p.data['show-page-number'])
-        const show = (showLocal !== null) ? showLocal : showGlobal;
+        const show = (showLocal !== null) ? showLocal : showGlobal
 
-        const footnote = p.data['footnote'] ?? ''
+        // глава этой страницы
+        const chapterText = pageChapters[i]
 
-        const html = renderPage(i + 1, p.data, p.html, display, show, footnote, contentsPageNumber)
-        auto++ // авто-счётчик всё равно бежит последовательно
-        return html
+        // итоговый текст футера (локальное всегда сильнее глобального)
+        const localFoot = normalizeFootnoteSetting(p.data['footnote'])
+        const footText = selectFootnoteText(localFoot, footnoteDefault, chapterText)
+
+        const htmlOut = renderPage(
+            i + 1,
+            p.data,
+            p.html,
+            display,
+            show,
+            footText,
+            contentsPageNumber,
+            chapterText
+        )
+
+        auto++
+        return htmlOut
     }).join('\n')
 }
 
@@ -79,19 +105,90 @@ function parseDataAttrs(attrStr: string): DataAttrs {
     return out
 }
 
-function renderPage(pageIndex: number, data: DataAttrs, inner: string, pageNumberText: string, showNumber: boolean, footnoteText: string, contentsPageNumber: string|null): string {
-    // не дублируем специальные ключи при рендере data-* (они идут отдельно)
-    const { ['page-number']: _pn, ['show-page-number']: _sp, ['footnote']: _fn, ...rest } = data
+/** Ищет первую главу в HTML страницы и возвращает «A | B» или только «B». */
+function extractFirstChapterText(html: string): string {
+    // Найдём первый <div class="chapter"...>...</div>
+    const chapterRegExp = /<div\b(?=[^>]*\bdata-kind=(?:"|')chapter["'])[^>]*\bdata-value=["']([^"']*)["'][^>]*>/i.exec(html)
+    if (!chapterRegExp) return ''
+    const chapter = chapterRegExp[1];
 
-    const ds = buildDataAttrsString(rest);
+    return chapter || ''
+}
+
+/** Убираем теги и пробелы внутри главы (текст внутри subtitle/title). */
+function cleanText(s: string): string {
+    const noTags = s.replace(/<[^>]*>/g, '')
+    return noTags.replace(/\s+/g, ' ').trim()
+}
+
+/** 'auto' | 'none' | строка → нормализованное значение */
+function normalizeFootnoteSetting(v: string | undefined | null | Options['footnoteDefault']): { kind: 'auto' | 'none' | 'text'; text?: string } | null {
+    if (v == null) return null
+    const s = String(v).trim()
+    const sl = s.toLowerCase()
+    if (sl === 'auto') return { kind: 'auto' }
+    if (sl === 'none') return { kind: 'none' }
+    return { kind: 'text', text: s }
+}
+
+/** Выбор итогового текста футера по локальному/глобальному значению и главе. */
+function selectFootnoteText(
+    local: ReturnType<typeof normalizeFootnoteSetting>,
+    global: ReturnType<typeof normalizeFootnoteSetting>,
+    chapter: string
+): string {
+    const pick = (x: ReturnType<typeof normalizeFootnoteSetting>) => {
+        if (!x) return ''
+        if (x.kind === 'none') return ''
+        if (x.kind === 'auto') return chapter || ''
+        return x.text ?? ''
+    }
+    return local ? pick(local) : pick(global)
+}
+
+function renderPage(
+    pageIndex: number,
+    data: DataAttrs,
+    inner: string,
+    pageNumberText: string,
+    showNumber: boolean,
+    footnoteText: string,
+    contentsPageNumber: string | null,
+    chapterText?: string
+): string {
+    // не дублируем специальные ключи
+    const {
+        ['page-number']: _pn,
+        ['show-page-number']: _sp,
+        ['footnote']: _fn,
+        ['chapter']: _ch,
+        ...rest
+    } = data
+
+    const ds = buildDataAttrsString(rest)
+
     const footnote = footnoteText
         ? `<div class="footnote" aria-hidden="true">${escapeHtml(footnoteText)}</div>`
         : ''
+
     const pageNumberBlock = contentsPageNumber
         ? `<a class="page-number" aria-hidden="true" href="#p${contentsPageNumber}">${escapeHtml(pageNumberText)}</a>`
-        : `<div class="page-number" aria-hidden="true">${escapeHtml(pageNumberText)}</div>`;
+        : `<div class="page-number" aria-hidden="true">${escapeHtml(pageNumberText)}</div>`
 
     const pageNumber = showNumber ? pageNumberBlock : ''
-    // меняем data-page → data-page-number (как просил)
-    return `<section id="p${pageIndex}" class="page" data-page-count="${pageIndex}" data-page-number="${escapeHtml(pageNumberText)}"${ds}>${inner}${footnote}${pageNumber}</section>`
+
+    // data-атрибут с главой (если есть)
+    const dataChapterAttr = chapterText && chapterText.trim().length
+        ? ` data-chapter="${escapeAttr(chapterText)}"`
+        : ''
+
+    return `<section id="p${pageIndex}" class="page" data-page-count="${pageIndex}" data-page-number="${escapeHtml(pageNumberText)}"${dataChapterAttr}${ds}>${inner}${footnote}${pageNumber}</section>`
+}
+
+function escapeAttr(s: string): string {
+    return s
+        .replace(/&/g,'&amp;')
+        .replace(/"/g,'&quot;')
+        .replace(/</g,'&lt;')
+        .replace(/>/g,'&gt;')
 }

@@ -56,6 +56,6 @@ export function useChapter(md: MarkdownIt) {
 
         // ⬇️ добавим data-* на корневой div
         const dataStr = buildDataAttrsString(data)
-        return `<div class="chapter"${dataStr}>${subHtml}${titleHtml}</div>\n`
+        return `<div class="chapter" data-kind="chapter" data-value="${escapeHtml(text)}" ${dataStr}>${subHtml}${titleHtml}</div>\n`
     }
 }
