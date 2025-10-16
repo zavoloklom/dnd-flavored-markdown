@@ -96,20 +96,28 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 ::: toc
 
 - [About the Adventure](#about-the-adventure)
-- [Setting and Constraints](#setting-and-constraints)
-- [Backstory](#backstory)
-- [Story Overview](#story-overview)
-- [Advice for the DM](#advice-for-the-dm)
-- [Chapter 1 | Arrival](#adventure-hook)
+- [Introduction](#setting-and-constraints)
+  - [Setting and Constraints](#setting-and-constraints)
+  - [Backstory](#backstory)
+  - [Story Overview](#story-overview)
+  - [Advice for the DM](#advice-for-the-dm)
+- [Chapter 1: Arrival](#adventure-hook)
   - [Adventure Hook](#adventure-hook)
   - [Dragonwing Map](#dragonwing-map)
   - [Arrival in Town](#arrival-in-town)
+- [Chapter 2: San-Soprigal](#)
+- [Chapter 3: Catacombs](#)
+- [Chapter 4: Conclusion](#)
+- [Appendix: NPC](#)
+- [Appendix: Magic Items](#)
+- [Appendix: Monsters](#)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
+- [Appendix: Music and Generators](#)
 
 :::
 
-::: page
+::: page {footnote="Introduction"}
 
 # Setting and Constraints
 
@@ -177,9 +185,9 @@ usually without a direct reply.
 <!-- prettier-ignore -->
 ![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 110%; object-fit: contain; bottom: -25px;"}
 
-::: page {layout="left"}
+::: page {layout="left" footnote="Introduction"}
 
-# Backstory
+# Backstory 
 
 ## The Dragonwing Peninsula
 
@@ -221,7 +229,7 @@ healed.
 <!-- prettier-ignore -->
 [//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
 
-::: page
+::: page {footnote="Introduction"}
 
 # Story Overview
 
@@ -279,13 +287,13 @@ _Narvail (February)_
 - The following month he didn’t place an order, and Maria didn’t find that unusual.
 - After Rosa’s arrival—and under Günter’s influence—Maria fears arrest for dabbling in magic.
 
-::: page
+::: page {footnote="Introduction"}
 
 ## The Abandoned District
 
 _Early Lotviel (April)_
 
-- At night, **Bertram** (a local drunk) falls into an old well in the Abandoned District that opens into the catacombs
+- At night, **Bertram** (a local drunk) falls into an old well in the **Abandoned District** that opens into the catacombs
   and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
 - **Children** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,” they
   stopped going there.
@@ -297,7 +305,7 @@ _Early Lotviel (April)_
 _12 Lotviel (April), Tuesday_
 
 - After talking with her friend **Karra**, Maria decides to end things with Günter—but puts off the conversation.
-- In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to **propose** to Maria at sunset.
+- In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to propose to Maria at sunset.
 - Maria heads for the tower, but when she spots Rosa returning to town, she detours into the Abandoned District to avoid
   her.
 - At the old well, Maria notices a strange smell. She steps closer, and the starving spiders drag her down. Trying to
@@ -320,7 +328,7 @@ _13 Lotviel (April), Wednesday_
 <!-- prettier-ignore -->
 ![Cover_Image](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
 
-::: page
+::: page {footnote="Introduction"}
 
 # Advice for the DM
 
@@ -401,12 +409,12 @@ The characters are a band of adventurers bound for the city of **Kartal** to ful
 carry his ashes home and lay him to rest there.
 
 Because of recent attacks on merchant vessels and dangers along the coast, sea travel is temporarily closed. The only
-way to Karthal is overland, through the **Holy Empire**. The party decides to make landfall at **San-Soprigal** and
+way to Karthal is overland, through the Holy Empire. The party decides to make landfall at **San-Soprigal** and
 continue by road.
 
 This introduction sets the table’s tone and briefly explains the backdrop.
 
-> Azalia. 13 Lotviel, year 567 AF—**After the Fall** of the Great Empire.
+> Azalia. 13 Lotviel, year 567 AF—After the Fall of the Great Empire.
 >
 > The Church teaches that angels created the Great Empire—and the whole world. There was no hunger, no plague, no war,
 > and humans lived in peace with dwarves, orcs, and—even if it’s hard to believe—elves. They say elves were different
@@ -424,7 +432,7 @@ This introduction sets the table’s tone and briefly explains the backdrop.
 > the small coastal town of San-Soprigal and continue overland.
 
 As the party nears town, memories surface. Ask the players to briefly describe how their characters met each other—and
-how they met **Jared**.
+how they met Jared.
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 20px; object-position: -90px -90px;"}
@@ -467,7 +475,7 @@ autumn storms.
 **Portgate.** A fortress at the eastern passes; the governor’s seat and the peninsula’s main customs post. It controls
 movement between the peninsula and the Empire.
 
-**The Eye.** On a lake shaped like an eye stands an ancient structure known as **the Eye**.
+**The Eye.** On a lake shaped like an eye stands an ancient structure known as the Eye.
 
 **Connection to the Empire.** A mountain chain separates the peninsula from the rest of the Empire. The only land route
 runs through the northeastern passes, which are closed in foul weather.
@@ -575,7 +583,7 @@ becoming undead.
 The **Black Meduza** is a transregional network of smugglers and thieves’ guilds. Specialties: “gray routes,” illicit
 logistics, extortion, bespoke thefts, and financial services for the underworld and the nobility alike.
 
-::: page {layout="wide" footnote="Appendix | Pantheon"}
+::: page {footnote="Appendix | Pantheon"}
 
 # Appendix: Pantheon
 
@@ -585,6 +593,10 @@ by one or more angels.
 A character may honor any angel—or several. This choice grants no additional mechanical benefits to any class. For
 druids and paladins, it may be part of their concept. For clerics, mechanics are determined by the chosen domain, not by
 the specific angel. If the domain you want isn’t listed, choose the closest angel by aspect from the table.
+
+::: wide
+
+#### Pantheon
 
 | Angel        | Description                            | Primary Followers                         | Cleric Domain(s)  |
 | :----------- | :------------------------------------- | :---------------------------------------- | :---------------- |
@@ -599,5 +611,7 @@ the specific angel. If the domain you want isn’t listed, choose the closest an
 | **Samael**   | Embodiment of calm and balance         | Sages, diplomats, monks                   | Peace             |
 | **Lokiel**   | Trickster of shadows and masks         | Thieves, spies, con artists, adventurers  | Trickery          |
 | **Torviel**  | Embodiment of the destructive tempest  | Sailors, devotees of destruction          | Tempest           |
+
+:::
 
 ![panteon](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:0;left:0;width:100%;z-index:-1"}

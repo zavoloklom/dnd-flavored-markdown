@@ -99,10 +99,11 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 ::: toc
 
 - [О приключении](#о-приключении)
-- [Сеттинг и ограничения](#сеттинг-и-ограничения)
-- [Предыстория](#предыстория)
-- [История происшествия](#история-происшествия)
-- [Советы Мастеру](#советы-мастеру)
+- [Введение](#сеттинг-и-ограничения)
+  - [Сеттинг и ограничения](#сеттинг-и-ограничения)
+  - [Предыстория](#предыстория)
+  - [История происшествия](#история-происшествия)
+  - [Советы Мастеру](#советы-мастеру)
 - [Глава 1: Прибытие](#завязка)
   - [Завязка](#завязка)
   - [Карта полуострова](#карта-полуострова)
@@ -156,7 +157,7 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 
 :::
 
-::: page
+::: page {footnote="Введение"}
 
 # Сеттинг и ограничения
 
@@ -225,7 +226,7 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 <!-- prettier-ignore -->
 ![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 105%; object-fit: contain; bottom: -75px;"}
 
-::: page {layout="left"}
+::: page {layout="left" footnote="Введение"}
 
 # Предыстория
 
@@ -270,7 +271,7 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 <!-- prettier-ignore -->
 [//]: # (По слухам, в последние дни мёртвые поднялись и сражались на стороне живых. Церковь категорически запрещает обсуждать эти рассказы, считая их ересью.)
 
-::: page
+::: page {footnote="Введение"}
 
 # История происшествия
 
@@ -327,7 +328,7 @@ _Нарваил (февраль)_
 - В следующем месяце Абрахам за ингредиентами не обращался, и Мария не посчитала это странным.
 - После приезда Розы и под влиянием теорий Гюнтера Мария боится ареста за изучение магии.
 
-::: page
+::: page {footnote="Введение"}
 
 ## Заброшенный Район
 
@@ -368,7 +369,7 @@ _13 Лотвиэля (апреля), среда_
 <!-- prettier-ignore -->
 ![Cover_Image](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
 
-::: page {layout="auto"}
+::: page {layout="auto" footnote="Введение"}
 
 # Советы Мастеру
 
