@@ -49,6 +49,7 @@
 
 .chapter__title {
     position: relative;
+    display: block;
 
     font-family: var(--chapter-font-family, sans-serif), sans-serif;
     font-size: var(--chapter-title-font-size, 46pt);
@@ -60,6 +61,11 @@
     /* градиент меняет цвет по вертикали,
        к 80% уже почти конечный цвет */
     background: var(--chapter-title-color, #58180d);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+
+    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;

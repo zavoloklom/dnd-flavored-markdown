@@ -70,7 +70,7 @@
     --chapter-font-family: var(--font-serif-sc);
     --chapter-subtitle-color: #9D7E5B;
     --chapter-subtitle-font-size: 22pt;
-    --chapter-title-color: linear-gradient(to bottom, #58180d 0%, #58180d 60%, #9D7E5B 100%);
+    --chapter-title-color: url("../../assets/masks/gradient_60px.png"); /** linear-gradient(to bottom, #58180d 0%, #58180d 60%, #9D7E5B 100%); **/
     --chapter-title-stroke-color: #EAEAEA;
     --chapter-title-font-size: 46pt;
 
