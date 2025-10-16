@@ -560,6 +560,8 @@ evening, a thick fog rolls in.
 
 Visual reference: Mediterranean towns such as Atrani (Italy).
 
+The town is divided into several districts—Dockside District, Craft District, Abandoned District, Velvet Row, and Central District.
+
 You can hand the players a **map without labels** after speaking with **Hurgkhan** or **Duncan**, or if they explicitly
 ask to “get the lay of the town.”
 
