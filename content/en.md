@@ -187,7 +187,7 @@ usually without a direct reply.
 
 ::: page {layout="left" footnote="Introduction"}
 
-# Backstory 
+# Backstory
 
 ## The Dragonwing Peninsula
 
@@ -293,8 +293,8 @@ _Narvail (February)_
 
 _Early Lotviel (April)_
 
-- At night, **Bertram** (a local drunk) falls into an old well in the **Abandoned District** that opens into the catacombs
-  and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
+- At night, **Bertram** (a local drunk) falls into an old well in the **Abandoned District** that opens into the
+  catacombs and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
 - **Children** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,” they
   stopped going there.
 - Relocating their games to the **Artisans’ Quarter**, the children break a window in Abraham’s house. Jonas learns his
@@ -409,8 +409,8 @@ The characters are a band of adventurers bound for the city of **Kartal** to ful
 carry his ashes home and lay him to rest there.
 
 Because of recent attacks on merchant vessels and dangers along the coast, sea travel is temporarily closed. The only
-way to Karthal is overland, through the Holy Empire. The party decides to make landfall at **San-Soprigal** and
-continue by road.
+way to Karthal is overland, through the Holy Empire. The party decides to make landfall at **San-Soprigal** and continue
+by road.
 
 This introduction sets the table’s tone and briefly explains the backdrop.
 
