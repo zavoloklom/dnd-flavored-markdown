@@ -1,0 +1,53 @@
+.mask {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+/** Page Backgrounds **/
+.mask.mask--background-right-half {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 4mm; /** Need gap / 2 **/
+
+    mask: url(/assets/masks/background_right-half.png) center / cover no-repeat;
+}
+.mask.mask--background-left-half {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 4mm; /** Need gap / 2 **/
+
+    mask: url(/assets/masks/background_left-half.png) center / cover no-repeat;
+}
+.mask.mask--background-bottom-third-01 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    mask: url(/assets/masks/background_bottom-third-01.png) center bottom / contain no-repeat;
+}
+
+
+.mask.mask--watercolor-01 {
+    mask: url(/assets/masks/mask-01.png) luminance center / contain no-repeat;
+}
+.mask.mask--watercolor-02 {
+    mask: url(/assets/masks/mask-02.png) luminance center / contain no-repeat;
+}
+.mask.mask--watercolor-03 {
+    mask: url(/assets/masks/mask-03.png) luminance center / contain no-repeat;
+}
+.mask.mask--watercolor-04 {
+    mask: url(/assets/masks/mask-04.png) luminance center / contain no-repeat;
+}
+.mask.mask--watercolor-05 {
+    mask: url(/assets/masks/mask-05.png) luminance center / contain no-repeat;
+}
+.mask.mask--watercolor-06 {
+    mask: url(/assets/masks/mask-06.png) luminance center / contain no-repeat;
+}
