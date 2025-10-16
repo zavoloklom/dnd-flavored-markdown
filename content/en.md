@@ -105,7 +105,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Adventure Hook](#adventure-hook)
   - [Dragonwing Map](#dragonwing-map)
   - [Arrival in Town](#arrival-in-town)
-- [Chapter 2: San Soprigal](#p12)
+- [Chapter 2: San Soprigal](#san-soprigal-map)
 - [Chapter 3: Catacombs](#)
 - [Chapter 4: Conclusion](#)
 - [Appendix: NPC](#)
@@ -237,42 +237,45 @@ healed.
 
 _3 Narvail (February)_
 
-- A necromancer, **Abraham**, arrives in town. He previously conducted forbidden experiments with spiders in the
-  **United States of Magic Art** and is now in hiding, hoping to continue his research in seclusion.
-- He rents a house from **Jonas** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham knows
+- A necromancer, **[Abraham](#)**, arrives in town. He previously conducted forbidden experiments with spiders in the
+  **[United States of Magic Art](#appendix-states-and-organizations)** and is now in hiding, hoping to continue his
+  research in seclusion.
+- He rents a house from **[Jonas](#)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham knows
   about this house—and the passage—through old contacts: a fellow necromancer once lived in the town. Jonas doesn’t know
   about the secret passage into the catacombs.
-- Abraham places an order with his smuggler contacts in **Black Meduza** for “goods”—his custom-bred spiders.
+- Abraham places an order with his smuggler contacts in **[Black Meduza](#appendix-states-and-organizations)** for
+  “goods”—his custom-bred spiders.
 - He locks himself in the cellar and doesn’t show his face around town. Rumors spread that he’s a mage.
 
 ## Arrival of Rosa
 
-_1 Betalasse (March)_
+_1 Bethalasse (March)_
 
-- **Rosa** (a paladin of the **Church of Light**) arrives in San Soprigal and keeps the purpose of her visit secret. She
-  refuses to recognize local authority and acts under a covert mandate.
-- She lodges at the **Temple** and periodically leaves town for several days at a time.
+- **[Rosa](#)** (a paladin of the **[Church of Light](#appendix-states-and-organizations)**) arrives in San Soprigal and
+  keeps the purpose of her visit secret. She refuses to recognize local authority and acts under a covert mandate.
+- She lodges at the **[Temple](#san-soprigal-map)** and periodically leaves town for several days at a time.
 - Her mission is to investigate recent attacks on merchants in the region and to recover a stolen church relic.
 
 ## The Delivery
 
-_1 Betalasse (March)_
+_1 Bethalasse (March)_
 
-- Smugglers **Peter** and **Boshir** bring contraband and crates of spiders to the cove beneath the town.
+- Smugglers **[Peter](#)** and **[Boshir](#)** bring contraband and crates of spiders to the cove beneath the town.
 - That evening, posing as traders, they drink in the tavern, hit on Rosa, and start a brawl.
 - At night they descend into the catacombs to unload the boat. A large crate slips and breaks. The starving spiders
   attack and kill them both.
-- Their room still contains the “trader” clothing they used as a cover. When the innkeeper **Helmut** realizes the
-  guests are gone, he hands the clothes to the server **Kenki**.
+- Their room still contains the “trader” clothing they used as a cover. When the innkeeper **[Helmut](#)** realizes the
+  guests are gone, he hands the clothes to the server **[Kenki](#)**.
 - The next day, with no men or cargo arriving, Abraham goes into the catacombs himself. The spiders kill him as well.
 - The guard doesn’t search for Peter and Boshir: their papers mark them as ordinary merchants who often leave without
   fanfare.
 
 ## Maria & Günter
 
-_Narvail–Lotviel (February–April)_
+_Narvail–Lothviel (February–April)_
 
-- **Maria**, an incense merchant, secretly meets **Günter**—a town guard—on the watchtower during his night shifts.
+- **[Maria](#)**, an incense merchant, secretly meets **[Günter](#)**—a town guard—on the [Watchtower](#) during his
+  night shifts.
 - Günter becomes obsessed with tying the disappearances to Rosa, whom he assumes is an inquisitor.
 - His paranoia rubs off on Maria. She avoids Rosa and stops visiting the Temple, though she once went often.
 - Tensions rise, and the two quarrel.
@@ -283,7 +286,7 @@ _Narvail (February)_
 
 - Maria supplied Abraham with ingredients needed for his spider venom experiments.
 - Abraham paid a month in advance and asked for discretion.
-- In thanks, he gave Maria a scroll with a simple spell and instructions.
+- In thanks, he gave Maria a [scroll with a simple spell](#) and instructions.
 - The following month he didn’t place an order, and Maria didn’t find that unusual.
 - After Rosa’s arrival—and under Günter’s influence—Maria fears arrest for dabbling in magic.
 
@@ -291,35 +294,36 @@ _Narvail (February)_
 
 ## The Abandoned District
 
-_Early Lotviel (April)_
+_Early Lothviel (April)_
 
-- At night, **Bertram** (a local drunk) falls into an old well in the **Abandoned District** that opens into the
-  catacombs and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
-- **Children** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,” they
-  stopped going there.
-- Relocating their games to the **Artisans’ Quarter**, the children break a window in Abraham’s house. Jonas learns his
-  lodger is gone, but he doesn’t inform the guard—he fears unwanted attention and prefers to assume the mage moved on.
+- At night, **[Bertram](#)** (a local drunk) falls into an old well in the **[Abandoned District](#)** that opens into
+  the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
+- **[Children](#)** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,”
+  they stopped going there.
+- Relocating their games to the **[Artisans’ Quarter](#san-soprigal-map)**, the children break a window in
+  [Abraham’s house](#). Jonas learns his lodger is gone, but he doesn’t inform the guard—he fears unwanted attention and
+  prefers to assume the mage moved on.
 
 ## Maria’s Disappearance
 
-_12 Lotviel (April), Tuesday_
+_12 Lothviel (April), Tuesday_
 
-- After talking with her friend **Karra**, Maria decides to end things with Günter—but puts off the conversation.
+- After talking with her friend **[Karra](#)**, Maria decides to end things with Günter—but puts off the conversation.
 - In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to propose to Maria at sunset.
 - Maria heads for the tower, but when she spots Rosa returning to town, she detours into the Abandoned District to avoid
   her.
-- At the old well, Maria notices a strange smell. She steps closer, and the starving spiders drag her down. Trying to
-  fend them off with a spell, she collapses the old masonry and the shaft caves in.
+- At [the old well](#), Maria notices a strange smell. She steps closer, and the starving spiders drag her down. Trying
+  to fend them off with a spell, she collapses the old masonry and the shaft caves in.
 - Günter waits for Maria, grows anxious, but doesn’t abandon his post.
-- **Gaston** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That night he tries
-  to reach the cove, but sailors spot him, and he retreats.
+- **[Gaston](#)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That night he
+  tries to reach [the cove by the sea (number 11 on the map)](#san-soprigal-map), but sailors spot him, and he retreats.
 
 ## Maria Is Reported Missing
 
-_13 Lotviel (April), Wednesday_
+_13 Lothviel (April), Wednesday_
 
-- In the morning, Günter finds Maria’s shop closed and no one answering at her home. He convinces **Hurgkhan** to force
-  the door and open an investigation.
+- In the morning, Günter finds Maria’s shop closed and no one answering at her home. He convinces **[Hurgkhan](#)** to
+  force the door and open an investigation.
 - Hurgkhan locks down the town for the duration of the investigation to maintain order and control departures. It’s a
   good chance to remind the townsfolk who’s in charge and to show he’s on top of his duties. He believes Maria will turn
   up within a few hours.
@@ -367,7 +371,7 @@ Below is an example of how events may unfold if the heroes don’t intervene.
 
 ### Day One
 
-_13 Lotviel (April), Wednesday_
+_13 Lothviel (April), Wednesday_
 
 - Günter prepares and posts missing-person flyers for Maria across town.
 - **Hurgkhan vs. Rosa:** Rosa tries to leave town; guards stop her at the gate.
@@ -376,7 +380,7 @@ _13 Lotviel (April), Wednesday_
 
 ### Day Two
 
-_14 Lotviel (April), Thursday_
+_14 Lothviel (April), Thursday_
 
 - **Maria dies in the catacombs** if she has not been rescued.
 - Gaston may approach the heroes, asking them to escort him into the catacombs.
@@ -414,7 +418,7 @@ by road.
 
 This introduction sets the table’s tone and briefly explains the backdrop.
 
-> Azalia. 13 Lotviel, year 567 AF—After the Fall of the Great Empire.
+> Azalia. 13 Lothviel, year 567 AF—After the Fall of the Great Empire.
 >
 > The Church teaches that angels created the Great Empire—and the whole world. There was no hunger, no plague, no war,
 > and humans lived in peace with dwarves, orcs, and—even if it’s hard to believe—elves. They say elves were different
@@ -537,6 +541,8 @@ After passing the gate, the characters arrive at **[Maria’s House](#marias-hou
 
 :::
 
+## San Soprigal Map
+
 The town has several key locations that may aid the players’ investigation:
 
 1. [The Dock](#)
@@ -654,3 +660,26 @@ the specific angel. If the domain you want isn’t listed, choose the closest an
 :::
 
 ![Illustration](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:0;left:0;width:100%;z-index:-1"}
+
+::: page {layout="left" footnote="Appendix | Month Names"}
+
+# Appendix: Month Names
+
+Month names and their translations from the ancient tongue into Common.
+
+1. Sicthor – The Hewing/Chopping One
+2. Narvail – Cruel Fire
+3. Bethalasse – Birch-Month
+4. Lothviel – Blooming
+5. Syrvelis – Herb-Month
+6. Caranthir – Red
+7. Lindalas – Linden-Month
+8. Serpeon – Harvest-Month
+9. Brethilien – Heather-Month
+10. Maltheris – Golden
+11. Lassandir – Falling Leaf
+12. Losserion – Snow-Month
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/calendar.png){class="mask mask--background-right-half" style="object-position: 200px center;"}
+
