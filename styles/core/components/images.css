@@ -24,7 +24,7 @@
     height: 100%;
     object-fit: cover;   /* картинка заполняет «окно» рамки */
 
-    --frame-image-mask-corner-radius: 20px;
+    --frame-image-mask-corner-radius: 4.5%;
     mask-image:
             linear-gradient(#fff, #fff),
             radial-gradient(circle at left  top,    #fff var(--frame-image-mask-corner-radius), transparent calc(var(--frame-image-mask-corner-radius) + 1px)),
@@ -39,4 +39,9 @@
             add,
             add,
             add;
+}
+
+.framed-map {
+    width:100%;
+    border: 3mm solid #beaa86;
 }

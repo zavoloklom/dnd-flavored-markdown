@@ -83,8 +83,11 @@ a:visited {
 ul {
     list-style-position: outside;
     list-style-type: disc;
-
     padding-left: 5mm;
+    margin: 1mm 0;
+}
+ol {
+    padding-left: 6mm;
     margin: 1mm 0;
 }
 

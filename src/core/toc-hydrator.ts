@@ -40,6 +40,10 @@ export function hydrateToc(
                 return
             }
 
+            if (pageNum !== missing) {
+                a.setAttribute('href', `#p${pageNum}`)
+            }
+
             const row = a
             row.classList.add('toc__row')
 
