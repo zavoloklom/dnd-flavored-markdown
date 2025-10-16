@@ -190,6 +190,8 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 
 **Орки и голиафы** воспринимаются как дешевая рабочая сила и наёмники. При любом конфликте вина обычно ложится на них.
 
+::: column
+
 **Дроу и полуэльфы** сталкиваются с открытой неприязнью. Насилие против них часто остаётся безнаказанным.
 
 **Эльфы** одичали и живут в лесах (неиграбельная раса).
@@ -221,7 +223,7 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 :::
 
 <!-- prettier-ignore -->
-![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-01" style="object-position: center 105%; object-fit: contain; bottom: -65px;"}
+![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 105%; object-fit: contain; bottom: -75px;"}
 
 ::: page {layout="left"}
 
@@ -472,17 +474,13 @@ _14 Лотвиэля (апреля), четверг_
 персонажи познакомились друг с другом и с **Джаредом**.
 
 <!-- prettier-ignore -->
-[//]: # (![Illustration]&#40;./assets/illustrations/arrival.png&#41;{style="object-position: 70%;"} {style="height:518px" class="framed-image"})
-
-<!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 0; object-position: -90px -90px;"}
-
 
 ::: page
 
 ::: wide
 
-![map](./assets/maps/dragonwing-peninsula.jpg){class="framed-map"}
+![map](./assets/maps/dragonwing-peninsula-4k-ru.jpg){class="framed-map"}
 
 :::
 
@@ -492,7 +490,7 @@ _14 Лотвиэля (апреля), четверг_
 местами полуострова. В рамках текущего приключения герои **не покидают город**, поэтому карта не даёт подсказок по
 сюжету и не используется механически.
 
-Покажите её один раз в начале, чтобы задать масштаб и атмосферу.
+Покажите её один раз в начале, чтобы задать масштаб и атмосферу. Один гекс - 12 миль.
 
 Карталь, Портгейт и другие локации остаются на будущее — как направления кампании, если вы решите продолжить историю за
 пределами города.
@@ -567,9 +565,6 @@ _14 Лотвиэля (апреля), четверг_
 > нечто странное.
 
 После прохода через ворота герои попадают в локацию [Дом Марии](#дом-марии).
-
-<!-- prettier-ignore -->
-[//]: # (![Illustration]&#40;./assets/illustrations/city_05.png&#41;{class="absolute-bottom-right mask mask--watercolor-01" style="height:710px; width: 430px; bottom: 50px; object-position: 40px 90px;"})
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/city_05.png) {style="height:500px" class="framed-image"}

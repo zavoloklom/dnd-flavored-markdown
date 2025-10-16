@@ -142,6 +142,8 @@ arm’s length.
 
 **Orcs and goliaths** — seen as cheap labor and hire-swords. In any conflict, blame usually falls on them.
 
+::: column
+
 **Drow and half-elves** — face open hostility. Violence against them often goes unpunished.
 
 **Elves** — feral, living in the forests (not a playable species).
@@ -173,7 +175,7 @@ usually without a direct reply.
 :::
 
 <!-- prettier-ignore -->
-![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-01" style="object-position: center 110%; object-fit: contain; bottom: -25px;"}
+![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 110%; object-fit: contain; bottom: -25px;"}
 
 ::: page {layout="left"}
 
@@ -431,7 +433,7 @@ how they met **Jared**.
 
 ::: wide
 
-![map](./assets/maps/dragonwing-peninsula.jpg){class="framed-map"}
+![map](./assets/maps/dragonwing-peninsula-4k-en.jpg){class="framed-map"}
 
 :::
 
@@ -441,7 +443,7 @@ This map is for orientation only: to show where **San-Soprigal** sits and how it
 peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
 mechanical use.
 
-Show it once at the beginning to set scale and mood.
+Show it once at the beginning to set scale and mood. One hex - 12 miles.
 
 Karthal, Portgate, and other locations are for the future—as campaign directions if you continue the story beyond the
 town.
@@ -515,7 +517,7 @@ Locals can tell you the last time they heard that signal was during the demon on
 After passing the gate, the characters arrive at **[Maria’s House](#marias-house)**.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/city_05.png) {style="height:520px" class="framed-image"}
+![Illustration](./assets/illustrations/city_05.png) {style="height:515px" class="framed-image"}
 
 ::: page {footnote="Appendix | States and Organizations"}
 
