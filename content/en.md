@@ -38,7 +38,7 @@ ver 4.0.0
 
 ## Summary
 
-San-Soprigal is a sleepy coastal town. This morning, everything changed: a beloved merchant has vanished. The garrison
+San Soprigal is a sleepy coastal town. This morning, everything changed: a beloved merchant has vanished. The garrison
 commander has locked down the gates until the truth comes out.
 
 You didn’t come here to play detective, but the town’s knot of lies, rumors, and secrets pulls you in. Every lead can
@@ -52,7 +52,7 @@ A D&D (2024) adventure for 3–4 characters of levels 1–3.
 
 **Estimated runtime:** 10–16 hours.
 
-**Setting:** San-Soprigal (a contained, closed-town scenario). The world Azalia takes inspiration from _Might & Magic X_
+**Setting:** San Soprigal (a contained, closed-town scenario). The world Azalia takes inspiration from _Might & Magic X_
 and Terry Pratchett’s _Discworld_.
 
 **Genres:** investigation-forward, roleplay-heavy, light on combat.
@@ -105,7 +105,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Adventure Hook](#adventure-hook)
   - [Dragonwing Map](#dragonwing-map)
   - [Arrival in Town](#arrival-in-town)
-- [Chapter 2: San-Soprigal](#)
+- [Chapter 2: San Soprigal](#p12)
 - [Chapter 3: Catacombs](#)
 - [Chapter 4: Conclusion](#)
 - [Appendix: NPC](#)
@@ -183,7 +183,7 @@ usually without a direct reply.
 :::
 
 <!-- prettier-ignore -->
-![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 110%; object-fit: contain; bottom: -25px;"}
+![Illustration](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 110%; object-fit: contain; bottom: -25px;"}
 
 ::: page {layout="left" footnote="Introduction"}
 
@@ -197,9 +197,9 @@ independence—especially after the central authority failed to protect the peni
 
 Representatives of the Holy Empire are met with suspicion here, and at times with open hostility.
 
-## San-Soprigal
+## San Soprigal
 
-**San-Soprigal** is an old coastal town on the Empire’s frontier, within the Dragonwing Peninsula.
+**San Soprigal** is an old coastal town on the Empire’s frontier, within the Dragonwing Peninsula.
 
 It was once a key stop on trade routes, thriving on commerce, fishing, and—if rumors are to be believed—smuggling. Wars,
 economic decline, and tighter imperial control took their toll; these days, dignitaries and trade caravans rarely bother
@@ -207,7 +207,7 @@ to visit.
 
 ## The Demon Incursion
 
-About _two years ago_, demonic forces overran the countryside around San-Soprigal, cutting the town off from the outside
+About _two years ago_, demonic forces overran the countryside around San Soprigal, cutting the town off from the outside
 world and laying it under siege. Contact with other cities ceased, and no help arrived.
 
 After a month, the demons vanished as suddenly as they had appeared. Only scattered bands remained, and the town guard
@@ -221,10 +221,10 @@ military command and stayed in the garrison, repurposing the town hall as a publ
 
 The siege left deep scars: faith in the angels has faltered (though few will say so aloud), fear and distrust linger,
 much of the guard was lost, and trade routes grew more perilous. The town seemed destined for ruin, but Hurgkhan
-restored order. San-Soprigal now goes about its daily life again—though the fears and wounds of the past have not
+restored order. San Soprigal now goes about its daily life again—though the fears and wounds of the past have not
 healed.
 
-![Cover_Image](./assets/illustrations/siege.png){class="mask mask--background-right-half"}
+![Illustration](./assets/illustrations/siege.png){class="mask mask--background-right-half"}
 
 <!-- prettier-ignore -->
 [//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
@@ -249,7 +249,7 @@ _3 Narvail (February)_
 
 _1 Betalasse (March)_
 
-- **Rosa** (a paladin of the **Church of Light**) arrives in San-Soprigal and keeps the purpose of her visit secret. She
+- **Rosa** (a paladin of the **Church of Light**) arrives in San Soprigal and keeps the purpose of her visit secret. She
   refuses to recognize local authority and acts under a covert mandate.
 - She lodges at the **Temple** and periodically leaves town for several days at a time.
 - Her mission is to investigate recent attacks on merchants in the region and to recover a stolen church relic.
@@ -323,10 +323,10 @@ _13 Lotviel (April), Wednesday_
 - Hurgkhan locks down the town for the duration of the investigation to maintain order and control departures. It’s a
   good chance to remind the townsfolk who’s in charge and to show he’s on top of his duties. He believes Maria will turn
   up within a few hours.
-- The **adventurers** arrive in San-Soprigal.
+- The **adventurers** arrive in San Soprigal.
 
 <!-- prettier-ignore -->
-![Cover_Image](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+![Illustration](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page {footnote="Introduction"}
 
@@ -409,7 +409,7 @@ The characters are a band of adventurers bound for the city of **Kartal** to ful
 carry his ashes home and lay him to rest there.
 
 Because of recent attacks on merchant vessels and dangers along the coast, sea travel is temporarily closed. The only
-way to Karthal is overland, through the Holy Empire. The party decides to make landfall at **San-Soprigal** and continue
+way to Karthal is overland, through the Holy Empire. The party decides to make landfall at **San Soprigal** and continue
 by road.
 
 This introduction sets the table’s tone and briefly explains the backdrop.
@@ -429,7 +429,7 @@ This introduction sets the table’s tone and briefly explains the backdrop.
 
 > The long voyage is behind you. For weeks you kept a course for Karthal to fulfill Jared’s last wish: his ashes must
 > rest in his hometown. But you learned unexpectedly that sea travel to Karthal has been cut off. You plan to put in at
-> the small coastal town of San-Soprigal and continue overland.
+> the small coastal town of San Soprigal and continue overland.
 
 As the party nears town, memories surface. Ask the players to briefly describe how their characters met each other—and
 how they met Jared.
@@ -441,13 +441,13 @@ how they met Jared.
 
 ::: wide
 
-![map](./assets/maps/dragonwing-peninsula-4k-en.jpg){class="framed-map"}
+![Map](./assets/maps/dragonwing-peninsula-4k-en.jpg){class="framed-map"}
 
 :::
 
 ## Dragonwing Map
 
-This map is for orientation only: to show where **San-Soprigal** sits and how it relates to other places on the
+This map is for orientation only: to show where **San Soprigal** sits and how it relates to other places on the
 peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
 mechanical use.
 
@@ -470,7 +470,7 @@ autumn storms.
 
 **Shadow Forest.** A dense, nearly impassable forest east of Karthal.
 
-**Ashes Hills.** Dry, gray swell to the northwest of San-Soprigal. The old town cemetery lies here.
+**Ashes Hills.** Dry, gray swell to the northwest of San Soprigal. The old town cemetery lies here.
 
 **Portgate.** A fortress at the eastern passes; the governor’s seat and the peninsula’s main customs post. It controls
 movement between the peninsula and the Empire.
@@ -486,7 +486,7 @@ runs through the northeastern passes, which are closed in foul weather.
 
 # Arrival in Town
 
-The characters reach San-Soprigal’s pier early in the morning.
+The characters reach San Soprigal’s pier early in the morning.
 
 > You arrive in the morning. The town clings to a rocky coast, and even from afar your gaze catches on a tall watchtower
 > rising above the rooftops. On its summit you can make out the silhouette of a sentry scanning the horizon.
@@ -526,6 +526,42 @@ After passing the gate, the characters arrive at **[Maria’s House](#marias-hou
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/city_05.png) {style="height:515px" class="framed-image"}
+
+::: page
+
+::: chapter Chapter 2 | San Soprigal
+
+::: wide
+
+![Map](./assets/maps/san-sorpigal-4k-en.jpg){class="framed-map"}
+
+:::
+
+The town has several key locations that may aid the players’ investigation:
+
+1. [The Dock](#)
+2. [Maria’s House](#)
+3. [Market Square](#)
+4. [Tavern “By the Sea”](#)
+5. [Library / Old Town Hall](#)
+6. [Garrison](#)
+7. [Temple of Light](#)
+8. [Town Gate](#)
+9. [Watchtower](#)
+10. [Abraham’s House](#)
+11. Passage to the smugglers’ cove
+12. [Abandoned Well](#)
+
+::: column
+
+San Soprigal is small (about 500 residents) and built on rocky terraces. The dominant motifs are narrow stone lanes,
+steep stairways, and arched passages. Mornings smell of salt, seaweed, and fish; workshops hum through the day; by
+evening, a thick fog rolls in.
+
+Visual reference: Mediterranean towns such as Atrani (Italy).
+
+You can hand the players a **map without labels** after speaking with **Hurgkhan** or **Duncan**, or if they explicitly
+ask to “get the lay of the town.”
 
 ::: page {footnote="Appendix | States and Organizations"}
 
@@ -614,4 +650,4 @@ the specific angel. If the domain you want isn’t listed, choose the closest an
 
 :::
 
-![panteon](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:0;left:0;width:100%;z-index:-1"}
+![Illustration](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:0;left:0;width:100%;z-index:-1"}

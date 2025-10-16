@@ -224,7 +224,7 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 :::
 
 <!-- prettier-ignore -->
-![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 105%; object-fit: contain; bottom: -75px;"}
+![Illustration](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 105%; object-fit: contain; bottom: -75px;"}
 
 ::: page {layout="left" footnote="Введение"}
 
@@ -266,7 +266,7 @@ Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;ma
 Хурган сумел восстановить порядок. Теперь Сан-Сопригаль снова живёт обычной жизнью, хотя страхи и шрамы прошлого никуда
 не делись.
 
-![Siege Cover_Image](./assets/illustrations/siege.png){class="mask mask--background-right-half"}
+![Illustration](./assets/illustrations/siege.png){class="mask mask--background-right-half"}
 
 <!-- prettier-ignore -->
 [//]: # (По слухам, в последние дни мёртвые поднялись и сражались на стороне живых. Церковь категорически запрещает обсуждать эти рассказы, считая их ересью.)
@@ -367,7 +367,7 @@ _13 Лотвиэля (апреля), среда_
 - **Герои** прибывают в Сан-Сопригаль.
 
 <!-- prettier-ignore -->
-![Cover_Image](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+![Illustration](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page {layout="auto" footnote="Введение"}
 
@@ -481,7 +481,7 @@ _14 Лотвиэля (апреля), четверг_
 
 ::: wide
 
-![map](./assets/maps/dragonwing-peninsula-4k-ru.jpg){class="framed-map"}
+![Map](./assets/maps/dragonwing-peninsula-4k-ru.jpg){class="framed-map"}
 
 :::
 
@@ -576,37 +576,35 @@ _14 Лотвиэля (апреля), четверг_
 
 ::: wide
 
-В городе есть несколько ключевых мест, которые могут быть полезны игрокам в их расследовании.
+![Map](./assets/maps/san-sorpigal-4k-ru.jpg){class="framed-map"}
 
 :::
 
-::: wide
+В городе есть несколько ключевых мест, которые могут быть полезны игрокам в их расследовании:
 
-![map](./assets/maps/san-sorpigal-dm.jpg){class="framed-map"}
+1. [Причал](#причал)
+2. [Дом Марии](#)
+3. [Рыночная площадь](#)
+4. [Таверна «У Моря»](#)
+5. [Библиотека / Старая ратуша](#)
+6. [Гарнизон](#)
+7. [Храм Света](#)
+8. [Городские ворота](#)
+9. [Дозорная башня](#)
+10. [Дом Абрахама](#)
+11. Проход в бухту контрабандистов
+12. [Заброшенный колодец](#)
 
-:::
+::: column
 
-На карте обозначены локации:
+Город небольшой (около 500 жителей) и стоит на скальных террасах. Основные мотивы — узкие каменные улочки, крутые
+лестницы и арочные проходы. По утрам пахнет солью, водорослями и рыбой; днём — гул мастерских; к вечеру спускается
+густой туман.
 
-1. Причал
-2. Дом Марии
-3. Рыночная площадь
-4. Таверна «У Моря»
-5. Гарнизон
-6. Храм Света
-7. Дозорная башня
-8. Конюшни
-9. Дом Абрахама
-10. Городские ворота
-11. Заброшенный колодец
-12. Библиотека / Старая ратуша
-13. Бухта контрабандистов
-14. Мельница
+Референс — средиземноморские города вроде Атрани (Италия).
 
-Город разделён на несколько районов — Прибрежный, Ремесленный, Заброшенный, Бархатный и Центральный.
-
-Игрокам можно выдать карту **без обозначений** после разговора с Хурганом или Дунканом, или если они открыто заявляют,
-что хотят разобраться в устройстве города каким-то иным способом. НПС могут вкратце описать, где находятся важные места.
+Игрокам можно выдать карту **без обозначений** после разговора с Хурганом или Дунканом или по их явному запросу
+«разобраться в устройстве города».
 
 ::: page
 
