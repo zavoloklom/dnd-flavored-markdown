@@ -106,6 +106,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Dragonwing Map](#dragonwing-map)
   - [Arrival in Town](#arrival-in-town)
 - [Chapter 2: San Soprigal](#san-soprigal-map)
+  - [San Soprigal Map](#san-soprigal-map)
 - [Chapter 3: Catacombs](#)
 - [Chapter 4: Conclusion](#)
 - [Appendix: NPC](#)
@@ -113,6 +114,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [Appendix: Monsters](#)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
+- [Appendix: Month Names](#appendix-month-names)
 - [Appendix: Music and Generators](#)
 
 :::
@@ -232,6 +234,11 @@ healed.
 ::: page {footnote="Introduction"}
 
 # Story Overview
+
+Below is the chronology of events. For the names of Azalia’s months, see
+**[Appendix: Month Names](#appendix-month-names)**.
+
+On first mention, character names link to their writeups in **[Appendix: Characters](#appendix-characters)**.
 
 ## Arrival of the Mage
 
@@ -682,4 +689,3 @@ Month names and their translations from the ancient tongue into Common.
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/calendar.png){class="mask mask--background-right-half" style="object-position: 200px center;"}
-
