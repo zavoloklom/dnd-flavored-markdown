@@ -493,7 +493,7 @@ runs through the northeastern passes, which are closed in foul weather.
 
 :::
 
-::: page {layout="auto"}
+::: page
 
 # Arrival in Town
 
@@ -505,7 +505,8 @@ The characters reach San Soprigal’s pier early in the morning.
 > The waterfront is waking: fishing boats bob at the planks, the catch is already being unloaded, and a few fishermen
 > are speaking with a cloaked man at the end of the pier.
 >
-> A guard at the gate looks bored at his post.
+> You step onto a weathered pier alongside the captain. Without a backward glance, the captain heads for the gate,
+> striding past a bored guard at his post.
 
 If the characters approach the fishermen, see the location **[The Dock](#the-dock)**.
 
