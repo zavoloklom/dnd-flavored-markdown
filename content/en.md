@@ -3,6 +3,7 @@ title: "The Missing Merchant"
 author: "Sergey Kupletsky"
 version: "4.0.0"
 lang: "en"
+footnote: "auto"
 show-page-numbers: "true"
 contents-page-number: 3
 ---
@@ -70,6 +71,8 @@ As you read, you’ll see markings used for clarity and context:
 
 The page numbers in the corner allow you to quickly return to the table of contents.
 
+::: column
+
 ## License
 
 All references to Dungeons & Dragons and related materials are the property of Wizards of the Coast. This material is
@@ -83,7 +86,8 @@ were generated with ChatGPT.
 
 Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 
-![Illustration - Fountain](./assets/illustrations/fountain.png) {style="height:895px" class="framed-image"}
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/city_04.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:700px; width: 400px; bottom: 60px; object-position: center -100px;"}
 
 ::: page {show-page-number="false"}
 
@@ -96,6 +100,10 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [Backstory](#backstory)
 - [Story Overview](#story-overview)
 - [Advice for the DM](#advice-for-the-dm)
+- [Chapter 1 | Arrival](#adventure-hook)
+  - [Adventure Hook](#adventure-hook)
+  - [Dragonwing Map](#dragonwing-map)
+  - [Arrival in Town](#arrival-in-town)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 
@@ -164,7 +172,8 @@ usually without a direct reply.
 
 :::
 
-![streets](https://i.imgur.com/SrvKjnN.png){style="position:absolute;bottom:0;right:0;width:600px;z-index:-1"}
+<!-- prettier-ignore -->
+![Cover_Image](./assets/illustrations/party.png){class="mask mask--background-bottom-third-01" style="object-position: center 110%; object-fit: contain; bottom: -25px;"}
 
 ::: page {layout="left"}
 
@@ -205,7 +214,7 @@ much of the guard was lost, and trade routes grew more perilous. The town seemed
 restored order. San-Soprigal now goes about its daily life again—though the fears and wounds of the past have not
 healed.
 
-![Siege Cover_Image](./assets/illustrations/siege.png){class="mask"}
+![Cover_Image](./assets/illustrations/siege.png){class="mask mask--background-right-half"}
 
 <!-- prettier-ignore -->
 [//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
@@ -306,6 +315,9 @@ _13 Lotviel (April), Wednesday_
   up within a few hours.
 - The **adventurers** arrive in San-Soprigal.
 
+<!-- prettier-ignore -->
+![Cover_Image](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+
 ::: page
 
 # Advice for the DM
@@ -377,7 +389,135 @@ dialogue—use them as needed, or ignore them:
 - Exploring ruins on the peninsula at the request of **Jassad**.
 - A joint investigation with **Rosa** into the attacks on merchants.
 
+::: page {layout="auto"}
+
+::: chapter Chapter 1 | Arrival
+
+## Adventure Hook
+
+The characters are a band of adventurers bound for the city of **Kartal** to fulfill their mentor **Jared’s** last wish:
+carry his ashes home and lay him to rest there.
+
+Because of recent attacks on merchant vessels and dangers along the coast, sea travel is temporarily closed. The only
+way to Karthal is overland, through the **Holy Empire**. The party decides to make landfall at **San-Soprigal** and
+continue by road.
+
+This introduction sets the table’s tone and briefly explains the backdrop.
+
+> Azalia. 13 Lotviel, year 567 AF—**After the Fall** of the Great Empire.
+>
+> The Church teaches that angels created the Great Empire—and the whole world. There was no hunger, no plague, no war,
+> and humans lived in peace with dwarves, orcs, and—even if it’s hard to believe—elves. They say elves were different
+> then, too. But one day it all ended, and only ruins and strange, majestic structures remain.
+
+> Now things are different. Most humans live in the Holy Empire; the King-Under-the-Mountain rules dwarves and gnomes;
+> and mages, having rejected the Church, founded the United States of Magic Art. Orc and goblin clans keep mostly to the
+> east.
+
+> Two years ago, creatures never seen before appeared across Azalia. People called them demons, hellspawn—any word that
+> could voice their fear. Driving them back cost dearly.
+
+> The long voyage is behind you. For weeks you kept a course for Karthal to fulfill Jared’s last wish: his ashes must
+> rest in his hometown. But you learned unexpectedly that sea travel to Karthal has been cut off. You plan to put in at
+> the small coastal town of San-Soprigal and continue overland.
+
+As the party nears town, memories surface. Ask the players to briefly describe how their characters met each other—and
+how they met **Jared**.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 20px; object-position: -90px -90px;"}
+
 ::: page
+
+::: wide
+
+![map](./assets/maps/dragonwing-peninsula.jpg){class="framed-map"}
+
+:::
+
+## Dragonwing Map
+
+This map is for orientation only: to show where **San-Soprigal** sits and how it relates to other places on the
+peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
+mechanical use.
+
+Show it once at the beginning to set scale and mood.
+
+Karthal, Portgate, and other locations are for the future—as campaign directions if you continue the story beyond the
+town.
+
+The full map archive is available here:  
+[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs)
+
+::: column
+
+## The Region
+
+::: definition
+
+**Weather.** Predominantly maritime climate: fog banks along the coast, sharp winds off the range, spring floods, and
+autumn storms.
+
+**Shadow Forest.** A dense, nearly impassable forest east of Karthal.
+
+**Ashes Hills.** Dry, gray swell to the northwest of San-Soprigal. The old town cemetery lies here.
+
+**Portgate.** A fortress at the eastern passes; the governor’s seat and the peninsula’s main customs post. It controls
+movement between the peninsula and the Empire.
+
+**The Eye.** On a lake shaped like an eye stands an ancient structure known as **the Eye**.
+
+**Connection to the Empire.** A mountain chain separates the peninsula from the rest of the Empire. The only land route
+runs through the northeastern passes, which are closed in foul weather.
+
+:::
+
+::: page {layout="auto"}
+
+# Arrival in Town
+
+The characters reach San-Soprigal’s pier early in the morning.
+
+> You arrive in the morning. The town clings to a rocky coast, and even from afar your gaze catches on a tall watchtower
+> rising above the rooftops. On its summit you can make out the silhouette of a sentry scanning the horizon.
+>
+> The waterfront is waking: fishing boats bob at the planks, the catch is already being unloaded, and a few fishermen
+> are speaking with a cloaked man at the end of the pier.
+>
+> A guard at the gate looks bored at his post.
+
+If the characters approach the fishermen, see the location **[The Dock](#the-dock)**.
+
+## Entering the Town
+
+The gate guard may ask the party routine questions—“name, purpose of visit; steel in plain view; no displays of magic.”
+
+If the characters head straight into town:
+
+> As you pass through the gate, a troubling scene unfolds:
+>
+> One house looks like it’s been broken into—the door is smashed, and armed guards stand on the threshold. A handful of
+> gawkers murmur among themselves. A half-orc in armor—the one in charge, by the look of it—surveys the house with a
+> scowl. Beside him stands a young guard, visibly shaken.
+
+If the party lingers at the pier, they hear the horn, and those they’re speaking with hurry to the gate, drawing the
+characters along.
+
+Locals can tell you the last time they heard that signal was during the demon onslaught.
+
+> A horn call echoes over the town. Guards converge as the half-orc raises a hand for silence and calls out:
+>
+> _“Soprigal is closed! No one leaves town without my say until we get to the bottom of this!”_
+>
+> The crowd buzzes; people talk over one another. Your road to Karthal will have to wait—the town is sealed, and
+> something strange is afoot.
+
+After passing the gate, the characters arrive at **[Maria’s House](#marias-house)**.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/city_05.png) {style="height:520px" class="framed-image"}
+
+::: page {footnote="Appendix | States and Organizations"}
 
 # Appendix: States and Organizations
 
@@ -433,7 +573,7 @@ becoming undead.
 The **Black Meduza** is a transregional network of smugglers and thieves’ guilds. Specialties: “gray routes,” illicit
 logistics, extortion, bespoke thefts, and financial services for the underworld and the nobility alike.
 
-::: page {layout="wide"}
+::: page {layout="wide" footnote="Appendix | Pantheon"}
 
 # Appendix: Pantheon
 
