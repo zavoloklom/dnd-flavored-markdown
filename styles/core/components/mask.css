@@ -31,6 +31,14 @@
 
     mask: url(/assets/masks/background_bottom-third-01.png) center bottom / contain no-repeat;
 }
+.mask.mask--background-bottom-third-02 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    mask: url(/assets/masks/background_bottom-third-02.png) center bottom / contain no-repeat;
+}
 
 
 .mask.mask--watercolor-01 {
