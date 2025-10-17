@@ -307,7 +307,7 @@ _Early Lothviel (April)_
   the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
 - **[Children](#)** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,”
   they stopped going there.
-- Relocating their games to the **[Artisans’ Quarter](#san-soprigal-map)**, the children break a window in
+- Relocating their games to the **[Craft District](#san-soprigal-map)**, the children break a window in
   [Abraham’s house](#). Jonas learns his lodger is gone, but he doesn’t inform the guard—he fears unwanted attention and
   prefers to assume the mage moved on.
 
@@ -410,6 +410,53 @@ dialogue—use them as needed, or ignore them:
 - Exploring ruins on the peninsula at the request of **Jassad**.
 - A joint investigation with **Rosa** into the attacks on merchants.
 
+::: page
+
+# Dragonwing Map
+
+::: wide
+
+![Map](./assets/maps/dragonwing-peninsula-4k-en.jpg){class="framed-map"}
+
+:::
+
+## Map Overview
+
+This map is for orientation only: to show where **San Soprigal** sits and how it relates to other places on the
+peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
+mechanical use.
+
+Show it once at the beginning to set scale and mood. One hex - 12 miles.
+
+Karthal, Portgate, and other locations are for the future—as campaign directions if you continue the story beyond the
+town.
+
+The full map archive is available here:  
+[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
+
+::: column
+
+## The Region
+
+::: definition
+
+**Weather.** Predominantly maritime climate: fog banks along the coast, sharp winds off the range, spring floods, and
+autumn storms.
+
+**Shadow Forest.** A dense, nearly impassable forest east of Karthal.
+
+**Ashes Hills.** Dry, gray swell to the northwest of San Soprigal. The old town cemetery lies here.
+
+**Portgate.** A fortress at the eastern passes; the governor’s seat and the peninsula’s main customs post. It controls
+movement between the peninsula and the Empire.
+
+**The Eye.** On a lake shaped like an eye stands an ancient structure known as the Eye.
+
+**Connection to the Empire.** A mountain chain separates the peninsula from the rest of the Empire. The only land route
+runs through the northeastern passes, which are closed in foul weather.
+
+:::
+
 ::: page {layout="auto"}
 
 ::: chapter Chapter 1 | Arrival
@@ -447,51 +494,6 @@ how they met Jared.
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 20px; object-position: -90px -90px;"}
-
-::: page
-
-::: wide
-
-![Map](./assets/maps/dragonwing-peninsula-4k-en.jpg){class="framed-map"}
-
-:::
-
-## Dragonwing Map
-
-This map is for orientation only: to show where **San Soprigal** sits and how it relates to other places on the
-peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
-mechanical use.
-
-Show it once at the beginning to set scale and mood. One hex - 12 miles.
-
-Karthal, Portgate, and other locations are for the future—as campaign directions if you continue the story beyond the
-town.
-
-The full map archive is available here:  
-[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs)
-
-::: column
-
-## The Region
-
-::: definition
-
-**Weather.** Predominantly maritime climate: fog banks along the coast, sharp winds off the range, spring floods, and
-autumn storms.
-
-**Shadow Forest.** A dense, nearly impassable forest east of Karthal.
-
-**Ashes Hills.** Dry, gray swell to the northwest of San Soprigal. The old town cemetery lies here.
-
-**Portgate.** A fortress at the eastern passes; the governor’s seat and the peninsula’s main customs post. It controls
-movement between the peninsula and the Empire.
-
-**The Eye.** On a lake shaped like an eye stands an ancient structure known as the Eye.
-
-**Connection to the Empire.** A mountain chain separates the peninsula from the rest of the Empire. The only land route
-runs through the northeastern passes, which are closed in foul weather.
-
-:::
 
 ::: page
 
@@ -539,17 +541,17 @@ After passing the gate, the characters arrive at **[Maria’s House](#marias-hou
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/city_05.png) {style="height:515px" class="framed-image"}
 
-::: page
+::: page {layout="auto"}
 
 ::: chapter Chapter 2 | San Soprigal
+
+# Town Map
 
 ::: wide
 
 ![Map](./assets/maps/san-sorpigal-4k-en.jpg){class="framed-map"}
 
 :::
-
-## San Soprigal Map
 
 The town has several key locations that may aid the players’ investigation:
 
@@ -566,19 +568,27 @@ The town has several key locations that may aid the players’ investigation:
 11. Passage to the smugglers’ cove
 12. [Abandoned Well](#)
 
-::: column
+You can hand the players a **[map without labels](#appendix-map-for-players)** after speaking with **Hurgkhan** or
+**Duncan**, or if they explicitly ask to “get the lay of the town.”
+
+The full map archive is available here:  
+[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
+
+::: page
+
+# Town Overview
+
+_Visual reference: Mediterranean towns such as Atrani (Italy)._
 
 San Soprigal is small (about 500 residents) and built on rocky terraces. The dominant motifs are narrow stone lanes,
 steep stairways, and arched passages. Mornings smell of salt, seaweed, and fish; workshops hum through the day; by
 evening, a thick fog rolls in.
 
-Visual reference: Mediterranean towns such as Atrani (Italy).
+## Disticts
 
 The town is divided into several districts—Dockside District, Craft District, Abandoned District, Velvet Row, and
 Central District.
 
-You can hand the players a **map without labels** after speaking with **Hurgkhan** or **Duncan**, or if they explicitly
-ask to “get the lay of the town.”
 
 ::: page {footnote="Appendix | States and Organizations"}
 
@@ -690,3 +700,18 @@ Month names and their translations from the ancient tongue into Common.
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/calendar.png){class="mask mask--background-right-half" style="object-position: 200px center;"}
+
+::: page {footnote="Appendix | Map for Players"}
+
+# Appendix: Map for Players
+
+::: wide
+
+![Map](./assets/maps/san-sorpigal-4k-players-en.jpg){class="framed-map"}
+
+_Unlabeled player map of San Soprigal._
+
+The full map archive is available here:
+[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
+
+:::
