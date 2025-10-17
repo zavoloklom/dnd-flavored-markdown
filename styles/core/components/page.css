@@ -25,6 +25,9 @@
 .page > :first-child {
     margin-top: 0 !important;
 }
+.page > h1:first-child {
+    column-span: all;
+}
 
 /** Footer **/
 .page:after {
