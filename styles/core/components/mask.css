@@ -11,7 +11,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 4mm; /** Need gap / 2 **/
+    left: 6mm; /** Need gap / 2 **/
 
     mask: url(/assets/masks/background_right-half.png) center / cover no-repeat;
 }
@@ -19,7 +19,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 4mm; /** Need gap / 2 **/
+    right: 6mm; /** Need gap / 2 **/
 
     mask: url(/assets/masks/background_left-half.png) center / cover no-repeat;
 }

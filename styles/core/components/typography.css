@@ -88,6 +88,9 @@ ol {
     padding-left: 6mm;
     margin: 1mm 0;
 }
+ul li, ol li {
+    break-inside: avoid;
+}
 
 code {
     font-family: var(--font-monospace, monospace), monospace;

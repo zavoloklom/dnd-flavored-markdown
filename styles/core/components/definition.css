@@ -3,4 +3,5 @@
 }
 .definition p {
     text-indent: -2mm;
+    break-inside: avoid;
 }
