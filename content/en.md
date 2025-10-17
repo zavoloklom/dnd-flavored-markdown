@@ -101,9 +101,9 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Backstory](#backstory)
   - [Story Overview](#story-overview)
   - [Advice for the DM](#advice-for-the-dm)
+  - [Dragonwing Map](#dragonwing-map)
 - [Chapter 1: Arrival](#adventure-hook)
   - [Adventure Hook](#adventure-hook)
-  - [Dragonwing Map](#dragonwing-map)
   - [Arrival in Town](#arrival-in-town)
 - [Chapter 2: San Soprigal](#san-soprigal-map)
   - [San Soprigal Map](#san-soprigal-map)
@@ -115,6 +115,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 - [Appendix: Month Names](#appendix-month-names)
+- [Appendix: Town Map for Players](#appendix-town-map-for-players)
 - [Appendix: Music and Generators](#)
 
 :::
@@ -151,8 +152,6 @@ catastrophic effects, or the spell simply fails.
 arm’s length.
 
 **Orcs and goliaths** — seen as cheap labor and hire-swords. In any conflict, blame usually falls on them.
-
-::: column
 
 **Drow and half-elves** — face open hostility. Violence against them often goes unpunished.
 
@@ -226,7 +225,8 @@ much of the guard was lost, and trade routes grew more perilous. The town seemed
 restored order. San Soprigal now goes about its daily life again—though the fears and wounds of the past have not
 healed.
 
-![Illustration](./assets/illustrations/siege.png){class="mask mask--background-right-half"}
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/siege.png){class="mask mask--background-right-half" style="object-position: 50px center;"}
 
 <!-- prettier-ignore -->
 [//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
@@ -235,32 +235,41 @@ healed.
 
 # Story Overview
 
-Below is the chronology of events. For the names of Azalia’s months, see
-**[Appendix: Month Names](#appendix-month-names)**.
+Below is the chronology of events. On first mention, character names link to their writeups in
+**[Appendix: Characters](#appendix-characters)**.
 
-On first mention, character names link to their writeups in **[Appendix: Characters](#appendix-characters)**.
+For the names of Azalia’s months, see **[Appendix: Month Names](#appendix-month-names)**.
 
 ## Arrival of the Mage
 
 _3 Narvail (February)_
 
 - A necromancer, **[Abraham](#)**, arrives in town. He previously conducted forbidden experiments with spiders in the
-  **[United States of Magic Art](#appendix-states-and-organizations)** and is now in hiding, hoping to continue his
-  research in seclusion.
+  [United States of Magic Art](#appendix-states-and-organizations) and is now in hiding, hoping to continue his research
+  in seclusion.
 - He rents a house from **[Jonas](#)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham knows
   about this house—and the passage—through old contacts: a fellow necromancer once lived in the town. Jonas doesn’t know
   about the secret passage into the catacombs.
-- Abraham places an order with his smuggler contacts in **[Black Meduza](#appendix-states-and-organizations)** for
+- Abraham places an order with his smuggler contacts in [Black Meduza](#appendix-states-and-organizations) for
   “goods”—his custom-bred spiders.
 - He locks himself in the cellar and doesn’t show his face around town. Rumors spread that he’s a mage.
+
+## Maria & Abraham
+
+_Narvail (February)_
+
+- **[Maria](#)**, an incense merchant, supplied Abraham with ingredients needed for his spider venom experiments.
+- Abraham paid in advance and asked for discretion.
+- In thanks, he gave Maria a [scroll with a simple spell](#) and instructions.
+- The following month he didn’t place an order, and Maria didn’t find that unusual.
 
 ## Arrival of Rosa
 
 _1 Bethalasse (March)_
 
-- **[Rosa](#)** (a paladin of the **[Church of Light](#appendix-states-and-organizations)**) arrives in San Soprigal and
+- **[Rosa](#)** (a paladin of the [Church of Light](#appendix-states-and-organizations)) arrives in San Soprigal and
   keeps the purpose of her visit secret. She refuses to recognize local authority and acts under a covert mandate.
-- She lodges at the **[Temple](#san-soprigal-map)** and periodically leaves town for several days at a time.
+- She lodges at the [Temple](#town-map) and periodically leaves town for several days at a time.
 - Her mission is to investigate recent attacks on merchants in the region and to recover a stolen church relic.
 
 ## The Delivery
@@ -281,35 +290,26 @@ _1 Bethalasse (March)_
 
 _Narvail–Lothviel (February–April)_
 
-- **[Maria](#)**, an incense merchant, secretly meets **[Günter](#)**—a town guard—on the [Watchtower](#) during his
-  night shifts.
+- Maria secretly meets **[Günter](#)**—a town guard—on the [Watchtower](#town-map) during his night shifts.
 - Günter becomes obsessed with tying the disappearances to Rosa, whom he assumes is an inquisitor.
 - His paranoia rubs off on Maria. She avoids Rosa and stops visiting the Temple, though she once went often.
-- Tensions rise, and the two quarrel.
-
-## Maria & Abraham
-
-_Narvail (February)_
-
-- Maria supplied Abraham with ingredients needed for his spider venom experiments.
-- Abraham paid a month in advance and asked for discretion.
-- In thanks, he gave Maria a [scroll with a simple spell](#) and instructions.
-- The following month he didn’t place an order, and Maria didn’t find that unusual.
-- After Rosa’s arrival—and under Günter’s influence—Maria fears arrest for dabbling in magic.
+- After Rosa’s arrival—and under Günter’s influence—Maria fears arrest for studying in magic.
+- Tensions rise, and Maria and Gunther have a conflict.
 
 ::: page {footnote="Introduction"}
 
-## The Abandoned District
+## Two Weeks Ago
 
 _Early Lothviel (April)_
 
-- At night, **[Bertram](#)** (a local drunk) falls into an old well in the **[Abandoned District](#)** that opens into
-  the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
+- The Spider-Matriarch lays eggs and primes to drag any prey below ground.
+- At night, **[Bertram](#)** (a local drunk) falls into an old well in the [Abandoned District](#town-map) that opens
+  into the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
 - **[Children](#)** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,”
   they stopped going there.
-- Relocating their games to the **[Craft District](#san-soprigal-map)**, the children break a window in
-  [Abraham’s house](#). Jonas learns his lodger is gone, but he doesn’t inform the guard—he fears unwanted attention and
-  prefers to assume the mage moved on.
+- Relocating their games to the [Craft District](#town-map), the children break a window in
+  [Abraham’s house](#town-map). Jonas learns his lodger is gone, but he doesn’t inform the guard—he fears unwanted
+  attention and prefers to assume the mage moved on.
 
 ## Maria’s Disappearance
 
@@ -319,11 +319,11 @@ _12 Lothviel (April), Tuesday_
 - In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to propose to Maria at sunset.
 - Maria heads for the tower, but when she spots Rosa returning to town, she detours into the Abandoned District to avoid
   her.
-- At [the old well](#), Maria notices a strange smell. She steps closer, and the starving spiders drag her down. Trying
-  to fend them off with a spell, she collapses the old masonry and the shaft caves in.
+- At [the old well](#town-map), Maria notices a strange smell. She steps closer, and the starving spiders drag her down.
+  Trying to fend them off with a spell, she collapses the old masonry and the shaft caves in.
 - Günter waits for Maria, grows anxious, but doesn’t abandon his post.
 - **[Gaston](#)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That night he
-  tries to reach [the cove by the sea (number 11 on the map)](#san-soprigal-map), but sailors spot him, and he retreats.
+  tries to reach [the cove by the sea (label 11 on the map)](#town-map), but sailors spot him, and he retreats.
 
 ## Maria Is Reported Missing
 
@@ -410,7 +410,7 @@ dialogue—use them as needed, or ignore them:
 - Exploring ruins on the peninsula at the request of **Jassad**.
 - A joint investigation with **Rosa** into the attacks on merchants.
 
-::: page
+::: page {footnote="Introduction"}
 
 # Dragonwing Map
 
@@ -589,12 +589,11 @@ The town has several key locations that may aid the players’ investigation:
 
 ## Some Title
 
-You can hand the players a **[map without labels](#appendix-map-for-players)** after speaking with **Hurgkhan** or
+You can hand the players a **[map without labels](#appendix-town-map-for-players)** after speaking with **Hurgkhan** or
 **Duncan**, or if they explicitly ask to “get the lay of the town.”
 
 The full map archive is available here:  
 [Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
-
 
 ::: page {footnote="Appendix | States and Organizations"}
 
@@ -709,7 +708,7 @@ Month names and their translations from the ancient tongue into Common.
 
 ::: page {footnote="Appendix | Map for Players"}
 
-# Appendix: Map for Players
+# Appendix: Town Map for Players
 
 ::: wide
 
