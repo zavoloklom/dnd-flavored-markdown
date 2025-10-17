@@ -503,7 +503,9 @@ _14 Лотвиэля (апреля), четверг_
 
 ::: chapter Глава 1 | Прибытие
 
-## Завязка
+You can let players invent their own reasons for visiting Phandalin, or you can use the following adventure hook. The backgrounds and secondary goals on the character sheets also provide characters with motivations for visiting Phandalin.
+
+# Завязка
 
 Герои — группа искателей приключений, направляющаяся в город **Карталь** исполнить последнюю волю наставника
 **Джареда**: доставить его прах в родной город и похоронить там.

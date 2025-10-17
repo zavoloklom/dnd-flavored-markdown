@@ -461,7 +461,7 @@ runs through the northeastern passes, which are closed in foul weather.
 
 ::: chapter Chapter 1 | Arrival
 
-## Adventure Hook
+# Adventure Hook
 
 The characters are a band of adventurers bound for the city of **Kartal** to fulfill their mentor **Jared’s** last wish:
 carry his ashes home and lay him to rest there.
@@ -545,6 +545,21 @@ After passing the gate, the characters arrive at **[Maria’s House](#marias-hou
 
 ::: chapter Chapter 2 | San Soprigal
 
+# Town Overview
+
+_Visual reference: Mediterranean towns such as Atrani (Italy)._
+
+San Soprigal is small (about 500 residents) and built on rocky terraces. The dominant motifs are narrow stone lanes,
+steep stairways, and arched passages. Mornings smell of salt, seaweed, and fish; workshops hum through the day; by
+evening, a thick fog rolls in.
+
+## Disticts
+
+The town is divided into several districts—Dockside District, Craft District, Abandoned District, Velvet Row, and
+Central District.
+
+::: page
+
 # Town Map
 
 ::: wide
@@ -552,6 +567,8 @@ After passing the gate, the characters arrive at **[Maria’s House](#marias-hou
 ![Map](./assets/maps/san-sorpigal-4k-en.jpg){class="framed-map"}
 
 :::
+
+## Locations
 
 The town has several key locations that may aid the players’ investigation:
 
@@ -568,26 +585,15 @@ The town has several key locations that may aid the players’ investigation:
 11. Passage to the smugglers’ cove
 12. [Abandoned Well](#)
 
+::: column
+
+## Some Title
+
 You can hand the players a **[map without labels](#appendix-map-for-players)** after speaking with **Hurgkhan** or
 **Duncan**, or if they explicitly ask to “get the lay of the town.”
 
 The full map archive is available here:  
 [Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
-
-::: page
-
-# Town Overview
-
-_Visual reference: Mediterranean towns such as Atrani (Italy)._
-
-San Soprigal is small (about 500 residents) and built on rocky terraces. The dominant motifs are narrow stone lanes,
-steep stairways, and arched passages. Mornings smell of salt, seaweed, and fish; workshops hum through the day; by
-evening, a thick fog rolls in.
-
-## Disticts
-
-The town is divided into several districts—Dockside District, Craft District, Abandoned District, Velvet Row, and
-Central District.
 
 
 ::: page {footnote="Appendix | States and Organizations"}
