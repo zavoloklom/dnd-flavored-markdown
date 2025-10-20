@@ -18,7 +18,7 @@ contents-page-number: 3
 
 ::: banner
 
-Homebrew ![Logo](../assets/logo/logo_dnd_small--white.png){style="height:30px;margin-bottom: 4px;"}
+Sergey Kupletsky
 
 :::
 

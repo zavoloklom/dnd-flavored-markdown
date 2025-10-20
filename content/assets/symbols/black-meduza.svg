@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc" color="#BBA273">
+    <title>Черная медуза — эмблема</title>
+    <desc>Монохромный знак: купол медузы и прямые щупальца, квадратный формат</desc>
+
+    <!-- Купол медузы -->
+    <path fill="currentColor" d="M512 192c-188 0-340 128-340 286 0 19 1 38 5 56h670c4-18 5-37 5-56 0-158-152-286-340-286z"/>
+
+    <!-- Разделительная полоса под куполом -->
+    <rect x="192" y="518" width="640" height="24" fill="currentColor"/>
+
+    <!-- Щупальца: прямые вертикальные линии -->
+    <g fill="none" stroke="currentColor" stroke-width="28" stroke-linecap="round">
+        <!-- Центр -->
+        <path d="M512 542V940"/>
+        <!-- Пара рядом с центром -->
+        <path d="M560 542V920"/>
+        <path d="M464 542V920"/>
+        <!-- Следующая пара -->
+        <path d="M608 542V900"/>
+        <path d="M416 542V900"/>
+        <!-- Краевые -->
+        <path d="M656 542V880"/>
+        <path d="M368 542V880"/>
+    </g>
+</svg>

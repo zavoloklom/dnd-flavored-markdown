@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc" color="#BBA273">
+    <title>Церковь Света — нимб и крест (центрировано)</title>
+    <desc>Нимб с 8 лучами и крестом, прежняя компоновка, центрирована внутри квадрата</desc>
+
+    <g fill="none" stroke="currentColor" stroke-width="44" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="12" transform="translate(0,200)">
+        <!-- Нимб -->
+        <circle cx="512" cy="312" r="124"/>
+
+        <!-- Лучи -->
+        <path d="M512 150V60"/>
+        <path d="M512 564V474"/>
+        <path d="M374 174L318 118"/>
+        <path d="M706 506L650 450"/>
+        <path d="M650 174L706 118"/>
+        <path d="M318 506L374 450"/>
+        <path d="M256 312H166"/>
+        <path d="M858 312H768"/>
+
+        <!-- Крест внутри нимба -->
+        <path d="M512 196V428"/>
+        <path d="M424 312H600"/>
+    </g>
+</svg>
