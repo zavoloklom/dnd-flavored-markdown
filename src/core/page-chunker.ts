@@ -1,8 +1,9 @@
-import { escapeHtml } from '../utils/escape-html'
-import { buildDataAttrsString } from '../utils/blockAttrs'
-import { normalizeBoolean } from '../utils/normalize-boolean'
+import {escapeHtml} from '../utils/escape-html'
+import {buildDataAttrsString} from '../utils/blockAttrs'
+import {normalizeBoolean} from '../utils/normalize-boolean'
 
 type DataAttrs = Record<string, string>
+
 interface Options {
     contentsPageNumber?: string
     showPageNumbers?: boolean
@@ -26,18 +27,18 @@ export function wrapIntoPages(html: string, opts: Options = {}): string {
 
         if (kind === 'page-start') {
             if (pages.length > 0 || before.trim() !== '') {
-                pages.push({ data: currentData, html: before })
+                pages.push({data: currentData, html: before})
             }
             currentData = attrs
         } else {
-            pages.push({ data: currentData, html: before })
+            pages.push({data: currentData, html: before})
             // currentData сохраняем
         }
         cursor = m.index + m[0].length
     }
 
     const tail = html.slice(cursor)
-    pages.push({ data: currentData, html: tail })
+    pages.push({data: currentData, html: tail})
 
     const filtered = pages.filter((p, i) => !(i < pages.length - 1 && p.html.trim() === ''))
 
@@ -66,6 +67,9 @@ export function wrapIntoPages(html: string, opts: Options = {}): string {
     // ── Сборка выходного HTML
     let auto = 1
     return filtered.map((p, i) => {
+        // иконка
+        const icon = p.data['icon'] || undefined;
+
         // отображаемый номер
         const override = p.data['page-number']
         const display = (override !== undefined && override !== '') ? String(override) : fmt(auto)
@@ -89,7 +93,8 @@ export function wrapIntoPages(html: string, opts: Options = {}): string {
             show,
             footText,
             contentsPageNumber,
-            chapterText
+            chapterText,
+            icon
         )
 
         auto++
@@ -122,13 +127,16 @@ function cleanText(s: string): string {
 }
 
 /** 'auto' | 'none' | строка → нормализованное значение */
-function normalizeFootnoteSetting(v: string | undefined | null | Options['footnoteDefault']): { kind: 'auto' | 'none' | 'text'; text?: string } | null {
+function normalizeFootnoteSetting(v: string | undefined | null | Options['footnoteDefault']): {
+    kind: 'auto' | 'none' | 'text';
+    text?: string
+} | null {
     if (v == null) return null
     const s = String(v).trim()
     const sl = s.toLowerCase()
-    if (sl === 'auto') return { kind: 'auto' }
-    if (sl === 'none') return { kind: 'none' }
-    return { kind: 'text', text: s }
+    if (sl === 'auto') return {kind: 'auto'}
+    if (sl === 'none') return {kind: 'none'}
+    return {kind: 'text', text: s}
 }
 
 /** Выбор итогового текста футера по локальному/глобальному значению и главе. */
@@ -154,7 +162,8 @@ function renderPage(
     showNumber: boolean,
     footnoteText: string,
     contentsPageNumber: string | null,
-    chapterText?: string
+    chapterText?: string,
+    icon?: string
 ): string {
     // не дублируем специальные ключи
     const {
@@ -162,10 +171,15 @@ function renderPage(
         ['show-page-number']: _sp,
         ['footnote']: _fn,
         ['chapter']: _ch,
+        ['icon']: _icon,
         ...rest
     } = data
 
-    const ds = buildDataAttrsString(rest)
+    const dataAttributes = buildDataAttrsString(rest);
+
+    const iconBlock = icon
+        ? `<div class="icon" aria-hidden="true"><img alt="icon" src=${icon}></div>`
+        : '';
 
     const footnote = footnoteText
         ? `<div class="footnote" aria-hidden="true">${escapeHtml(footnoteText)}</div>`
@@ -182,13 +196,13 @@ function renderPage(
         ? ` data-chapter="${escapeAttr(chapterText)}"`
         : ''
 
-    return `<section id="p${pageIndex}" class="page" data-page-count="${pageIndex}" data-page-number="${escapeHtml(pageNumberText)}"${dataChapterAttr}${ds}>${inner}${footnote}${pageNumber}</section>`
+    return `<section id="p${pageIndex}" class="page" data-page-count="${pageIndex}" data-page-number="${escapeHtml(pageNumberText)}"${dataChapterAttr}${dataAttributes}>${inner}${iconBlock}${footnote}${pageNumber}</section>`
 }
 
 function escapeAttr(s: string): string {
     return s
-        .replace(/&/g,'&amp;')
-        .replace(/"/g,'&quot;')
-        .replace(/</g,'&lt;')
-        .replace(/>/g,'&gt;')
+        .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
 }

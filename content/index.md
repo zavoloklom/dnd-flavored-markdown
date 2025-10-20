@@ -1,3 +1,10 @@
+---
+lang: "en"
+size: "a4"
+footnote: "auto"
+show-page-numbers: "true"
+---
+
 ::: page {layout="auto"}
 
 ::: chapter Chapter 7 | Spells
@@ -46,6 +53,124 @@ spell
 save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.
 
 ![Illustration](./assets/illustrations/city_05.png) {style="height:520px" class="framed-image"}
+
+::: page {type="inside-cover"}
+
+![Monk Cover](./index/monk_official.png) {class="cover"}
+
+# Monk
+
+A Martial Artist of Supernatural Focus
+
+::: page {layout="auto" type="class" icon="./index/monk_icon.svg"}
+
+#### Core Monk Traits
+
+|   |   |
+|---|---|
+| **Primary Ability**  | Dexterity and Wisdom  |
+| **Hit Point Die**  | D8 per Monk level  |
+| **Saving Throw Proficiencies**  | Strength and Dexterity  |
+| **Skill Proficiencies** |  Choose 2: Acrobatics, Athletics, History, Insight, Religion, or Stealth |
+| **Weapon Proficiencies**  | Simple weapons and Martial weapons that have the Light property  |
+| **Tool Proficiencies**  | Choose one type of Artisan’s Tools or Musical Instrument (see chapter 6)  |
+| **Armor Training**  | None  |
+| **Starting Equipment**  | Choose A or B: (A) Spear, 5 Daggers, Artisan’s Tools or Musical Instrument chosen for the tool proficiency above, Explorer’s Pack, and 11 GP; or (B) 50 GP  |
+
+Monks use rigorous combat training and mental discipline to align themselves with the multiverse and focus their internal reservoirs of power. Different Monks conceptualize this power in various ways: as breath, energy, life force, essence, or self, for example. Whether channeled as a striking display of martial prowess or as a subtler manifestation of defense and speed, this power infuses all that a Monk does.
+
+Monks focus their internal power to create extraordinary, even supernatural, effects. They channel uncanny speed and strength into their attacks, with or without the use of weapons. In a Monk’s hands, even the most basic weapons can become sophisticated implements of combat mastery.
+
+Many Monks find that a structured life of ascetic withdrawal helps them cultivate the physical and mental focus they need to harness their power. Other Monks believe that immersing themselves in the vibrant confusion of life helps to fuel their determination and discipline.
+
+Monks generally view adventures as tests of their physical and mental development. They are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering treasure; they strive to turn themselves into living weapons.
+
+## Becoming a Monk...
+
+### As a Level 1 Monk
+
+- Gain all the traits in the Core Monk Traits table.
+- Gain the Monk’s level 1 features, which are listed in the Monk Features table.
+
+### As a Multiclass Monk
+
+- Gain the Hit Point Die trait from the Core Monk Traits table.
+- Gain the Monk’s level 1 features, which are listed in the Monk Features table.
+
+## Monk Class Features
+
+As a Monk, you gain the following class features when you reach the specified Monk levels. These features are listed in the Monk Features table.
+
+### Level 1: Martial Arts
+
+Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
+
+- Simple Melee weapons
+- Martial Melee weapons that have the Light property
+
+You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren’t wearing armor or wielding a Shield.
+
+**Bonus Unarmed Strike.** You can make an Unarmed Strike as a Bonus Action.
+
+**Martial Arts Die.** You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.
+
+**Dexterous Attacks.** You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.
+
+::: page {type="class" layout="rtl" icon="./assets/symbols/city.svg"}
+
+# Горожане
+
+Разношерстная толпа — ремесленники, торговцы, рыбаки, дети, пьяницы, стражники. Одни боятся происходящего, другие
+отмахиваются, как от очередной выдумки. В глазах большинства — усталость, но и привычка жить с тревогой, как с фоном.
+
+## Локации
+
+- [Рыночная площадь](#) — торговцы, нищие, дети.
+- [Причал Сан-Сопригаля](#) — рыбаки, пьяницы.
+- Ступени [Храма](#) - нищие.
+- Улицы города — дети, нищие, случайные свидетели.
+
+::: column
+
+![NPC: City Folk](./assets/npc/city-folk.png) {class="framed-image"}
+
+_фоновые персонажи, отражающие атмосферу города_ {align="center"}
+
+::: column-reset
+
+## Информация
+
+**Торговцы:**
+
+- Делятся слухами (см. таблицы слухов в локации [Рыночная площадь](#)).
+- Слышали, как Мария спорила с Гюнтером, или что та покупала странные травы.
+
+**Рыбаки:**
+
+- «Ночью кто-то шёл по пирсу. В капюшоне. Потом как волны плеснулись — и всё.»
+- «Пёс мой завыл той ночью. А он у меня на бурю не воет.»
+
+**Пьяницы:**
+
+- Один может утверждать, что слышал голоса под землёй: «Шепчутся там, в подвале. В подземелье. Я не спал!»
+- Другой утверждает, что видел Розу с мечом, весь меч в чём-то чёрном.
+- Жалуются что Бертрам пропал, но его никто не ищет.
+
+**Дети:**
+
+- Один расскажет, что видел как кто-то ночью вылезал «из под земли» у разрушенного дома.
+- Расскажут что раньше играли в заброшенном районе, но теперь там «очень страшно».
+
+::: column
+
+## Отыгрыш и характер
+
+- Торговцы охотно болтают, но не переходят черту.
+- Рыбаки немногословны и подозрительны к чужакам.
+- Пьяницы громки и агрессивны, но могут знать то, чего не должны.
+- Дети часто первыми замечают странности, но не понимают их значения.
+
+**Отношение к героям:** неопределено
 
 
 ::: page

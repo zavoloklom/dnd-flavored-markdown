@@ -2,11 +2,14 @@
 :root {
     /** Fonts **/
     --font-serif: "Bitter", Georgia, serif;
+    --font-serif-alt: "Alegreya", Georgia, serif;
     --font-serif-sc: "Alegreya SC", Times, serif;
     --font-sans-sc: "Alegreya Sans SC", Roboto, Helvetica, sans-serif;
-    --font-sans: "Source Sans 3", Roboto, Helvetica, sans-serif;
-    --font-sans-alt: "Overpass", Roboto, Helvetica, sans-serif;
+    --font-sans: "Overpass", Roboto, Helvetica, sans-serif;
+    --font-sans-alt: "Source Sans 3", Roboto, Helvetica, sans-serif;
     --font-monospace: "Source Code Pro", monospace;
+    --font-drop-cap: "Solbera Imitation", serif;
+    --font-drop-cap-ru: "Volbera", serif;
 
     /** Body Typography **/
     --body-font-family: var(--font-serif);
@@ -50,7 +53,7 @@
 
     /** Page **/
     --page-background: #fff url("../../assets/themes/default/background_texture.png") repeat;
-    --page-footer: url("../../assets/themes/default/footer.png");
+    --page-footer: url("../../assets/themes/default/page-footer.svg");
 
     /** Page Number **/
     --page-number-font-family: var(--font-serif-sc);

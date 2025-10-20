@@ -2,7 +2,6 @@
 
 import MarkdownIt from 'markdown-it'
 import mkAttrs from 'markdown-it-attrs'
-import mkContainer from 'markdown-it-container'
 import matter from 'gray-matter'
 import { applyDfmPlugins } from './dfm-plugins';
 import { escapeHtml } from '../utils/escape-html';
@@ -10,9 +9,7 @@ import { escapeHtml } from '../utils/escape-html';
 // --- Markdown factory (shared) ---
 export function createMarkdownIt(): MarkdownIt {
     const md = new MarkdownIt({ html: true, linkify: true, typographer: true })
-        .use(mkAttrs)                // {#id .class key=val}
-        .use(mkContainer, 'sidebar') // ::: sidebar ... :::
-        .use(mkContainer, 'readaloud')
+        .use(mkAttrs)
     applyDfmPlugins(md)
     return md
 }

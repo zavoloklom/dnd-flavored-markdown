@@ -24,6 +24,9 @@ Fonts https://dungeonsanddragons.ru/%D1%88%D1%80%D0%B8%D1%84%D1%82%D1%8B/
 -
 - (не нравится) Моно шрифт - [Overpass Mono](https://fonts.google.com/specimen/Overpass+Mono) - Designed by Delve Withrington, Dave Bailey, Thomas Jockin
 - Моно шрифт - [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) - Designed by Paul D. Hunt
+- 
+- Буквица - Solbera Imitation / Volbera
+
 
 ---
 

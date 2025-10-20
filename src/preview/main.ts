@@ -76,6 +76,10 @@ async function renderCurrent() {
 
     const title = String(frontmatter.title ?? '').trim() || 'Preview';
     const lang = String(frontmatter.lang ?? 'en').toLowerCase() === 'ru' ? 'ru' : 'en';
+    const pageSize = String(frontmatter.size ?? 'a4').trim() || 'a4';
+
+    // page size
+    document.querySelector('.content')?.setAttribute('data-size', pageSize);
 
     // язык на <html>
     document.title = `DFM Preview - ${title}`;

@@ -5,7 +5,6 @@
     position: absolute;
     z-index: 200;
 
-    right: 2px;
     bottom: 22px;
     width: 50px;
     text-align: center;
@@ -17,8 +16,12 @@
     color: var(--page-number-color, #beb593);
 }
 
+.page:nth-child(odd) .page-number {
+    right: 1px;
+}
+
 .page:nth-child(even) .page-number {
-    left: 2px;
+    left: 1px;
 }
 
 .page-number:visited {

@@ -1,0 +1,86 @@
+/** Страница класса **/
+.page[data-type="class"] {
+    padding-top: 22mm;
+}
+.page[data-type="class"] > h1:first-child {
+    column-span: initial;
+}
+/** .page[data-type="class"] > .framed-image:first-child **/
+.page[data-type="class"] .framed-image {
+    position: relative;
+    inset-block-start: -8mm;
+    inset-inline-start: -4mm;
+    margin-bottom: -8mm;
+
+    width: 353px;
+    height: 353px;
+}
+.page[data-layout="rtl"].page[data-type="class"] .framed-image {
+    inset-inline-start: 4mm;
+}
+
+
+.page[data-type="class"]:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    width: 90%;
+    height: 100%;
+
+    background-image: url(/assets/themes/default/class-page_header.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin: 4mm auto;
+
+    /*background-image: url(/assets/themes/2024_phb/class-page_header.svg);*/
+    /*left: 4px;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*width: 100%;*/
+    /*margin: 0;*/
+}
+.page[data-type="class"] .icon {
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    text-align: center;
+
+    top: 7mm;
+    left: .1mm; /** To center in frame **/
+}
+.page[data-type="class"] .icon img {
+    height: 100%;
+    width: auto;
+}
+
+.page[data-type="class"] > p:first-of-type::first-letter {
+    float: left;
+
+    /** TODO: DROP-CAP **/
+    /*margin-top: -1mm;*/
+    /*padding: 2mm;*/
+    /*font-family: var(--font-drop-cap-ru), sans-serif;*/
+    /*font-size: 56pt;*/
+
+    font-family: var(--header-font-family), sans-serif;
+    font-weight: 500;
+    font-size: 51pt;
+    margin: -4pt 0 -5pt;
+    padding: 0 2mm 0 0;
+
+    line-height: 1;
+    color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(-45deg, #322814, #998250, #322814);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+/** ::first-line **/
+.page[data-type="class"] > p:first-of-type::first-line {
+    /*Not working for cyrrilic*/
+    font-variant: small-caps;
+    font-size: .86em;
+    text-transform: uppercase;
+}

@@ -1,0 +1,110 @@
+/* Alegreya – Full Weight Range with Italics */
+/* Path: ./static/ */
+/* Weights:
+   400 Regular
+   500 Medium
+   600 SemiBold
+   700 Bold
+   800 ExtraBold
+   900 Black
+*/
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-Italic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-BoldItalic.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("./static/Alegreya-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Example:
+body { font-family: "Alegreya", Georgia, "Times New Roman", serif; }
+*/

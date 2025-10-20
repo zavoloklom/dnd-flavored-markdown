@@ -8,6 +8,7 @@
     column-span: all;
     display: block;
 }
+.column-reset + * { margin-top: 0; }
 
 /* visual-neutral */
 .column-break, .column-reset {

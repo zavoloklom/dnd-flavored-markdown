@@ -1,12 +1,32 @@
-/** Page - A4 **/
+/** Page - A4 (TODO: too specific) **/
+/*.content[data-size="a4"] .page {*/
+/*    width: 210mm;*/
+/*    height: 297mm;*/
+
+/*    padding: 14mm 16mm 18mm 16mm;*/
+/*}*/
+
+/** Page - Letter (TODO: too specific) **/
+/*.content[data-size="letter"] .page {*/
+/*    width: 215.9mm;*/
+/*    height: 279.4mm;*/
+
+/*    padding: 15mm 20mm;*/
+/*}*/
+
+
+/** Page **/
 .page {
     position: relative;
     z-index: 0;
 
+    margin: 0;
+
     width: 210mm;
     height: 297mm;
-    margin: 0;
+
     padding: 14mm 16mm 18mm 16mm;
+
     box-sizing: border-box;
     overflow: clip;
 
@@ -36,10 +56,11 @@
     left: 0;
     z-index: 100;
     width: 100%;
-    height: 50px;
+    height: 65px;
     content: '';
     background-image: var(--page-footer);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .page:nth-child(even):after {
     transform: scaleX(-1);
@@ -77,6 +98,17 @@
 
 /* Опционально: элементы на всю ширину (хедер/иллюстрация) */
 .page [data-span="all"] { grid-column: 1 / -1; }
+
+/** Сначала правая колонка **/
+.page[data-layout="rtl"] {
+    direction: rtl;
+}
+.page[data-layout="rtl"] *,
+.page[data-layout="rtl"]:before,
+.page[data-layout="rtl"]:after {
+    direction: ltr;
+}
+
 
 @media screen {
     .page {
