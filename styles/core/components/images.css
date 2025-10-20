@@ -14,7 +14,7 @@
     z-index: 1;
 
     border: none;
-    border-image: url("../../../assets/themes/default/frame_image.svg") 90 fill / 90px;
+    border-image: url("../../../assets/themes/default/frame_image.svg") 200 fill / 84px;;
     border-image-repeat: stretch;
 
     -webkit-print-color-adjust: exact;

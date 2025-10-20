@@ -8,12 +8,13 @@
 /** .page[data-type="class"] > .framed-image:first-child **/
 .page[data-type="class"] .framed-image {
     position: relative;
-    inset-block-start: -8mm;
+    inset-block-start: -4mm;
     inset-inline-start: -4mm;
-    margin-bottom: -8mm;
+    margin-bottom: -4mm;
 
-    width: 353px;
-    height: 353px;
+    /** TODO: Must be even **/
+    width: 352px;
+    height: 352px;
 }
 .page[data-layout="rtl"].page[data-type="class"] .framed-image {
     inset-inline-start: 4mm;

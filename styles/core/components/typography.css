@@ -28,6 +28,7 @@ h2 {
     letter-spacing: var(--h2-letter-spacing, 0.02em);
 
     margin-top: 3mm;
+    margin-bottom: 1.5mm;
 
     border-bottom: 1px solid var(--header-underline, #d1a347);
 }
