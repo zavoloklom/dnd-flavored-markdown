@@ -1,6 +1,6 @@
 import type MarkdownIt from 'markdown-it'
 import { matchFenceOpen } from '../utils/fence'
-import { buildDataAttrsString } from '../utils/blockAttrs'
+import { buildAttrsString } from '../utils/block-attrs'
 
 export function usePage(md: MarkdownIt) {
     md.block.ruler.before(
@@ -18,7 +18,11 @@ export function usePage(md: MarkdownIt) {
             const t = state.push('dfm_page_start', '', 0)
             t.block = true
             t.map = [startLine, startLine + 1]
-            t.meta = { dataAttrs: open.dataAttrs } // {layout:..., bg:..., ...}
+            t.meta = {
+                dataAttrs: open.dataAttrs,
+                classes: open.classes ?? [],
+                style: open.style ?? ''
+            }
             state.line = startLine + 1
             return true
         },
@@ -26,8 +30,18 @@ export function usePage(md: MarkdownIt) {
     )
 
     md.renderer.rules['dfm_page_start'] = (tokens, idx) => {
-        const data = tokens[idx].meta?.dataAttrs ?? {}
-        const ds = buildDataAttrsString(data)
-        return `<div class="page-start"${ds}></div>\n`
+        const meta  = tokens[idx].meta || {}
+
+        const data    = meta.dataAttrs ?? {}
+        const classes = meta.classes ?? []
+        const style   = meta.style ?? ''
+
+        const attrStr = buildAttrsString({
+            classes: [...classes, 'page-start'],
+            style,
+            data
+        })
+
+        return `<div${attrStr}></div>\n`
     }
 }

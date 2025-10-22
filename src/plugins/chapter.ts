@@ -1,7 +1,7 @@
 import type MarkdownIt from 'markdown-it'
 import { escapeHtml } from '../utils/escape-html'
 import { matchFenceOpen } from '../utils/fence'
-import { parseCurlyDataAttrs, buildDataAttrsString } from '../utils/blockAttrs'
+import {parseCurlyDataAttrs, buildAttrsString} from '../utils/block-attrs'
 
 /** Разбиваем "A | B | C" → subtitle="A", title="B | C" */
 function splitChapterText(raw: string): { subtitle?: string; title: string } {
@@ -37,7 +37,12 @@ export function useChapter(md: MarkdownIt) {
             const token = state.push('dfm_chapter', '', 0)
             token.block = true
             token.map = [startLine, startLine + 1]
-            token.meta = { text, dataAttrs: data }
+            token.meta = {
+                text,
+                dataAttrs: data,
+                classes: open.classes ?? [],
+                style: open.style ?? ''
+            }
 
             state.line = startLine + 1
             return true
@@ -48,14 +53,21 @@ export function useChapter(md: MarkdownIt) {
     md.renderer.rules['dfm_chapter'] = (tokens, idx) => {
         const meta  = tokens[idx].meta || {}
         const text  = String(meta.text || '')
-        const data  = meta.dataAttrs || {}
+
+        const data    = meta.dataAttrs ?? {}
+        const classes = meta.classes ?? []
+        const style   = meta.style ?? ''
+
+        const attrStr = buildAttrsString({
+            classes: [...classes, 'chapter'],
+            style,
+            data: Object.assign(data, { kind: 'chapter', value: escapeHtml(text)})
+        })
 
         const { subtitle, title } = splitChapterText(text)
         const subHtml   = subtitle ? `<div class="chapter__subtitle">${escapeHtml(subtitle)}</div>` : ''
         const titleHtml = `<div class="chapter__title">${escapeHtml(title)}</div>`
 
-        // ⬇️ добавим data-* на корневой div
-        const dataStr = buildDataAttrsString(data)
-        return `<div class="chapter" data-kind="chapter" data-value="${escapeHtml(text)}" ${dataStr}>${subHtml}${titleHtml}</div>\n`
+        return `<div${attrStr}>${subHtml}${titleHtml}</div>\n`
     }
 }

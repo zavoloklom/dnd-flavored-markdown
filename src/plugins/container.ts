@@ -5,7 +5,7 @@
 
 import type MarkdownIt from 'markdown-it'
 import { matchFenceOpen, isFenceClose } from '../utils/fence'
-import { buildDataAttrsString } from '../utils/blockAttrs'
+import { buildAttrsString } from '../utils/block-attrs'
 import {collectBodyRaw} from "../utils/collect-body";
 
 export function useContainer(md: MarkdownIt) {
@@ -46,7 +46,9 @@ export function useContainer(md: MarkdownIt) {
             tOpen.meta = {
                 rawName: open.name,
                 kind: open.name.toLowerCase(),
-                dataAttrs: { ...open.dataAttrs, kind: open.name.toLowerCase() }
+                dataAttrs: { ...open.dataAttrs, kind: open.name.toLowerCase() },
+                classes: open.classes ?? [],
+                style: open.style ?? ''
             }
 
             const tBody = state.push('dfm_container_body', '', 0)
@@ -65,8 +67,18 @@ export function useContainer(md: MarkdownIt) {
     md.renderer.rules['dfm_container_open'] = (tokens, idx) => {
         const kind = tokens[idx].meta?.kind ?? 'box'
         const rawName = tokens[idx].meta?.rawName ?? kind
-        const dataStr = buildDataAttrsString(tokens[idx].meta?.dataAttrs ?? {})
-        return `<div class="dfm-container ${escape(rawName)}"${dataStr}>\n`
+
+        const data    = tokens[idx].meta?.dataAttrs ?? {}
+        const classes = tokens[idx].meta?.classes ?? []
+        const style   = tokens[idx].meta?.style ?? ''
+
+        const attrStr = buildAttrsString({
+            classes: [...classes, 'dfm-container', rawName],
+            style,
+            data
+        })
+
+        return `<div${attrStr}>\n`
     }
     md.renderer.rules['dfm_container_body'] = (tokens, idx, _o, env) => {
         const raw = tokens[idx].meta?.raw ?? ''

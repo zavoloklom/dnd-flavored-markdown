@@ -2,7 +2,7 @@
 // Opening:  ":{N} <name> <tail...>" where N >= 3
 // Closing:  exactly N colons on its own line (optionally surrounded by spaces).
 
-import { parseCurlyDataAttrs } from './blockAttrs'
+import { parseCurlyDataAttrs } from './block-attrs'
 
 export interface FenceOpen {
     fenceLen: number
@@ -11,6 +11,10 @@ export interface FenceOpen {
     tail: string
     /** Key-value map ready to render as data-* (kebab-cased). */
     dataAttrs: Record<string, string>
+    /** Extra CSS classes gathered from {class|classes="..."} */
+    classes: string[]
+    /** Inline style gathered from {style="..."} */
+    style?: string
 }
 
 /** Match a colon-fenced opening line. */
@@ -19,14 +23,16 @@ export function matchFenceOpen(lineRaw: string): FenceOpen | null {
     const m = /^(:{3,})\s+([A-Za-z0-9_-]+)(.*)$/.exec(line)
     if (!m) return null
 
-    // Extract trailing {...} as data-* and strip it from the tail
-    const { cleanedTail, data } = parseCurlyDataAttrs(m[3] ?? '')
+    // Extract trailing {...} as attrs and strip it from the tail
+    const { cleanedTail, data, classes, style } = parseCurlyDataAttrs(m[3] ?? '')
 
     return {
         fenceLen: m[1].length,
         name: m[2],
-        tail: cleanedTail,   // ← хвост без {…}
-        dataAttrs: data,     // ← готовые ключи для data-атрибутов
+        tail: cleanedTail,      // хвост без {…}
+        dataAttrs: data,        // для data-* (kebab-cased)
+        classes: classes ?? [],
+        style
     }
 }
 

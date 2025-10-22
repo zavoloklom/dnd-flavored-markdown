@@ -1,5 +1,5 @@
 import {escapeHtml} from '../utils/escape-html'
-import {buildDataAttrsString} from '../utils/blockAttrs'
+import {buildAttrsString} from '../utils/block-attrs'
 import {normalizeBoolean} from '../utils/normalize-boolean'
 
 type DataAttrs = Record<string, string>
@@ -175,8 +175,6 @@ function renderPage(
         ...rest
     } = data
 
-    const dataAttributes = buildDataAttrsString(rest);
-
     const iconBlock = icon
         ? `<div class="icon" aria-hidden="true"><img alt="icon" src=${icon}></div>`
         : '';
@@ -196,7 +194,13 @@ function renderPage(
         ? ` data-chapter="${escapeAttr(chapterText)}"`
         : ''
 
-    return `<section id="p${pageIndex}" class="page" data-page-count="${pageIndex}" data-page-number="${escapeHtml(pageNumberText)}"${dataChapterAttr}${dataAttributes}>${inner}${iconBlock}${footnote}${pageNumber}</section>`
+    const dataAttributes = buildAttrsString({
+        classes: ['page'],
+        style: '',
+        data: Object.assign(rest, { "page-count": String(pageIndex), "page-number": escapeHtml(pageNumberText)})
+    })
+
+    return `<section id="p${pageIndex}"${dataAttributes}${dataChapterAttr}>${inner}${iconBlock}${footnote}${pageNumber}</section>`
 }
 
 function escapeAttr(s: string): string {

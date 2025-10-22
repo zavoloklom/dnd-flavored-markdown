@@ -12,7 +12,7 @@ import { parseKvCombined, toInt } from '../utils/kv';
 import { escapeHtml } from '../utils/escape-html';
 import { matchFenceOpen, isFenceClose } from '../utils/fence';
 import { pushScope, popScope } from '../utils/scope';
-import { buildDataAttrsString } from '../utils/blockAttrs';
+import {buildAttrsString} from '../utils/block-attrs';
 import {collectBodyRaw} from "../utils/collect-body";
 
 type KeyLower =
@@ -95,7 +95,13 @@ export function useStatBlock(md: MarkdownIt) {
         const openToken = state.push('dfm_stat-block_open', '', 1)
         openToken.block = true
         openToken.map = [startLine, next]
-        openToken.meta = { infoTail, header: headerLines.join('\n'), dataAttrs }
+        openToken.meta = {
+            infoTail,
+            header: headerLines.join('\n'),
+            dataAttrs,
+            classes: open.classes ?? [],
+            style: open.style ?? ''
+        }
 
         const bodyToken = state.push('dfm_stat-block_body', '', 0)
         bodyToken.block = true
@@ -112,7 +118,7 @@ export function useStatBlock(md: MarkdownIt) {
 
     function renderOpen(tokens: any[], idx: number, _opts: any, env: any): string {
         // Parse header key/values
-        const meta = tokens[idx].meta as { infoTail: string; header: string }
+        const meta = tokens[idx].meta || {}
         const kv = parseKvCombined([meta.infoTail, meta.header])
         const h: HeaderData = {}
 
@@ -163,10 +169,18 @@ export function useStatBlock(md: MarkdownIt) {
             ['Initiative', h.initiative],
         ].filter(([, v]) => v != null) as Array<[string, string]>
 
-        const dataAttrsStr = buildDataAttrsString(tokens[idx].meta?.dataAttrs ?? {});
+        const data    = meta.dataAttrs ?? {}
+        const classes = meta.classes ?? []
+        const style   = meta.style ?? ''
+
+        const attrStr = buildAttrsString({
+            classes: [...classes, 'stat-block'],
+            style,
+            data
+        })
 
         const html: string[] = []
-        html.push(`<article class="stat-block dfm-stat-block" role="note"${h.name ? ` aria-label="${escapeHtml(h.name)}"${dataAttrsStr}` : ''}>`)
+        html.push(`<article${attrStr}>`)
         html.push(`<header class="stat-block__header">`)
         html.push(`<h2 class="stat-block__title">${title}</h2>`)
         if (sub) html.push(`<p class="stat-block__meta">${sub}</p>`)
