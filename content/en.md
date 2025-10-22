@@ -322,15 +322,15 @@ _12 Lothviel (April), Tuesday_
 - At [the old well](#town-map), Maria notices a strange smell. She steps closer, and the starving spiders drag her down.
   Trying to fend them off with a spell, she collapses the old masonry and the shaft caves in.
 - Günter waits for Maria, grows anxious, but doesn’t abandon his post.
-- **[Gaston](#)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That night he
-  tries to reach [the cove by the sea (label 11 on the map)](#town-map), but sailors spot him, and he retreats.
+- Smuggler **[Gaston](#)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That
+  night he tries to reach [the cove by the sea (label 11 on the map)](#town-map), but sailors spot him, and he retreats.
 
 ## Maria Is Reported Missing
 
 _13 Lothviel (April), Wednesday_
 
-- In the morning, Günter finds Maria’s shop closed and no one answering at her home. He convinces **[Hurgkhan](#)** to
-  force the door and open an investigation.
+- In the morning, Günter finds Maria’s shop closed and no one answering at her home. He convinces garrison commander
+  **[Hurgkhan](#)** to force the door and open an investigation.
 - Hurgkhan locks down the town for the duration of the investigation to maintain order and control departures. It’s a
   good chance to remind the townsfolk who’s in charge and to show he’s on top of his duties. He believes Maria will turn
   up within a few hours.
@@ -641,9 +641,22 @@ are punished by death or exile.
 After the demon incursion, the Empire lives in fear and tightens control over magic and faith. Any magic outside the
 Church’s oversight is treated as a threat.
 
+The Ten Commandments of the Church of Light:
+
+1. Thou shalt honor the Light and the Angels; for by them is Truth made manifest.
+2. Thou shalt covet no power save that which the Angels bestow and the Church doth bless.
+3. Thou shalt not defile thy soul with the sorceries of death or of darkness.
+4. Thou shalt not seek knowledge beyond the Light; for the darkness enticeth the mind.
+5. Thou shalt not betray thy neighbor with lying or with guile.
+6. Thou shalt not utter doubt nor blasphemy; for in the tongue lieth the fall.
+7. Thou shalt not yield thy body, soul, or mind to vice, idleness, or pride.
+8. Thou shalt not pass over evil in silence; for silence is complicity.
+9. Thou shalt not shed blood save at an Angel’s bidding; for life is holy.
+10. Thou shalt keep thy faith pure and unwavering, and the Angels shall come in thine hour of need.
+
 ### Spider Cult
 
-A **necromancers’ cult** within one of the states in USMA. It is said they study ways to attain eternal life without
+The secret **necromancers’ cult** within one of the states in USMA. It is said they study ways to attain eternal life without
 becoming undead.
 
 ### Black Meduza
