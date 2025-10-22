@@ -23,6 +23,14 @@
 
     mask: url(/assets/masks/background_left-half.png) center / cover no-repeat;
 }
+.mask.mask--background-bottom-half {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    mask: url(/assets/masks/background_bottom-half.png) center bottom / contain no-repeat;
+}
 .mask.mask--background-bottom-third-01 {
     position: absolute;
     bottom: 0;

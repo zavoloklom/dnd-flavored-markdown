@@ -74,9 +74,11 @@
 
     line-height: 1;
     color: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(-45deg, #322814, #998250, #322814);
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: #BBA273;
+
+    /*background-image: linear-gradient(-45deg, #322814, #998250, #322814);*/
+    /*-webkit-background-clip: text;*/
+    /*background-clip: text;*/
 }
 /** ::first-line **/
 .page[data-type="class"] > p:first-of-type::first-line {
@@ -84,4 +86,9 @@
     font-variant: small-caps;
     font-size: .86em;
     text-transform: uppercase;
+}
+
+/** TODO: Quick fix **/
+.page[data-type="class"] .framed-image + p {
+    margin-bottom: 5mm;
 }
