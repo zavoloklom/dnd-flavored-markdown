@@ -1,0 +1,136 @@
+.panel {
+    position: relative;
+    column-span: all;
+
+    display: block;
+    width: calc(100% + 32mm);/** from A4 **/
+    height: 30%;
+}
+
+.page .panel {
+    /** from A4 **/
+    left: -16mm;
+}
+.page .panel:first-child {
+    /** from A4 **/
+    top: -14mm;
+    left: -16mm;
+
+    /** from A4 + 5mm **/
+    margin-bottom: -9mm;
+}
+.page .panel + * {
+    margin-top: 0;
+}
+.page .panel:not(:first-child) {
+    margin-top: 7mm;
+    margin-bottom: 5mm;
+}
+
+.page .panel:not(:first-child):before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 5px;
+    width: 100%;
+
+    background: url("../../../assets/themes/default/panel-top.svg") no-repeat center;
+    background-size: cover;
+}
+
+.panel:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 42px;
+    width: 100%;
+
+    background: url("../../../assets/themes/default/panel-bottom.svg") no-repeat center;
+    background-size: cover;
+}
+
+.panel .cover {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+.panel .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/** Typo **/
+.panel h1,
+.panel p {
+    margin: 0;
+    line-height: 1;
+}
+.panel h1 {
+    font-size: var(--h2-font-size);
+}
+.panel > .title > p {
+    font-size: .8em;
+    padding-top: 1mm;
+}
+
+.panel > h1,
+.panel > .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    box-sizing: border-box;
+    width: 50%;
+
+    padding-block: 2mm;
+    padding-inline: 16mm; /** A4 **/
+
+    /*text-shadow: 1px 1px 2px #00000030;*/
+    /*filter: drop-shadow(1px 1px 2px #00000030);*/
+}
+.panel > h1:after,
+.panel > .title:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg,#E7E0D3 0%, #E7E0D3 80%, rgba(255, 255, 255, 0) 100%);
+}
+
+.panel .credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 200;
+
+    box-sizing: border-box;
+    width: 50%;
+
+    text-align: right;
+
+    padding-block: 2mm;
+    padding-inline: 4mm; /** A4 **/
+}
+.panel .credit p,
+.panel .credit a,
+.panel .credit a:visited{
+    color: #ffffff70;
+    font-family: var(--font-sans-sc), sans-serif;
+    font-size: 8pt;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}

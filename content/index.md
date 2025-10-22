@@ -60,7 +60,11 @@ save DC or have Disadvantage on attack rolls against creatures other than you un
 
 # Monk
 
+::: subtitle
+
 A Martial Artist of Supernatural Focus
+
+:::
 
 ::: page {layout="auto" type="class" icon="./index/monk_icon.svg"}
 
@@ -115,6 +119,78 @@ You gain the following benefits while you are unarmed or wielding only Monk weap
 **Martial Arts Die.** You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.
 
 **Dexterous Attacks.** You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.
+
+::: page {footnote="Character Origins"}
+
+::: panel
+
+:::: title
+
+# Guard
+
+::::
+
+![Item](./index/background_guard.jpg) {class="cover"}
+
+:::: credit
+
+<!-- prettier-ignore -->
+[DndBeyond Link](https://www.dndbeyond.com/sources/dnd/phb-2024/character-origins#Guard)
+
+::::
+
+:::
+
+::: definition
+
+**Ability Scores:** Strength, Intelligence, Wisdom
+
+**Feat:** Alert (see chapter 5)
+
+**Skill Proficiencies:** Athletics and Perception
+
+**Tool Proficiency:** Choose one kind of Gaming Set (see chapter 6)
+
+**Equipment:** Choose A or B: (A) Spear, Light Crossbow, 20 Bolts, Gaming Set (same as above), Hooded Lantern, Manacles, Quiver, Traveler’s Clothes, 12 GP; or (B) 50 GP
+
+:::
+
+Your feet ache when you remember the countless hours you spent at your post in the tower. You were trained to keep one eye looking outside the wall, watching for marauders sweeping from the nearby forest, and your other eye looking inside the wall, searching for cutpurses and troublemakers.
+
+::: panel
+
+:::: title
+
+# Guide
+
+::::
+
+![Item](./index/background_guide.jpg) {class="cover"}
+
+:::: credit
+
+<!-- prettier-ignore -->
+[DndBeyond Link](https://www.dndbeyond.com/sources/dnd/phb-2024/character-origins#Guide)
+
+::::
+
+:::
+
+::: definition
+
+**Ability Scores:** Dexterity, Constitution, Wisdom
+
+**Feat:** Magic Initiate (Druid) (see chapter 5)
+
+**Skill Proficiencies:** Stealth and Survival
+
+**Tool Proficiency:** Cartographer’s Tools
+
+**Equipment:** Choose A or B: (A) Shortbow, 20 Arrows, Cartographer’s Tools, Bedroll, Quiver, Tent, Traveler’s Clothes, 3 GP; or (B) 50 GP
+
+:::
+
+You came of age outdoors, far from settled lands. Your home was anywhere you chose to spread your bedroll. There are wonders in the wilderness—strange monsters, pristine forests and streams, overgrown ruins of great halls once trod by giants—and you learned to fend for yourself as you explored them. From time to time, you guided friendly nature priests who instructed you in the fundamentals of channeling the magic of the wild.
 
 ::: page {type="class" layout="rtl" icon="./assets/symbols/city.svg"}
 
