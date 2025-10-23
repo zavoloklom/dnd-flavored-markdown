@@ -1074,7 +1074,7 @@ refuse to respond if addressed rudely.
 
 ::: page {footnote="Appendix | Items"}
 
-::: panel {style="height:25%"}
+::: panel {style="height:30%"}
 
 :::: title
 
@@ -1114,28 +1114,11 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232719-abrahams-amu
   becoming undead. The amulet also appears to let a body survive internal damage caused by a ritual.
 
 **Restoring the Magic.** A rare component plus a 1-hour ritual/sacrifice (at the DM’s discretion) awakens the amulet and
-unlocks the properties below.
+unlocks the magic properties.
 
-::: panel {style="height:10%"}
+::: column
 
-:::: title
-
-# Abraham’s Amulet
-
-_Wondrous Item, Rare_
-
-::::
-
-![Item](./assets/items/panel_abrahams-amulet.png) {class="cover"}
-
-:::: credit
-
-<!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amulet)
-
-::::
-
-:::
+## Properties
 
 - **Requires attunement** by a creature proficient in Arcana.
 - **Order’s Sign.** Anyone familiar with the cult recognizes the amulet at a glance. This can draw either loyalty or
@@ -1149,6 +1132,16 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amu
   At that moment the amulet releases a pulse of necrotic energy: each creature within 10 feet must make a Constitution
   saving throw **DC = 8 + your proficiency bonus + your Constitution modifier**, taking **1d4 necrotic damage** on a
   failure (half as much on a success). This triggers **every time you drop to 0**.
+
+::: image-credit {style="right: 70px; height: 230px;"}
+
+<!-- prettier-ignore -->
+![Item](./assets/illustrations/abrahams-amulet.png) {class="image"}
+
+<!-- prettier-ignore -->
+Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amulet) {class="credit"}
+
+:::
 
 ::: page {footnote="Appendix | States and Organizations"}
 
