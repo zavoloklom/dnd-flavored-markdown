@@ -508,8 +508,7 @@ _14 Лотвиэля (апреля), четверг_
 
 ::: chapter Глава 1 | Прибытие
 
-You can let players invent their own reasons for visiting Phandalin, or you can use the following adventure hook. The
-backgrounds and secondary goals on the character sheets also provide characters with motivations for visiting Phandalin.
+Вы можете позволить игрокам самим придумать причины для посещения Сан-Сопригаля, а можете воспользоваться следующим сюжетным крючком.
 
 # Завязка
 
@@ -542,7 +541,7 @@ backgrounds and secondary goals on the character sheets also provide characters 
 персонажи познакомились друг с другом и с **Джаредом**.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 0; object-position: -90px -90px;"}
+![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:550px; width: 385px; bottom: 0; object-position: -50px -90px;"}
 
 ::: page {layout="auto"}
 

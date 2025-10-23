@@ -464,6 +464,8 @@ runs through the northeastern passes, which are closed in foul weather.
 
 ::: chapter Chapter 1 | Arrival
 
+You can let players invent their own reasons for visiting San Soprigal, or you can use the following adventure hook.
+
 # Adventure Hook
 
 The characters are a band of adventurers bound for the city of **Kartal** to fulfill their mentor **Jared’s** last wish:
