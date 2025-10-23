@@ -1,0 +1,11 @@
+.credit,
+.credit p,
+.credit a,
+.credit a:visited {
+    color: #00000070;
+    font-family: var(--font-sans-sc), sans-serif;
+    font-size: 8pt;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}

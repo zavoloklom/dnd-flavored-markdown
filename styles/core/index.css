@@ -28,5 +28,6 @@
 @import './components/panel.css';
 @import './components/images.css';
 @import './components/mask.css';
+@import './components/credit.css';
 
 @import './components/flow-breaks.css';

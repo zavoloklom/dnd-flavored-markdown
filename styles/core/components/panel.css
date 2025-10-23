@@ -107,7 +107,7 @@
     z-index: -1;
     height: 100%;
     width: 100%;
-    background: linear-gradient(90deg,#E7E0D3 0%, #E7E0D3 80%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(90deg,#E7E0D3 0%, #E7E0D3 50%, rgba(255, 255, 255, 0) 100%);
 }
 
 .panel .credit {
@@ -126,11 +126,6 @@
 }
 .panel .credit p,
 .panel .credit a,
-.panel .credit a:visited{
+.panel .credit a:visited {
     color: #ffffff70;
-    font-family: var(--font-sans-sc), sans-serif;
-    font-size: 8pt;
-    line-height: 1;
-    padding: 0;
-    margin: 0;
 }

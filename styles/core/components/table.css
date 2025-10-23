@@ -4,7 +4,7 @@ table {
     width: 100%;
 
     font-family: var(--table-font-family, sans-serif), sans-serif;
-    margin: 1mm 0;
+    margin: 1mm 0 3mm;
 }
 
 table > thead > tr > th {
