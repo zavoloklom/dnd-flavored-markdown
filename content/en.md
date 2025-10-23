@@ -244,21 +244,22 @@ For the names of Azalia’s months, see **[Appendix: Month Names](#appendix-mont
 
 _3 Narvail (February)_
 
-- A necromancer, **[Abraham](#)**, arrives in town. He previously conducted forbidden experiments with spiders in the
+- A necromancer, **[Abraham](#)**, arrives in town. He previously conducted forbidden experiments in the
   [United States of Magic Art](#appendix-states-and-organizations) and is now in hiding, hoping to continue his research
   in seclusion.
 - He rents a house from **[Jonas](#)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham knows
   about this house—and the passage—through old contacts: a fellow necromancer once lived in the town. Jonas doesn’t know
   about the secret passage into the catacombs.
 - Abraham places an order with his smuggler contacts in [Black Meduza](#appendix-states-and-organizations) for
-  “goods”—his custom-bred spiders.
-- He locks himself in the cellar and doesn’t show his face around town. Rumors spread that he’s a mage.
+  “goods”—his custom-bred spiders to continue experimenting with their poison.
+- He locks himself in the cellar and doesn’t show his face around town. Rumors spread that he’s a mage, but no one
+  cares.
 
 ## Maria & Abraham
 
 _Narvail (February)_
 
-- **[Maria](#)**, an incense merchant, supplied Abraham with ingredients needed for his spider venom experiments.
+- **[Maria](#)**, an incense and herbs merchant, supplied Abraham with ingredients needed for his experiments.
 - Abraham paid in advance and asked for discretion.
 - In thanks, he gave Maria a [scroll with a simple spell](#) and instructions.
 - The following month he didn’t place an order, and Maria didn’t find that unusual.
@@ -276,7 +277,7 @@ _1 Bethalasse (March)_
 
 _1 Bethalasse (March)_
 
-- Smugglers **[Peter](#)** and **[Boshir](#)** bring contraband and crates of spiders to the cove beneath the town.
+- Smugglers **Peter** and **Boshir** bring contraband and crates of spiders to the cove beneath the town.
 - That evening, posing as traders, they drink in the tavern, hit on Rosa, and start a brawl.
 - At night they descend into the catacombs to unload the boat. A large crate slips and breaks. The starving spiders
   attack and kill them both.
@@ -317,8 +318,8 @@ _12 Lothviel (April), Tuesday_
 
 - After talking with her friend **[Karra](#)**, Maria decides to end things with Günter—but puts off the conversation.
 - In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to propose to Maria at sunset.
-- Maria heads for the tower, but when she spots Rosa returning to town, she detours into the Abandoned District to avoid
-  her.
+- Maria heads for the tower, but when she spots Rosa returning to town. Maria detours into the Abandoned District to
+  avoid her.
 - At [the old well](#town-map), Maria notices a strange smell. She steps closer, and the starving spiders drag her down.
   Trying to fend them off with a spell, she collapses the old masonry and the shaft caves in.
 - Günter waits for Maria, grows anxious, but doesn’t abandon his post.
