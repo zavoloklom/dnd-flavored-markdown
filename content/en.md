@@ -498,7 +498,7 @@ As the party nears town, memories surface. Ask the players to briefly describe h
 how they met Jared.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 20px; object-position: -90px -90px;"}
+![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 40px; object-position: -90px -90px;"}
 
 ::: page
 
@@ -546,22 +546,69 @@ After passing the gate, the characters arrive at **[Maria’s House](#marias-hou
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/city_05.png) {style="height:515px" class="framed-image"}
 
-::: page {layout="auto"}
+::: page
 
 ::: chapter Chapter 2 | San Soprigal
 
+The town is the primary location of this adventure—a compact sandbox the characters can explore in any order. If the
+players head to an undescribed location, improvise using the town’s overall atmosphere and layout.
+
 # Town Overview
 
-_Visual reference: Mediterranean towns such as Atrani (Italy)._
+San Soprigal is small—about 500 residents—built on rocky terraces. Dominant motifs: narrow stone lanes, steep stairways,
+and arched passages. Mornings smell of salt, seaweed, and fish; during the day workshops hum; by evening a thick fog
+settles.
 
-San Soprigal is small (about 500 residents) and built on rocky terraces. The dominant motifs are narrow stone lanes,
-steep stairways, and arched passages. Mornings smell of salt, seaweed, and fish; workshops hum through the day; by
-evening, a thick fog rolls in.
+_Visual reference—Mediterranean towns such as Atrani (Italy)._
 
-## Disticts
+## Districts
 
-The town is divided into several districts—Dockside District, Craft District, Abandoned District, Velvet Row, and
-Central District.
+The town is divided into several districts:
+
+::: definition
+
+**Dockside District.** The pier with warehouses and tackle shops. Poorer homes crowd nearby. It’s noisy here and smells
+of salt and smoke.
+
+**Velvet Row.** Homes of the well-to-do and clean streets. Guard patrols are more frequent. Some houses have simple
+alarm rigs.
+
+**Central District.** The town square, main buildings, and the market. Notices are posted here and crowds gather.
+
+**Craft District.** Stables, forges, and workshops run all day. Most residents here also work here.
+
+**Abandoned District.** Half-ruined houses and vacant lots left after the demon incursion. Locals avoid the area.
+
+**Mountain District.** Terrace homes along the slope and steep stairs. Strong winds blow; stones come loose. Entrances
+to old—usually abandoned—mines are found here.
+
+:::
+
+::: column
+
+## Location Format
+
+This chapter details San Soprigal’s key locations. Each location follows the same template: description, NPCs, items,
+information, encounters.
+
+Information in locations is what can be learned **on site** (search, tracks, environmental context), whereas information
+in NPC cards (see “[Appendix: Characters](#)”) is what they can tell the party anywhere in town.
+
+## The Guard
+
+Open use of weapons and magic is prohibited in town. Order is kept by a small guard force. If the players plan something
+shady, they can acquire the patrol schedule to choose a route and timing and avoid getting caught.
+
+#### Guard Schedule
+
+| Post        | Day      | Night    |
+| :---------- | :------- | :------- |
+| City Gate   | 2 guards | 1 guard  |
+| Port Gate   | 1 guard  | —        |
+| Watchtower  | 1 guard  | 1 guard  |
+| Old Tower   | 1 guard  | —        |
+| Town Patrol | 2 guards | 2 guards |
+| **Total:**  | **8**    | **4**    |
 
 ::: page
 
@@ -592,13 +639,43 @@ The town has several key locations that may aid the players’ investigation:
 
 ::: column
 
-## Some Title
+## For Players
 
 You can hand the players a **[map without labels](#appendix-town-map-for-players)** after speaking with **Hurgkhan** or
 **Duncan**, or if they explicitly ask to “get the lay of the town.”
 
 The full map archive is available here:  
 [Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
+
+::: page
+
+# The Dock
+
+_Available only in the morning of Day One, before entering the town._ _Number on the [map](#town-map)—**1**._
+
+## Description
+
+> You decide to linger at the dock.
+>
+> Boats rock against the pilings; a salty wind carries the scents of seaweed and fresh fish. The boards creak underfoot.
+>
+> Onshore, near a low wooden building—a warehouse and sailors’ rest—a group of fishermen are talking.
+>
+> Noticing you, a cloaked man turns and watches you closely.
+
+## NPCs
+
+- [Duncan](#)—a former adventurer, speaking with the fishermen.
+- Local [fishermen](#).
+
+## Information
+
+- `@Intimidation 10` The fishermen are reluctant to talk, but admit someone was at the dock last night.
+- Duncan will gladly share a brief history of the town and how the districts are organized. After that, you can hand the
+  players a [map without labels](#appendix-town-map-for-players).
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/docks_01.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page {type="inside-cover"}
 
