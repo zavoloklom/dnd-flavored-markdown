@@ -57,6 +57,7 @@
     width: auto;
 }
 
+/** TODO: Same as in Chapter **/
 .page[data-type="class"] > p:first-of-type::first-letter {
     float: left;
 
@@ -83,7 +84,7 @@
 /** ::first-line **/
 .page[data-type="class"] > p:first-of-type::first-line {
     /*Not working for cyrrilic*/
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
     font-size: .86em;
     text-transform: uppercase;
 }

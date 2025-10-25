@@ -83,3 +83,35 @@
     background: url("../../../assets/themes/default/chapter_footer.svg") no-repeat center / 100% 100%;
     background-size: contain;
 }
+
+/** TODO: Same as in Page Class **/
+.chapter + p:first-of-type::first-letter {
+    float: left;
+
+    /** TODO: DROP-CAP **/
+    /*margin-top: -1mm;*/
+    /*padding: 2mm;*/
+    /*font-family: var(--font-drop-cap-ru), sans-serif;*/
+    /*font-size: 56pt;*/
+
+    font-family: var(--header-font-family), sans-serif;
+    font-weight: 500;
+    font-size: 51pt;
+    margin: -4pt 0 -5pt;
+    padding: 0 2mm 0 0;
+
+    line-height: 1;
+    color: rgba(0, 0, 0, 0);
+    color: #BBA273;
+
+    /*background-image: linear-gradient(-45deg, #322814, #998250, #322814);*/
+    /*-webkit-background-clip: text;*/
+    /*background-clip: text;*/
+}
+/** ::first-line **/
+.chapter + p:first-of-type::first-line {
+    /*Not working for cyrrilic*/
+    /*font-variant: small-caps;*/
+    font-size: .86em;
+    text-transform: uppercase;
+}
