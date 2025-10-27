@@ -123,7 +123,11 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Library](#library)
   - [Günter’s House](#günters-house)
   - [Abandoned District](#abandoned-district)
-- [Chapter 3: Catacombs](#)
+- [Chapter 3: Catacombs](#catacomb-map)
+  - [Passage from the Old Well](#passage-from-the-old-well)
+  - [Passage from Abraham’s House](#passage-from-abrahams-house)
+  - [Smuggler’s Cove](#smugglers-cove)
+  - [Great Hall](#great-hall)
 - [Chapter 4: Conclusion](#)
 - [Appendix: NPC](#)
 - [Appendix: Quest and Magic Items](#items)
@@ -267,7 +271,8 @@ _3 Narvail (February)_
 - He rents the house from **[Jonas](#)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham
   knows about the house—and the passage from it into the catacombs—through old ties with smugglers of
   [Black Meduza](#appendix-states-and-organizations). Jonas is unaware of the hidden route.
-- Abraham places an order with Black Meduza to have his special spiders delivered so he can continue experiments with their venom.
+- Abraham places an order with Black Meduza to have his special spiders delivered so he can continue experiments with
+  their venom.
 - He locks himself in the cellar and doesn’t show his face around town. Rumors spread that he’s a mage, but no one
   cares.
 
@@ -1458,7 +1463,7 @@ _Number on the [map](#town-map)—**12**._
 > under wind and rain. People once lived here; now only ruins remain. From time to time a creak carries—the wind rocking
 > the last shutters to tap against the stone.
 
-## The Old Well
+**The Old Well:**
 
 > Amid the collapsed homes sits a choked-up well: its moss-covered stone curb barely shows beneath boards, dirt, and
 > fallen rock.
@@ -1485,6 +1490,223 @@ entrances to the catacombs, you may reduce this to **1d4 hours** to keep the plo
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/abanodoned-distict.png){class="mask mask--background-bottom-third-02" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+::: chapter Chapter 3 | Catacombs
+
+Beneath the town lies a small network of catacombs, first cut when **San Soprigal** was founded and later expanded by
+smugglers of **[Black Meduza](#appendix-states-and-organizations)**. Most townsfolk don’t know they exist—only rumors
+persist, and local daredevils have failed to find them.
+
+From town, you can reach the catacombs via the **old well** in the Abandoned District (the original route) or through
+the **cellar of Abraham’s house** (the newer route).
+
+From the sea side, a narrow entrance opens in a hidden cove: the passage is veiled by a powerful **illusion**. Spotting
+the anomaly requires `@Investigation 15`; recognizing it specifically as an illusion requires `@Arcana 13`. The illusion
+masks the view but does not block passage.
+
+::: column
+
+## Catacomb Map
+
+The catacombs break into several zones:
+
+1. [Passage from the Old Well](#passage-from-the-old-well) — the original tunnel from the town’s founding.
+2. [Passage from Abraham’s House](#passage-from-abrahams-house) — a tunnel dug by smugglers about 50 years ago.
+3. [Smugglers’ Cove](#smugglers-cove) — an inner cove with a small unloading pier.
+4. [Great Hall](#great-hall) — the main storage chamber; now the spiders’ lair.
+
+If the characters don’t have **darkvision**, they’ll need a light source. If they travel with light or aren’t attempting
+to stay hidden, the spiders in the lair detect their approach and set an _ambush_.
+
+::: wide
+
+![Map](./assets/maps/catacombs-4k-notes-en.jpg){class="framed-map" style="height:100%"}
+
+_The full map archive is available here:
+[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs)._
+
+::: page
+
+# Passage from the Old Well
+
+## Description
+
+_Number on the [map](#catacomb-map)—**1**._
+
+> A choking reek of damp and rot greets you. Only distant droplets break the silence. The tunnel walls are laid with
+> ancient stone, furred with moss and webbing. Here and there you see worn runes and chiseled symbols.
+>
+> The wooden supports look frail—some have split. It seems a careless move could bring the ceiling down.
+
+## Information
+
+- **Bertram’s cocoon.** A large mass of web clings to the wall. Cutting it open reveals a desiccated body, face frozen
+  in a rictus of terror.
+- `@Investigation 10`—faded smuggler’s marks and the medusa symbol are visible on the walls.
+
+::: column
+
+## Cave-In Hazard
+
+If the party doesn’t state they’re proceeding carefully (group check `@Survival 12`), the tunnel begins to collapse.
+
+> You hear a dull crack—one of the wooden beams splits, dust trickles from above. A heartbeat later comes a crunch and a
+> crash; stones thud to the floor, the air fills with grit, and part of the passage behind you starts to cave in.
+
+Each character makes a `@Dexterity 12` saving throw. On a failure, they take `1d6` bludgeoning damage. The passage
+behind is blocked.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/catacombs_old-entrance.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# Passage from Abraham’s House
+
+## Description
+
+_Number on the [map](#catacomb-map)—**2**._
+
+> The air is stale and unpleasant. The first several yards are neatly shored with stonework, but farther on the lining
+> ends—the walls are roughly hewn in damp earth. Dust blankets the floor; in places it’s broken by footprints and
+> shallow grooves, as if someone was dragged while bracing against the ground. Dark patches of dried blood are visible.
+
+If a **lamp** is present:
+
+> A bluish glow from a lamp on the floor flickers dimly along the walls. As you approach, the light grows noticeably
+> brighter—as if the lamp responds to your presence.
+
+**Exiting into the Great Hall:**
+
+> The passage gradually widens and the ceiling lifts. Webbing hangs in heavy sheets. By the wall lies a body wrapped in
+> dried silk, joints twisted—like someone who died in convulsions. You get the unsettling sense the skull is staring
+> straight at you.
+
+::: column
+
+## Information
+
+**Examining the tracks:**
+
+- `@Investigation 10`—the tracks belong to a single person and are at least a month old. _If the party arrived here
+  after Gaston, they also find a newer set of footprints._
+
+**Examining Abraham’s remains:**
+
+- The clothing resembles an old mage’s robe, embroidered with tarnished symbols.
+- The hand bones are frozen in an unnatural pose. Fine, deep scoring lines mark the bones—as if something huge with
+  sharp claws dragged him.
+- `@Perception 10`—amid the webbing is a [broken amulet](#abrahams-amulet-broken) bearing a skull and spider.
+
+## Items
+
+- [Magic Lamp](#magic-lamp). _If the party came here after Gaston, he has the lamp._
+- [Abraham’s Amulet](#abrahams-amulet-broken).
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/catacombs_new-entrance.png){class="mask mask--background-bottom-third-02" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# Smugglers’ Cove
+
+## Description
+
+_Number on the [map](#catacomb-map)—**3**._
+
+> A spacious stone cavern with a high vaulted ceiling. The air is damp, smelling of saltwater and rotting wood. Pale
+> blue mushrooms cling to the walls, their faint phosphorescence bathing the chamber in a wavering half-light.
+>
+> Along one wall lie rotten crates. Closer to the water stands a crooked pier with a small boat moored to it.
+>
+> Near the boat are fragments of much newer crates and a barrel. Something gleams among the splinters.
+
+## Items
+
+- [Smugglers’ Cache](#smugglers-cache).
+
+::: column
+
+## Information
+
+- **Boat & pier.** `@Investigation 12`—the boat hasn’t been hauled out in a long time; salt crust on the hull and
+  seaweed on the lines suggest about a month. Boats are usually kept ashore, so something prevented it.
+- **Old crates.** Contents have rotted away. What remains are rusty blades and a couple of usable daggers (2).
+- **Barrel.** A medusa symbol is chalked on the side.
+- **Crates by the boat.** One crate has a shattered bottom, its boards broken as if it fell from height. Two crates are
+  torn open from both outside and within; claw marks mar the wood. Nearby are signs of a struggle and patches of dried
+  blood.
+- **Chitinous shell.** `@Nature 10`—among the debris and inside the large crate lie pieces of chitin: gray-green,
+  glossy, with serrated edges. This is the shed exoskeleton of a large arachnid; the creature is likely even bigger now.
+- **Smugglers’ list.** `@Perception 10`—a damp note lies near the barrel, a delivery ledger:
+  - “Documents and live cargo—3 pcs. Deliver to Abraham.”
+  - “Casket—1 pc. Deliver to the Head.”
+  - “Glowing Dust—1 barrel.”
+  - “Moonsilver—2 ingots.”
+  - “Imperial cloaks—5 sets.”
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/catacombs_smugglers-cove.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# Great Hall
+
+## Description
+
+_Number on the [map](#catacomb-map)—**4**._
+
+> The ceiling vanishes into darkness. Sticky webbing mats the walls, hangs in heavy swathes from above, and carpets the
+> floor, clinging to your boots like taffy. The air is heavy and damp with a persistent stench of rot. Along the walls,
+> boulders are heaped; from them thick strands hang in disorder, weaving into three grimy gray cocoons.
+
+## Information
+
+- **Peter & Boshir.** Two cocoons contain the desiccated bodies of men.
+- **Maria.** The third cocoon holds **Maria**. If the party arrives on Day One, she’s at death’s door but still
+  breathing. A careless cut can kill her; `@Medicine 10` is required to stabilize.
+- **Spider clutch.** `@Perception 10`—a clutch of large spider eggs is visible along the walls. It must be destroyed to
+  prevent the spiders’ return.
+
+## Environment
+
+- **Webs.** Count as [difficult terrain](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#DifficultTerrain):
+  speed halved; to tear free requires an action and `@Athletics 12`. Fire burns a 5-foot section per action.
+- **Boulders.** Large enough to provide [cover](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Cover).
+- **Fire.** Torches and a fire pit in the center. If lit, spiders won’t come within 10 feet.
+
+::: column
+
+## Combat: Spider Lair
+
+As soon as the party approaches the center of the hall or begins cutting open cocoons, the first [Spellwarp Spider](#)
+lunges from the shadows. If the party didn’t move stealthily, it attacks from
+[ambush](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Surprise).
+
+> You feel the webbing underfoot begin to tremble. Somewhere above, claws rasp menacingly on stone. Several bright green
+> eyes flare in the dark.
+
+::: definition
+
+**Round 2.** A second [Spellwarp Spider](#) bursts from a side passage, trying to cut off the escape route.
+
+**Round 3+.** When one spider dies, the [Spellwarp Spider Matriarch](#) drops from the ceiling—a hulking creature that
+moves with unsettling intent.
+
+**Additionally.** A [swarm of tiny spiders](#) can pour from the ceiling or walls, harrying characters and disrupting
+concentration/line of sight.
+
+:::
+
+### Gaston’s Part
+
+If the party descended with **[Gaston](#)**, on round one he slips into the shadows after the casket. He won’t reappear
+unless his attitude toward the party is **positive**.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/catacombs_great-hall.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page {type="inside-cover"}
 
@@ -1859,8 +2081,8 @@ _Quest items in the smugglers’ cove_
 
 ::: box
 
-**For DM.** These are items the party can find in the smugglers’ cove. Feel free to expand the list—the cache is a final reward and
-can include any fitting loot.
+**For DM.** These are items the party can find in the smugglers’ cove. Feel free to expand the list—the cache is a final
+reward and can include any fitting loot.
 
 :::
 
