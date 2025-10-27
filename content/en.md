@@ -128,9 +128,12 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Passage from Abraham’s House](#passage-from-abrahams-house)
   - [Smuggler’s Cove](#smugglers-cove)
   - [Great Hall](#great-hall)
-- [Chapter 4: Conclusion](#)
+- [Chapter 4: Aftermath](#the-catacombs)
+  - [The Catacombs](#the-catacombs)
+  - [The Accusation](#the-accusation)
+  - [The Funeral](#the-funeral)
 - [Appendix: NPC](#)
-- [Appendix: Quest and Magic Items](#items)
+- [Appendix: Quest and Magic Items](#appendix-items)
 - [Appendix: Monsters](#)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
@@ -397,7 +400,7 @@ catacombs.
 You determine how much in-game time scenes and travel take. Let the players know that time is passing in town, and
 gently hint that delay will have consequences.
 
-Below is an example of how events may unfold if the heroes don’t intervene.
+Below is an example of how events may unfold if the party don’t intervene.
 
 ### Day One
 
@@ -413,7 +416,7 @@ _13 Lothviel (April), Wednesday_
 _14 Lothviel (April), Thursday_
 
 - **Maria dies in the catacombs** if she has not been rescued.
-- Gaston may approach the heroes, asking them to escort him into the catacombs.
+- Gaston may approach the party, asking them to escort him into the catacombs.
 - By evening, volunteers find signs of a struggle at the old well and inform Hurgkhan.
 - On learning about the spiders, Hurgkhan musters a guard squad and descends into the catacombs. The guard assaults the
   tunnels and destroys the spiders. Of the entire squad, only Günter returns.
@@ -1677,6 +1680,11 @@ _Number on the [map](#catacomb-map)—**4**._
 - **Boulders.** Large enough to provide [cover](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Cover).
 - **Fire.** Torches and a fire pit in the center. If lit, spiders won’t come within 10 feet.
 
+## Gaston’s Part
+
+If the party descended with **[Gaston](#)**, on round one he slips into the shadows after the casket. He won’t reappear
+unless his attitude toward the party is **positive**.
+
 ::: column
 
 ## Combat: Spider Lair
@@ -1700,13 +1708,97 @@ concentration/line of sight.
 
 :::
 
-### Gaston’s Part
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/catacombs_great-hall.png) {style="width:320px;height:350px;" class="framed-image"}
 
-If the party descended with **[Gaston](#)**, on round one he slips into the shadows after the casket. He won’t reappear
-unless his attitude toward the party is **positive**.
+::: page
+
+::: chapter Chapter 4 | Aftermath
+
+# The Catacombs
+
+Before the [funeral scene](#the-funeral), the characters must decide: reveal the catacombs or keep them secret.
+
+If the party agreed to accompany Gaston into the catacombs, he raises the question of hiding the passages from the
+guard, the Church, and the townsfolk. He offers to double the fee—**100 gp each**—if the catacombs remain a secret.
+
+The party needs a plan (and to carry it out). If the plan works, the catacombs remain unknown for a time. This can
+provide a venue for covert meetings later and strengthen Gaston’s goodwill.
+
+**If the spider eggs aren’t destroyed:** within **a month** the spiders crawl onto the streets searching for food and a
+new wave of attacks begins.
+
+When Hurgkhan learns about the spiders, he musters a squad and descends into the catacombs. The fight is brutal; the
+spiders are destroyed. Hurgkhan is mortally wounded and dies below. Only Günter survives, returning to town injured and
+in shock. The town mourns, but the immediate threat is gone.
+
+::: column
+
+# The Accusation
+
+At any point the party can go to the garrison and bring charges against a character. This can serve as an ending.
+
+**Insufficiently connected case (scattered clues):**
+
+- Hurgkhan has doubts and agrees at most to house arrest/surveillance.
+
+**Compelling case (clues logically connected):**
+
+- Hurgkhan orders an arrest and the suspect is jailed.
+- Hurgkhan lifts the lockdown and Rosa leaves town.
+
+**A week** after the “case is closed,” the attacks resume: people disappear, spider tracks appear in the streets.
+
+When Hurgkhan learns about the spiders, he musters a squad and descends into the catacombs. The fight is brutal; the
+spiders are destroyed. Hurgkhan is mortally wounded and dies below. Only Günter survives, returning to town injured and
+in shock. The town mourns, but the immediate threat is gone.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/catacombs_great-hall.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+![Illustration](./assets/illustrations/catacombs.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# The Funeral
+
+The adventure ends with a funeral scene. Who is laid to rest depends on the party’s actions.
+
+## Description
+
+> Wooden biers are set in the middle of the square. Upon them lie those who did not survive the night. Faces are hidden
+> beneath white shrouds, but even through the cloth you can make out the shape of _(character name)_: the figure lies
+> still among the fallen.
+>
+> Selina prays, anoints with oil, and the first tongue of flame licks at the dried boards. The scent of incense mingles
+> with smoke; birds circle overhead. Some whisper farewells, some wipe away tears, but most simply stand in silence.
+
+The party may speak a few words of farewell.
+
+::: box
+
+**For the DM.** Before the funeral—or in dialogue with NPCs—give the players a short scene to articulate what happened.
+It helps them feel they truly solved the case.
+
+:::
+
+::: column
+
+## After the Adventure
+
+Afterwards, the characters may receive new leads:
+
+- **Rumors:** _“Burning them right here in town can’t be good—no wonder the dead crawl out at the old cemetery.”_
+- **Duncan:** _“If you’re looking for a real challenge—there’s work in the mountains.”_
+- If **Rosa’s** attitude isn’t hostile: _“The attacks on merchants continue; your help would be welcome.”_
+- If the party aided **Gaston**, he offers “other delicate jobs.”
+
+Or foreshadowing for a continuation:
+
+- **The Empire (if there was an attack on Rosa):** _“If the Church already knows—expect visitors…”_
+- **Black Meduza smugglers (if Gaston doesn’t have the casket):** _“Someone’s hunting for the casket—they’ll be coming
+  soon…”_
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/funeral.png){class="mask mask--background-bottom-third-01" style="object-position: center 140%; object-fit: contain; bottom: 0;"}
 
 ::: page {type="inside-cover"}
 
