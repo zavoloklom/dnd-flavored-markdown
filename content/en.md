@@ -913,19 +913,19 @@ out, Helmut’s attitude becomes **hostile**.
 
 ## The Rat Farm
 
-::: box
-
-**For the DM.** This quest points toward the catacombs/contraband thread. The spider matriarch directs the spiders
-telepathically—they haul prey down into the catacombs. The crack shows the direction, but it’s too narrow to traverse.
-
-:::
-
 - `@Investigation 10` In the empty cages, besides rat tracks, you can see smaller tracks leading toward a crack in the
   wall.
 - `@Nature 10` The tracks are spider tracks; the behavior is atypical—the prey was removed in an organized way.
 - `@Perception 14` Rat fur and fine webbing are snagged in the crack; from the depths comes a faint rustle. The passage
   descends further underground, but it’s too narrow to squeeze through.
 - While inspecting the crack, `1d4` [tiny spiders](#) attack the party.
+
+::: box
+
+**For the DM.** This quest points toward the catacombs/contraband thread. The spider matriarch directs the spiders
+telepathically—they haul prey down into the catacombs. The crack shows the direction, but it’s too narrow to traverse.
+
+:::
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/rat-farm.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
@@ -1762,6 +1762,8 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163775-abrahams-dia
 > _2 Bethalasse, 567 AF._ “The ship will arrive at sunset. At last I’ll be reunited with my children. My heart broke
 > when I had to leave them behind. Good thing I have friends in Meduza. I hope they are careful.”
 
+::: column
+
 **Further gleaned from the diary:**
 
 - `@Arcana 10` A significant portion of the notes is devoted to necromancy. The phrase “a second life without pain”
@@ -1850,13 +1852,17 @@ _Quest items in the smugglers’ cove_
 
 ## Trophies
 
-These are items the party can find in the smugglers’ cove. Feel free to expand the list—the cache is a final reward and
-can include any fitting loot.
-
 - A barrel of **glowing dust**. `@Arcana 14`—a shimmering powder that begins to glow for several minutes on contact with
   air. Used in rituals or as temporary illumination.
 - **Moonsilver**—2 ingots. `@Nature 10`—a valuable metal often used in enchantment.
 - Five sets of **cloaks** bearing the Imperial Sun.
+
+::: box
+
+**For DM.** These are items the party can find in the smugglers’ cove. Feel free to expand the list—the cache is a final reward and
+can include any fitting loot.
+
+:::
 
 ## Imperial Documents
 
