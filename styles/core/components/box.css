@@ -1,4 +1,46 @@
+/** Box Default **/
 .box {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    padding: 12px;
+    background: #E7E0D3;
+
+    margin-block: 6mm;
+    filter: drop-shadow(0 5px 8px #ccc);
+}
+.box::before,
+.box::after {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    z-index: 1;
+
+    height: 13px;
+    width: 100%;
+
+    background: url(../../../assets/themes/default/box-default_border.svg) no-repeat center / 100% 100%;
+    background-size: contain;
+}
+.box::before {
+    top: -13px;
+    background-position: bottom center;
+}
+.box::after {
+    bottom: -13px;
+    transform: rotateX(180deg);
+    background-position: top center;
+}
+.box p {
+    text-indent: 0;
+}
+.box h4 {
+    margin-top: 0;
+    margin-bottom: 2mm;
+}
+
+/** Box Inverse **/
+.box-inverse {
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -6,8 +48,7 @@
 
     margin-top: 4mm;
 }
-
-.box::after {
+.box-inverse::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -24,7 +65,7 @@
     print-color-adjust: exact;
 }
 
-.box > img {
+.box-inverse > img {
     display: block;
     width: 320px;
     height: auto;
@@ -43,7 +84,7 @@
     mask-composite: subtract, add, add, add, add;
 }
 @media print {
-    .box > img {
+    .box-inverse > img {
         mask-composite: subtract;
     }
 }
