@@ -107,7 +107,22 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Arrival in Town](#arrival-in-town)
 - [Chapter 2: San Soprigal](#town-overview)
   - [Town Overview](#town-overview)
-  - [San Soprigal Map](#san-soprigal-map)
+  - [Town Map](#town-map)
+  - [The Dock](#the-dock)
+  - [Maria’s House](#marias-house)
+  - [Market Square](#market-square)
+  - [Tavern “By the Sea”](#tavern-by-the-sea)
+    - [Tavern Cellar](#tavern-cellar)
+  - [Temple of Light](#temple-of-light)
+  - [Garrison](#garrison)
+  - [Watchtower](#watchtower)
+  - [Town Gate](#town-gate)
+    - [Rosa vs. Hurgkhan at the Gate](#rosa-vs-hurgkhan-at-the-gate)
+  - [Abraham’s House](#abrahams-house)
+    - [Abraham’s Cellar](#abrahams-cellar)
+  - [Library](#library)
+  - [Günter’s House](#günters-house)
+  - [Abandoned District](#abandoned-district)
 - [Chapter 3: Catacombs](#)
 - [Chapter 4: Conclusion](#)
 - [Appendix: NPC](#)
@@ -249,11 +264,10 @@ _3 Narvail (February)_
 - A necromancer, **[Abraham](#)**, arrives in town. He previously conducted forbidden experiments in the
   [United States of Magic Art](#appendix-states-and-organizations) and is now in hiding, hoping to continue his research
   in seclusion.
-- He rents a house from **[Jonas](#)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham knows
-  about this house—and the passage—through old contacts: a fellow necromancer once lived in the town. Jonas doesn’t know
-  about the secret passage into the catacombs.
-- Abraham places an order with his smuggler contacts in [Black Meduza](#appendix-states-and-organizations) for
-  “goods”—his custom-bred spiders to continue experimenting with their poison.
+- He rents the house from **[Jonas](#)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham
+  knows about the house—and the passage from it into the catacombs—through old ties with smugglers of
+  [Black Meduza](#appendix-states-and-organizations). Jonas is unaware of the hidden route.
+- Abraham places an order with Black Meduza to have his special spiders delivered so he can continue experiments with their venom.
 - He locks himself in the cellar and doesn’t show his face around town. Rumors spread that he’s a mage, but no one
   cares.
 
@@ -263,8 +277,8 @@ _Narvail (February)_
 
 - **[Maria](#)**, an incense and herbs merchant, supplied Abraham with ingredients needed for his experiments.
 - Abraham paid in advance and asked for discretion.
-- In thanks, he gave Maria a [scroll with a simple spell](#) and instructions.
-- The following month he didn’t place an order, and Maria didn’t find that unusual.
+- In thanks, he gave Maria a scroll with a simple spell and instructions.
+- After that, Abraham no longer asked for ingredients—and Maria didn’t find it unusual.
 
 ## Arrival of Rosa
 
@@ -272,7 +286,7 @@ _1 Bethalasse (March)_
 
 - **[Rosa](#)** (a paladin of the [Church of Light](#appendix-states-and-organizations)) arrives in San Soprigal and
   keeps the purpose of her visit secret. She refuses to recognize local authority and acts under a covert mandate.
-- She lodges at the [Temple](#town-map) and periodically leaves town for several days at a time.
+- She lodges at the [Temple](#temple-of-light) and periodically leaves town for several days at a time.
 - Her mission is to investigate recent attacks on merchants in the region and to recover a stolen church relic.
 
 ## The Delivery
@@ -307,7 +321,8 @@ _Early Lothviel (April)_
 
 - The Spider-Matriarch lays eggs and primes to drag any prey below ground.
 - At night, **[Bertram](#)** (a local drunk) falls into an old well in the [Abandoned District](#town-map) that opens
-  into the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender and left town.
+  into the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender.
+- The spiders discovered a way to the surface through the well and began hunting at night.
 - **[Children](#)** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,”
   they stopped going there.
 - Relocating their games to the [Craft District](#town-map), the children break a window in
@@ -340,7 +355,7 @@ _13 Lothviel (April), Wednesday_
 - The **adventurers** arrive in San Soprigal.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+![Illustration](./assets/illustrations/marias-house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page {footnote="Introduction"}
 
@@ -504,44 +519,44 @@ how they met Jared.
 
 # Arrival in Town
 
-The characters reach San Soprigal’s pier early in the morning.
+The characters reach San Soprigal’s pier in the morning.
 
-> You arrive in the morning. The town clings to a rocky coast, and even from afar your gaze catches on a tall watchtower
-> rising above the rooftops. On its summit you can make out the silhouette of a sentry scanning the horizon.
+> You arrive in town at first light. Built on a rocky coast, the place is dominated by a tall watchtower rising above
+> the rooftops. At its peak you can make out the silhouette of a sentry scanning the horizon.
 >
-> The waterfront is waking: fishing boats bob at the planks, the catch is already being unloaded, and a few fishermen
-> are speaking with a cloaked man at the end of the pier.
+> You step onto a weathered pier alongside the captain. Without a backward glance, the captain heads into town, striding
+> past a bored guard at his post.
 >
-> You step onto a weathered pier alongside the captain. Without a backward glance, the captain heads for the gate,
-> striding past a bored guard at his post.
+> You stand by the water, watching fishermen unload their catch and trade words with a cloaked figure at the end of the
+> pier.
 
-If the characters approach the fishermen, see the location **[The Dock](#the-dock)**.
+If the characters go straight into town, proceed to **[Entering the Town](#entering-the-town)**.
+
+If they want to look around or approach the fishermen, go to the location **[The Dock](#the-dock)**.
 
 ## Entering the Town
 
-The gate guard may ask the party routine questions—“name, purpose of visit; steel in plain view; no displays of magic.”
+The gate guard may ask routine questions—“name, purpose of visit; steel in plain view; no displays of magic.”
 
-If the characters head straight into town:
+After passing the gate:
 
-> As you pass through the gate, a troubling scene unfolds:
+> As you enter, a troubling scene unfolds:
 >
 > One house looks like it’s been broken into—the door is smashed, and armed guards stand on the threshold. A handful of
-> gawkers murmur among themselves. A half-orc in armor—the one in charge, by the look of it—surveys the house with a
-> scowl. Beside him stands a young guard, visibly shaken.
+> gawkers whisper among themselves. A half-orc in armor—the one in charge, by the look of it—scans the surroundings with
+> a scowl. Beside him stands a young guard, visibly shaken.
 
-If the party lingers at the pier, they hear the horn, and those they’re speaking with hurry to the gate, drawing the
-characters along.
+Locals can tell you the last time they heard this signal was during the demon onslaught.
 
-Locals can tell you the last time they heard that signal was during the demon onslaught.
-
-> A horn call echoes over the town. Guards converge as the half-orc raises a hand for silence and calls out:
+> The half-orc raises a horn to his lips and blows so the sound rolls across the cliffs and the bay—the whole town hears
+> it. He lifts a hand for silence and calls out:
 >
 > _“Soprigal is closed! No one leaves town without my say until we get to the bottom of this!”_
 >
-> The crowd buzzes; people talk over one another. Your road to Karthal will have to wait—the town is sealed, and
-> something strange is afoot.
+> The crowd buzzes; voices overlap. Your road to **Karthal** will have to wait—the town is sealed, and something strange
+> is afoot.
 
-After passing the gate, the characters arrive at **[Maria’s House](#marias-house)**.
+The scene moves to **[Maria’s House](#marias-house)**.
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/city_05.png) {style="height:515px" class="framed-image"}
@@ -651,31 +666,825 @@ The full map archive is available here:
 
 # The Dock
 
-_Available only in the morning of Day One, before entering the town._ _Number on the [map](#town-map)—**1**._
-
 ## Description
+
+_Number on the [map](#town-map)—**1**. Available only on the morning of Day One, before entering the town._
 
 > You decide to linger at the dock.
 >
-> Boats rock against the pilings; a salty wind carries the scents of seaweed and fresh fish. The boards creak underfoot.
+> Boats rock against the pier; a salty wind carries the scent of seaweed and fresh fish. The boards creak underfoot.
 >
-> Onshore, near a low wooden building—a warehouse and sailors’ rest—a group of fishermen are talking.
+> Onshore, near a low wooden building—a warehouse and sailors’ rest—a few fishermen are talking.
 >
-> Noticing you, a cloaked man turns and watches you closely.
+> Noticing you, a cloaked man turns and watches intently.
 
 ## NPCs
 
-- [Duncan](#)—a former adventurer, speaking with the fishermen.
+- [Duncan](#)—a former adventurer; speaking with the fishermen.
 - Local [fishermen](#).
+
+::: column
 
 ## Information
 
-- `@Intimidation 10` The fishermen are reluctant to talk, but admit someone was at the dock last night.
-- Duncan will gladly share a brief history of the town and how the districts are organized. After that, you can hand the
-  players a [map without labels](#appendix-town-map-for-players).
+- `@Intimidation 10` or `@Persuasion 15` The fishermen reluctantly admit that someone was at the dock during the night.
+- Duncan gladly shares a brief history of the town and insists it’s a fine place for a quiet retirement. After the chat,
+  you can hand the players a [map without labels](#appendix-town-map-for-players).
+
+## Events
+
+**Alarm Signal.** After a few minutes a horn sounds—people drift toward the gate, sweeping the characters along. The
+scene moves to **[Entering the Town](#entering-the-town)**.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/docks_01.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
+![Illustration](./assets/illustrations/docks.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# Maria’s House
+
+## Description
+
+_Number on the [map](#town-map)—**2**._
+
+A small one-story house with a smashed-in door.
+
+> You step over the threshold of a small but cozy home. It’s quiet and tidy inside. The air smells of incense and dried
+> herbs. On a low table sit vials of oils and bundles of oregano and lavender. Above the table—a shelf of books.
+>
+> Beyond a light curtain you can see a tiny kitchen and bedroom.
+
+## NPCs
+
+- [Hurgkhan](#)—morning of Day One. Calm, businesslike.
+- [Günter](#)—morning of Day One. Pale, tense, clearly on edge.
+- [The Guard]()—after Hurgkhan and Günter leave, a watch remains at the door until it’s repaired.
+
+## Items
+
+- [Maria’s Diary](#marias-diary).
+- A scroll of _mold earth_.  
+  **Homebrew:** on a success `@Arcana 10` you can cast it as a ritual (10 minutes) without expending the scroll.
+- [Garrison Permit](#garrison-permit) authorizing aid to the guard.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/marias-house.png) {style="width:320px;height:240px;" class="framed-image"}
+
+::: column
+
+## Information
+
+**General sweep of the house:**
+
+- This doesn’t look like a robbery: belongings are in place, shelves intact, no signs of struggle or blood.
+- In the kitchen—a half-finished cup and an empty plate. It looks as though the owner simply stepped out.
+
+**Closer inspection:**
+
+- **Kitchen.** A thin film has formed on the infusion—the cup has sat since last evening.
+- **Kitchen.** `@Nature 12`—the infusion is a calming draught.
+- **Oil table.** `@Survival 14`—among the usual herbs are poisonous ones (hemlock, buckthorn).
+- **Books.** `@Perception 13`—dried flowers and a small love note slip from between the pages.
+- **Bedroom.** `@Perception 10`—[Maria’s diary](#marias-diary) is hidden under the bed.
+- **Book hiding place.** `@Investigation 14` or `@Arcana 10`—a spell scroll with brief instructions is tucked between
+  pages.
+
+## Events
+
+**Searching the house.** If the characters ask about the lockdown: _“Can’t help you—the order’s given. But you can help
+the investigation: the sooner we find Maria, the sooner you’re on your way.”_ If the party hangs back, Hurgkhan notices
+them anyway, sizes them up as adventurers, and addresses them: _“You’re not locals. Will you help? We’re short on hands.
+There’ll be a modest reward.”_
+
+Hurgkhan **sends Günter to the garrison** and invites the characters to search the house under his supervision. Any
+attempt to remove items is stopped; he warns that it means arrest. If the characters confirm there was **no abduction
+from inside the house**, he issues them a [written permit](#garrison-permit) to assist the guard.
+
+If the party leaves and returns later, access to the house is closed: you’ll need Hurgkhan’s permission or a distraction
+for the on-duty guard.
+
+::: page
+
+# Market Square
+
+## Description
+
+_Number on the [map](#town-map)—**3**._
+
+> A narrow cobbled street opens onto a broad square—the heart of San Soprigal. Traders call out over one another;
+> laughter, footsteps, and the clink of coins mingle in the air. It smells of fried fish and fresh bread.
+>
+> At the center stands a stone fountain with a figure of an angel above carved waves. Water murmurs over the
+> time-darkened rim. Under canvas awnings, rows of stalls crowd together. People weave between them—some hurrying on
+> errands, others trading the latest news and rumors.
+
+If the characters look around:
+
+> On the south side rises the **Temple of Light**. Its white walls shine in the sun, and a golden spire topped by an
+> angel reaches skyward, visible from almost anywhere in town. A beggar sits at the foot of the wide steps, asking alms.
+>
+> Opposite stands **the tavern**, a solid two-story building of stone and dark timbers. A faded signboard with a wave
+> creaks on its bracket, and lazy smoke trails from the chimney.
+>
+> Closer to the center—a venerable building of weathered stone with narrow, tall windows—looks like the **town hall**.
+>
+> A little farther off is the **garrison** building, the Empire’s banner on its facade. Several guards stand at the
+> gate.
+>
+> In the southwest corner of the square—a statue of a mounted knight in armor, sword raised to the sky.
+>
+> You also notice that **one of the market stalls is empty**: the counter is covered with canvas, and no vendor is in
+> sight.
+
+If the party doesn’t yet have a town map, you can hand it out after this description.
+
+## NPCs
+
+- [Karra](#)—a trinket seller. Her stall stands next to Maria’s (currently empty). If the party starts examining the
+  empty stall, Karra will strike up a conversation.
+- Various [merchants and townsfolk](#)—share rumors. The market doesn’t sell rare or magical items; no weapon or armor
+  either.
+
+## Information
+
+- Merchants saw Maria yesterday: as usual she was at the market until around six in the evening, but she hasn’t appeared
+  today.
+- The party can gather [rumors](#) and basic information about the missing residents.
+
+## Events
+
+When the characters arrive at the square, one of the following may occur; intervention isn’t required.
+
+#### Random Events (d6)
+
+| d6  | Event                                                                                                                                                                  |
+| :-: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1  | A pickpocket boy tries to lift something from the party. `@Perception 15` to notice in time.                                                                           |
+|  2  | Townsfolk argue whether the lockdown was the right call—one is angry, another says Hurgkhan knows best.                                                                |
+|  3  | A bit of street theater (sleight-of-hand performer, organ grinder, or jester).                                                                                         |
+|  4  | A vendor “recognizes” one of the characters by mistake and demands repayment of a debt.                                                                                |
+|  5  | Debate: should mages live alongside “ordinary folk”? One for Church oversight, another for freedom for the common good. They might mention a mage who lived here once. |
+|  6  | Debate: do elves have a right to the peninsula’s forest lands? One says “elves have always lived there,” the other—“they don’t pay taxes—out they go.”                 |
+
+::: page
+
+# Tavern “By the Sea”
+
+## Description
+
+_Number on the [map](#town-map)—**4**._
+
+> “By the Sea” is loud and crowded. The air smells of salt, smoke, and fried fish. Heavy wooden tables fill the common
+> room. Behind the bar stands a broad-shouldered, middle-aged man polishing a mug—his stern face and hard gaze mark him
+> as the owner. Above the counter hang strings of dried fish and old shields left by patrons.
+>
+> In the corner by the hearth, a cloaked man sits, watching the crowd in thought—you think you saw him at the dock.
+>
+> A goblin server darts through the room with a tray, giving you an appraising look.
+
+If **Gaston** is in the tavern:
+
+> At the bar, a man leans lazily on the counter, rolling an almost-empty mug. His gaze is unfocused, his movements
+> slowed—looks like he’s had too much.
+>
+> `@Perception 10` His eyes flick across the room from time to time, sizing things up.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/tavern.png) {style="width:320px;height:265px;" class="framed-image"}
+
+::: column
+
+## NPCs
+
+- [Helmut](#)—the tavern owner. Greets the party and offers food and lodging.
+- [Kenki](#)—a goblin server. If the party listens in or looks around, he offers to sell information.
+- [Duncan](#)—a former adventurer, the cloaked man.
+- [Gaston](#)—a smuggler, the man at the bar. He makes contact if there’s a rogue in the party or if the characters talk
+  about smuggling.
+- [Townsfolk](#). If you build rapport, they share rumors (`@Persuasion 10`); to eavesdrop on conversations,
+  `@Perception 12`.
+
+## Items
+
+- [Merchants’ Clothes](#merchants-clothes) in the cellar.
+- A vial of antitoxin from [Kenki](#).
+
+## Information
+
+- [Helmut](#) and [Kenki](#) can talk about the “traders” (smugglers) and their belongings.
+- You can gather [rumors](#) and information about missing residents.
+
+## Events
+
+**Helmut’s Job.** He asks you to find out where the rats are disappearing to; reward—**10 gp**, plus a free meal and
+lodging.
+
+> Helmut raises rats in the cellar—plump fried river rats are a dwarven delicacy. Two weeks ago they started vanishing:
+> first one or two, now whole cages are empty. He suspects theft but can’t see who’d want them, and asks you to check
+> the cellar.
+
+**Dust-Up.** A drunken sailor tries to pick a fight, offended by a look from one of the characters. If a brawl breaks
+out, Helmut’s attitude becomes **hostile**.
+
+::: page
+
+# Tavern Cellar
+
+## Description
+
+> The cellar is low and damp. It smells of straw, grain, and ammonia. Shelves of provisions line the walls—sacks and a
+> water cask. Along the far wall stretch rows of cages with iron grates. Each cage has a water dish and a wooden running
+> wheel. Two rats rustle in one cage; the rest are empty, the bedding kicked into clumps.
+
+## Items
+
+- [Merchants’ Clothes](#merchants-clothes)—hidden in one of the crates.
+
+## Information
+
+- If the party is deliberately searching for the merchants’ clothes, a `@Investigation 10` check is required.
+
+## Events
+
+**The noise draws creatures.** On a failed search check, the party still finds the clothes, but the noise attracts `1d4`
+[tiny spiders](#).
+
+::: column
+
+## The Rat Farm
+
+::: box
+
+**For the DM.** This quest points toward the catacombs/contraband thread. The spider matriarch directs the spiders
+telepathically—they haul prey down into the catacombs. The crack shows the direction, but it’s too narrow to traverse.
+
+:::
+
+- `@Investigation 10` In the empty cages, besides rat tracks, you can see smaller tracks leading toward a crack in the
+  wall.
+- `@Nature 10` The tracks are spider tracks; the behavior is atypical—the prey was removed in an organized way.
+- `@Perception 14` Rat fur and fine webbing are snagged in the crack; from the depths comes a faint rustle. The passage
+  descends further underground, but it’s too narrow to squeeze through.
+- While inspecting the crack, `1d4` [tiny spiders](#) attack the party.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/rat-farm.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# Temple of Light
+
+## Description
+
+_Number on the [map](#town-map)—**7**._
+
+> You climb broad stone steps that lead to an entrance set at second-story height.
+>
+> Inside—muffled quiet, broken only by the whisper of a few worshippers and the crackle of candles. The air smells of
+> wax and incense. A mosaic floor of pale marble catches soft glints of light.
+>
+> Massive columns support vaults painted with scenes from the Church of Light’s scriptures. At the center of the hall
+> stand eleven small altars, and above them hovers a statue of an angel with wings outstretched.
+>
+> A woman in a vestment of the Light approaches—about forty, fair-haired, her gaze calm.
+
+If the characters head for **Rosa** or enter from the garden side, they come in on the lower tier:
+
+> A corridor opens into a low, vaulted passage: on the left runs a row of novices’ cells. At the end—a door with an iron
+> grate. From beyond it comes a faint rasp, as if someone is struggling to breathe.
+
+Rosa’s cell:
+
+> A modest room: a wooden bed, a table, a prayer bench. On the table lie peninsula maps and a few notes.
+
+## NPCs
+
+- [Selina](#)—priestess. Greets the party and invites them inside.
+- [Rosa](#)—paladin. In her cell.
+- [Local drunk](#) in the cellar.
+- [Beggar](#) on the temple steps.
+
+::: column
+
+## Information
+
+- Temple books contain the commandments; copies hang on the walls of the prayer hall and beside the altar.
+- Parishioners have begun dreaming they turn into spiders; many take this as punishment.
+- Parishioners saw Rosa return to town at sunset during evening prayer and are wary of her.
+
+## Events
+
+On the lower tier the characters can discover a chained man.
+
+> As you approach, you see a man shackled hand and foot. The irons are neatly fixed into the stone. A bowl of water sits
+> on the floor. On one wall, in chalk: “The Light does not dazzle—it burns.” It looks like someone tried to scrub it
+> off. The man rasps, as if trying to say something to you.
+
+If the party tries to free him, it turns out this is voluntary treatment and must not be interrupted. If **Selina**
+learns of it, her attitude becomes **hostile**.
+
+He can tell you he used to drink with **Bertram**. At his family’s urging he agreed to temple care (“the dry cell”).
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/temple-cell.png) {style="width:320px;height:240px;" class="framed-image"}
+
+::: page
+
+# Garrison
+
+## Description
+
+_Number on the [map](#town-map)—**6**._
+
+> The main gate stands open. In the yard a few guards drill with wooden swords, practicing their strikes. Beside the
+> building hangs a weathered notice board.
+
+> It smells of metal and oil. Weapon racks line the walls. In the far corner—an oak table buried in maps and papers.
+> Along one wall run barred cell doors—the town jail is here as well. **Hurgkhan**, arms folded, is speaking with a
+> guard.
+
+Without a [Garrison Permit](#garrison-permit), the guard inside requires you to check your weapons at the entrance.
+
+## NPCs
+
+- [Hurgkhan](#)—garrison commander.
+- [Günter](#)—a guard, pinning a missing-person notice for Maria to the board.
+- [Guards](#)—busy training. If you win them over, they’ll share info about Günter.
+
+## Items
+
+- The [Garrison Permit](#garrison-permit) is in Hurgkhan’s desk.
+
+## Events
+
+**Debate over independence.** The characters notice two guards arguing heatedly. One: “The Empire abandoned us during
+the siege—we managed on our own.” The other: “Without the Empire, the mages and elves will tear us apart.” If the party
+joins the debate, the guard whose stance they support becomes **friendly**.
+
+**Jail inspection.** In one cell—a drunk brawler. He mutters about spiders and begs you to “get the one in the corner”
+to stop watching him.
+
+::: column
+
+## Information
+
+**Papers on the table:**
+
+- The freshest report: _“1 Bethalasse. Brawl at the tavern. 2 male traders and 1 female paladin. Could not question.”_
+
+**Günter’s desk:**
+
+- Notes on the disappearances. Names are linked to Rosa with lines. The “traders” are marked “7?” and “Abraham” “4?”
+  _(Commandments numbers)_.
+- Several draft reports with edits—all accusing Rosa; he’s trying to convince Hurgkhan she’s an inquisitor undercover:
+  _“Leaves town; skips services; arrival coincides with disappearances; armed—even at night. Coincidences: 4. Enough.”_
+
+## Notice Board
+
+Günter pins up a missing-person notice for **Maria** with her description and a promised reward—**100 gp**.
+
+Another flyer reads: _“Volunteers wanted for a search party to find the missing. Valor, bravery, and a touch of
+courage.”_ A few dubious notes are tacked nearby.
+
+#### Dubious Notes
+
+| d6  | Notice                                                                                                 |
+| :-: | :----------------------------------------------------------------------------------------------------- |
+|  1  | Cat missing! Black, answers to “Prince.” Last seen near the dock. Mug of the finest ale to the finder! |
+|  2  | Cursed be whoever whistles at sunset! Second time now the chickens drop dead after that.               |
+|  3  | Seeking someone to fix a clock. It stopped at 2:14—same as every year.                                 |
+|  4  | Come to supper. The house with the blue window by the old fountain. No sermons, just food.             |
+|  5  | Found a key to something important. Describe the item and I might return it.                           |
+|  6  | Who whispers under my windows? Stop it. I have an old heart and a knife.                               |
+
+::: page
+
+# Watchtower
+
+## Description
+
+_Number on the [map](#town-map)—**10**._
+
+> On the highest cliff stands a massive watchtower of dark stone. Banners with the Empire’s crest hang above narrow
+> arrow slits. At the summit a sentry’s silhouette stares into the horizon. Inside, a spiral staircase climbs to the
+> viewing platform.
+
+**View from the tower**
+
+> From the top, San Soprigal lies at your feet like a toy. Beyond the western wall, the road runs into fields and
+> groves. Somewhere out there, past the hills, lies the way to **Karthal**.
+
+`@Perception 15`:
+
+> One spot catches your eye—a short stretch of shoreline vanishes behind the cliffs. It seems you can’t see the entire
+> coast from here; a small cove is hidden from view.
+
+## NPCs
+
+- [Guard](#)—the sentry on the platform. Displeased with visitors; without a [Garrison Permit](#garrison-permit) he asks
+  you to leave the tower. `@Persuasion 12`—allows a brief lookaround.
+
+## Information
+
+- The sentry says **Günter** asked to take the watch early yesterday—“before sunset.”
+- When the sentry arrived this morning, the tower was cleaned up better than ever before.
+- `@Perception 15` the cove beneath the cliff cannot be seen from the tower.
+
+::: column
+
+## Events
+
+If you like, give the characters a minute for personal thoughts. Each rolls a **d4** and shares one line.
+
+> You look out over the town from on high. It seems peaceful—perhaps for the first time in a while. But the feeling
+> won’t let go—something here is wrong. You’re drawn to answers. Staring down at the view, you catch yourself thinking
+> thoughts you’d rather not keep inside. Each of you goes quiet for a moment. Someone speaks first—and the others
+> follow.
+
+| d4  | Thoughts                                                                                               |
+| :-: | :----------------------------------------------------------------------------------------------------- |
+|  1  | Which of you do I trust the most—and why?                                                              |
+|  2  | What would **Jared** do?                                                                               |
+|  3  | I know who’s behind Maria’s disappearance. Or I think I do. And it’s…                                  |
+|  4  | I’m thinking less about people and more about the town itself. About San Soprigal, I’ve realized that… |
+
+_For sincere openness, you can award **inspiration** or remind them of an important detail they missed._
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/watchtower.png) {style="width:320px;height:340px;" class="framed-image"}
+
+::: page
+
+# Town Gate
+
+## Description
+
+_Number on the [map](#town-map)—**8**._
+
+> Massive city gates banded with iron rise from old but sturdy walls of dark stone. Every dent and crack bears the mark
+> of time and past sieges. Above the gate, the Empire’s banner flutters in the wind—its edges are frayed, but the crest
+> is still clear.
+>
+> A few guards stand by the gate, keeping order.
+>
+> Nearby, townsfolk cluster—exchanging glances and whispers but not drawing closer. There’s more worry than curiosity in
+> their eyes.
+
+::: column
+
+## NPCs
+
+- [Guards](#). Stern and tight-lipped: no one passes without an order from **[Hurgkhan](#)**. A
+  [Garrison Permit](#garrison-permit) does not apply here.
+- [Rosa](#)—paladin. May attempt to leave, which can trigger a conflict with Hurgkhan.
+- [Townsfolk](#) at the gate; children play nearby.
+
+## Information
+
+- About **Maria**: the guards did not see her leave town.
+- About **Rosa**: arrived a month and a half ago; often leaves for several days. Returned at sunset yesterday.
+- You can [eavesdrop](#) on what the townsfolk are saying.
+
+## Events
+
+- [Rosa vs. Hurgkhan at the Gate](#rosa-vs-hurgkhan-at-the-gate)
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/gates.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# Rosa vs. Hurgkhan at the Gate
+
+## Setup
+
+The characters hear an argument flaring at the gate:
+
+> Rosa stands before the gate, stance taut, fist clenched. A young guard looks nervous but doesn’t yield.
+>
+> Townsfolk gather, holding their breath. One guard hurries off to fetch Hurgkhan.
+
+## The Exchange
+
+> **Hurgkhan** strides up with two guards, face set. He gives Rosa a brief once-over, then turns to the sentry.
+>
+> **Hurgkhan (low):** Report.
+>
+> **Guard (steady):** Trying to leave town, sir. No permit.
+>
+> **Hurgkhan (to Rosa):** Town’s closed. Back to the temple, paladin.
+>
+> **Rosa (darkly):** My task outweighs your edicts. Do not anger the angels, orc.
+>
+> Hurgkhan’s hand settles on his axe. Several guards reach for their weapons.
+
+::: box
+
+**For the DM.** This scene is a brief shake-up that can set who escorts the party into the catacombs. Side with the
+guard and **Hurgkhan** may arrive at a crucial moment later. Side with Rosa—**Gaston** is certain to become the guide.
+Stay out of it and the party may get no help at all.
+
+:::
+
+::: column
+
+## Player Intervention
+
+The party can persuade, intimidate, or propose a compromise.
+
+- `@Persuasion 14` / `@Deception 14`—calm either side.
+- `@Intimidation 16`—check the opponent (tensions rise, but you buy a pause).
+- `@Insight 12`—recognize both sides are acting on principle; a **compromise** is needed.
+
+If the first attempt fails or the party stays silent:
+
+> Hurgkhan growls that he has no time for sermons. Rosa grits her teeth and sets a hand on her sword.
+
+A second attempt is allowed with **+2 DC**. On a second failure—escalation.
+
+## Outcomes
+
+**Failure/inaction → fight:**
+
+- Opponents for [Rosa](#): [Hurgkhan](#) and three [guards](#).
+- The guards’ goal is **arrest**—minimize harm.
+- Rosa’s goal is to **break through**.
+
+**Success → de-escalation:**
+
+- If you convince Hurgkhan—he allows Rosa to leave town. The guard’s attitude toward the party drops one step.
+- If you convince Rosa—she reluctantly returns to the temple. Rosa and Selina become **hostile** toward the party.
+
+**If a fight breaks out:**
+
+- Attacking the guard marks the party as **outlaws**; Gaston may help smuggle them out via the cove.
+- If the guards “down” the party—the characters awaken in **jail without their gear** in **d4** hours. Gaston may
+  arrange a night extraction.
+- If Rosa “downs” the party—they awaken in the **garrison** in **d4** hours.
+
+::: page
+
+# Abraham’s House
+
+## Description
+
+_Number on the [map](#town-map)—**9**._
+
+> A single-story house, fairly large and clearly built for a family. From the outside it looks a bit neglected. One
+> window is broken and hastily boarded over.
+
+> Inside it’s dry and stuffy. Dust lies evenly across the wooden floor; motes dance in the light from the window. The
+> furniture is intact and neatly arranged, but it feels like no one has lived here for a long time.
+
+## NPCs
+
+- [Jonas](#)—a coachman, the owner. If the party lingers outside, he comes by and offers to rent the house to them.
+- [Gaston](#)—a smuggler. Keeps an eye on the place and will approach if the party is breaking in **in the evening**.
+- [Children](#)—playing nearby; they can raise an alarm.
+
+::: column
+
+## Information
+
+**Out front:**
+
+- `@History 10`, or if the party includes a **rogue**—the lock is rare and expensive; you’d see it on very wealthy homes
+  or anywhere needing elevated security.
+- `@Insight 12`—from **Jonas’s** slips of the tongue, it seems his grandfather was a smuggler.
+- `@Persuasion 10` with the **children** or by speaking with **Jonas**—the kids used to play in the Abandoned District,
+  but after hearing strange sounds they moved here and, a week and a half ago, broke the window.
+
+**Searching the house:**
+
+_To move quietly, a successful `@Stealth 13` is required; otherwise the floorboards creak and may draw attention._
+
+- From the layer of dust it’s clear **no one has lived here for over a month**.
+- `@Perception 10` / `@Investigation 12`—in one corner the floorboards **don’t creak**. Between those boards you can
+  feel an **iron ring**. Pulling it opens a **cellar hatch** (a hidden passage).
+
+**Partial success.** If the party fails the check to find the hatch, they still locate it—but noisily, which may attract
+attention.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/abrahams-house.png){class="mask mask--background-bottom-third-02" style="object-position: center bottom; object-fit: contain;"}
+
+::: page
+
+# Abraham’s Cellar
+
+## Description
+
+> A narrow wooden staircase drops away; the air grows cooler and damp. It smells of mildew, old wood, and something
+> faint—an herbal/alchemical mix. The walls are laid in massive stone blocks; part of the floor is covered by a worn
+> rug. Along one wall stands a table piled with jars, vials, and parchment notes. In the far corner: a framework of
+> metal struts and pipes. Against the middle of the wall sits an old wooden wardrobe.
+
+## Items
+
+- [Abraham’s Diary](#abrahams-diary)—on the table.
+- [Strange Item “Plun’gr”](#strange-item)—among the alchemical tools.
+- [Antitoxin](https://www.dndbeyond.com/equipment/520-antitoxin) (_number of characters + 1_).
+
+## Information
+
+**The table:**
+
+- [Abraham’s Diary](#abrahams-diary).
+- Vials with a green liquid.
+
+**Identifying the vials:**
+
+- The liquid resembles what **[Kenki](#)** could have supplied.
+- With an alchemist’s kit: 10 minutes—to identify as **antitoxin**.
+- Without a kit: `@Medicine 14`, 10 minutes—to identify as **antitoxin**.
+
+**The corner rig:**
+
+- `@Investigation 10`—the metal assembly forms a makeshift potion-brewing stand.
+- Among the tools is the [strange item](#strange-item): a handle with a tightly fitting rubbery cup.
+
+**The old wardrobe:**
+
+- One drawer is locked. If picked—inside are only a faded sheet and dust.
+- `@Perception 10`—the wardrobe sits slightly pulled out; in the masonry behind it you notice a small round recess (a
+  mechanism).
+
+::: column
+
+## Secret Passage
+
+- `@Perception 10` or `@Investigation 10`—to discover the mechanism in the wall behind the wardrobe.
+- Press **Plun’gr** firmly to the hole and **press three times**.
+- A handle with four number dials (0–9) extends. The correct combination is **0451** _(a hint can be found in the
+  diary)_.
+- On success, a hidden door to the catacombs opens: the wardrobe slides aside, revealing a [narrow passage](#).
+
+**Wrong code.** From deep within comes a distant click, and the room begins to fill with a paralyzing gas. Each creature
+must make a `@Constitution 13` saving throw. On a failure, it gains the
+[paralyzed](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#ParalyzedCondition) condition for `1d4` hours.
+
+::: box
+
+**For the DM.** Instead of a “roll for the code,” offer the players a real mini-puzzle at the table to simulate dialing
+it in. Or just let them through if they propose a reasonable solution using hints from the diary.
+
+:::
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/abrahams-cellar.png) {style="width:320px;height:330px;" class="framed-image"}
+
+::: page
+
+# Library
+
+## Description
+
+_Number on the [map](#town-map)—**5**._
+
+> A gray-stone building with columns at the entrance and a high pediment carved with reliefs from the town’s founding.
+> It looks imposing, but it’s long overdue for repairs: cracked walls overgrown with ivy, part of the tiled roof
+> collapsed.
+>
+> Inside—high vaults, creaking wooden floors, and the smell of dust and old parchment. Massive bookcases line the walls
+> and the hall’s center. The walls are hung with darkened portraits of former town leaders.
+>
+> At a desk buried in books, notes, and unsorted records sits an elderly librarian. His quill scratches on paper; he
+> barely seems to notice you. Without looking up, he mutters, “No noise. History likes quiet. So do I.”
+
+## NPCs
+
+**German**—an elderly librarian with tousled white hair and round spectacles forever sliding down his nose. He wears an
+old-fashioned vest and a patched, worn cloak. He prefers books to people, but warms to anyone who respects knowledge.
+
+![NPC: German Elkvin](./assets/npc/german-elkvin.png) {class="framed-image" style="width:320px;height:320px"}
+
+::: column
+
+## Books
+
+See **[Appendix: Books](#chronicles-of-san-soprigal)** for contents.
+
+- Access to the stacks:
+  - `@History 10`—interest in history → [“Chronicles of San Soprigal, Vol. I”](#chronicles-of-san-soprigal).
+  - `@Arcana 10`—interest in magic →
+    [“On Certain Properties of Souls and Their Tolerances”](#on-certain-properties-of-souls-and-their-tolerances).
+  - `@Religion 10`—interest in faith →
+    [“On Forbidden Doctrines and Heresies”](#compendium-on-forbidden-doctrines-and-heresies).
+  - A [Garrison Permit](#garrison-permit) → access to all of the above.
+- `@Persuasion 12`—to read the draft of [“Days in Hell”](#days-in-hell).
+
+## Information
+
+- From “Chronicles of San Soprigal, Vol. I,” one can learn about the **catacombs beneath the town** and a lost cove.
+- German explains that some books—including “On Certain Properties of Souls and Their Tolerances”—were brought from the
+  house of the mage **Moander**, who disappeared during the siege; his home nearly burned down.
+- **Abraham** took an interest in Moander’s books, annotated them, and copied passages.
+- German can tell the [story of the siege](#the-demon-incursion), how **Hurgkhan** became mayor, and share other tales
+  from San Soprigal’s past.
+
+::: box
+
+**For the DM.** This location is optional and exists to deliver lore. You can keep it closed if you need to speed the
+pace and push the party onward.
+
+:::
+
+::: page
+
+# Günter’s House
+
+## Description
+
+_Located in **[Velvet Row](#town-map)**._
+
+> Günter’s home sits in the well-to-do part of town, its large windows facing the market square. Wrought-iron railings,
+> marble inlays, an old carved door—the house clearly belongs to a prosperous family.
+>
+> You pass a stranger’s first floor and climb to the second, where Günter lives. A chill meets you at the door. The flat
+> is empty; everything is in its place—as if life here has stopped. The air smells of old wood, wax, and dust. An old
+> carpet blankets the floor; portraits hang beneath gauzy cloth on the walls. The space is hollow and somber, like a
+> dungeon above ground.
+
+## Information
+
+- `@Perception 10`—on the desk lies an unsent letter in tight, tense script: _“Leave the Temple before it’s too late.
+  They are not saints. And she is not who she claims to be.”_ Beside it is a neatly folded love note with a pressed
+  flower.
+- `@Investigation 10`—a desk drawer hides a list of Church **dogmas** and several old angel images; some are crossed
+  out.
+- `@History 12`—three portraits under cloth are Günter’s family; the mourning marks and dates make it clear: they all
+  died two years ago.
+- `@Insight 10`—the interior doors lock from the inside; some have double bolts. This “self-defense” betrays anxiety:
+  the owner feared searches or night visits.
+
+If you wish, you can place here the same papers found on Günter’s desk at the **[Garrison](#garrison)** if the party
+hasn’t visited yet or missed them there.
+
+::: column
+
+## Events
+
+**Alarm spell.** Crossing the threshold triggers a magical alarm (it can be prevented by speaking the **correct
+pass-word**—found in Günter’s desk with `@Investigation 15`).
+
+> The air fills with a sharp ozone tang. Pale runes flare across the floor. Somewhere deeper in the house a bell
+> rings—as if the home has notified its master.
+
+The party has **1d4 rounds** to make a quick search or hide before a patrol arrives.
+
+- Hide: `@Stealth 13`.
+- Talk your way out/lie: `@Persuasion 12` / `@Deception 13` (with a **[Garrison Permit](#garrison-permit)**—with
+  advantage).
+- The guards’ goal is to **detain for questioning**.
+
+::: box
+
+**For the DM.** This location is optional and isn’t referenced directly by NPCs, but it often draws player interest.
+
+:::
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/gunters-house.png) {style="width:320px;height:310px;" class="framed-image"}
+
+::: page
+
+# Abandoned District
+
+## District Description
+
+_Number on the [map](#town-map)—**12**._
+
+> In the northwest part of town, the old paving stones are still dusted with ash. Half-ruined houses slowly crumble
+> under wind and rain. People once lived here; now only ruins remain. From time to time a creak carries—the wind rocking
+> the last shutters to tap against the stone.
+
+## The Old Well
+
+> Amid the collapsed homes sits a choked-up well: its moss-covered stone curb barely shows beneath boards, dirt, and
+> fallen rock.
+
+::: column
+
+## Information
+
+**The district:**
+
+- `@Survival 12`—it’s too quiet even for an abandoned place: no birds or small animals.
+- `@Insight 10`—few come here at all; sometimes children play among the ruins, or drunkards wander in.
+
+**The well:**
+
+- `@Perception 10`—fresh tracks of a single person near the well; in the dust lies a moon-shaped amulet (_Maria’s_).
+- `@Arcana 10`—the cave-in is recent. One of the stones carries a faint trace of **mold earth**: the uneven “hand” of a
+  novice, likely working from a practice scroll.
+- `@Investigation 14`—you can reconstruct the scene: someone was knocked down and dragged toward the well.
+- Examining the stonework reveals a barely visible mark shaped like a medusa.
+
+To dig out the blockage would take **at least a full day** (even with spell aid). If the party has missed other
+entrances to the catacombs, you may reduce this to **1d4 hours** to keep the plot moving.
+
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/abanodoned-distict.png){class="mask mask--background-bottom-third-02" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page {type="inside-cover"}
 
@@ -697,15 +1506,15 @@ Links in the tables lead to full item cards with descriptions, checks, and infor
 
 #### Quest Items
 
-| Name                                     | Location                                                   | Description                                                                                 |
-| :--------------------------------------- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
-| [Ashes Urn](#ashes-urn)                  | With one of the characters at the start of the adventure   | A sentimental item                                                                          |
-| [Garrison Permit](#garrison-permit)      | With [Hurgkhan](#) near [Maria’s House](#) / [Garrison](#) | Grants guard goodwill                                                                       |
-| [Maria’s Diary](#marias-diary)           | [Maria’s House](#)                                         | Mentions Karra, an evening meeting, and a mysterious order                                  |
-| [Merchants’ Clothes](#merchants-clothes) | [Tavern Cellar](#) / with [Kenki](#)                       | Fake papers and cover clothing                                                              |
-| [Abraham’s Diary](#abrahams-diary)       | [Cellar of Abraham’s House](#)                             | Ties to Meduza, venom experiments, link to the mysterious order, code for the catacomb door |
-| [Strange Item (“An’Tuz”)](#strange-item) | [Cellar of Abraham’s House](#)                             | Opens the passage to the catacombs                                                          |
-| [Smugglers’ Cache](#smugglers-cache)     | [Smugglers’ Cove](#)                                       | Adventure reward and the casket Gaston is looking for                                       |
+| Name                                      | Location                                                   | Description                                                                                 |
+| :---------------------------------------- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| [Ashes Urn](#ashes-urn)                   | With one of the characters at the start of the adventure   | A sentimental item                                                                          |
+| [Garrison Permit](#garrison-permit)       | With [Hurgkhan](#) near [Maria’s House](#) / [Garrison](#) | Grants guard goodwill                                                                       |
+| [Maria’s Diary](#marias-diary)            | [Maria’s House](#)                                         | Mentions Karra, an evening meeting, and a mysterious order                                  |
+| [Merchants’ Clothes](#merchants-clothes)  | [Tavern Cellar](#) / with [Kenki](#)                       | Fake papers and cover clothing                                                              |
+| [Abraham’s Diary](#abrahams-diary)        | [Cellar of Abraham’s House](#)                             | Ties to Meduza, venom experiments, link to the mysterious order, code for the catacomb door |
+| [Strange Item (“Plun’gr”)](#strange-item) | [Cellar of Abraham’s House](#)                             | Opens the passage to the catacombs                                                          |
+| [Smugglers’ Cache](#smugglers-cache)      | [Smugglers’ Cove](#)                                       | Adventure reward and the casket Gaston is looking for                                       |
 
 #### Magic Items
 
@@ -779,8 +1588,8 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160053-garrison-per
 
 ## Locations
 
-- With [Hurgkhan](#хурган) near [Maria’s House](#дом-марии).
-- In Hurgkhan’s desk at the [Garrison](#гарнизон).
+- With [Hurgkhan](#hurgkhan) near [Maria’s House](#marias-house).
+- In Hurgkhan’s desk at the [Garrison](#garrison).
 
 ::: column
 
@@ -887,7 +1696,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160115-merchants-cl
 
 ## Locations
 
-- In the [tavern cellar](#), in one of the crates.
+- In the [tavern cellar](#tavern-cellar), in one of the crates.
 - May be brought by [Kenki](#).
 
 ::: column
@@ -940,7 +1749,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163775-abrahams-dia
 
 ## Locations
 
-- In the [cellar of Abraham’s house](#подвал-дома-абрахама), on the worktable.
+- In the [cellar of Abraham’s house](#abrahams-cellar), on the worktable.
 
 ## Information
 
@@ -1002,7 +1811,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item
 
 ## Locations
 
-- In the cellar of [Abraham’s house](#).
+- In the [cellar of Abraham’s house](#abrahams-cellar).
 
 ::: column
 
@@ -1010,8 +1819,9 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item
 
 **On study:**
 
-- `@Investigation 10` + [Abraham’s Diary](#) — the item is named **“Plun’gr”**. A sketch appears in the diary; a margin
-  cipher is blotted with ink. Caption beneath the drawing: _“This is where it begins. Meduza vouched for it.”_
+- `@Investigation 10` + [Abraham’s Diary](#abrahams-diary) — the item is named **“Plun’gr”**. A sketch appears in the
+  diary; a margin cipher is blotted with ink. Caption beneath the drawing: _“This is where it begins. Meduza vouched for
+  it.”_
 - `@Investigation 15` The cap’s material is meant to seal tightly against a smooth surface and generate pull when
   compressed.
 - `@History 15` A faint mark on the rim shows a crossed wrench and hammer—the work of gnomish artificers of
@@ -1019,8 +1829,8 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item
 
 **Usage:**
 
-A trigger for the secret mechanism of the hidden passage in the [cellar of Abraham’s house](#): press it firmly to the
-round port and push **three times**—Plun’gr draws out a concealed handle-bar.
+A trigger for the secret mechanism of the hidden passage in the [cellar of Abraham’s house](#abrahams-cellar): press it
+firmly to the round port and push **three times**—Plun’gr draws out a concealed handle-bar.
 
 ::: page {footnote="Appendix | Items"}
 
@@ -1206,14 +2016,14 @@ unlocks the magic properties.
 - **Order’s Sign.** Anyone familiar with the cult recognizes the amulet at a glance. This can draw either loyalty or
   hostility.
 - **Unnatural Grit (1/long rest).**  
-  When you **are reduced to 0 hit points but not killed outright**, you instead remain standing with **1 hit point**.
-  Your pupils blacken, your veins darken, and a webbed pattern crawls across your skin. _Note:_ if you have a
-  trait/effect such as **Relentless Endurance** or a similar feature, only **one** such effect triggers—your choice.
+  When you are reduced to 0 hit points but not killed outright, you instead remain standing with 1 hit point. Your
+  pupils blacken, your veins darken, and a webbed pattern crawls across your skin. **Note:** if you have a trait/effect
+  such as _Relentless Endurance_ or a similar feature, only one such effect triggers—your choice.
 - **Negative Stabilization.**  
-  When you **drop to 0 hit points but aren’t killed outright**, you **immediately become stable** and fall unconscious.
-  At that moment the amulet releases a pulse of necrotic energy: each creature within 10 feet must make a Constitution
-  saving throw **DC = 8 + your proficiency bonus + your Constitution modifier**, taking **1d4 necrotic damage** on a
-  failure (half as much on a success). This triggers **every time you drop to 0**.
+  When you drop to 0 hit points but aren’t killed outright, you immediately become stable and fall unconscious. At that
+  moment the amulet releases a pulse of necrotic energy: each creature within 10 feet must make a Constitution saving
+  throw **DC = 8 + your proficiency bonus + your Constitution modifier**, taking **1d4 necrotic damage** on a failure
+  (half as much on a success). This triggers every time you drop to 0.
 
 ::: image-credit {style="right: 70px; height: 230px;"}
 
@@ -1435,9 +2245,9 @@ about the magister.”_
 
 :::: title
 
-# “My Days in Hell”
+# “Days in Hell”
 
-Draft by Herman Elkvin
+Draft by German Elkvin
 
 ::::
 
