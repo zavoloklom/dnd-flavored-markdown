@@ -1364,7 +1364,7 @@ _Number on the [map](#town-map)—**5**._
 **German**—an elderly librarian with tousled white hair and round spectacles forever sliding down his nose. He wears an
 old-fashioned vest and a patched, worn cloak. He prefers books to people, but warms to anyone who respects knowledge.
 
-![NPC: German Elkvin](./assets/npc/german-elkvin.png) {class="framed-image" style="width:320px;height:320px"}
+![NPC: German Elkvin](assets/illustrations/german-elkvin.png) {class="framed-image" style="width:320px;height:320px"}
 
 ::: column
 
@@ -1799,6 +1799,18 @@ Or foreshadowing for a continuation:
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/funeral.png){class="mask mask--background-bottom-third-01" style="object-position: center 140%; object-fit: contain; bottom: 0;"}
+
+::: page {type="inside-cover"}
+
+![NPCs Cover](./assets/covers/inside-cover-npc.png) {class="cover"}
+
+# Characters
+
+::: subtitle
+
+NPCs Profiles
+
+:::
 
 ::: page {type="inside-cover"}
 
