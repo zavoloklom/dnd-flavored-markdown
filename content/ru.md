@@ -90,7 +90,7 @@ ver 4.0.0
 Автор — [Сергей Куплетский](mailto:s.kupletsky@gmail.com).
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/city_04.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:700px; width: 400px; bottom: 0px; object-position: center -100px;"}
+![Illustration](./assets/illustrations/streets.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:700px; width: 400px; bottom: 0px; object-position: center -100px;"}
 
 ::: page {show-page-number="false"}
 
@@ -722,7 +722,7 @@ _14 Лотвиэля (апреля), четверг_
 Сцена переносится в локацию [Дом Марии](#дом-марии).
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/city_05.png) {style="height:500px" class="framed-image"}
+![Illustration](./assets/illustrations/city.png) {style="height:500px" class="framed-image"}
 
 ::: page
 

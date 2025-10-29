@@ -87,7 +87,7 @@ were generated with ChatGPT.
 Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/city_04.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:700px; width: 400px; bottom: 60px; object-position: center -100px;"}
+![Illustration](./assets/illustrations/streets.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:700px; width: 400px; bottom: 60px; object-position: center -100px;"}
 
 ::: page {show-page-number="false"}
 
@@ -586,7 +586,7 @@ Locals can tell you the last time they heard this signal was during the demon on
 The scene moves to **[Maria’s House](#marias-house)**.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/city_05.png) {style="height:515px" class="framed-image"}
+![Illustration](./assets/illustrations/city.png) {style="height:515px" class="framed-image"}
 
 ::: page
 
