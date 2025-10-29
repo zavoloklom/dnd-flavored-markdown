@@ -54,14 +54,23 @@ export function wrapIntoPages(html: string, opts: Options = {}): string {
 
     for (let i = 0; i < filtered.length; i++) {
         const p = filtered[i]
-        const declared = (p.data['chapter'] ?? '').trim() || ''
-        const prevLast = lastChapter
-        const foundOnPage = extractFirstChapterText(p.html) // из HTML страницы
-        // Эффективная глава этой страницы:
-        const effective = declared || foundOnPage || prevLast || ''
+        const declared = (p.data['chapter'] ?? '').trim()        // из ::: page {chapter="..."}
+        const foundOnPage = extractFirstChapterText(p.html)       // из <div data-kind="chapter" ...>
+
+        let effective = lastChapter
+
+        if (declared) {
+            // явное указание на странице — приоритетнее всего
+            effective = declared
+            lastChapter = declared
+        } else if (foundOnPage) {
+            // глава встречена в самой странице — тоже обновляем «текущую»
+            effective = foundOnPage
+            lastChapter = foundOnPage
+        }
+        // иначе effective = lastChapter (перетаскиваем вперёд)
+
         pageChapters.push(effective)
-        // Обновим глобальную «последнюю встреченную» главу, если на странице нашли новую
-        if (foundOnPage) lastChapter = foundOnPage
     }
 
     // ── Сборка выходного HTML
