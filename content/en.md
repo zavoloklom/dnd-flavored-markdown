@@ -101,6 +101,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Backstory](#backstory)
   - [Dragonwing Map](#dragonwing-map)
   - [Story Overview](#story-overview)
+  - [?? Clues](#)
   - [Advice for the DM](#advice-for-the-dm)
 - [Chapter 1: Arrival](#adventure-hook)
   - [Adventure Hook](#adventure-hook)
@@ -132,19 +133,36 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [The Catacombs](#the-catacombs)
   - [The Accusation](#the-accusation)
   - [The Funeral](#the-funeral)
-- [Appendix: NPCs](#)
+- [Appendix: Characters](#appendix-characters)
+  - [NPC Index](#appendix-characters)
+  - [Duncan](#duncan)
+  - [Hurgkhan](#hurgkhan)
+  - [Günter](#günter)
+  - [Helmut](#helmut)
+  - [Kenki](#kenki)
+  - [Gaston](#gaston)
+  - [Rosa](#rosa)
+  - [Selina](#selina)
+  - [Karra](#karra)
+  - [Jonas](#jonas)
+  - [Guards](#guards)
+  - [City Folk](#city-folk)
+  - [Missing Persons](#missing-persons)
+  - [Jassad](#jassad)
+- [Appendix: Rumors](#appendix-rumors)
 - [Appendix: Quest and Magic Items](#appendix-items)
 - [Appendix: Monsters](#appendix-monsters)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 - [Appendix: Month Names](#appendix-month-names)
 - [Appendix: Books](#chronicles-of-san-soprigal)
-- [Appendix: Town Map for Players](#appendix-town-map-for-players)
-- [Appendix: Music and Generators](#)
+- [Appendix: Prices in Tavern](#appendix-prices-at-the-tavern-by-the-sea)
+- [Appendix: Maps for Players](#appendix-maps-for-players)
+- [Appendix: Music and Generators](#appendix-music-and-generators)
 
 :::
 
-::: page {footnote="Introduction"}
+::: page {chapter="Introduction"}
 
 # Setting and Constraints
 
@@ -210,7 +228,7 @@ usually without a direct reply.
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/party.png){class="mask mask--background-bottom-third-02" style="object-position: center 110%; object-fit: contain; bottom: -25px;"}
 
-::: page {layout="left" footnote="Introduction"}
+::: page {layout="left"}
 
 # Backstory
 
@@ -255,7 +273,7 @@ healed.
 <!-- prettier-ignore -->
 [//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
 
-::: page {footnote="Introduction"}
+::: page
 
 # Dragonwing Map
 
@@ -302,7 +320,7 @@ runs through the northeastern passes, which are closed in foul weather.
 
 :::
 
-::: page {footnote="Introduction"}
+::: page
 
 # Story Overview
 
@@ -315,10 +333,10 @@ For the names of Azalia’s months, see **[Appendix: Month Names](#appendix-mont
 
 _3 Narvail (February)_
 
-- A necromancer, **[Abraham](#)**, arrives in town. He previously conducted forbidden experiments in the
+- A necromancer, **[Abraham](#abraham)**, arrives in town. He previously conducted forbidden experiments in the
   [United States of Magic Art](#appendix-states-and-organizations) and is now in hiding, hoping to continue his research
   in seclusion.
-- He rents the house from **[Jonas](#)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham
+- He rents the house from **[Jonas](#jonas)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham
   knows about the house—and the passage from it into the catacombs—through old ties with smugglers of
   [Black Meduza](#appendix-states-and-organizations). Jonas is unaware of the hidden route.
 - Abraham places an order with Black Meduza to have his special spiders delivered so he can continue experiments with
@@ -330,7 +348,7 @@ _3 Narvail (February)_
 
 _Narvail (February)_
 
-- **[Maria](#)**, an incense and herbs merchant, supplied Abraham with ingredients needed for his experiments.
+- **Maria**, an incense and herbs merchant, supplied Abraham with ingredients needed for his experiments.
 - Abraham paid in advance and asked for discretion.
 - In thanks, he gave Maria a scroll with a simple spell and instructions.
 - After that, Abraham no longer asked for ingredients—and Maria didn’t find it unusual.
@@ -339,7 +357,7 @@ _Narvail (February)_
 
 _1 Bethalasse (March)_
 
-- **[Rosa](#)** (a paladin of the [Church of Light](#appendix-states-and-organizations)) arrives in San Soprigal and
+- **[Rosa](#rosa)** (a paladin of the [Church of Light](#appendix-states-and-organizations)) arrives in San Soprigal and
   keeps the purpose of her visit secret. She refuses to recognize local authority and acts under a covert mandate.
 - She lodges at the [Temple](#temple-of-light) and periodically leaves town for several days at a time.
 - Her mission is to investigate recent attacks on merchants in the region and to recover a stolen church relic.
@@ -352,8 +370,8 @@ _1 Bethalasse (March)_
 - That evening, posing as traders, they drink in the tavern, hit on Rosa, and start a brawl.
 - At night they descend into the catacombs to unload the boat. A large crate slips and breaks. The starving spiders
   attack and kill them both.
-- Their room still contains the “trader” clothing they used as a cover. When the innkeeper **[Helmut](#)** realizes the
-  guests are gone, he hands the clothes to the server **[Kenki](#)**.
+- Their room still contains the “trader” clothing they used as a cover. When the innkeeper **[Helmut](#helmut)** realizes the
+  guests are gone, he hands the clothes to the server **[Kenki](#kenki)**.
 - The next day, with no men or cargo arriving, Abraham goes into the catacombs himself. The spiders kill him as well.
 - The guard doesn’t search for Peter and Boshir: their papers mark them as ordinary merchants who often leave without
   fanfare.
@@ -362,23 +380,23 @@ _1 Bethalasse (March)_
 
 _Narvail–Lothviel (February–April)_
 
-- Maria secretly meets **[Günter](#)**—a town guard—on the [Watchtower](#town-map) during his night shifts.
+- Maria secretly meets **[Günter](#günter)**—a town guard—on the [Watchtower](#town-map) during his night shifts.
 - Günter becomes obsessed with tying the disappearances to Rosa, whom he assumes is an inquisitor.
 - His paranoia rubs off on Maria. She avoids Rosa and stops visiting the Temple, though she once went often.
 - After Rosa’s arrival—and under Günter’s influence—Maria fears arrest for studying in magic.
 - Tensions rise, and Maria and Gunther have a conflict.
 
-::: page {footnote="Introduction"}
+::: page
 
 ## Two Weeks Ago
 
 _Early Lothviel (April)_
 
 - The Spider-Matriarch lays eggs and primes to drag any prey below ground.
-- At night, **[Bertram](#)** (a local drunk) falls into an old well in the [Abandoned District](#town-map) that opens
+- At night, **Bertram** (a local drunk) falls into an old well in the [Abandoned District](#town-map) that opens
   into the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender.
 - The spiders discovered a way to the surface through the well and began hunting at night.
-- **[Children](#)** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,”
+- **[Children](#city-folk)** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,”
   they stopped going there.
 - Relocating their games to the [Craft District](#town-map), the children break a window in
   [Abraham’s house](#town-map). Jonas learns his lodger is gone, but he doesn’t inform the guard—he fears unwanted
@@ -388,14 +406,14 @@ _Early Lothviel (April)_
 
 _12 Lothviel (April), Tuesday_
 
-- After talking with her friend **[Karra](#)**, Maria decides to end things with Günter—but puts off the conversation.
+- After talking with her friend **[Karra](#karra)**, Maria decides to end things with Günter—but puts off the conversation.
 - In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to propose to Maria at sunset.
 - Maria heads for the tower, but when she spots Rosa returning to town. Maria detours into the Abandoned District to
   avoid her.
 - At [the old well](#town-map), Maria notices a strange smell. She steps closer, and the starving spiders drag her down.
   Trying to fend them off with a spell, she collapses the old masonry and the shaft caves in.
 - Günter waits for Maria, grows anxious, but doesn’t abandon his post.
-- Smuggler **[Gaston](#)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That
+- Smuggler **[Gaston](#gaston)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That
   night he tries to reach [the cove by the sea (label 11 on the map)](#town-map), but sailors spot him, and he retreats.
 
 ## Maria Is Reported Missing
@@ -403,7 +421,7 @@ _12 Lothviel (April), Tuesday_
 _13 Lothviel (April), Wednesday_
 
 - In the morning, Günter finds Maria’s shop closed and no one answering at her home. He convinces garrison commander
-  **[Hurgkhan](#)** to force the door and open an investigation.
+  **[Hurgkhan](#hurgkhan)** to force the door and open an investigation.
 - Hurgkhan locks down the town for the duration of the investigation to maintain order and control departures. It’s a
   good chance to remind the townsfolk who’s in charge and to show he’s on top of his duties. He believes Maria will turn
   up within a few hours.
@@ -412,7 +430,7 @@ _13 Lothviel (April), Wednesday_
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/marias-house.png){class="mask mask--background-bottom-third-01" style="object-position: center bottom; object-fit: contain;"}
 
-::: page {footnote="Introduction"}
+::: page
 
 # Advice for the DM
 
@@ -615,7 +633,7 @@ This chapter details San Soprigal’s key locations. Each location follows the s
 information, encounters.
 
 Information in locations is what can be learned **on site** (search, tracks, environmental context), whereas information
-in NPC cards (see “[Appendix: Characters](#)”) is what they can tell the party anywhere in town.
+in NPC cards (see “[Appendix: Characters](#appendix-characters)”) is what they can tell the party anywhere in town.
 
 ## The Guard
 
@@ -647,24 +665,24 @@ shady, they can acquire the patrol schedule to choose a route and timing and avo
 
 The town has several key locations that may aid the players’ investigation:
 
-1. [The Dock](#)
-2. [Maria’s House](#)
-3. [Market Square](#)
-4. [Tavern “By the Sea”](#)
-5. [Library / Old Town Hall](#)
-6. [Garrison](#)
-7. [Temple of Light](#)
-8. [Town Gate](#)
-9. [Watchtower](#)
-10. [Abraham’s House](#)
+1. [The Dock](#the-dock)
+2. [Maria’s House](#marias-house)
+3. [Market Square](#market-square)
+4. [Tavern “By the Sea”](#tavern-by-the-sea)
+5. [Library / Old Town Hall](#library)
+6. [Garrison](#garrison)
+7. [Temple of Light](#temple-of-light)
+8. [Town Gates](#town-gates)
+9. [Watchtower](#watchtower)
+10. [Abraham’s House](#abrahams-house)
 11. Passage to the smugglers’ cove
-12. [Abandoned Well](#)
+12. [Abandoned Well](#abandoned-district)
 
 ::: column
 
 ## For Players
 
-You can hand the players a **[map without labels](#appendix-town-map-for-players)** after speaking with **Hurgkhan** or
+You can hand the players a **[map without labels](#appendix-maps-for-players)** after speaking with **Hurgkhan** or
 **Duncan**, or if they explicitly ask to “get the lay of the town.”
 
 The full map archive is available here:  
@@ -688,8 +706,8 @@ _Number on the [map](#town-map)—**1**. Available only on the morning of Day On
 
 ## NPCs
 
-- [Duncan](#)—a former adventurer; speaking with the fishermen.
-- Local [fishermen](#).
+- [Duncan](#duncan)—a former adventurer; speaking with the fishermen.
+- Local [fishermen](#city-folk).
 
 ::: column
 
@@ -697,7 +715,7 @@ _Number on the [map](#town-map)—**1**. Available only on the morning of Day On
 
 - `@Intimidation 10` or `@Persuasion 15` The fishermen reluctantly admit that someone was at the dock during the night.
 - Duncan gladly shares a brief history of the town and insists it’s a fine place for a quiet retirement. After the chat,
-  you can hand the players a [map without labels](#appendix-town-map-for-players).
+  you can hand the players a [map without labels](#appendix-maps-for-players).
 
 ## Events
 
@@ -724,8 +742,8 @@ A small one-story house with a smashed-in door.
 
 ## NPCs
 
-- [Hurgkhan](#)—morning of Day One. Calm, businesslike.
-- [Günter](#)—morning of Day One. Pale, tense, clearly on edge.
+- [Hurgkhan](#hurgkhan)—morning of Day One. Calm, businesslike.
+- [Günter](#günter)—morning of Day One. Pale, tense, clearly on edge.
 - [The Guard]()—after Hurgkhan and Günter leave, a watch remains at the door until it’s repaired.
 
 ## Items
@@ -808,16 +826,16 @@ If the party doesn’t yet have a town map, you can hand it out after this descr
 
 ## NPCs
 
-- [Karra](#)—a trinket seller. Her stall stands next to Maria’s (currently empty). If the party starts examining the
-  empty stall, Karra will strike up a conversation.
-- Various [merchants and townsfolk](#)—share rumors. The market doesn’t sell rare or magical items; no weapon or armor
-  either.
+- [Karra](#karra)—a trinket seller. Her stall stands next to Maria’s (currently empty). If the party starts examining
+  the empty stall, Karra will strike up a conversation.
+- Various [merchants and townsfolk](#city-folk)—share rumors. The market doesn’t sell rare or magical items; no weapon
+  or armor either.
 
 ## Information
 
 - Merchants saw Maria yesterday: as usual she was at the market until around six in the evening, but she hasn’t appeared
   today.
-- The party can gather [rumors](#) and basic information about the missing residents.
+- The party can gather [rumors](#appendix-rumors) and basic information about the missing residents.
 
 ## Events
 
@@ -864,23 +882,23 @@ If **Gaston** is in the tavern:
 
 ## NPCs
 
-- [Helmut](#)—the tavern owner. Greets the party and offers food and lodging.
-- [Kenki](#)—a goblin server. If the party listens in or looks around, he offers to sell information.
-- [Duncan](#)—a former adventurer, the cloaked man.
-- [Gaston](#)—a smuggler, the man at the bar. He makes contact if there’s a rogue in the party or if the characters talk
-  about smuggling.
-- [Townsfolk](#). If you build rapport, they share rumors (`@Persuasion 10`); to eavesdrop on conversations,
+- [Helmut](#helmut)—the tavern owner. Greets the party and offers food and lodging.
+- [Kenki](#kenki)—a goblin server. If the party listens in or looks around, he offers to sell information.
+- [Duncan](#duncan)—a former adventurer, the cloaked man.
+- [Gaston](#gaston)—a smuggler, the man at the bar. He makes contact if there’s a rogue in the party or if the
+  characters talk about smuggling.
+- [Townsfolk](#city-folk). If you build rapport, they share rumors (`@Persuasion 10`); to eavesdrop on conversations,
   `@Perception 12`.
 
 ## Items
 
 - [Merchants’ Clothes](#merchants-clothes) in the cellar.
-- A vial of antitoxin from [Kenki](#).
+- A vial of antitoxin from [Kenki](#kenki).
 
 ## Information
 
-- [Helmut](#) and [Kenki](#) can talk about the “traders” (smugglers) and their belongings.
-- You can gather [rumors](#) and information about missing residents.
+- [Helmut](#helmut) and [Kenki](#kenki) can talk about the “traders” (smugglers) and their belongings.
+- You can gather [rumors](#appendix-rumors) and information about missing residents.
 
 ## Events
 
@@ -967,10 +985,10 @@ Rosa’s cell:
 
 ## NPCs
 
-- [Selina](#)—priestess. Greets the party and invites them inside.
-- [Rosa](#)—paladin. In her cell.
-- [Local drunk](#) in the cellar.
-- [Beggar](#) on the temple steps.
+- [Selina](#selina)—priestess. Greets the party and invites them inside.
+- [Rosa](#rosa)—paladin. In her cell.
+- [Local drunk](#city-folk) in the cellar.
+- [Beggar](#city-folk) on the temple steps.
 
 ::: column
 
@@ -1015,9 +1033,9 @@ Without a [Garrison Permit](#garrison-permit), the guard inside requires you to 
 
 ## NPCs
 
-- [Hurgkhan](#)—garrison commander.
-- [Günter](#)—a guard, pinning a missing-person notice for Maria to the board.
-- [Guards](#)—busy training. If you win them over, they’ll share info about Günter.
+- [Hurgkhan](#hurgkhan)—garrison commander.
+- [Günter](#günter)—a guard, pinning a missing-person notice for Maria to the board.
+- [Guards](#guards)—busy training. If you win them over, they’ll share info about Günter.
 
 ## Items
 
@@ -1089,8 +1107,8 @@ _Number on the [map](#town-map)—**10**._
 
 ## NPCs
 
-- [Guard](#)—the sentry on the platform. Displeased with visitors; without a [Garrison Permit](#garrison-permit) he asks
-  you to leave the tower. `@Persuasion 12`—allows a brief lookaround.
+- [Guard](#guards)—the sentry on the platform. Displeased with visitors; without a [Garrison Permit](#garrison-permit)
+  he asks you to leave the tower. `@Persuasion 12`—allows a brief lookaround.
 
 ## Information
 
@@ -1123,7 +1141,7 @@ _For sincere openness, you can award **inspiration** or remind them of an import
 
 ::: page
 
-# Town Gate
+# Town Gates
 
 ## Description
 
@@ -1142,16 +1160,16 @@ _Number on the [map](#town-map)—**8**._
 
 ## NPCs
 
-- [Guards](#). Stern and tight-lipped: no one passes without an order from **[Hurgkhan](#)**. A
+- [Guards](#guards). Stern and tight-lipped: no one passes without an order from **[Hurgkhan](#hurgkhan)**. A
   [Garrison Permit](#garrison-permit) does not apply here.
-- [Rosa](#)—paladin. May attempt to leave, which can trigger a conflict with Hurgkhan.
-- [Townsfolk](#) at the gate; children play nearby.
+- [Rosa](#rosa)—paladin. May attempt to leave, which can trigger a conflict with Hurgkhan.
+- [Townsfolk](#city-folk) at the gate; children play nearby.
 
 ## Information
 
 - About **Maria**: the guards did not see her leave town.
 - About **Rosa**: arrived a month and a half ago; often leaves for several days. Returned at sunset yesterday.
-- You can [eavesdrop](#) on what the townsfolk are saying.
+- You can [eavesdrop](#appendix-rumors) on what the townsfolk are saying.
 
 ## Events
 
@@ -1214,7 +1232,7 @@ A second attempt is allowed with **+2 DC**. On a second failure—escalation.
 
 **Failure/inaction → fight:**
 
-- Opponents for [Rosa](#): [Hurgkhan](#) and three [guards](#).
+- Opponents for [Rosa](#paladin-of-the-church-of-light): [Hurgkhan](#guard-captain-hurgkhan) and three [guards](#imperial-guard).
 - The guards’ goal is **arrest**—minimize harm.
 - Rosa’s goal is to **break through**.
 
@@ -1246,9 +1264,10 @@ _Number on the [map](#town-map)—**9**._
 
 ## NPCs
 
-- [Jonas](#)—a coachman, the owner. If the party lingers outside, he comes by and offers to rent the house to them.
-- [Gaston](#)—a smuggler. Keeps an eye on the place and will approach if the party is breaking in **in the evening**.
-- [Children](#)—playing nearby; they can raise an alarm.
+- [Jonas](#jonas)—a coachman, the owner. If the party lingers outside, he comes by and offers to rent the house to them.
+- [Gaston](#gaston)—a smuggler. Keeps an eye on the place and will approach if the party is breaking in **in the
+  evening**.
+- [Children](#city-folk)—playing nearby; they can raise an alarm.
 
 ::: column
 
@@ -1302,7 +1321,7 @@ attention.
 
 **Identifying the vials:**
 
-- The liquid resembles what **[Kenki](#)** could have supplied.
+- The liquid resembles what **[Kenki](#kenki)** could have supplied.
 - With an alchemist’s kit: 10 minutes—to identify as **antitoxin**.
 - Without a kit: `@Medicine 14`, 10 minutes—to identify as **antitoxin**.
 
@@ -1325,7 +1344,7 @@ attention.
 - Press **Plun’gr** firmly to the hole and **press three times**.
 - A handle with four number dials (0–9) extends. The correct combination is **0451** _(a hint can be found in the
   diary)_.
-- On success, a hidden door to the catacombs opens: the wardrobe slides aside, revealing a [narrow passage](#).
+- On success, a hidden door to the catacombs opens: the wardrobe slides aside, revealing a [narrow passage](#passage-from-abrahams-house).
 
 **Wrong code.** From deep within comes a distant click, and the room begins to fill with a paralyzing gas. Each creature
 must make a `@Constitution 13` saving throw. On a failure, it gains the
@@ -1682,14 +1701,14 @@ _Number on the [map](#catacomb-map)—**4**._
 
 ## Gaston’s Part
 
-If the party descended with **[Gaston](#)**, on round one he slips into the shadows after the casket. He won’t reappear
+If the party descended with **[Gaston](#black-meduza-bandit)**, on round one he slips into the shadows after the casket. He won’t reappear
 unless his attitude toward the party is **positive**.
 
 ::: column
 
 ## Combat: Spider Lair
 
-As soon as the party approaches the center of the hall or begins cutting open cocoons, the first [Spellwarp Spider](#)
+As soon as the party approaches the center of the hall or begins cutting open cocoons, the first [Spellwarp Spider](#spellwarp-spider)
 lunges from the shadows. If the party didn’t move stealthily, it attacks from
 [ambush](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Surprise).
 
@@ -1801,7 +1820,7 @@ Or foreshadowing for a continuation:
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/funeral.png){class="mask mask--background-bottom-third-01" style="object-position: center 140%; object-fit: contain; bottom: 0;"}
 
-::: page {type="inside-cover"}
+::: page {type="inside-cover" chapter="Appendix | Characters"}
 
 ![NPCs Cover](./assets/covers/inside-cover-npc.png) {class="cover"}
 
@@ -1813,7 +1832,873 @@ NPCs Profiles
 
 :::
 
-::: page {type="inside-cover"}
+::: page {layout="wide"}
+
+# Appendix: Characters
+
+#### Quick NPC Index
+
+| Name                        | Role                           | Location                                                         | Motivation & Table Use                                                                           |
+| :-------------------------- | :----------------------------- | :--------------------------------------------------------------- | :----------------------------------------------------------------------------------------------- |
+| **[Duncan](#duncan)**       | Former adventurer              | [Tavern](#tavern-by-the-sea), [Docks](#the-dock)                 | Recruiting a team for a dragon hunt. Orients the party to the town; hook for a future adventure. |
+| **[Hurgkhan](#hurgkhan)**   | Garrison commander             | [Maria’s House](#marias-house), [Garrison](#garrison)            | Leads the investigation. Provides initial info; can issue a Garrison Permit.                     |
+| **[Günter](#günter)**       | Guard; Maria’s lover           | [Maria’s House](#marias-house), [Garrison](#garrison)            | Searching for Maria; suspects Rosa. Source on other disappearances.                              |
+| **[Helmut](#helmut)**       | Tavern owner                   | [Tavern](#tavern-by-the-sea)                                     | Offers the “rat farm” quest. Source on Peter & Boshir.                                           |
+| **[Kenki](#kenki)**         | Tavern server                  | [Tavern](#tavern-by-the-sea)                                     | Loves gossip. Source on Peter & Boshir.                                                          |
+| **[Gaston](#gaston)**       | Smuggler                       | [Tavern](#tavern-by-the-sea), [Abraham’s House](#abrahams-house) | Hunting a missing shipment (the casket). Source on smuggling.                                    |
+| **[Rosa](#rosa)**           | Paladin of the Church of Light | [Temple of Light](#temple-of-light)                              | Seeks a relic (not the casket); avoids meddling in town affairs.                                 |
+| **[Selina](#selina)**       | Priest of the Temple of Light  | [Temple of Light](#temple-of-light)                              | Defends the Church. Provides info on Rosa and spider dreams.                                     |
+| **[Karra](#karra)**         | Trinket seller                 | [Market Square](#market-square)                                  | Craves attention. Info on Maria & Günter; points toward the Watchtower.                          |
+| **[Jonas](#jonas)**         | Coachman; owns Abraham’s house | [Abraham’s House](#abrahams-house)                               | Wants coin without trouble. Grants access to Abraham’s house.                                    |
+| **[Guards](#guards)**       | City watch                     | [Garrison](#garrison), [Watchtower](#watchtower), city streets   | Keep order. Source of official information.                                                      |
+| **[Merchants](#city-folk)** | Market vendors, artisans       | [Market Square](#market-square)                                  | Commerce; rumors.                                                                                |
+| **[Drunkards](#city-folk)** | Regulars & vagrants            | City streets                                                     | Can point to the Abandoned District to look for Bertram.                                         |
+| **[Kids](#city-folk)**      | Local teens                    | Craft District                                                   | Saw Maria turn into the Abandoned District.                                                      |
+
+::: page {type="class" icon="./assets/symbols/city.svg"}
+
+# Duncan
+
+A former adventurer. His last expedition was about 15 years ago—his entire party died in the northern mountains of the
+peninsula. He tells no one what happened there. Those who knew him before say he’s changed: now he lives quietly,
+keeping his distance from his old life. Rumors of a dragon seem to have rekindled his resolve—he’s considering
+assembling a new group.
+
+He arrived a week ago and took rooms at the tavern. He hates the Church and the angels.
+
+**Objective:** gather information.
+
+## Locations
+
+- [Docks](#the-dock).
+- [Tavern](#tavern-by-the-sea).
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Duncan](./assets/npc/duncan.png) {class="framed-image"}
+
+_human, former adventurer_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A tall man in his forties with sharp, almost noble features, a short dark beard, and eyes with a violet cast. Grey
+> touches his temples; his posture is straight, his movements assured. He wears a dark travel cloak over well-made but
+> worn armor. At his belt hangs an old-pattern sword, carefully maintained though long past its prime.
+
+## Roleplaying
+
+- Calm, deliberate, restrained; a touch of melancholy.
+- Deliberately polite, keeps his distance.
+- Speaks briefly and to the point, with dry irony at times.
+
+**Attitude:** Friendly.
+
+::: column
+
+## Information
+
+Can give a brief **history of the town** (as in [“Chronicles of San Soprigal”](#chronicles-of-san-soprigal) book), speak
+about the [daemon incursion](#the-demon-incursion), Hurgkhan’s role, and why he became the de facto leader.
+
+Calls the town “not a bad place to grow old”—quiet and calm.
+
+Hints about the mountains: _“This place… Something woke in the peaks. The only question is what we’re going to do about
+it.”_
+
+On the Church: _“Angels meddle where they’re not wanted. Like a guard with a shiny buckle—plenty of noise, little
+help.”_
+
+After the adventure, he may propose heading **into the mountains to hunt a dragon**.
+
+::: page {type="class" layout="rtl" icon="./assets/symbols/holy-empire.svg"}
+
+# Hurgkhan
+
+He has served in San Soprigal’s garrison for ten years; during the demon incursion he led the town’s defense and lost
+nearly all his guards, and now works with raw recruits. He isn’t an Imperial zealot, but order matters to him above all.
+As garrison chief he effectively acts as mayor. He’s irritated that since Rosa arrived, some townsfolk treat her as the
+“real authority.”
+
+**Objective:** Maintain order in the town at any cost.
+
+## Locations
+
+- [Maria’s House](#marias-house) on the morning of Day One.
+- [Garrison](#garrison).
+- [Town Gates](#town-gates).
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Hurgkhan](./assets/npc/hurgkhan.png) {class="framed-image"}
+
+_half-orc, garrison commander_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A tall, broad-shouldered half-orc with gray-green skin and dark hair tied back. A scar through the left brow hardens
+> his stare. His armor is worn but sturdy, bearing the Empire’s sigil. He carries himself with confidence; his voice is
+> clipped and free of embellishment.
+
+## Roleplaying
+
+- Speaks in crisp, short sentences, as if issuing orders.
+- Dislikes idle talk but respects competence and directness.
+- Calm under pressure; irritable with dithering or freelance heroics.
+
+**Attitude:** Indifferent.
+
+::: column
+
+## Information
+
+Short on bodies, he’s willing to enlist the party’s help and issue a [Garrison Permit](#garrison-permit). He can promise
+**30–50 gp** for finding Maria or a key lead.
+
+**Going to sea** to inspect the cove is allowed only at **Friendly** attitude; otherwise, it’s forbidden.
+
+If the party brings evidence against someone, see **[The Accusation](#the-accusation)**.
+
+**About Maria:** _“Good kid. Kept to herself. I see no reason to start a witch-hunt in town.”_
+
+**About Günter:** Notes he’s shaken—there may have been something personal though he won’t say it. No complaints about
+his duty, but he’s been more nervous than usual.
+
+**About the disappearances:** Hurgkhan is tired of Günter’s theory; Günter insists people have gone missing before,
+though plenty leave town without warning.
+
+::: page {type="class" icon="./assets/symbols/holy-empire.svg"}
+
+# Günter
+
+During the demon incursion, Günter lost his entire family and survived by chance. Afterward he joined the guard—if
+angels wouldn’t help as the Church promised, he’d make the town safer himself. Since then he’s come to hate the Church
+and grown suspicious and conspiratorial, seeing the “hand of the Church” in every odd event. He met with Maria in
+secret, dreamed of marriage, and planned to leave town with her. After her disappearance he’s certain it wasn’t random
+and suspects Rosa.
+
+**Objective:** Find Maria and prove the Church’s involvement.
+
+## Locations
+
+- [Maria’s House](#marias-house) on the morning of Day One.
+- [Garrison](#garrison).
+
+::: column
+
+![NPC: Günter](./assets/npc/gunter.png) {class="framed-image"}
+
+_human, rookie guard_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A young man in his early twenties with wavy blond hair and blue eyes. Solidly built, but his movements still lack a
+> veteran’s confidence. He wears a cheap, polished cuirass that’s slightly too big. His gaze flickers; his voice
+> trembles.
+
+## Roleplaying
+
+- Speaks sharply, sometimes stammering—especially under pressure.
+- Often clenches his fists or folds his arms, trying to look confident.
+- Short-tempered; his tone hardens quickly when he senses threat or injustice.
+- If accused of murder/violence, if Maria is insulted, or if he’s pressed too hard, he shuts down and refuses to
+  talk—his attitude becomes **Hostile**.
+
+**Attitude:** Indifferent (distrustful).
+
+::: column
+
+## Information
+
+**About Maria.** Says they were “just acquaintances.” Last saw her at the market around six in the evening on his way to
+duty. Maria had a friend at the market—[Karra](#karra)—but he doesn’t trust her.
+
+**If pressed about Maria.** Admits they were seeing each other and asks to keep it secret. They agreed to meet at sunset
+at the Watchtower—he planned to propose, but the meeting never happened. Remembers Maria seemed troubled: she wanted to
+tell him “something important.” At sunset he saw Maria crossing the square toward the tower but lost track of her—Rosa
+returned to town just then and he was distracted. Offers **100 gp** for help finding her (same as the reward on the
+[notice board](#garrison)).
+
+**If attitude is Friendly** or the party is openly anti-Church/anti-Rosa. Shares that others are missing—two merchants
+and Abraham—and complains Hurgkhan brushed it off. Launches into conspiracy theories: openly accuses Rosa, believes
+she’s an inquisitor under cover; her arrival coincided with the disappearances, “people who got in her way vanished”,
+and he doesn’t believe in coincidences. Says he and Maria argued about this often.
+
+::: page {type="class" layout="rtl" icon="./assets/symbols/city.svg"}
+
+# Helmut
+
+He’s convinced there’s room for everyone within his tavern’s walls. He hired the goblin server [Kenki](#kenki): people
+whispered at first, but now many come specifically for him.
+
+Helmut keeps a tidy rat farm in the cellar—fat river rats, fried crisp, are a dwarven delicacy. There aren’t many
+dwarves in town, but he wants them to feel welcome.
+
+He’s used to handling problems himself; if anyone threatens his staff or reputation, he won’t hesitate to ask anyone for
+help.
+
+## Locations
+
+- [Tavern "By the Sea"](#tavern-by-the-sea).
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Helmut](./assets/npc/helmut.png) {class="framed-image"}
+
+_human, tavern owner_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A stocky man in his fifties with a receding hairline, heavy brows, and a magnificent mustache; his beard is cropped
+> short. His gaze is unreadable, and weariness sits on his face.
+
+## Roleplaying
+
+- Gruff but welcoming.
+- Likes to talk about tolerance.
+- Doesn’t ask unnecessary questions.
+
+**Attitude:** Friendly.
+
+::: column
+
+## Information
+
+Asks for help with the rat farm (see [Tavern Cellar](#tavern-cellar)) for **10 gp**.
+
+**About the lodgers who vanished a month ago:**
+
+- _“Happens here… People come and go. I wouldn’t call that ‘missing.’ Month back, two lads booked a room and kept saying
+  they wanted to see the Temple spire. Next morning they were gone—left their things. So what, they ‘disappeared’ too?
+  Just travelers.”_
+- _“Why’s everyone so keen on them anyway? First the kid came asking, then that shady fellow (nods toward Gaston), and
+  now you.”_
+- For details, he’ll point you to [Kenki](#kenki).
+
+**About Abraham:** saw him a couple of times; jokes that the man must have been “living on air.”
+
+**About Maria:** matter-of-fact—an ordinary girl with a sharp nose; she could smell sour beer in the cellar. Her stall
+was nearby, so she’d drop in now and then.
+
+**If attitude is Friendly**, he’ll share a [true rumor](#appendix-rumors).
+
+::: page {type="class" icon="./assets/symbols/city.svg"}
+
+# Kenki
+
+A goblin from a local mountain tribe that lived here before humans. When the town was founded, the goblins accepted
+civic law, paid their dues, and entered workshop crews—yet they’re still pushed into low-paid work and get side-eyed.
+Kenki knows dockside gossip and the tongues of travelers. He tolerates prejudice, but if someone insults him or the
+tavern, he answers coolly and precisely—by the book, with a few barbed words.
+
+**Objective:** Make coin selling information and keep his place at the tavern.
+
+## Locations
+
+- [Tavern "By the Sea"](#tavern-by-the-sea).
+
+::: column
+
+![NPC: Kenki](./assets/npc/kenki.png) {class="framed-image"}
+
+_goblin, tavern server_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A green-skinned goblin with bright yellow eyes. Short and wiry, big ears, and a perpetual smirk.
+
+## Roleplaying
+
+- High-pitched, proud, fidgety.
+- Often grumbles that the work is hard and the patrons are rude.
+- Loves to gossip—but only for coin or a favor.
+
+**Attitude:** Indifferent.
+
+::: column
+
+## Information
+
+**About the merchants** who vanished a month ago: _“Weird pair. First they whispered about some medusas. Then they
+booked one room for two and tried to hit on Rosa—oh, she put them in their place; you should’ve seen it.”_ He can
+describe them:
+
+- Stocky man, 35–40: short dark hair, thinning at the front, stubble, roundish features.
+- Gaunt man, 35–40, downcast look, a goatee “ring” around the mouth.
+
+Kenki says he didn’t see them again after evening. He took their things—[the merchants’ clothes](#merchants-clothes)—to
+the cellar and will allow an inspection if Helmut agrees.
+
+**If attitude is Friendly**, he mentions he found two **vials** of green liquid among their things. He drank one—sobered
+up immediately and felt “way too much energy,” even after a couple of mugs (_a hint it’s an antitoxin_). He’ll sell the
+second for **5 gp**. With an **alchemist’s kit**, 10 minutes of work identifies it as **antitoxin**.
+
+For **1 gp** he’ll share a random [true rumor](#appendix-rumors); pay less and you’ll get a
+[shady rumor](#appendix-rumors) instead.
+
+::: page {type="class" layout="rtl" icon="./assets/symbols/black-meduza.svg"}
+
+# Gaston
+
+Arrived in San Soprigal yesterday on a **Black Meduza** assignment: locate the missing [casket](#smugglers-cache) that
+Peter and Boshir were supposed to deliver. Learned they rented a room at the tavern and then vanished. Tried to reach
+the cove from the sea at night but was spooked off by fishermen. Knows about the secret passage to the catacombs from
+Abraham’s house. Watches the house by day; plans to slip inside at night.
+
+**Objective:** Find the casket and keep the catacombs secret.
+
+## Locations
+
+- [Tavern "By the Sea"](#tavern-by-the-sea) — sits at the counter, pretending to drink.
+- [Abraham’s House](#abrahams-house) — observes from nearby.
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Gaston](./assets/npc/gaston.png) {class="framed-image"}
+
+_human, smuggler_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A lean, compact man in middle age with sharp features and a foxlike squint. Dressed simply but for ease of movement; a
+> battered flask hangs at his belt. His movements are quick; his eyes, watchful.
+
+## Roleplaying
+
+- Talks fast; deftly steers conversations off-track.
+- Answers in hints, avoids direct admissions; frames favors as “mutual business.”
+- Sips from his flask often to maintain the appearance of being drunk.
+
+**Attitude:** Indifferent (wary).
+
+::: column
+
+## Information
+
+At the tavern, on first contact he **pretends to be drunk** and disinterested. He’ll say he’s looking for the missing
+merchants’ cargo while omitting the smuggling angle.
+
+If someone in the party knows **Thieves’ Cant**, he checks if they’re “in the life.” Question: _“Tell me, what’s louder:
+the ring of coin or the rustle of hay?”_ — Answer: _“The rustle, if the coin isn’t yours.”_
+
+If the party heads for Abraham’s house, he tails them discreetly.
+
+If he sees the party enter Abraham’s house, he offers a deal: **50 gp each** to help retrieve an item in the catacombs,
+on the condition of absolute secrecy.
+
+If he’s already been inside and found Abraham’s body, he asks for an escort into the catacombs “under guard” (he doesn’t
+know what’s down there) and offers **100 gp each** for silence and assistance.
+
+In any case, he eventually reveals his real mission and warns: _Black Meduza doesn’t forgive traitors._
+
+If the party tries to cheat him—by hiding the casket or turning the catacombs over to Hurgkhan—he vanishes from town.
+
+::: page {type="class" icon="./assets/symbols/church-light.svg"}
+
+# Rosa
+
+Arrived in San Soprigal a month and a half ago on a covert Church assignment: recover a relic and investigate assaults
+on merchants. Works alone and shares nothing even with local clergy. Puts her mission above town business and won’t let
+anyone stand in her way. Looks down on Hurgkhan and the guard. Yesterday at sunset she returned with a new lead and,
+after resting, intends to leave town to continue the investigation.
+
+**Objective:** Complete the assignment and leave without getting entangled in town affairs.
+
+## Locations
+
+- [Temple of Light](#temple-of-light) — in her cell.
+- [Town Gates](#town-gates) — when attempting to depart.
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Rosa](./assets/npc/rosa.png) {class="framed-image"}
+
+_human, paladin of the Church of Light_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A tall, muscular woman around thirty with short dark hair and a cold, assessing gaze. She wears plate with the
+> Church’s sigil. Composed, always on guard, as if sizing up every room.
+
+## Roleplaying
+
+- Speaks briefly and without emotion; avoids unnecessary words. Addresses people by trade or species.
+- Keeps distance, continually testing whom she can trust.
+- Won’t escalate unless there is purpose.
+
+**Attitude:** Hostile. Toward paladins and clerics — Indifferent.
+
+::: column
+
+## Information
+
+**At Hostile/Indifferent attitude:**
+
+- Dodges direct questions; gives general answers.
+- Avoids open conflict, but if accused or threatened with arrest, she **starts a fight** and then attempts to slip out
+  of town.
+- Acknowledges she acts on Church orders but does not reveal the specifics.
+
+**If attitude is Friendly** or the characters belong to the Church:
+
+- **About the assignment:** _“I’m investigating assaults on merchants between Portgate and the coast. Your troubles are
+  not my doing.”_
+- **About Maria:** _“I saw her at the Temple once or twice. She wasn’t seeking the Light—she was afraid of something.
+  Yesterday I spotted her hurrying toward the Abandoned District, looking over her shoulder. As if hiding…”_
+
+::: page {type="class" layout="rtl" icon="./assets/symbols/church-light.svg"}
+
+# Selina
+
+Born in San Soprigal to a family of clergy; raised in the Temple. Rose to abbess and is fanatically devoted to the
+Church.
+
+Believes that if the Angels didn’t intervene during the incursion, it was by their design.
+
+Regards other peoples warily (including half-orcs like Hurgkhan).
+
+**Objective:** Preserve the Church’s authority and keep the “proper” faith in town.
+
+## Locations
+
+- [Temple of Light](#temple-of-light).
+
+::: column
+
+![NPC: Selina](./assets/npc/selina.png) {class="framed-image"}
+
+_human, priest of the Temple of Light_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A woman around forty with fair hair and a calm, attentive gaze. Her clothing is modest but impeccably kept.
+
+## Roleplaying
+
+- Serene and devout; speaks gently but firmly.
+- Inclined to see events as expressions of angelic design, not chance.
+- Keeps polite distance; unyielding on matters of doctrine.
+
+**Attitude:** Indifferent; **Friendly** toward paladins and clerics; **Hostile** toward mages.
+
+::: column
+
+## Information
+
+- Will speak about the ten Commandments of the Light and try to proselytize.
+- About **Maria**: _“Maria came often and listened to the services. Then she suddenly stopped. We last spoke a month
+  ago: she asked about magic and why it’s forbidden. I explained: magic is pride given the shape of knowledge. Where it
+  thrives, faith dies in silence.”_
+- About **Rosa**: _“She is a paladin, and I trust her. But the people did not accept her. On her very first day some
+  drunks in the tavern picked a fight.”_
+- About the **man in the cellar**: _“It is the choice of the soul, not the body. There is no atonement without pain.”_
+- About **the dreams**: _“Some parishioners say they cannot sleep. They dream they have become spiders. Do you think
+  that happens for no reason?”_
+
+::: page {type="class" icon="./assets/symbols/city.svg"}
+
+# Karra
+
+Neighbor and friend of Maria. Sells trinkets, jewelry, and “useful little things.” She chats with customers and knows
+half the town’s gossip. Since Maria’s disappearance she’s anxious and more willing to share what she’s seen and
+heard—especially if shown a bit of attention.
+
+Shows particular interest in people of other species.
+
+**Objective:** Stay at the center of attention and avoid being “left out” of others’ stories.
+
+## Locations
+
+- [Market Square](#market-square) — her stall stands next to Maria’s counter.
+
+::: column
+
+![NPC: Karra](./assets/npc/karra.png) {class="framed-image"}
+
+_human, trinket seller_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A short woman around forty with a sly smile, olive skin, and lively green eyes. Dark curly hair tucked under a
+> headscarf; gold hoop earrings. She wears a simple light blouse and a brown wrap. There’s mischief and frank curiosity
+> in her bearing.
+
+## Roleplaying
+
+- Warm voice with a slight rasp; speaks quickly, with a teasing lilt.
+- Flirts readily; often adjusts her scarf or earrings.
+- Loves rare and odd things; brightens when talking about jewelry and curios.
+
+**Attitude:** Friendly.
+
+::: column
+
+## Information
+
+**About Maria and Günter:**
+
+- _“I don’t like gossip, but Maria herself said there was a thing with a guardsman. Right up on the
+  [Watchtower](#watchtower), yep. Then he got ideas—scenes, complaints, ‘not enough attention’… and then, would you
+  believe, he slapped her. Just like that—raised a hand! I told her to toss him out so hard he’d leave a stain.”_
+- She “doesn’t remember” the guard’s name.
+
+**About Maria (personal observations):**
+
+- Lately Maria grew quieter and avoided conversation. Karra blames **Rosa**: more than once she saw Maria pale at Rosa’s
+  appearance and turn away to avoid crossing paths.
+- Gave Maria a **moon-shaped amulet** “for luck” to calm her down. It’s a simple bauble, not magical.
+
+**If attitude is Friendly**, Karra becomes noticeably more candid and may share [rumors](#appendix-rumors).
+
+On a successful flirt she might suggest meeting at the tavern that night—but **she won’t show up**. In the morning her
+stall is empty. If the party finds her at home, she admits she wants the same attention and “fame” Maria had.
+
+::: page {type="class" layout="rtl" icon="./assets/symbols/city.svg"}
+
+# Jonas
+
+Grew up on his grandfather’s tales—an old coachman who often hauled curiosities from the
+[United States of Magic Art](#appendix-states-and-organizations). He doesn’t know about his grandfather’s smuggling ties
+or the cellar beneath the house.
+
+Jonas’s grandfather died during the demon incursion, and the house has stood empty since. When Abraham offered to rent
+it and pay a year up front, Jonas was thrilled and agreed.
+
+After some kids broke a window, he realized Abraham wasn’t living there and is thinking about renting the old house out
+again—but he’s afraid of getting into trouble.
+
+**Objective:** Feel important.
+
+## Locations
+
+- The stables in the Craft District.
+- [Abraham’s House](#abrahams-house) — may be nearby.
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Jonas](./assets/npc/jonas.png) {class="framed-image"}
+
+_human, coachman_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A 23-year-old, lanky young man with tousled fair hair and a restless gaze. Simply but neatly dressed. His fingers rub
+> together constantly—as if he’s nervous or excited by his own chatter.
+
+## Roleplaying
+
+- Speaks quickly, jumps between topics, and gets lost in unnecessary details.
+- Startles easily; with a bit of support, he puffs up and puts on airs.
+- Loves telling tall tales about his grandfather, often embellishing.
+
+**Attitude:** Friendly.
+
+::: column
+
+## Information
+
+He eagerly pitches his grandfather’s “spacious, sturdy” house: the dust is nothing, the window’s already boarded; he
+offers to rent it to the characters while pretending it’s “unoccupied.”
+
+**House key.** He carries a ring of keys. He’ll hand one over with `@Persuasion 12` or for a **2 gp** deposit.
+
+He’s noticed **kids** hanging around the stables and the house lately—and he doesn’t like it.
+
+He proudly talks about **his grandfather**; details slip that can be read as smuggling connections (`@Insight 10`).
+
+If asked **about Abraham**: _“Yeah, I figure he left… Did you know him? He paid a year in advance, but he’s gone now.
+The house just sits there, gathering dust—who does that help? So I don’t see a problem. If you want to rent it—we can
+talk!”_ A moment later he wavers: _“You’re sure? It’s just… what if he comes back? Or… someone comes for him? I don’t
+want trouble—with mages or with you, honestly.”_
+
+If you bring up **smuggling**, he waves it off, irritated: he’s just a coachman; adds that if anyone had said that to
+his grandfather, the old man would have set them straight—if he were still alive.
+
+::: page {type="class" icon="./assets/symbols/holy-empire.svg"}
+
+# Guards
+
+Rank-and-file guards in plain armor with the Imperial sun on the shoulder. Some keep a stone-faced post, some smoke
+around a corner, some grumble about the next order. You’ll find both recruits and veterans among them. With tensions
+running high, the guard feels like the only steady force in town.
+
+## Locations
+
+- [Garrison](#garrison).
+- [Town Gates](#town-gates).
+- [Watchtower](#watchtower).
+- City streets.
+
+::: column
+
+![NPC: Guards](./assets/npc/guards.png) {class="framed-image"}
+
+_humans, rank-and-file city guards under Hurgkhan_ {align="center"}
+
+::: column-reset
+
+## Roleplaying
+
+- Discipline and hierarchy first; a bit plodding, follow orders to the letter.
+- They keep order, but coordination varies by shift and who’s in charge.
+- Polite but curt; open up with trust—or a drink.
+
+**Attitude:** Indifferent; **Friendly** when the party cooperates; **Hostile** if the party breaks the peace or looks
+suspicious.
+
+::: column
+
+## Information
+
+- **Disappearances.** Most shrug it off as people “just traveling for business.” The one who’s truly worried is
+  **Günter**.
+- **About Günter.** _“Odd lately: polished his armor like it was parade day. On edge for days—like he’s bracing for
+  something.”_
+- **About Maria.** Seen on the market until about **6:00 pm** yesterday. She did not leave town.
+- **About Rosa.** Often leaves town for several days; returned at sunset yesterday.
+- **About Hurgkhan.** They respect the captain: _“Doesn’t let chaos raise its head; our real chief—and he works from the
+  garrison, not the old hall.”_ Some gripe that he demands a lot; others are proud to serve under him.
+- **Nights.** It’s gotten suspiciously quiet after dark. Over the last month or so there are fewer drunken
+  revelers—seems not only people avoid the streets after dusk, but animals too.
+- **Helmut’s complaint.** Helmut reported trouble with his rat farm; the guard found nothing. _(You can also place this
+  as a written report on Hurgkhan’s desk in the [Garrison](#гарнизон).)_
+
+::: page {type="class" layout="rtl" icon="./assets/symbols/city.svg"}
+
+# City Folk
+
+A motley crowd—craftspeople, vendors, fishers, children, drunks. Some fear what’s happening; others wave it off as
+“another tall tale.” In most eyes you see weariness and a habit of living with a background hum of worry.
+
+## Locations
+
+- [Docks](#the-dock) — fishers.
+- [Market Square](#market-square) — vendors, beggars, children.
+- Steps of the [Temple of Light](#temple-of-light) — beggars.
+- City streets — children, beggars, random onlookers.
+
+::: column
+
+![NPC: City Folk](./assets/npc/city-folk.png) {class="framed-image"}
+
+_background NPCs reflecting the town’s atmosphere_ {align="center"}
+
+::: column-reset
+
+## Roleplaying
+
+- Vendors chat readily but won’t cross any lines.
+- Fishers are laconic and wary of outsiders.
+- Drunks are loud and abrasive but may know what they shouldn’t.
+- Children notice odd things first, but rarely grasp their meaning.
+
+**Attitude:** Indifferent.
+
+::: column
+
+## Information
+
+They can share rumors from **[Appendix: Rumors](#appendix-rumors)**.
+
+**Vendors:**
+
+- Maria was at the market until about **6:00 pm** yesterday, then headed home.
+- Noticed Maria avoiding Rosa. They’re uneasy around Rosa too.
+
+**Fishers:**
+
+- _“Saw someone in a hood walking the pier at night. Then a splash, and that was it.”_
+- _“The dog howled that night. He doesn’t howl for storms.”_
+
+**Drunks:**
+
+- Claims to hear voices demanding “food.”
+- Gripes that Bertram and Oswald (_the man in the Temple cellar_) are gone—_“no one left to drink with.”_
+
+**Children:**
+
+- Used to play in the Abandoned District, but now it’s “really scary.”
+- Saw a **young woman** walking toward the Abandoned District at sunset, looking over her shoulder. It struck them as
+  odd—no one goes there now, not even they do.
+
+::: page
+
+# Missing Persons
+
+## Maria
+
+A woman around 30, slender, with chestnut hair braided back and brown eyes. She often accents her clothes with small
+silver beads. Wears a silver moon-shaped pendant.
+
+**Last seen:** 13 Lothviel, ~6:00 pm
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Maria](./assets/npc/maria.png) {class="framed-image" style="height:220px; margin-bottom: 5mm"}
+
+::: column-reset
+
+## Abraham
+
+A tall, gaunt older man with sharp features and deep-set dark eyes. His gray hair is always a bit unkempt, as if he
+doesn’t care much about appearances.
+
+**Last seen:** 2 Bethalasse, asking about the merchants.
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Abraham](./assets/npc/abraham.png) {class="framed-image" style="height:220px; margin-bottom: 5mm"}
+
+::: column-reset
+
+## Peter and Boshir
+
+A stocky man, 35–40: short dark hair, thinning at the crown; stubble; roundish features.
+
+A lean man, 35–40, downcast gaze; a “ring” beard around the mouth.
+
+**Last seen:** 1 Bethalasse, at the tavern.
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Peter and Boshir](./assets/npc/peter-and-boshir.png) {class="framed-image" style="height:220px; margin-bottom:5mm"}
+
+::: column-reset
+
+## Bertram
+
+A middle-aged man with a narrow face, short stubble, and a mustache.
+
+**Last seen:** 2 Lothviel, in town.
+
+::: column
+
+<!-- prettier-ignore -->
+![NPC: Bertram](./assets/npc/bertram.png) {class="framed-image" style="height:220px"}
+
+::: page {type="class" icon="./assets/symbols/city.svg"}
+
+# Jassad
+
+Has been in town for about two weeks, lodging at the Tavern “By the Sea.” He’s keenly interested in magic and the
+history of the Great Empire.
+
+Says he came from **The United States of Magic Art** and wants to learn more about Imperial-era structures on the
+peninsula.
+
+He’s heard rumors of nearby ancient ruins and intends to verify them himself. Plans to assemble a small team of
+like-minded explorers and local guides to survey the sites.
+
+## Locations
+
+- [Tavern “By the Sea”](#tavern-by-the-sea).
+
+::: column
+
+![NPC: Jassad](./assets/npc/jassad.png) {class="framed-image"}
+
+_human, enigmatic traveler_ {align="center"}
+
+::: column-reset
+
+## Description
+
+> A tall man of about thirty with fine features and a steady, attentive gaze. He wears an expensive, slightly unusual
+> robe.
+
+## Roleplaying
+
+- Polite, observant, with a trace of amused irony.
+- Speaks with refined, scholarly diction.
+- Deflects questions about himself but talks enthusiastically about magic and history.
+
+**Attitude:** Friendly.
+
+::: column
+
+## Information
+
+Enjoys chatting about magic and the Empire’s ancient ruins. Mentions that he “collects knowledge” and spent a long time
+visiting **The United States of Magic Art**.
+
+If a party member is a tiefling, he remarks, _“I didn’t expect to find Tieflings here,”_ but refuses to elaborate.
+
+After the adventure, he may ask the party to scout ruins on the peninsula and tell them roughly where to look.
+
+::: box
+
+**For the DM.** This NPC is optional and doesn’t appear in any location write-up by default.
+
+:::
+
+::: page {layout="wide" chapter="Appendix | Rumors"}
+
+# Appendix: Rumors
+
+If the players are stuck and it’s time to nudge them toward the catacombs: _“…I think I saw him/her head into the abandoned part of town, but why should I care?”_
+
+#### True Rumors
+
+|     |                                                                                                                                                                  |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | About Günter: too young for the watch, always running around looking for someone, playing the hero.                                                              |
+| 2   | About the town’s mood: _“In the night my dog went wild, snapped his chain, and bolted after something. Then—nothing. He was a good dog, too…”_                  |
+| 3   | About the town’s mood: My dog howled last night—he never makes a sound after dark. That’s a bad sign.                                                            |
+| 4   | About the town’s mood: The old man says he heard footsteps last night. Not guards—more like claws on cobblestone.                                                |
+| 5   | About Maria: Maria’s seeing someone from the watch; that’s why they locked the town down.                                                                        |
+| 6   | About Maria: “Heard Maria arguing with Selina one time. Loud.”                                                                                                   |
+| 7   | About the town’s mood: _“I’ve been here for years, and I’ve never known nights this quiet. Even the dogs don’t bark. Strange.”_                                  |
+| 8   | About Bertram: Mathias looks miserable, wandering without his drinking buddies Bertram and Oswald.                                                               |
+| 9   | Maria’s been avoiding Rosa, going out of her way not to cross paths.                                                                                              |
+| 10  | Folks saw Rosa coming back into town at sunset.                                                                                                                  |
+| 11  | Folks saw Maria walking toward the square around sunset.                                                                                                         |
+
+#### Shady Rumors
+
+|     |                                                                                                                                                                   |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Rosa an Inquisitor? Nah. Her cloak’s plain. Inquisitors wear black. Then again…                                                                                   |
+| 2   | Hurgkhan’s mad they won’t send him soldiers. The Empire’s afraid he’ll run things better than the dukes!                                                          |
+| 3   | That German—he’s a warlock, I swear. Hides books, won’t let people in, mutters to himself.                                                                        |
+| 4   | Shouldn’t have handed Moander’s books to the library. Licensed or not, he was still a mage.                                                                       |
+| 5   | “My aunt’s boy works customs—says Karthal hasn’t sent reports to the capital for two months.”                                                                     |
+| 6   | “Someone’s locked in Selina’s cellar. They say he’s an alcoholic. I heard him calling for Maria.”                                                                 |
+| 7   | “Rumor is the Church keeps a dungeon under Portgate full of corpses they train—like an army… just without the payroll.”                                           |
+| 8   | “Word is the council in Karthal doesn’t heed the governor anymore, and you hear ‘free city’ more often. Someone’s behind it—mages, or those forest folk.”         |
+| 9   | “They found a scale in the mountains the size of a door. Some say dragon, others a pangolin with an invisibility charm. I’m betting dragon!”                      |
+| 10  | “You ever seen the northern elves? No? That’s ’cause they eat anyone who enters their woods. Heard their language has no words—just clicks and smells.”           |
+| 11  | “They say dead folk up in the old cemetery pick out their own coffins now. Wouldn’t surprise me if the Church knows and keeps quiet.”                             |
+
+
+::: page {type="inside-cover" chapter="Appendix | Items"}
 
 ![Items Cover](./assets/covers/inside-cover-items.png) {class="cover"}
 
@@ -1825,7 +2710,7 @@ Magic and Quest Items
 
 :::
 
-::: page {layout="wide" footnote="Appendix | Items"}
+::: page {layout="wide"}
 
 # Appendix: Items
 
@@ -1833,24 +2718,24 @@ Links in the tables lead to full item cards with descriptions, checks, and infor
 
 #### Quest Items
 
-| Name                                      | Location                                                   | Description                                                                                 |
-| :---------------------------------------- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
-| [Ashes Urn](#ashes-urn)                   | With one of the characters at the start of the adventure   | A sentimental item                                                                          |
-| [Garrison Permit](#garrison-permit)       | With [Hurgkhan](#) near [Maria’s House](#) / [Garrison](#) | Grants guard goodwill                                                                       |
-| [Maria’s Diary](#marias-diary)            | [Maria’s House](#)                                         | Mentions Karra, an evening meeting, and a mysterious order                                  |
-| [Merchants’ Clothes](#merchants-clothes)  | [Tavern Cellar](#) / with [Kenki](#)                       | Fake papers and cover clothing                                                              |
-| [Abraham’s Diary](#abrahams-diary)        | [Cellar of Abraham’s House](#)                             | Ties to Meduza, venom experiments, link to the mysterious order, code for the catacomb door |
-| [Strange Item (“Plun’gr”)](#strange-item) | [Cellar of Abraham’s House](#)                             | Opens the passage to the catacombs                                                          |
-| [Smugglers’ Cache](#smugglers-cache)      | [Smugglers’ Cove](#)                                       | Adventure reward and the casket Gaston is looking for                                       |
+| Name                                      | Location                                                           | Description                                                                                 |
+| :---------------------------------------- |:-------------------------------------------------------------------| :------------------------------------------------------------------------------------------ |
+| [Ashes Urn](#ashes-urn)                   | With one of the characters at the start of the adventure           | A sentimental item                                                                          |
+| [Garrison Permit](#garrison-permit)       | With [Hurgkhan](#hurgkhan) near [Maria’s House](#marias-house) / [Garrison](#garrison) | Grants guard goodwill                                                                       |
+| [Maria’s Diary](#marias-diary)            | [Maria’s House](#marias-house)                                                 | Mentions Karra, an evening meeting, and a mysterious order                                  |
+| [Merchants’ Clothes](#merchants-clothes)  | [Tavern Cellar](#tavern-cellar) / with [Kenki](#kenki)                          | Fake papers and cover clothing                                                              |
+| [Abraham’s Diary](#abrahams-diary)        | [Cellar of Abraham’s House](#abrahams-cellar)                                     | Ties to Meduza, venom experiments, link to the mysterious order, code for the catacomb door |
+| [Strange Item (“Plun’gr”)](#strange-item) | [Cellar of Abraham’s House](#abrahams-cellar)                                     | Opens the passage to the catacombs                                                          |
+| [Smugglers’ Cache](#smugglers-cache)      | [Smugglers’ Cove](#smugglers-cove)                                               | Adventure reward and the casket Gaston is looking for                                       |
 
 #### Magic Items
 
 | Name                                        | Location                                                         | Description         |
 | :------------------------------------------ | :--------------------------------------------------------------- | :------------------ |
-| [Magic Lamp](#magic-lamp)                   | [Catacombs (passage from Abraham’s House)](#) / with [Gaston](#) | Wondrous item, rare |
-| [Abraham’s Amulet](#abrahams-amulet-broken) | [Catacombs (passage from Abraham’s House)](#)                    | Wondrous item, rare |
+| [Magic Lamp](#magic-lamp)                   | [Catacombs (passage from Abraham’s House)](#passage-from-abrahams-house) / with [Gaston](#gaston) | Wondrous item, rare |
+| [Abraham’s Amulet](#abrahams-amulet-broken) | [Catacombs (passage from Abraham’s House)](#passage-from-abrahams-house)                    | Wondrous item, rare |
 
-::: page {footnote="Appendix | Items"}
+::: page
 
 ::: panel {style="height:20%"}
 
@@ -1934,7 +2819,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160053-garrison-per
 
 - NPCs more often respond, _“Did you clear that with Hurgkhan?”_ and disengage from the conversation.
 
-::: page {footnote="Appendix | Items"}
+::: page 
 
 ::: panel {style="height:40%"}
 
@@ -1991,7 +2876,7 @@ You can spot mentions of an unusual order paid in advance: rare ingredients and 
 is given; in the margin, the letter “A” was written once and immediately crossed out. The entry is dated to
 [mid-Narvail](#appendix-month-names).
 
-::: page {footnote="Appendix | Items"}
+::: page 
 
 ::: panel {style="height:40%"}
 
@@ -2024,7 +2909,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160115-merchants-cl
 ## Locations
 
 - In the [tavern cellar](#tavern-cellar), in one of the crates.
-- May be brought by [Kenki](#).
+- May be brought by [Kenki](#kenki).
 
 ::: column
 
@@ -2046,7 +2931,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160115-merchants-cl
 - `@Deception 12` The goods ledger is a plant. All entries were written by the same hand while imitating different
   styles.
 
-::: page {footnote="Appendix | Items"}
+::: page 
 
 ::: panel {style="height:40%"}
 
@@ -2109,7 +2994,7 @@ Ruminations on immortality are constant: _“Life is a chain of rot. Shed the fl
 seeking “eternal life” in the usual sense; he intends to let the body die while preserving will and mind. The line
 _“What is dead may never die”_ is circled several times.
 
-::: page {footnote="Appendix | Items"}
+::: page 
 
 ::: panel {style="height:40%"}
 
@@ -2161,7 +3046,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item
 A trigger for the secret mechanism of the hidden passage in the [cellar of Abraham’s house](#abrahams-cellar): press it
 firmly to the round port and push **three times**—Plun’gr draws out a concealed handle-bar.
 
-::: page {footnote="Appendix | Items"}
+::: page 
 
 ::: panel {style="height:40%"}
 
@@ -2226,7 +3111,7 @@ A document sealed with the Imperial coat of arms.
 _The casket’s contents are a plug for the future: you can place any legendary artifact inside if you decide to spin the
 campaign forward._
 
-::: page {footnote="Appendix | Items"}
+::: page 
 
 ::: panel {style="height:40%"}
 
@@ -2260,8 +3145,8 @@ If you draw near:
 
 ## Locations
 
-- In the catacombs, along the passage from [Abraham’s house](#).
-- If the characters travel this way **after** **[Gaston](#)**, he has the lamp.
+- In the catacombs, along the passage from [Abraham’s house](#abrahams-house).
+- If the characters travel this way **after** **[Gaston](#gaston)**, he has the lamp.
 
 ## Properties
 
@@ -2297,7 +3182,7 @@ refuse to respond if addressed rudely.
 
 **Attitude**. Neutral.
 
-::: page {footnote="Appendix | Items"}
+::: page 
 
 ::: panel {style="height:30%"}
 
@@ -2926,7 +3811,7 @@ without becoming undead.
 The **Black Meduza** is a transregional network of smugglers and thieves’ guilds. Specialties: “gray routes,” illicit
 logistics, extortion, bespoke thefts, and financial services for the underworld and the nobility alike.
 
-::: page {footnote="Appendix | Pantheon"}
+::: page {chapter="Appendix | Pantheon"}
 
 # Appendix: Pantheon
 
@@ -2959,7 +3844,7 @@ the specific angel. If the domain you want isn’t listed, choose the closest an
 
 ![Illustration](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:0;left:0;width:100%;z-index:-1"}
 
-::: page {layout="left" footnote="Appendix | Month Names"}
+::: page {layout="left" chapter="Appendix | Month Names"}
 
 # Appendix: Month Names
 
@@ -2981,7 +3866,7 @@ Month names and their translations from the ancient tongue into Common.
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/calendar.png){class="mask mask--background-right-half" style="object-position: 200px center;"}
 
-::: page {footnote="Appendix | Books"}
+::: page {chapter="Appendix | Books"}
 
 ::: panel {style="height:25%"}
 
@@ -3038,7 +3923,7 @@ living or sacred. In all other cases distortion occurs.
 What follows is a description of several methods by which a soul **must not, under any circumstances,** be kept in this
 world after death.
 
-::: page {footnote="Appendix | Books"}
+::: page 
 
 ::: panel {style="height:25%"}
 
@@ -3088,9 +3973,39 @@ for us until the portal began to contract.”
 “...I tried to record the landmarks of the place where the rift first opened, but…” _(the ink is smeared; the entry
 breaks off, as if the hand faltered or the page was drenched)._
 
-::: page {footnote="Appendix | Map for Players"}
+::: page {layout="wide" chapter="Appendix | Tavern Prices"}
 
-# Appendix: Town Map for Players
+# Appendix: Prices at the Tavern “By the Sea”
+
+#### Menu
+
+| Service                                   | Price  | Notes                               |
+| :---------------------------------------- | :----- | :---------------------------------- |
+| Simple supper (fish, bread, ale)          | 5 cp   | Filling, a bit rough                |
+| Good supper (roast, bread, a mug of ale)  | 2 sp   | Evenings only                       |
+| Dish to order (player’s choice)           | 5 sp+  | Helmut will sigh, but he’ll cook it |
+| Pitcher of cheap ale (1 L)                | 1 sp   | Enough for a small group            |
+| Carafe of local wine                      | 3 sp   | Suspiciously sweet                  |
+
+#### Lodging
+
+| Service                                             | Price | Notes                                  |
+| :-------------------------------------------------- | :---- | :------------------------------------- |
+| Spot in the common room (on straw)                  | 1 sp  | In the corner, mice adjacent           |
+| Standard room for one (two if one sleeps on floor)  | 5 sp  | Simple, with a lock                    |
+| “For important guests” room                         | 1 gp  | Only one; best bed and hot water       |
+
+#### Extras
+
+| Service                 | Price | Notes                         |
+| :---------------------- | :---- | :---------------------------- |
+| Laundry service         | 1 sp  | Ready the following morning   |
+| Late checkout (till dusk) | +2 cp | If you don’t vacate on time   |
+
+
+::: page {chapter="Appendix | Maps for Players"}
+
+# Appendix: Maps for Players
 
 ::: wide
 
@@ -3184,7 +4099,7 @@ Catacombs:
 
 :::
 
-Thank you for choosing this adventure and spending time in **San Soprigal**.
+Thank you for choosing this adventure and spending time in San Soprigal.
 
 If you have ideas, suggestions, notes, or simply want to share how the adventure went at your table, I’d love to hear
 from you. Write to <s.kupletsky@gmail.com>.
