@@ -154,7 +154,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 - [Appendix: Month Names](#appendix-month-names)
-- [Appendix: Books](#chronicles-of-san-soprigal)
+- [Appendix: Books](#appendix-books)
 - [Appendix: Prices in Tavern](#appendix-prices-at-the-tavern-by-the-sea)
 - [Appendix: Maps for Players](#appendix-maps-for-players)
 - [Appendix: Music and Generators](#appendix-music-and-generators)
@@ -1393,7 +1393,7 @@ old-fashioned vest and a patched, worn cloak. He prefers books to people, but wa
 
 ## Books
 
-See **[Appendix: Books](#chronicles-of-san-soprigal)** for contents.
+See **[Appendix: Books](#appendix-books)** for contents.
 
 - Access to the stacks:
   - `@History 10`—interest in history → [“Chronicles of San Soprigal, Vol. I”](#chronicles-of-san-soprigal).
@@ -3818,11 +3818,70 @@ Month names and their translations from the ancient tongue into Common.
 
 ::: page {chapter="Appendix | Books"}
 
+# Appendix: Books
+
+::: wide
+
+The books are lore and atmospheric excerpts from the town’s volumes—chronicles, treatises, tall tales. Nothing critical
+to the investigation; they’re optional material to flesh out the world.
+
+:::
+
 ::: panel {style="height:25%"}
 
 :::: title
 
-# “Chronicles of San Soprigal”
+## “On Forbidden Doctrines and Heresies”
+
+Imperial Edition (censored)
+
+::::
+
+![Item](./assets/illustrations/books_03.png) {class="cover"}
+
+:::
+
+Any magic not sanctified by law and not devoted to the service of the Empire and the Angels is heresy. A mage who dares
+to work without leave is subject to purification.
+
+“Particularly dangerous are practices that warp the soul: necromancy, summoning, augury upon the body. These deeds are
+not only blasphemous but perilous to the world, for they open the way to outside influence.”
+
+_A note in ink at the margin: “These lines ought to be read aloud in Council. Especially in light of the recent rumors
+about the magister.”_
+
+::: panel {style="height:25%"}
+
+:::: title
+
+## “Days in Hell”
+
+Draft by German Elkvin
+
+::::
+
+![Item](./assets/illustrations/books_draft.png) {class="cover"}
+
+:::
+
+“It began suddenly. One witness said the sky ‘split.’ I saw that light too—it was a rift, not lightning. From it burst
+creatures—true demons—with eyes of fire and batlike wings.”
+
+“They struck at the main gate. Hurgkhan held the defense as best he could, but it could all have ended…”
+
+“...and the dead rose. They did not attack. Who called them? Why did they protect us? I don’t know. But I saw them fight
+for us until the portal began to contract.”
+
+“...I tried to record the landmarks of the place where the rift first opened, but…” _(the ink is smeared; the entry
+breaks off, as if the hand faltered or the page was drenched)._
+
+::: page
+
+::: panel {style="height:25%"}
+
+:::: title
+
+## “Chronicles of San Soprigal”
 
 Volume I
 
@@ -3853,7 +3912,7 @@ return.
 
 :::: title
 
-# “On Certain Properties of Souls and Their Tolerances”
+## “On Certain Properties of Souls and Their Tolerances”
 
 Anonymous Treatise
 
@@ -3872,56 +3931,6 @@ living or sacred. In all other cases distortion occurs.
 
 What follows is a description of several methods by which a soul **must not, under any circumstances,** be kept in this
 world after death.
-
-::: page
-
-::: panel {style="height:25%"}
-
-:::: title
-
-# Compendium “On Forbidden Doctrines and Heresies”
-
-Imperial Edition (censored)
-
-::::
-
-![Item](./assets/illustrations/books_03.png) {class="cover"}
-
-:::
-
-Any magic not sanctified by law and not devoted to the service of the Empire and the Angels is heresy. A mage who dares
-to work without leave is subject to purification.
-
-“Particularly dangerous are practices that warp the soul: necromancy, summoning, augury upon the body. These deeds are
-not only blasphemous but perilous to the world, for they open the way to outside influence.”
-
-_A note in ink at the margin: “These lines ought to be read aloud in Council. Especially in light of the recent rumors
-about the magister.”_
-
-::: panel {style="height:25%"}
-
-:::: title
-
-# “Days in Hell”
-
-Draft by German Elkvin
-
-::::
-
-![Item](./assets/illustrations/books_draft.png) {class="cover"}
-
-:::
-
-“It began suddenly. One witness said the sky ‘split.’ I saw that light too—it was a rift, not lightning. From it burst
-creatures—true demons—with eyes of fire and batlike wings.”
-
-“They struck at the main gate. Hurgkhan held the defense as best he could, but it could all have ended…”
-
-“...and the dead rose. They did not attack. Who called them? Why did they protect us? I don’t know. But I saw them fight
-for us until the portal began to contract.”
-
-“...I tried to record the landmarks of the place where the rift first opened, but…” _(the ink is smeared; the entry
-breaks off, as if the hand faltered or the page was drenched)._
 
 ::: page {layout="wide" chapter="Appendix | Tavern Prices"}
 
