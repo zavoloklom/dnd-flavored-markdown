@@ -894,7 +894,7 @@ If **Gaston** is in the tavern:
 ## Items
 
 - [Merchants’ Clothes](#merchants-clothes) in the cellar.
-- A vial of antitoxin from [Kenki](#kenki).
+- A vial of antitoxin from [Kenki](#kenki)—grants immunity to Poison damage.
 
 ## Information
 
@@ -1313,7 +1313,7 @@ attention.
 
 - [Abraham’s Diary](#abrahams-diary)—on the table.
 - [Strange Item “Plun’gr”](#strange-item)—among the alchemical tools.
-- [Antitoxin](https://www.dndbeyond.com/equipment/520-antitoxin) (_number of characters + 1_).
+- [Antitoxin](https://www.dndbeyond.com/equipment/520-antitoxin)—grants immunity to Poison damage (_number of characters + 1_).
 
 ## Information
 
