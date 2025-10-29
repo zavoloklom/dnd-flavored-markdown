@@ -2613,40 +2613,33 @@ A middle-aged man with a narrow face, short stubble, and a mustache.
 
 # Appendix: Rumors
 
-If the players are stuck and it’s time to nudge them toward the catacombs: _“…I think I saw him/her head into the
-abandoned part of town, but why should I care?”_
-
 #### True Rumors
 
-|     |                                                                                                                                                |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | About Günter: too young for the watch, always running around looking for someone, playing the hero.                                            |
-| 2   | About the town’s mood: _“In the night my dog went wild, snapped his chain, and bolted after something. Then—nothing. He was a good dog, too…”_ |
-| 3   | About the town’s mood: My dog howled last night—he never makes a sound after dark. That’s a bad sign.                                          |
-| 4   | About the town’s mood: The old man says he heard footsteps last night. Not guards—more like claws on cobblestone.                              |
-| 5   | About Maria: Maria’s seeing someone from the watch; that’s why they locked the town down.                                                      |
-| 6   | About Maria: “Heard Maria arguing with Selina one time. Loud.”                                                                                 |
-| 7   | About the town’s mood: _“I’ve been here for years, and I’ve never known nights this quiet. Even the dogs don’t bark. Strange.”_                |
-| 8   | About Bertram: Mathias looks miserable, wandering without his drinking buddies Bertram and Oswald.                                             |
-| 9   | Maria’s been avoiding Rosa, going out of her way not to cross paths.                                                                           |
-| 10  | Folks saw Rosa coming back into town at sunset.                                                                                                |
-| 11  | Folks saw Maria walking toward the square around sunset.                                                                                       |
+| d8  | Rumor                                                                                                                  |
+| :-: | :--------------------------------------------------------------------------------------------------------------------- |
+|  1  | Folks argue that someone smashed a window at Jonas’s grandfather’s house; no one’s sure who’s living there.            |
+|  2  | People say Maria was secretly meeting one of the guards at night.                                                      |
+|  3  | Whispers that Maria stopped going to the Temple and had a loud quarrel with Selina—“that’s where the trouble started.” |
+|  4  | Rosa was seen returning to town at sunset: “she gives me the creeps—wish she hadn’t come back.”                        |
+|  5  | Maria was on the square yesterday evening; she looked worried.                                                         |
+|  6  | A dog snapped its chain at night and bolted into the dark—never returned.                                              |
+|  7  | An old man swears he heard footsteps at night—not the guard, more like claws on cobblestone.                           |
+|  8  | Matthias looks grim—his drinking buddies have gone missing.                                                            |
 
 #### Shady Rumors
 
-|     |                                                                                                                                                           |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Rosa an Inquisitor? Nah. Her cloak’s plain. Inquisitors wear black. Unless…                                                                               |
-| 2   | Hurgkhan’s mad they won’t send him soldiers. The Empire’s afraid he’ll run things better than the dukes!                                                  |
-| 3   | That German—he’s a warlock, I swear. Hides books, won’t let people in, mutters to himself.                                                                |
-| 4   | Shouldn’t have handed Moander’s books to the library. Licensed or not, he was still a mage.                                                               |
-| 5   | “My aunt’s boy works customs—says Karthal hasn’t sent reports to the capital for two months.”                                                             |
-| 6   | “Someone’s locked in Selina’s cellar. They say he’s an alcoholic. I heard him calling for Maria.”                                                         |
-| 7   | “Rumor is the Church keeps a dungeon under Portgate full of corpses they train—like an army… just without the payroll.”                                   |
-| 8   | “Word is the council in Karthal doesn’t heed the governor anymore, and you hear ‘free city’ more often. Someone’s behind it—mages, or those forest folk.” |
-| 9   | “They found a scale in the mountains the size of a door. Some say dragon, others a pangolin with an invisibility charm. I’m betting dragon!”              |
-| 10  | “You ever seen the northern elves? No? That’s ’cause they eat anyone who enters their woods. Heard their language has no words—just clicks and smells.”   |
-| 11  | “They say dead folk up in the old cemetery pick out their own coffins now. Wouldn’t surprise me if the Church knows and keeps quiet.”                     |
+| d10 | Rumor                                                                                                                          |
+| --: | :----------------------------------------------------------------------------------------------------------------------------- |
+|   1 | People whisper Rosa is an Inquisitor… though her cloak’s ordinary, “not black.”                                                |
+|   2 | Hurgkhan’s angry the Empire won’t send soldiers—some say they fear he’d keep order better than the dukes.                      |
+|   3 | Gossip says German’s a warlock: hides books, won’t let people in, mutters to himself.                                          |
+|   4 | Passing around that Moander’s books shouldn’t have gone to the library: “he had a license, but he was still a mage.”           |
+|   5 | Claims that Karthal hasn’t filed reports to the capital for two months.                                                        |
+|   6 | Whisper that someone’s kept in the Temple basement; some say “a drunk,” but no one really saw.                                 |
+|   7 | Word is Karthal’s council ignores the governor and “free city” is said more often—magi or those forest folk must be behind it. |
+|   8 | A tale about scales “as big as a door” up in the hills: some say dragon, others a magically hidden armadillo.                  |
+|   9 | Scare stories about northern elves: “they eat anyone entering their woods,” and their language is “just clicks and smells.”    |
+|  10 | They say on the old cemetery the dead “pick out their own coffins,” and the Temple knows but keeps quiet.                      |
 
 ::: page {type="inside-cover" chapter="Appendix | Items"}
 
