@@ -724,7 +724,7 @@ _Number on the [map](#town-map)—**1**. Available only on the morning of Day On
 scene moves to **[Entering the Town](#entering-the-town)**.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/docks.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
+![Illustration](./assets/illustrations/dock.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page
 
@@ -1313,7 +1313,8 @@ attention.
 
 - [Abraham’s Diary](#abrahams-diary)—on the table.
 - [Strange Item “Plun’gr”](#strange-item)—among the alchemical tools.
-- [Antitoxin](https://www.dndbeyond.com/equipment/520-antitoxin)—grants immunity to Poison damage (_number of characters + 1_).
+- [Antitoxin](https://www.dndbeyond.com/equipment/520-antitoxin)—grants immunity to Poison damage (_number of
+  characters + 1_).
 
 ## Information
 
@@ -3785,7 +3786,8 @@ the specific angel. If the domain you want isn’t listed, choose the closest an
 
 :::
 
-![Illustration](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:0;left:0;width:100%;z-index:-1"}
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/pantheon.png){class="mask mask--background-bottom-third-01" style="object-position:center 170%; object-fit: contain;"}
 
 ::: page {layout="left" chapter="Appendix | Month Names"}
 
@@ -4044,7 +4046,7 @@ Catacombs:
 
 ::: page {type="back-cover"}
 
-::: cover {style="background-image:url('/content/assets/cover.png')"}
+::: cover {style="background-image:url('/content/assets/covers/back-cover.png')"}
 
 # Thank You
 

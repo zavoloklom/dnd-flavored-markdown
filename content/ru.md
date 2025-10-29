@@ -112,6 +112,7 @@ ver 4.0.0
 - [Глава 2: Сан-Сопригаль](#устройство-города)
   - [Устройство города](#устройство-города)
   - [Карта города](#карта-города)
+  - [Причал](#причал)
   - [Дом Марии](#дом-марии)
   - [Рыночная площадь](#рыночная-площадь)
   - [Таверна «У Моря»](#таверна-у-моря)
@@ -861,7 +862,7 @@ _Номер на [карте](#карта-города) — **1**. Доступ�
 к [входу в город](#вход-в-город).
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/docks.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
+![Illustration](./assets/illustrations/dock.png){class="mask mask--background-bottom-half" style="object-position: center bottom; object-fit: contain;"}
 
 ::: page
 
@@ -3908,7 +3909,8 @@ _Модифицированный [Bandit Deceiver](https://www.dndbeyond.com/mo
 
 :::
 
-![panteon](https://i.imgur.com/7Fna46g.png){style="position:absolute;bottom:-70px;left:0;width:100%;z-index:-1"}
+<!-- prettier-ignore -->
+![Illustration](./assets/illustrations/pantheon.png){class="mask mask--background-bottom-third-01" style="bottom:-100px;object-position:center 165%; object-fit: contain;"}
 
 ::: page {layout="left" chapter="Приложение | Названия месяцев"}
 
@@ -4166,7 +4168,7 @@ _Карта города Сан-Сопригаль для игроков (без
 
 ::: page {type="back-cover"}
 
-::: cover {style="background-image:url('/content/assets/cover.png')"}
+::: cover {style="background-image:url('/content/assets/covers/back-cover.png')"}
 
 # Спасибо
 
