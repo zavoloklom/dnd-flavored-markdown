@@ -288,7 +288,7 @@ This map is for orientation only: to show where **San Soprigal** sits and how it
 peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
 mechanical use.
 
-Show it once at the beginning to set scale and mood. One hex - 12 miles.
+Show it once at the beginning to set scale and mood.
 
 Karthal, Portgate, and other locations are for the future—as campaign directions if you continue the story beyond the
 town.
