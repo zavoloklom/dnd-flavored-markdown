@@ -148,7 +148,6 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Guards](#guards)
   - [City Folk](#city-folk)
   - [Missing Persons](#missing-persons)
-  - [Jassad](#jassad)
 - [Appendix: Rumors](#appendix-rumors)
 - [Appendix: Quest and Magic Items](#appendix-items)
 - [Appendix: Monsters](#appendix-monsters)
@@ -2603,61 +2602,6 @@ A middle-aged man with a narrow face, short stubble, and a mustache.
 
 <!-- prettier-ignore -->
 ![NPC: Bertram](./assets/npc/bertram.png) {class="framed-image" style="height:220px"}
-
-::: page {type="class" icon="./assets/symbols/city.svg"}
-
-# Jassad
-
-Has been in town for about two weeks, lodging at the Tavern “By the Sea.” He’s keenly interested in magic and the
-history of the Great Empire.
-
-Says he came from **The United States of Magic Art** and wants to learn more about Imperial-era structures on the
-peninsula.
-
-He’s heard rumors of nearby ancient ruins and intends to verify them himself. Plans to assemble a small team of
-like-minded explorers and local guides to survey the sites.
-
-## Locations
-
-- [Tavern “By the Sea”](#tavern-by-the-sea).
-
-::: column
-
-![NPC: Jassad](./assets/npc/jassad.png) {class="framed-image"}
-
-_human, enigmatic traveler_ {align="center"}
-
-::: column-reset
-
-## Description
-
-> A tall man of about thirty with fine features and a steady, attentive gaze. He wears an expensive, slightly unusual
-> robe.
-
-## Roleplaying
-
-- Polite, observant, with a trace of amused irony.
-- Speaks with refined, scholarly diction.
-- Deflects questions about himself but talks enthusiastically about magic and history.
-
-**Attitude:** Friendly.
-
-::: column
-
-## Information
-
-Enjoys chatting about magic and the Empire’s ancient ruins. Mentions that he “collects knowledge” and spent a long time
-visiting **The United States of Magic Art**.
-
-If a party member is a tiefling, he remarks, _“I didn’t expect to find Tieflings here,”_ but refuses to elaborate.
-
-After the adventure, he may ask the party to scout ruins on the peninsula and tell them roughly where to look.
-
-::: box
-
-**For the DM.** This NPC is optional and doesn’t appear in any location write-up by default.
-
-:::
 
 ::: page {layout="wide" chapter="Appendix | Rumors"}
 
