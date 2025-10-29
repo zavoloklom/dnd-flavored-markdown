@@ -71,11 +71,14 @@
 
 /** Typo **/
 .panel h1,
+.panel h2,
 .panel p {
     margin: 0;
     line-height: 1;
+    border: none;
 }
-.panel h1 {
+.panel h1,
+.panel h2 {
     font-size: var(--h2-font-size);
 }
 .panel > .title > p {
@@ -84,6 +87,7 @@
 }
 
 .panel > h1,
+.panel > h2,
 .panel > .title {
     position: absolute;
     bottom: 0;
@@ -100,6 +104,7 @@
     /*filter: drop-shadow(1px 1px 2px #00000030);*/
 }
 .panel > h1:after,
+.panel > h2:after,
 .panel > .title:after {
     content: '';
     position: absolute;
