@@ -117,7 +117,7 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [Temple of Light](#temple-of-light)
   - [Garrison](#garrison)
   - [Watchtower](#watchtower)
-  - [Town Gate](#town-gate)
+  - [Town Gates](#town-gates)
     - [Rosa vs. Hurgkhan at the Gate](#rosa-vs-hurgkhan-at-the-gate)
   - [Abraham’s House](#abrahams-house)
     - [Abraham’s Cellar](#abrahams-cellar)
@@ -335,8 +335,8 @@ _3 Narvail (February)_
 - A necromancer, **[Abraham](#abraham)**, arrives in town. He previously conducted forbidden experiments in the
   [United States of Magic Art](#appendix-states-and-organizations) and is now in hiding, hoping to continue his research
   in seclusion.
-- He rents the house from **[Jonas](#jonas)** (the grandson of a smuggler), pays a year in advance, and moves in. Abraham
-  knows about the house—and the passage from it into the catacombs—through old ties with smugglers of
+- He rents the house from **[Jonas](#jonas)** (the grandson of a smuggler), pays a year in advance, and moves in.
+  Abraham knows about the house—and the passage from it into the catacombs—through old ties with smugglers of
   [Black Meduza](#appendix-states-and-organizations). Jonas is unaware of the hidden route.
 - Abraham places an order with Black Meduza to have his special spiders delivered so he can continue experiments with
   their venom.
@@ -369,8 +369,8 @@ _1 Bethalasse (March)_
 - That evening, posing as traders, they drink in the tavern, hit on Rosa, and start a brawl.
 - At night they descend into the catacombs to unload the boat. A large crate slips and breaks. The starving spiders
   attack and kill them both.
-- Their room still contains the “trader” clothing they used as a cover. When the innkeeper **[Helmut](#helmut)** realizes the
-  guests are gone, he hands the clothes to the server **[Kenki](#kenki)**.
+- Their room still contains the “trader” clothing they used as a cover. When the innkeeper **[Helmut](#helmut)**
+  realizes the guests are gone, he hands the clothes to the server **[Kenki](#kenki)**.
 - The next day, with no men or cargo arriving, Abraham goes into the catacombs himself. The spiders kill him as well.
 - The guard doesn’t search for Peter and Boshir: their papers mark them as ordinary merchants who often leave without
   fanfare.
@@ -392,11 +392,11 @@ _Narvail–Lothviel (February–April)_
 _Early Lothviel (April)_
 
 - The Spider-Matriarch lays eggs and primes to drag any prey below ground.
-- At night, **Bertram** (a local drunk) falls into an old well in the [Abandoned District](#town-map) that opens
-  into the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender.
+- At night, **Bertram** (a local drunk) falls into an old well in the [Abandoned District](#town-map) that opens into
+  the catacombs and is killed by spiders. No one looks for him—they assume he went on another bender.
 - The spiders discovered a way to the surface through the well and began hunting at night.
-- **[Children](#city-folk)** used to sneak off to play in the Abandoned District, but after they began hearing “strange sounds,”
-  they stopped going there.
+- **[Children](#city-folk)** used to sneak off to play in the Abandoned District, but after they began hearing “strange
+  sounds,” they stopped going there.
 - Relocating their games to the [Craft District](#town-map), the children break a window in
   [Abraham’s house](#town-map). Jonas learns his lodger is gone, but he doesn’t inform the guard—he fears unwanted
   attention and prefers to assume the mage moved on.
@@ -405,15 +405,17 @@ _Early Lothviel (April)_
 
 _12 Lothviel (April), Tuesday_
 
-- After talking with her friend **[Karra](#karra)**, Maria decides to end things with Günter—but puts off the conversation.
+- After talking with her friend **[Karra](#karra)**, Maria decides to end things with Günter—but puts off the
+  conversation.
 - In advance, Günter swaps shifts with a day guard, cleans the tower, and prepares to propose to Maria at sunset.
 - Maria heads for the tower, but when she spots Rosa returning to town. Maria detours into the Abandoned District to
   avoid her.
 - At [the old well](#town-map), Maria notices a strange smell. She steps closer, and the starving spiders drag her down.
   Trying to fend them off with a spell, she collapses the old masonry and the shaft caves in.
 - Günter waits for Maria, grows anxious, but doesn’t abandon his post.
-- Smuggler **[Gaston](#gaston)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver. That
-  night he tries to reach [the cove by the sea (label 11 on the map)](#town-map), but sailors spot him, and he retreats.
+- Smuggler **[Gaston](#gaston)** arrives in town, searching for a casket that Peter and Boshir were supposed to deliver.
+  That night he tries to reach [the cove by the sea (label 11 on the map)](#town-map), but sailors spot him, and he
+  retreats.
 
 ## Maria Is Reported Missing
 
@@ -496,8 +498,8 @@ Fights in the catacombs should be tense but fair. Run them so that using the env
 You can run this as a one-shot or as a prologue to a campaign. Hooks for longer arcs are seeded in NPC writeups and
 dialogue—use them as needed, or ignore them:
 
-- A dragon-hunt in the mountains on behalf of **Duncan**.
-- Exploring ruins on the peninsula at the request of **Jassad**.
+- Trouble with the undead at the old cemetery.
+- A dragon hunt in the mountains with **Duncan**.
 - A joint investigation with **Rosa** into the attacks on merchants.
 
 ::: page {layout="auto"}
@@ -682,7 +684,7 @@ The town has several key locations that may aid the players’ investigation:
 ## For Players
 
 You can hand the players a **[map without labels](#appendix-maps-for-players)** after speaking with **Hurgkhan** or
-**Duncan**, or if they explicitly ask to “get the lay of the town.”
+**Duncan**, or if players explicitly ask to “get the lay of the town.”
 
 The full map archive is available here:  
 [Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
@@ -1008,7 +1010,8 @@ On the lower tier the characters can discover a chained man.
 If the party tries to free him, it turns out this is voluntary treatment and must not be interrupted. If **Selina**
 learns of it, her attitude becomes **hostile**.
 
-He can tell you he used to drink with **Bertram**. At his family’s urging he agreed to temple care (“the dry cell”).
+This man can tell you he used to drink with **Bertram**. At his family’s urging he agreed to temple care (“the dry
+cell”).
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/temple-cell.png) {style="width:320px;height:240px;" class="framed-image"}
@@ -1066,9 +1069,9 @@ to stop watching him.
 
 ## Notice Board
 
-Günter pins up a missing-person notice for **Maria** with her description and a promised reward—**100 gp**.
+Günter pins up a missing-person notice for Maria with her description and a promised reward—**100 gp**.
 
-Another flyer reads: _“Volunteers wanted for a search party to find the missing. Valor, bravery, and a touch of
+Another notice reads: _“Volunteers wanted for a search party to find the missing. Valor, bravery, and a touch of
 courage.”_ A few dubious notes are tacked nearby.
 
 #### Dubious Notes
@@ -1231,7 +1234,8 @@ A second attempt is allowed with **+2 DC**. On a second failure—escalation.
 
 **Failure/inaction → fight:**
 
-- Opponents for [Rosa](#paladin-of-the-church-of-light): [Hurgkhan](#guard-captain-hurgkhan) and three [guards](#imperial-guard).
+- Opponents for [Rosa](#paladin-of-the-church-of-light): [Hurgkhan](#guard-captain-hurgkhan) and three
+  [guards](#imperial-guard).
 - The guards’ goal is **arrest**—minimize harm.
 - Rosa’s goal is to **break through**.
 
@@ -1343,7 +1347,8 @@ attention.
 - Press **Plun’gr** firmly to the hole and **press three times**.
 - A handle with four number dials (0–9) extends. The correct combination is **0451** _(a hint can be found in the
   diary)_.
-- On success, a hidden door to the catacombs opens: the wardrobe slides aside, revealing a [narrow passage](#passage-from-abrahams-house).
+- On success, a hidden door to the catacombs opens: the wardrobe slides aside, revealing a
+  [narrow passage](#passage-from-abrahams-house).
 
 **Wrong code.** From deep within comes a distant click, and the room begins to fill with a paralyzing gas. Each creature
 must make a `@Constitution 13` saving throw. On a failure, it gains the
@@ -1470,7 +1475,7 @@ The party has **1d4 rounds** to make a quick search or hide before a patrol arri
 :::
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/gunters-house.png) {style="width:320px;height:310px;" class="framed-image"}
+![Illustration](./assets/illustrations/gunters-house.png) {style="width:320px;height:340px;" class="framed-image"}
 
 ::: page
 
@@ -1700,15 +1705,15 @@ _Number on the [map](#catacomb-map)—**4**._
 
 ## Gaston’s Part
 
-If the party descended with **[Gaston](#black-meduza-bandit)**, on round one he slips into the shadows after the casket. He won’t reappear
-unless his attitude toward the party is **positive**.
+If the party descended with **[Gaston](#black-meduza-bandit)**, on round one he slips into the shadows after the casket.
+He won’t reappear unless his attitude toward the party is **positive**.
 
 ::: column
 
 ## Combat: Spider Lair
 
-As soon as the party approaches the center of the hall or begins cutting open cocoons, the first [Spellwarp Spider](#spellwarp-spider)
-lunges from the shadows. If the party didn’t move stealthily, it attacks from
+As soon as the party approaches the center of the hall or begins cutting open cocoons, the first
+[Spellwarp Spider](#spellwarp-spider) lunges from the shadows. If the party didn’t move stealthily, it attacks from
 [ambush](https://www.dndbeyond.com/sources/dnd/br-2024/rules-glossary#Surprise).
 
 > You feel the webbing underfoot begin to tremble. Somewhere above, claws rasp menacingly on stone. Several bright green
@@ -1805,7 +1810,8 @@ It helps them feel they truly solved the case.
 
 Afterwards, the characters may receive new leads:
 
-- **Rumors:** _“Burning them right here in town can’t be good—no wonder the dead crawl out at the old cemetery.”_
+- **Rumors:** _“It’s not right to burn them in the middle of town—and we can’t do it out at the old cemetery either, not
+  with the undead crawling out of the ground there.”_
 - **Duncan:** _“If you’re looking for a real challenge—there’s work in the mountains.”_
 - If **Rosa’s** attitude isn’t hostile: _“The attacks on merchants continue; your help would be welcome.”_
 - If the party aided **Gaston**, he offers “other delicate jobs.”
@@ -2607,40 +2613,40 @@ A middle-aged man with a narrow face, short stubble, and a mustache.
 
 # Appendix: Rumors
 
-If the players are stuck and it’s time to nudge them toward the catacombs: _“…I think I saw him/her head into the abandoned part of town, but why should I care?”_
+If the players are stuck and it’s time to nudge them toward the catacombs: _“…I think I saw him/her head into the
+abandoned part of town, but why should I care?”_
 
 #### True Rumors
 
-|     |                                                                                                                                                                  |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | About Günter: too young for the watch, always running around looking for someone, playing the hero.                                                              |
-| 2   | About the town’s mood: _“In the night my dog went wild, snapped his chain, and bolted after something. Then—nothing. He was a good dog, too…”_                  |
-| 3   | About the town’s mood: My dog howled last night—he never makes a sound after dark. That’s a bad sign.                                                            |
-| 4   | About the town’s mood: The old man says he heard footsteps last night. Not guards—more like claws on cobblestone.                                                |
-| 5   | About Maria: Maria’s seeing someone from the watch; that’s why they locked the town down.                                                                        |
-| 6   | About Maria: “Heard Maria arguing with Selina one time. Loud.”                                                                                                   |
-| 7   | About the town’s mood: _“I’ve been here for years, and I’ve never known nights this quiet. Even the dogs don’t bark. Strange.”_                                  |
-| 8   | About Bertram: Mathias looks miserable, wandering without his drinking buddies Bertram and Oswald.                                                               |
-| 9   | Maria’s been avoiding Rosa, going out of her way not to cross paths.                                                                                              |
-| 10  | Folks saw Rosa coming back into town at sunset.                                                                                                                  |
-| 11  | Folks saw Maria walking toward the square around sunset.                                                                                                         |
+|     |                                                                                                                                                |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | About Günter: too young for the watch, always running around looking for someone, playing the hero.                                            |
+| 2   | About the town’s mood: _“In the night my dog went wild, snapped his chain, and bolted after something. Then—nothing. He was a good dog, too…”_ |
+| 3   | About the town’s mood: My dog howled last night—he never makes a sound after dark. That’s a bad sign.                                          |
+| 4   | About the town’s mood: The old man says he heard footsteps last night. Not guards—more like claws on cobblestone.                              |
+| 5   | About Maria: Maria’s seeing someone from the watch; that’s why they locked the town down.                                                      |
+| 6   | About Maria: “Heard Maria arguing with Selina one time. Loud.”                                                                                 |
+| 7   | About the town’s mood: _“I’ve been here for years, and I’ve never known nights this quiet. Even the dogs don’t bark. Strange.”_                |
+| 8   | About Bertram: Mathias looks miserable, wandering without his drinking buddies Bertram and Oswald.                                             |
+| 9   | Maria’s been avoiding Rosa, going out of her way not to cross paths.                                                                           |
+| 10  | Folks saw Rosa coming back into town at sunset.                                                                                                |
+| 11  | Folks saw Maria walking toward the square around sunset.                                                                                       |
 
 #### Shady Rumors
 
-|     |                                                                                                                                                                   |
-| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Rosa an Inquisitor? Nah. Her cloak’s plain. Inquisitors wear black. Then again…                                                                                   |
-| 2   | Hurgkhan’s mad they won’t send him soldiers. The Empire’s afraid he’ll run things better than the dukes!                                                          |
-| 3   | That German—he’s a warlock, I swear. Hides books, won’t let people in, mutters to himself.                                                                        |
-| 4   | Shouldn’t have handed Moander’s books to the library. Licensed or not, he was still a mage.                                                                       |
-| 5   | “My aunt’s boy works customs—says Karthal hasn’t sent reports to the capital for two months.”                                                                     |
-| 6   | “Someone’s locked in Selina’s cellar. They say he’s an alcoholic. I heard him calling for Maria.”                                                                 |
-| 7   | “Rumor is the Church keeps a dungeon under Portgate full of corpses they train—like an army… just without the payroll.”                                           |
-| 8   | “Word is the council in Karthal doesn’t heed the governor anymore, and you hear ‘free city’ more often. Someone’s behind it—mages, or those forest folk.”         |
-| 9   | “They found a scale in the mountains the size of a door. Some say dragon, others a pangolin with an invisibility charm. I’m betting dragon!”                      |
-| 10  | “You ever seen the northern elves? No? That’s ’cause they eat anyone who enters their woods. Heard their language has no words—just clicks and smells.”           |
-| 11  | “They say dead folk up in the old cemetery pick out their own coffins now. Wouldn’t surprise me if the Church knows and keeps quiet.”                             |
-
+|     |                                                                                                                                                           |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Rosa an Inquisitor? Nah. Her cloak’s plain. Inquisitors wear black. Unless…                                                                               |
+| 2   | Hurgkhan’s mad they won’t send him soldiers. The Empire’s afraid he’ll run things better than the dukes!                                                  |
+| 3   | That German—he’s a warlock, I swear. Hides books, won’t let people in, mutters to himself.                                                                |
+| 4   | Shouldn’t have handed Moander’s books to the library. Licensed or not, he was still a mage.                                                               |
+| 5   | “My aunt’s boy works customs—says Karthal hasn’t sent reports to the capital for two months.”                                                             |
+| 6   | “Someone’s locked in Selina’s cellar. They say he’s an alcoholic. I heard him calling for Maria.”                                                         |
+| 7   | “Rumor is the Church keeps a dungeon under Portgate full of corpses they train—like an army… just without the payroll.”                                   |
+| 8   | “Word is the council in Karthal doesn’t heed the governor anymore, and you hear ‘free city’ more often. Someone’s behind it—mages, or those forest folk.” |
+| 9   | “They found a scale in the mountains the size of a door. Some say dragon, others a pangolin with an invisibility charm. I’m betting dragon!”              |
+| 10  | “You ever seen the northern elves? No? That’s ’cause they eat anyone who enters their woods. Heard their language has no words—just clicks and smells.”   |
+| 11  | “They say dead folk up in the old cemetery pick out their own coffins now. Wouldn’t surprise me if the Church knows and keeps quiet.”                     |
 
 ::: page {type="inside-cover" chapter="Appendix | Items"}
 
@@ -2662,22 +2668,22 @@ Links in the tables lead to full item cards with descriptions, checks, and infor
 
 #### Quest Items
 
-| Name                                      | Location                                                           | Description                                                                                 |
-| :---------------------------------------- |:-------------------------------------------------------------------| :------------------------------------------------------------------------------------------ |
-| [Ashes Urn](#ashes-urn)                   | With one of the characters at the start of the adventure           | A sentimental item                                                                          |
+| Name                                      | Location                                                                               | Description                                                                                 |
+| :---------------------------------------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| [Ashes Urn](#ashes-urn)                   | With one of the characters at the start of the adventure                               | A sentimental item                                                                          |
 | [Garrison Permit](#garrison-permit)       | With [Hurgkhan](#hurgkhan) near [Maria’s House](#marias-house) / [Garrison](#garrison) | Grants guard goodwill                                                                       |
-| [Maria’s Diary](#marias-diary)            | [Maria’s House](#marias-house)                                                 | Mentions Karra, an evening meeting, and a mysterious order                                  |
-| [Merchants’ Clothes](#merchants-clothes)  | [Tavern Cellar](#tavern-cellar) / with [Kenki](#kenki)                          | Fake papers and cover clothing                                                              |
-| [Abraham’s Diary](#abrahams-diary)        | [Cellar of Abraham’s House](#abrahams-cellar)                                     | Ties to Meduza, venom experiments, link to the mysterious order, code for the catacomb door |
-| [Strange Item (“Plun’gr”)](#strange-item) | [Cellar of Abraham’s House](#abrahams-cellar)                                     | Opens the passage to the catacombs                                                          |
-| [Smugglers’ Cache](#smugglers-cache)      | [Smugglers’ Cove](#smugglers-cove)                                               | Adventure reward and the casket Gaston is looking for                                       |
+| [Maria’s Diary](#marias-diary)            | [Maria’s House](#marias-house)                                                         | Mentions Karra, an evening meeting, and a mysterious order                                  |
+| [Merchants’ Clothes](#merchants-clothes)  | [Tavern Cellar](#tavern-cellar) / with [Kenki](#kenki)                                 | Fake papers and cover clothing                                                              |
+| [Abraham’s Diary](#abrahams-diary)        | [Cellar of Abraham’s House](#abrahams-cellar)                                          | Ties to Meduza, venom experiments, link to the mysterious order, code for the catacomb door |
+| [Strange Item (“Plun’gr”)](#strange-item) | [Cellar of Abraham’s House](#abrahams-cellar)                                          | Opens the passage to the catacombs                                                          |
+| [Smugglers’ Cache](#smugglers-cache)      | [Smugglers’ Cove](#smugglers-cove)                                                     | Adventure reward and the casket Gaston is looking for                                       |
 
 #### Magic Items
 
-| Name                                        | Location                                                         | Description         |
-| :------------------------------------------ | :--------------------------------------------------------------- | :------------------ |
+| Name                                        | Location                                                                                          | Description         |
+| :------------------------------------------ | :------------------------------------------------------------------------------------------------ | :------------------ |
 | [Magic Lamp](#magic-lamp)                   | [Catacombs (passage from Abraham’s House)](#passage-from-abrahams-house) / with [Gaston](#gaston) | Wondrous item, rare |
-| [Abraham’s Amulet](#abrahams-amulet-broken) | [Catacombs (passage from Abraham’s House)](#passage-from-abrahams-house)                    | Wondrous item, rare |
+| [Abraham’s Amulet](#abrahams-amulet-broken) | [Catacombs (passage from Abraham’s House)](#passage-from-abrahams-house)                          | Wondrous item, rare |
 
 ::: page
 
@@ -2763,7 +2769,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160053-garrison-per
 
 - NPCs more often respond, _“Did you clear that with Hurgkhan?”_ and disengage from the conversation.
 
-::: page 
+::: page
 
 ::: panel {style="height:40%"}
 
@@ -2820,7 +2826,7 @@ You can spot mentions of an unusual order paid in advance: rare ingredients and 
 is given; in the margin, the letter “A” was written once and immediately crossed out. The entry is dated to
 [mid-Narvail](#appendix-month-names).
 
-::: page 
+::: page
 
 ::: panel {style="height:40%"}
 
@@ -2875,7 +2881,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160115-merchants-cl
 - `@Deception 12` The goods ledger is a plant. All entries were written by the same hand while imitating different
   styles.
 
-::: page 
+::: page
 
 ::: panel {style="height:40%"}
 
@@ -2938,7 +2944,7 @@ Ruminations on immortality are constant: _“Life is a chain of rot. Shed the fl
 seeking “eternal life” in the usual sense; he intends to let the body die while preserving will and mind. The line
 _“What is dead may never die”_ is circled several times.
 
-::: page 
+::: page
 
 ::: panel {style="height:40%"}
 
@@ -2990,7 +2996,7 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item
 A trigger for the secret mechanism of the hidden passage in the [cellar of Abraham’s house](#abrahams-cellar): press it
 firmly to the round port and push **three times**—Plun’gr draws out a concealed handle-bar.
 
-::: page 
+::: page
 
 ::: panel {style="height:40%"}
 
@@ -3055,7 +3061,7 @@ A document sealed with the Imperial coat of arms.
 _The casket’s contents are a plug for the future: you can place any legendary artifact inside if you decide to spin the
 campaign forward._
 
-::: page 
+::: page
 
 ::: panel {style="height:40%"}
 
@@ -3126,7 +3132,7 @@ refuse to respond if addressed rudely.
 
 **Attitude**. Neutral.
 
-::: page 
+::: page
 
 ::: panel {style="height:30%"}
 
@@ -3867,7 +3873,7 @@ living or sacred. In all other cases distortion occurs.
 What follows is a description of several methods by which a soul **must not, under any circumstances,** be kept in this
 world after death.
 
-::: page 
+::: page
 
 ::: panel {style="height:25%"}
 
@@ -3923,29 +3929,28 @@ breaks off, as if the hand faltered or the page was drenched)._
 
 #### Menu
 
-| Service                                   | Price  | Notes                               |
-| :---------------------------------------- | :----- | :---------------------------------- |
-| Simple supper (fish, bread, ale)          | 5 cp   | Filling, a bit rough                |
-| Good supper (roast, bread, a mug of ale)  | 2 sp   | Evenings only                       |
-| Dish to order (player’s choice)           | 5 sp+  | Helmut will sigh, but he’ll cook it |
-| Pitcher of cheap ale (1 L)                | 1 sp   | Enough for a small group            |
-| Carafe of local wine                      | 3 sp   | Suspiciously sweet                  |
+| Service                                  | Price | Notes                               |
+| :--------------------------------------- | :---- | :---------------------------------- |
+| Simple supper (fish, bread, ale)         | 5 cp  | Filling, a bit rough                |
+| Good supper (roast, bread, a mug of ale) | 2 sp  | Evenings only                       |
+| Dish to order (player’s choice)          | 5 sp+ | Helmut will sigh, but he’ll cook it |
+| Pitcher of cheap ale (1 L)               | 1 sp  | Enough for a small group            |
+| Carafe of local wine                     | 3 sp  | Suspiciously sweet                  |
 
 #### Lodging
 
-| Service                                             | Price | Notes                                  |
-| :-------------------------------------------------- | :---- | :------------------------------------- |
-| Spot in the common room (on straw)                  | 1 sp  | In the corner, mice adjacent           |
-| Standard room for one (two if one sleeps on floor)  | 5 sp  | Simple, with a lock                    |
-| “For important guests” room                         | 1 gp  | Only one; best bed and hot water       |
+| Service                                            | Price | Notes                            |
+| :------------------------------------------------- | :---- | :------------------------------- |
+| Spot in the common room (on straw)                 | 1 sp  | In the corner, mice adjacent     |
+| Standard room for one (two if one sleeps on floor) | 5 sp  | Simple, with a lock              |
+| “For important guests” room                        | 1 gp  | Only one; best bed and hot water |
 
 #### Extras
 
-| Service                 | Price | Notes                         |
-| :---------------------- | :---- | :---------------------------- |
-| Laundry service         | 1 sp  | Ready the following morning   |
-| Late checkout (till dusk) | +2 cp | If you don’t vacate on time   |
-
+| Service                   | Price | Notes                       |
+| :------------------------ | :---- | :-------------------------- |
+| Laundry service           | 1 sp  | Ready the following morning |
+| Late checkout (till dusk) | +2 cp | If you don’t vacate on time |
 
 ::: page {chapter="Appendix | Maps for Players"}
 
