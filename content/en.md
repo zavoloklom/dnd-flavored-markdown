@@ -14,7 +14,7 @@ contents-page-number: 3
 
 ## Dragonwing Peninsula
 
-{class="line"}
+{class="diamond-line"}
 
 ::: banner
 
@@ -99,9 +99,9 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
 - [Introduction](#setting-and-constraints)
   - [Setting and Constraints](#setting-and-constraints)
   - [Backstory](#backstory)
+  - [Dragonwing Map](#dragonwing-map)
   - [Story Overview](#story-overview)
   - [Advice for the DM](#advice-for-the-dm)
-  - [Dragonwing Map](#dragonwing-map)
 - [Chapter 1: Arrival](#adventure-hook)
   - [Adventure Hook](#adventure-hook)
   - [Arrival in Town](#arrival-in-town)
@@ -132,9 +132,9 @@ Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
   - [The Catacombs](#the-catacombs)
   - [The Accusation](#the-accusation)
   - [The Funeral](#the-funeral)
-- [Appendix: NPC](#)
+- [Appendix: NPCs](#)
 - [Appendix: Quest and Magic Items](#appendix-items)
-- [Appendix: Monsters](#)
+- [Appendix: Monsters](#appendix-monsters)
 - [Appendix: States and Organizations](#appendix-states-and-organizations)
 - [Appendix: Pantheon](#appendix-pantheon)
 - [Appendix: Month Names](#appendix-month-names)
@@ -254,6 +254,53 @@ healed.
 
 <!-- prettier-ignore -->
 [//]: # (Rumor holds that, in the siege’s final days, the dead rose and fought alongside the living. The Church forbids any discussion of these tales and condemns them as heresy.)
+
+::: page {footnote="Introduction"}
+
+# Dragonwing Map
+
+::: wide
+
+![Map](./assets/maps/dragonwing-peninsula-4k-en.jpg){class="framed-map"}
+
+:::
+
+## Map Overview
+
+This map is for orientation only: to show where **San Soprigal** sits and how it relates to other places on the
+peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
+mechanical use.
+
+Show it once at the beginning to set scale and mood. One hex - 12 miles.
+
+Karthal, Portgate, and other locations are for the future—as campaign directions if you continue the story beyond the
+town.
+
+The full map archive is available here:  
+[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
+
+::: column
+
+## The Region
+
+::: definition
+
+**Weather.** Predominantly maritime climate: fog banks along the coast, sharp winds off the range, spring floods, and
+autumn storms.
+
+**Shadow Forest.** A dense, nearly impassable forest east of Karthal.
+
+**Ashes Hills.** Dry, gray swell to the northwest of San Soprigal. The old town cemetery lies here.
+
+**Portgate.** A fortress at the eastern passes; the governor’s seat and the peninsula’s main customs post. It controls
+movement between the peninsula and the Empire.
+
+**The Eye.** On a lake shaped like an eye stands an ancient structure known as the Eye.
+
+**Connection to the Empire.** A mountain chain separates the peninsula from the rest of the Empire. The only land route
+runs through the northeastern passes, which are closed in foul weather.
+
+:::
 
 ::: page {footnote="Introduction"}
 
@@ -435,53 +482,6 @@ dialogue—use them as needed, or ignore them:
 - A dragon-hunt in the mountains on behalf of **Duncan**.
 - Exploring ruins on the peninsula at the request of **Jassad**.
 - A joint investigation with **Rosa** into the attacks on merchants.
-
-::: page {footnote="Introduction"}
-
-# Dragonwing Map
-
-::: wide
-
-![Map](./assets/maps/dragonwing-peninsula-4k-en.jpg){class="framed-map"}
-
-:::
-
-## Map Overview
-
-This map is for orientation only: to show where **San Soprigal** sits and how it relates to other places on the
-peninsula. In this adventure, the characters **do not leave the town**, so the map contains no plot hints and has no
-mechanical use.
-
-Show it once at the beginning to set scale and mood. One hex - 12 miles.
-
-Karthal, Portgate, and other locations are for the future—as campaign directions if you continue the story beyond the
-town.
-
-The full map archive is available here:  
-[Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
-
-::: column
-
-## The Region
-
-::: definition
-
-**Weather.** Predominantly maritime climate: fog banks along the coast, sharp winds off the range, spring floods, and
-autumn storms.
-
-**Shadow Forest.** A dense, nearly impassable forest east of Karthal.
-
-**Ashes Hills.** Dry, gray swell to the northwest of San Soprigal. The old town cemetery lies here.
-
-**Portgate.** A fortress at the eastern passes; the governor’s seat and the peninsula’s main customs post. It controls
-movement between the peninsula and the Empire.
-
-**The Eye.** On a lake shaped like an eye stands an ancient structure known as the Eye.
-
-**Connection to the Empire.** A mountain chain separates the peninsula from the rest of the Empire. The only land route
-runs through the northeastern passes, which are closed in foul weather.
-
-:::
 
 ::: page {layout="auto"}
 
@@ -915,7 +915,7 @@ out, Helmut’s attitude becomes **hostile**.
 ## Events
 
 **The noise draws creatures.** On a failed search check, the party still finds the clothes, but the noise attracts `1d4`
-[tiny spiders](#).
+[tiny spiders](#tiny-spider).
 
 ::: column
 
@@ -926,7 +926,7 @@ out, Helmut’s attitude becomes **hostile**.
 - `@Nature 10` The tracks are spider tracks; the behavior is atypical—the prey was removed in an organized way.
 - `@Perception 14` Rat fur and fine webbing are snagged in the crack; from the depths comes a faint rustle. The passage
   descends further underground, but it’s too narrow to squeeze through.
-- While inspecting the crack, `1d4` [tiny spiders](#) attack the party.
+- While inspecting the crack, `1d4` [tiny spiders](#tiny-spider) attack the party.
 
 ::: box
 
@@ -1698,13 +1698,14 @@ lunges from the shadows. If the party didn’t move stealthily, it attacks from
 
 ::: definition
 
-**Round 2.** A second [Spellwarp Spider](#) bursts from a side passage, trying to cut off the escape route.
+**Round 2.** A second [Spellwarp Spider](#spellwarp-spider) bursts from a side passage, trying to cut off the escape
+route.
 
-**Round 3+.** When one spider dies, the [Spellwarp Spider Matriarch](#) drops from the ceiling—a hulking creature that
-moves with unsettling intent.
+**Round 3+.** When one spider dies, the [Spellwarp Spider Matriarch](#spellwarp-spider-matriarch) drops from the
+ceiling—a hulking creature that moves with unsettling intent.
 
-**Additionally.** A [swarm of tiny spiders](#) can pour from the ceiling or walls, harrying characters and disrupting
-concentration/line of sight.
+**Additionally.** A [swarm of tiny spiders](#swarm-of-spiders) can pour from the ceiling or walls, harrying characters
+and disrupting concentration/line of sight.
 
 :::
 
@@ -2367,7 +2368,496 @@ Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amu
 
 :::
 
-::: page {footnote="Appendix | States and Organizations"}
+::: page {type="inside-cover"}
+
+![Items Cover](./assets/covers/inside-cover-monsters.png) {class="cover"}
+
+# Monsters
+
+::: subtitle
+
+Creature Stat Blocks
+
+:::
+
+::: page {layout="wide" chapter="Appendix | Monsters"}
+
+# Appendix: Monsters
+
+::: stat-block {layout="wide" style="margin-top:4mm !important;"}
+
+## Tiny Spider
+
+<!-- prettier-ignore -->
+name="Spider" size="Tiny" type="Beast" alignment="Unaligned"
+ac="12" hp="1 (1к4 - 1)" speed="20 ft., climb 20 ft." initiative="12" pb="2" cr="0"
+skills="Stealth +4" senses="Darkvision 30 ft."
+languages="--"
+
+:::: abilityscores str=2 dex=14 con=8 int=1 wis=10 cha=2 ::::
+
+:::: traits
+
+**_Spider Climb._** The spider can climb difficult surfaces, including along ceilings, without needing to make an
+ability check.
+
+**_Web Walker._** The spider ignores movement restrictions caused by webs, and the spider knows the location of any
+other creature in contact with the same web.
+
+::::
+
+:::: actions
+
+**_Bite._** _Melee Attack Roll_: +4, reach 5 ft. _Hit:_ 1 Piercing damage plus 2 (1d4) Poison damage.
+
+::::
+
+:::
+
+<!-- prettier-ignore -->
+_Standard [Spider](https://www.dndbeyond.com/monsters/4775844-spider)_ {style="text-align:right;margin:0;font-size:.9em"}
+
+::: stat-block {layout="wide" style="margin-top:5mm;"}
+
+## Swarm of Spiders
+
+<!-- prettier-ignore -->
+size="Medium" type="swarm of Tiny beasts" alignment="Unaligned"
+ac="12" hp="11 (2d8 + 2)" speed="20 ft., Climb 20 ft." initiative="11" pb="2" cr="1/2"
+skills="Stealth +2" senses="Darkvision 30 ft."
+resistances="Poison" vulnerabilities="Fire" immunities="Poisoned"
+languages="--"
+
+:::: abilityscores str=3 dex=13 con=14 int=1 wis=7 cha=1 ::::
+
+:::: traits
+
+**_Spider Climb._** The spider can climb difficult surfaces, including along ceilings, without needing to make an
+ability check.
+
+**_Web Walker._** The spider ignores movement restrictions caused by webs.
+
+**_Swarm._** The swarm can occupy another creature’s space and vice versa, and the swarm can move through any opening
+large enough for a Tiny insect. The swarm can’t regain Hit Points or gain Temporary Hit Points.
+
+::::
+
+:::: actions
+
+**_Bites._** _Melee Attack Roll:_ +3, reach 5 ft. _Hit:_ 6 (2d4 + 1) Poison damage, or 3 (1d4 + 1) Poison damage if the
+swarm is Bloodied.
+
+::::
+
+:::
+
+<!-- prettier-ignore -->
+_Modified from the [Swarm of Insects](https://www.dndbeyond.com/monsters/5195224-swarm-of-insects)_ {style="text-align:right;margin:0;font-size:.9em"}
+
+::: page {chapter="Appendix | Monsters"}
+
+# Spellwarp Spider
+
+Spellwarp Spiders are cavern-dwelling predators twisted by years of exposure to discarded magical runoff. Their nests
+cluster in the coastal fissures and caves of the Southern continent, where mages once dumped alchemical effluents and
+unstable arcane objects.
+
+Feeding on these substances, the spiders developed a knack for warping magic. They aren’t truly sapient, but their
+behavior is more purposeful. They often lair near ancient artifacts, and their venom causes a painful unraveling of a
+creature’s arcane structure.
+
+::: column
+
+<!-- prettier-ignore -->
+![Monster](./assets/monsters/spellwarp-spider.png){style="height:280px;width:100%;object-fit:cover;border-radius:2mm"} {align="right"}
+
+<!-- prettier-ignore -->
+Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5421517-spellwarp-spider) {class="credit" align="right"}
+
+::: column-reset
+
+::: stat-block {layout="wide" style="margin-top:5mm;"}
+
+<!-- prettier-ignore -->
+name="Spellwarp Spider" size="Medium" type="Beast" alignment="Unaligned"
+ac="13" hp="16 (3d8 + 2)" speed="30 ft., climb 30 ft." initiative="13" pb=2 cr="1/2"
+perceptionBonus="3" skills="Stealth +7" senses="Darkvision 60 ft., Blindsight 10 ft."
+resistances="Poison" vulnerabilities="Fire" immunities="Poisoned" languages="—"
+
+:::: abilityscores str=12 dex=16 con=11 int=4 wis=12 cha=3 ::::
+
+:::: traits
+
+**_Spider Climb._** The spider can climb difficult surfaces, including along ceilings, without needing to make an
+ability check.
+
+**_Web Walker._** The spider ignores movement restrictions caused by webs, and it knows the location of any other
+creature in contact with the same web.
+
+**_Spellwarp Aura._** Whenever a spell is cast within 10 feet of the spider or targets it, roll a 1d8. On a 1, the
+spell’s effect is redirected to a random valid target within range.
+
+::::
+
+:::: actions
+
+**_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 4 (1d6 + 1) piercing damage plus 3 (1d4) poison damage.
+
+**_Web (Recharge 5–6)._** _Dexterity Saving Throw:_ DC 13, one creature the spider can see within 60 ft. _Failure:_ The
+target has the Restrained condition until the web is destroyed (AC 10; 5 hit points; vulnerability to fire damage;
+immunity to poison and psychic damage). A restrained creature can use its action to make a DC 12 Strength check,
+bursting the web on a success.
+
+::::
+
+:::
+
+::: wide
+
+<!-- prettier-ignore -->
+_Modified from the [Giant Wolf Spider](https://www.dndbeyond.com/monsters/5195033-giant-wolf-spider)_ {style="text-align:right;margin:0;font-size:.9em"}
+
+:::
+
+::: page {chapter="Appendix | Monsters"}
+
+# Spellwarp Spider Matriarch
+
+The Matriarch is a rare, colossal form of the Spellwarp Spider, endowed with primitive intelligence and a will of its
+own. Born of generations of mutation and the consumption of volatile arcane refuse, she does more than survive—she
+rules. Her awareness can brush against thoughts, sense the tremor of magic, and press into the minds of the weak.
+
+The Matriarch binds every spider in her reach through a primal telepathy. They don’t understand her dominion, yet obey
+without question: weaving, hunting, bearing offerings. She rarely moves herself—her lair becomes her body, its strands
+an extension of her will.
+
+::: column
+
+<!-- prettier-ignore -->
+![Monster](./assets/monsters/spellwarp-spider-matriarch.png){style="height:280px;width:100%;object-fit:cover;border-radius:2mm"} {align="right"}
+
+<!-- prettier-ignore -->
+Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5421537-spellwarp-spider-matriarch) {class="credit" align="right"}
+
+::: column-reset
+
+::: stat-block {layout="wide" style="margin-top:5mm;"}
+
+<!-- prettier-ignore -->
+name="Spellwarp Spider Matriarch" size="Large" type="Beast" alignment="Unaligned"
+ac="14" hp="26 (4d10 + 4)" speed="40 ft., climb 40 ft." initiative="13" pb=2 cr="1"
+perceptionBonus="4" skills="Stealth +7" senses="Darkvision 60 ft., Blindsight 10 ft."
+resistances="Poison, Psychic, Damage from Spells" vulnerabilities="Fire" immunities="Poisoned, Charmed" languages="Telepathy"
+
+:::: abilityscores str=14 dex=16 con=14 int=8 wis=12 cha=3 ::::
+
+:::: traits
+
+**_Spider Climb._** The spider can climb difficult surfaces, including along ceilings, without needing to make an
+ability check.
+
+**_Web Walker._** The spider ignores movement restrictions caused by webs, and it knows the location of any other
+creature in contact with the same web.
+
+**_Spellwarp Aura._** Whenever a spell is cast within 30 feet of the spider or targets it, roll a 1d6. On a **1**, the
+spell’s effect is redirected to a random valid target within range.
+
+::::
+
+:::: actions
+
+**_Multiattack._** The matriarch makes one **Claw** attack and one of the following: **Bite** or **Web**.
+
+**_Claw._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 9 (1d10 + 3) bludgeoning damage.
+
+**_Bite._** _Melee Attack Roll:_ +5, reach 5 ft. _Hit:_ 6 (1d6 + 2) piercing damage plus 3 (1d4) poison damage.
+
+**_Web (Recharge 4–6)._** _Dexterity Saving Throw:_ DC 13, one creature the spider can see within 60 ft. _Failure:_ The
+target has the Restrained condition until the web is destroyed (AC 10; 5 hit points; vulnerability to fire damage;
+immunity to poison and psychic damage). A restrained creature can use its action to make a DC 12 Strength check,
+bursting the web on a success.
+
+::::
+
+:::
+
+::: wide
+
+<!-- prettier-ignore -->
+_Modified from the [Giant Spider](https://www.dndbeyond.com/monsters/4775821-giant-spider)_ {style="text-align:right;margin:0;font-size:.9em"}
+
+:::
+
+::: page {chapter="Appendix | Monsters"}
+
+# Imperial Guard
+
+Imperial Guards form a civil security force reporting to the dukes, responsible for maintaining order in the cities and
+surrounding lands.
+
+They aren’t heroes, saints, or paragons of honor. They’re the people at the crossroads pretending to jot notes in a
+battered ledger—quietly hoping today won’t require chasing anyone down, especially not someone armed, angry, or casting
+spells.
+
+**Tactics in Combat:**
+
+- Stays behind the Captain, covering allies.
+- May break and retreat if the fight turns against them.
+
+::: column
+
+<!-- prettier-ignore -->
+![Monster](./assets/monsters/guards.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
+
+<!-- prettier-ignore -->
+Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5566979-imperial-guard) {class="credit" align="right"}
+
+::: column-reset
+
+::: stat-block {layout="wide" style="margin-top:5mm;"}
+
+<!-- prettier-ignore -->
+name="Imperial Guard" size="Medium" type="Humanoid" alignment="Lawful Neutral"
+ac="16" hp="25 (4d8 + 4)" speed="30 ft." initiative="10" pb=2 cr="1/4"
+perceptionBonus="5" languages="Common" gear="Half Plate, Crossbow, Longsword"
+
+:::: abilityscores str=13 dex=13 con=12 int=10 wis=11 cha=10 ::::
+
+:::: traits
+
+**_Pack Tactics._** The guard has Advantage on an attack roll against a creature if at least one of the other Guards is
+within 5 feet of the creature and doesn’t have the Incapacitated condition.
+
+::::
+
+:::: actions
+
+**_Longsword._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 7 (1d8 + 2) Slashing damage.
+
+**_Light Crossbow._** _Ranged Attack Roll:_ +3, range 80/320 ft. _Hit:_ 7 (1d8 + 2) Piercing damage. _Mastery property:_
+[Slow](https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Slow).
+
+::::
+
+:::
+
+::: wide
+
+<!-- prettier-ignore -->
+_Modified from the [Guard](https://www.dndbeyond.com/monsters/5195065-guard)._ {style="text-align:right;margin:0;font-size:.9em"}
+
+:::
+
+::: page {chapter="Appendix | Monsters"}
+
+# Guard Captain Hurgkhan
+
+Hurgkhan has served in San Soprigal’s garrison for ten years and led the town’s defense during the demon incursion. He
+lost most of his guard then and now must rely on recruits he doesn’t always trust. He’s no Imperial zealot, but he
+believes order matters above all. His duty is to protect San Soprigal—whatever it is, and whatever it takes. He never
+leaves people in danger, even when it’s reckless.
+
+**Tactics in Combat:**
+
+- Charges the most dangerous foes first.
+- Uses a battle cry when allies are frightened or badly hurt.
+- Fights to the end.
+
+::: column
+
+<!-- prettier-ignore -->
+![Monster](./assets/monsters/guard-captian.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
+
+<!-- prettier-ignore -->
+Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5311650-hurgkhan) {class="credit" align="right"}
+
+::: column-reset
+
+::: stat-block {layout="wide" style="margin-top:5mm;"}
+
+<!-- prettier-ignore -->
+name="Guard Captain Hurgkhan" size="Medium" type="Humanoid" alignment="Lawful Neutral"
+ac="18 (shield)" hp="52 (8d8 + 16)" speed="30 ft." initiative="14" pb=2 cr="3"
+perceptionBonus="5" languages="Common, Orc" gear="Half Plate, Battleaxe, Shield"
+skills="Athletics +6"
+
+:::: abilityscores str=16 dex=12 con=16 int=12 wis=14 cha=12 saves="con" ::::
+
+:::: traits
+
+**_Relentless Endurance (1/day)._** If damage reduces Hurgkhan to 0 hit points, he drops to 1 hit point instead.
+
+**_Savage Strike._** Hurgkhan deals an extra 5 (1d8) damage on a critical hit.
+
+::::
+
+:::: actions
+
+**_Multiattack._** Hurgkhan makes two Battleaxe attacks. It can replace one attack with a use of Shield Bash.
+
+**_Battleaxe._** _Melee Attack Roll:_ +7, reach 5 ft. _Hit:_ 12 (2d8 + 4) Slashing damage.
+
+**_Shield Bash._** _Strength Saving Throw:_ DC 15, one creature within 5 feet that the gladiator can see. _Failure:_ 7
+(1d6 + 3) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition.
+
+**_Battle Cry (1/day)._** All allies within 30 feet who can hear Hurgkhan gain 10 (3d4 + 2) Temporary Hit Points and are
+immune to the Frightened condition for 1 minute.
+
+::::
+
+:::
+
+::: wide
+
+<!-- prettier-ignore -->
+_Modified from the [Guard Captain](https://www.dndbeyond.com/monsters/5195064-guard-captain)._ {style="text-align:right;margin:0;font-size:.9em"}
+
+:::
+
+::: page {chapter="Appendix | Monsters"}
+
+# Paladin of the Church of Light
+
+Paladins are wardens of order and servants of an ideal. They live by a code, not by impulse.
+
+They are not judges—they are executors of decrees. Every motion is measured, every command reflects the hierarchy. They
+care less for “truth” than for conformity to the norm: law is their weapon; light, their instrument. They spare when
+permitted; they destroy when prescribed.
+
+Paladins remind us that the Empire endures not on mercy but on order. To them, doubt is more dangerous than heresy—doubt
+leads to chaos.
+
+::: column
+
+<!-- prettier-ignore -->
+![Monster](./assets/monsters/paladin.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
+
+<!-- prettier-ignore -->
+Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5559472-paladin-of-the-church-of-light) {class="credit" align="right"}
+
+::: column-reset
+
+::: stat-block {layout="wide" style="margin-top:5mm;"}
+
+<!-- prettier-ignore -->
+name="Paladin of the Church of Light" size="Medium" type="Humanoid" alignment="Lawful Neutral"
+ac="18" hp="65 (10d8 + 20)" speed="30 ft." initiative="13" pb=2 cr="3"
+perceptionBonus="3" languages="Common and one of choice" gear="Plate, Greatsword"
+skills="Intimidation +5" immunities="Frightened, Radiant damage"
+
+:::: abilityscores str=16 dex=10 con=14 int=11 wis=11 cha=15 ::::
+
+:::: traits
+
+**_The Judge's Oath._** When the paladin witnesses the use of forbidden magic, they gain inspiration and may immediately
+make one attack.
+
+**Aura of Protection.** Each ally within 10 feet radius gains a +2 bonus to saving throws.
+
+::::
+
+:::: actions
+
+**_Multiattack._** The paladin makes one Greatsword attack, and can cast one Spell.
+
+**_Greatsword._** _Melee Attack Roll::_ +6, reach 5 ft. _Hit:_ 10 (2d6 + 3) slashing damage. _Mastery property:_
+[Graze](https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Graze).
+
+**_Spellcasting._** The paladin casts one of the following spells, requiring no spell components and using Charisma as
+the spellcasting ability (spell save DC 12, +2 to hit with spell attacks):
+
+**At will:** [_Hunter’s Mark_](https://www.dndbeyond.com/spells/2619166-hunters-mark),
+[_Sacred Flame_](https://www.dndbeyond.com/spells/2618967-sacred-flame),
+[_Sanctuary_](https://www.dndbeyond.com/spells/2619003-sanctuary)
+
+**2/day:** [_Cure Wounds_](https://www.dndbeyond.com/spells/2619079-cure-wounds) (3rd level)
+
+**1/day:** _Cleansing Flame._ Each creature in a 15-foot-radius, 40-foot-high Cylinder centered on the paladin makes a
+Dexterity saving throw, taking 18 (5d6) Radiant damage on a failed save or half as much damage on a successful one.
+
+::::
+
+:::: reactions
+
+**_Parry._** _Trigger:_ The paladin is hit by a melee attack roll while holding a weapon. _Response:_ The paladin adds 2
+to its AC against that attack, possibly causing it to miss.
+
+::::
+
+:::
+
+::: page {chapter="Appendix | Monsters"}
+
+# Black Meduza Bandit
+
+Black Meduza is a **transregional smuggling syndicate** of smugglers and thieves’ crews operating primarily in the
+Empire’s cities. They aren’t loud cutthroats but a carefully structured web of traffickers, mercenaries, and artifact
+couriers. Their core specialties: “grey routes,” illicit logistics, extortion, bespoke thefts, and financial services
+for criminals and the nobility.
+
+**Tactics in Combat**
+
+- Avoids melee if ranged options are available.
+- If things go poorly, attempts to flee.
+- Strikes from behind when possible (sneaky, opportunistic attacks).
+
+::: column
+
+<!-- prettier-ignore -->
+![Monster](./assets/monsters/smuggler.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
+
+<!-- prettier-ignore -->
+Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5567107-black-meduza-bandit) {class="credit" align="right"}
+
+::: column-reset
+
+::: stat-block {layout="wide" style="margin-top:5mm;"}
+
+<!-- prettier-ignore -->
+name="Black Meduza Bandit" size="Medium" type="Humanoid" alignment="Chaotic Neutral"
+ac="15" hp="35 (5d8 + 10)" speed="30 ft." initiative="16" pb=2 cr="1"
+perceptionBonus="6" languages="Common, Thieves’ Cant" gear="Smoke Grenade (3), Dagger (6)"
+skills="Acrobatics +5, Stealth +7"
+
+:::: abilityscores str=10 dex=16 con=12 int=14 wis=11 cha=10 saves="dex" ::::
+
+:::: traits
+
+**_Evasion._** If the Black Meduza bandit is subjected to an effect that allows it to make a Dexterity saving throw to
+take only half damage, the Black Meduza bandit instead takes no damage if it succeeds on the save and only half damage
+if it fails. It can’t use this trait if it has the Incapacitated condition.
+
+::::
+
+:::: actions
+
+**_Multiattack._** The Black Meduza bandit makes two Dagger attacks.
+
+**_Dagger._** _Melee or Ranged Attack Roll:_ +6, reach 5 ft. or range 20/60 ft. _Hit:_ 8 (2d4 + 3) Piercing damage plus
+7 (2d6) Poison damage. _Mastery property:_ [Nick](https://www.dndbeyond.com/sources/dnd/br-2024/equipment#Nick).
+
+**_Smoke Grenade._** The Black Meduza bandit throws a grenade to a point within 60 ft. _Effect:_ the grenade explodes,
+creating a particular effect in a 20-foot-radius Sphere. The area of the Sphere is Heavily Obscured by smoke for 1
+minute. A strong wind (such as the Gust of Wind spell) disperses the smoke.
+
+::::
+
+:::: bonus-actions
+
+**_Cunning Action._** The Black Meduza bandit takes the **Dash**, **Disengage**, or **Hide** action.
+
+::::
+
+:::
+
+::: wide
+
+<!-- prettier-ignore -->
+_Modified from the [Bandit Deceiver](https://www.dndbeyond.com/monsters/5194914-bandit-deceiver)._ {style="text-align:right;margin:0;font-size:.9em"}
+
+:::
+
+::: page {chapter="Appendix | States and Organizations"}
 
 # Appendix: States and Organizations
 
@@ -2610,5 +3100,104 @@ _Unlabeled player map of San Soprigal._
 
 The full map archive is available here:
 [Download from Google Drive](https://drive.google.com/drive/folders/1kkLD4GegIr0Q5sSph8yz1zEEGgtrtRQs).
+
+:::
+
+::: page {chapter="Appendix | Music and Generators"}
+
+# Appendix: Music and Generators
+
+## Random Names
+
+#### Male Names
+
+| d8  | Name      |
+| :-: | :-------- |
+|  1  | Matthias  |
+|  2  | Oswald    |
+|  3  | Joseph    |
+|  4  | Max       |
+|  5  | Wilhelm   |
+|  6  | Emilio    |
+|  7  | Alejandro |
+|  8  | Ilidir    |
+
+#### Female Names
+
+| d8  | Name      |
+| :-: | :-------- |
+|  1  | Selma     |
+|  2  | Lucia     |
+|  3  | Antonia   |
+|  4  | Albertina |
+|  5  | Emily     |
+|  6  | Dalia     |
+|  7  | Kristen   |
+|  8  | Joa       |
+
+#### Dwarven Names
+
+| d4  | Name   |
+| :-: | :----- |
+|  1  | G’Hirk |
+|  2  | G’Holm |
+|  3  | G’Far  |
+|  4  | G’Fast |
+
+#### Elven Names
+
+| d4  | Name      |
+| :-: | :-------- |
+|  1  | Irolan    |
+|  2  | Alunalor  |
+|  3  | Arianissa |
+|  4  | Faelianna |
+
+::: column
+
+## Music
+
+Town:
+
+- [YouTube: DnD Calm Fantasy Music for Adventure and Exploration](https://www.youtube.com/watch?v=sHA_4wfQhE8)
+- [YouTube: Heroes of Might and Magic IV — The Most Relaxing Music & Natural Ambience](https://www.youtube.com/watch?v=mMU-o4hKDyo)
+- [YouTube: Heroes of Might and Magic — The Most Relaxing Ambient Music](https://www.youtube.com/watch?v=GX9J9AvoDYI)
+
+Catacombs:
+
+- [YouTube: Tense Path | D&D/TTRPG Music | 1 Hour](https://www.youtube.com/watch?v=fv_7EurNAss)
+- [YouTube: Ambient Horror Music — Red Space](https://www.youtube.com/watch?v=AlDivIaiuMU)
+- [YouTube: HoMM III Soundtrack — Dungeon](https://www.youtube.com/watch?v=zFitV1c4wR0)
+- [YouTube: Epic Fight | D&D/TTRPG Battle/Combat/Fight Music | 1 Hour](https://www.youtube.com/watch?v=BWoGeXrNs_g)
+
+## Generators
+
+- [Traders & Goods (location Village)](https://www.rolegenerator.com/en/module/shop-generator) (Role Generator)
+- [Names](https://www.kassoon.com/dnd/name-generator/) (Kasoon)
+- [Dungeon Loot](https://www.kassoon.com/dnd/2024/treasure-generator/) (Kasoon)
+
+::: page {type="back-cover"}
+
+::: cover {style="background-image:url('/content/assets/cover.png')"}
+
+# Thank You
+
+:::
+
+Thank you for choosing this adventure and spending time in **San Soprigal**.
+
+If you have ideas, suggestions, notes, or simply want to share how the adventure went at your table, I’d love to hear
+from you. Write to <s.kupletsky@gmail.com>.
+
+Special thanks to my players—for their curiosity, sharp questions, and inventive choices that helped improve this
+adventure and make it feel more alive.
+
+May your dice always roll in your favor!
+
+::: wide {style="text-align: center; margin-top: 5mm;"}
+
+{class="diamond-line"}
+
+[www.patreon.com/c/zavoloklom](https://www.patreon.com/c/zavoloklom)
 
 :::
