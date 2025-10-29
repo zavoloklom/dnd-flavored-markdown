@@ -1,0 +1,12 @@
+.diamond-line {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 11cm;
+    height: 1cm;
+    margin: auto;
+    background-image: url(/assets/themes/default/diamond-line.svg);
+    background-size: 100% 100%;
+    border: none;
+    filter: drop-shadow(0 0 3px black);
+}

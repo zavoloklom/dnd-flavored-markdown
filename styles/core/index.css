@@ -5,6 +5,7 @@
 
 @import './components/page.css';
 @import './components/page_front-cover.css';
+@import './components/page_back-cover.css';
 @import './components/page_inside-cover.css';
 @import './components/page_class.css';
 
@@ -19,7 +20,7 @@
 @import './components/box.css';
 @import './components/stat-block.css';
 @import './components/abilityscores.css';
-
+@import './components/diamond-line.css';
 @import './components/toc.css';
 @import './components/definition.css';
 @import './components/dc.css';

@@ -63,16 +63,3 @@
     -webkit-text-stroke: .9mm #000;
     paint-order: stroke;
 }
-
-.page[data-type="front-cover"] .line {
-    position: relative;
-    display: block;
-    visibility: visible;
-    width: 11cm;
-    height: 1cm;
-    margin: auto;
-    background-image: url(../../assets/themes/default/horizontal-rule.svg);
-    background-size: 100% 100%;
-    border: none;
-    filter: drop-shadow(0 0 3px black);
-}

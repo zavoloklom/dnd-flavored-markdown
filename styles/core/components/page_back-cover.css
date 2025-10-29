@@ -1,0 +1,62 @@
+.page[data-type="back-cover"] {
+    background: #231f20;
+
+    color: white;
+    font-size: 11pt;
+}
+.page[data-type="back-cover"]:after,
+.page[data-type="back-cover"] .page-number,
+.page[data-type="back-cover"] .footnote {
+    display: none;
+}
+.page[data-type="back-cover"] a,
+.page[data-type="back-cover"] a:visited {
+    color: white;
+}
+
+.page[data-type="back-cover"] h1 {
+    margin: 0;
+    font-family: 'Nodesto Caps Condensed', sans-serif;
+    font-size: 46pt;
+    font-weight: normal;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: unset;
+    -webkit-text-stroke: 2mm #000;
+    paint-order: stroke;
+    text-align: center;
+}
+
+.page[data-type="back-cover"] .cover {
+    position: relative;
+    column-span: all;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    height: 70%;
+    width: calc(100% + 32mm); /** from A4 **/
+    top: -14mm; /** from A4 **/
+    left: -16mm; /** from A4 **/
+
+    box-sizing: border-box;
+    padding: 20mm;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page[data-type="back-cover"] .cover:after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    inset-inline: 0;
+
+    width: 100%;
+    height: 100px;
+
+    background: url("/assets/themes/default/back-cover-mask.svg") center bottom / cover no-repeat;
+}
