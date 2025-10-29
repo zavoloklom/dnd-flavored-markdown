@@ -19,7 +19,7 @@
     font-size: var(--stat-block-title-font-size, 18pt);
     font-weight: var(--stat-block-title-font-weight, 500);
     line-height: var(--stat-block-title-line-height, 1);
-    letter-spacing: var(--stat-block-title-letter-spacing, 0.1em);
+    letter-spacing: var(--stat-block-title-letter-spacing, 0.05em);
 
     margin: 0;
 
@@ -34,9 +34,14 @@
 
 .stat-block__attributes {
     color: var(--stat-block-color-accent, #5b160c);
-    margin: 2mm 0;
+    margin: 2mm 0 0;
+
+    break-inside: avoid;
 }
-.stat-block__attributes--pre {
+.stat-block__attributes + .stat-block__attributes {
+    margin-top: 0;
+}
+.stat-block__attributes--highlights {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 6mm;
@@ -45,17 +50,20 @@
     display: grid;
     grid-template-columns: auto 1fr;
     gap: .5mm 2.5mm;
-    margin: 0;
+    margin: .25mm 0; /** half of gap for vertical **/
 }
 .stat-block__attributes div {
     display: contents
 }
-.stat-block__attributes dt {
-    font-weight: 600;
-    margin: 0;
-}
+.stat-block__attributes dt,
 .stat-block__attributes dd {
     margin: 0;
+    break-inside: avoid;
+}
+.stat-block__attributes dt {
+    font-weight: 600;
+}
+.stat-block__attributes dd {
 }
 
 .stat-block__section {
@@ -71,7 +79,7 @@
 
     border-bottom: 1px solid var(--stat-block-color-accent, #000);
 
-    margin-top: 2mm;
+    margin-top: 3mm;
 }
 .stat-block__section-content {
 

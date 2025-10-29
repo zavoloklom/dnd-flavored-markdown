@@ -35,7 +35,6 @@ const PHYSICAL: Ability[] = [Ability.STR, Ability.DEX, Ability.CON]
 const MENTAL:   Ability[] = [Ability.INT, Ability.WIS, Ability.CHA]
 
 interface AbilityData { score?: number; mod?: number; save?: number }
-interface EnvDfm { statBlockStack?: Array<{ pb?: number }> }
 
 // Public entry
 export function useAbilityScores(md: MarkdownIt) {
@@ -59,9 +58,31 @@ function abilityScoresRule(state: any, startLine: number, endLine: number, silen
     if (silent) return true
 
     const fenceLen = open.fenceLen
-    const infoTail = open.tail
+    let infoTail = open.tail
     const dataAttrs = open.dataAttrs
 
+    // Однострочное закрытие: ":::: abilityscores ... ::::"
+    const inlineCloseRe = new RegExp(`\\s:{${fenceLen}}\\s*$`)
+    if (inlineCloseRe.test(firstLine)) {
+        // срезаем закрывающий забор из хвоста
+        infoTail = infoTail.replace(inlineCloseRe, '').trim()
+
+        const token = state.push('dfm_abilityscores', '', 0)
+        token.block = true
+        token.map = [startLine, startLine] // всё в одной строке
+        token.meta = {
+            infoTail,
+            rawBody: '',                      // тела нет — всё задали в хвосте
+            dataAttrs,
+            classes: open.classes ?? [],
+            style: open.style ?? ''
+        }
+
+        state.line = startLine + 1
+        return true
+    }
+
+    // Многострочный вариант: до ближайшей строки с ровно fenceLen двоеточий
     let next = startLine + 1
     const bodyLines: string[] = []
     while (next < endLine) {
@@ -208,7 +229,7 @@ function renderTable(
         const mod   = a.mod  != null ? signed(a.mod)    : ''
         const save  = a.save != null ? signed(a.save)   : ''
         return `<tr>
-  <th>${ab}</th>
+  <th data-i18n-key="stat.table.${ab.toLowerCase()}">${ab}</th>
   <td>${score}</td>
   <td class="modifier">${mod}</td>
   <td class="modifier">${save}</td>
@@ -217,7 +238,7 @@ function renderTable(
 
     return `<table class="stat-table ${kind}">
   <thead>
-    <tr><th></th><th></th><th>Mod</th><th>Save</th></tr>
+    <tr><th></th><th></th><th data-i18n-key="stat.table.mod">Mod</th><th data-i18n-key="stat.table.save">Save</th></tr>
   </thead>
   <tbody>
 ${rows}

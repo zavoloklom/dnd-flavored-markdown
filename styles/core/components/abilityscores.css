@@ -17,6 +17,10 @@
 .stat-table {
     margin: 0;
     border: 0;
+
+    font-family: var(--font-sans, sans-serif), sans-serif;
+    font-size: 11pt;
+    line-height: 1;
 }
 
 .stat-table thead, .stat-table tr, .stat-table th, .stat-table tbody, .stat-table td {
@@ -32,23 +36,24 @@
     font-size: 8pt;
 }
 .stat-table tbody tr th {
+    text-transform: uppercase;
+    /*font-variant: small-caps;*/
     font-weight: 600;
+    text-align: left;
 }
 
 .stat-table tbody tr {
-    border-top: .0625rem solid #fff;
-    border-bottom: .0625rem solid #fff;
-    color: #5b160c;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     text-align: center;
-    font-size: .938rem;
 }
 
 .stat-table th {
-    padding: 0 1mm;
+    padding: 1.5mm;
 }
 
 .stat-table td {
-    padding: .5mm 2mm;
+    padding: 1.5mm 2mm;
 }
 
 .stat-table.physical tbody tr th, .stat-table.physical tbody tr td {
@@ -62,4 +67,8 @@
 }
 .stat-table.mental td.modifier {
     background: #d0caca;
+}
+.stat-table > tbody > tr,
+.stat-table > tbody > tr:nth-child(odd) {
+    color: var(--header-color);
 }

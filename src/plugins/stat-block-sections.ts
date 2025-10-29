@@ -44,7 +44,7 @@ export function useStatBlockSections(md: MarkdownIt) {
                 next++
             }
 
-            const tOpen = state.push('dfm_section_open', '', 1); tOpen.meta = { cssClass, heading }
+            const tOpen = state.push('dfm_section_open', '', 1); tOpen.meta = { cssClass, heading, key }
             const tBody = state.push('dfm_section_body', '', 0); tBody.meta = { raw: body.join('\n') }
             const tClose= state.push('dfm_section_close','',-1)
 
@@ -55,8 +55,8 @@ export function useStatBlockSections(md: MarkdownIt) {
     )
 
     md.renderer.rules['dfm_section_open'] = (tokens, idx) => {
-        const { cssClass, heading } = tokens[idx].meta
-        return `<h3 class="stat-block__section-title">${escapeHtml(heading)}</h3>\n<div class="stat-block__section-content">\n`
+        const { cssClass, key, heading } = tokens[idx].meta
+        return `<h3 class="stat-block__section-title" data-i18n-key="stat.section.${String(key).toLowerCase()}">${escapeHtml(heading)}</h3>\n<div class="stat-block__section-content">\n`
     }
     md.renderer.rules['dfm_section_body'] = (tokens, idx, _o, env) => {
         const raw = tokens[idx].meta?.raw ?? ''
