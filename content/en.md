@@ -3578,7 +3578,7 @@ skills="Intimidation +5" immunities="Frightened, Radiant damage"
 
 :::: traits
 
-**_The Judge's Oath._** When the paladin witnesses the use of forbidden magic, they gain inspiration and may immediately
+**_Oath of Auriel._** When the paladin witnesses the use of forbidden magic, they gain inspiration and may immediately
 make one attack.
 
 **Aura of Protection.** Each ally within 10 feet radius gains a +2 bonus to saving throws.
