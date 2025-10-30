@@ -52,7 +52,7 @@ In addition, whenever you cast that spell, you can choose one of the following a
 spell
 save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.
 
-![Illustration](./assets/illustrations/city.png) {style="height:520px" class="framed-image"}
+![Illustration](./example/assets/illustrations/city.png) {style="height:520px" class="framed-image"}
 
 ::: page {type="inside-cover"}
 
@@ -208,7 +208,7 @@ You came of age outdoors, far from settled lands. Your home was anywhere you cho
 
 ::: column
 
-![NPC: City Folk](./assets/npc/city-folk.png) {class="framed-image"}
+![NPC: City Folk](./example/assets/npc/city-folk.png) {class="framed-image"}
 
 _фоновые персонажи, отражающие атмосферу города_ {align="center"}
 

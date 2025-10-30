@@ -4046,7 +4046,7 @@ Catacombs:
 
 ::: page {type="back-cover"}
 
-::: cover {style="background-image:url('/content/assets/covers/back-cover.png')"}
+::: cover {style="background-image:url('/content/example/assets/covers/back-cover.png')"}
 
 # Thank You
 
