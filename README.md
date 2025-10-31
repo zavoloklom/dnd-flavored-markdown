@@ -60,6 +60,17 @@ In Homebrewery there is an issue with the block shadows.
 
 ![Monster](./docs/assets/monster-block.jpg)
 
+## License
+
+[MIT License](./LICENSE).
+
+This project provides tools and styles for creating tabletop RPG content. It does **not** include or distribute any
+copyrighted material from Wizards of the Coast or other publishers. All adventure text, rules text, images, and other
+assets rendered with this tool are supplied by the end user, who is solely responsible for having the rights to use and
+publish them. “Dungeons & Dragons”, “D&D”, “Player’s Handbook” and all related terms are trademarks of Wizards of the
+Coast LLC and are used here for identification and compatibility purposes only. This project is unofficial and not
+endorsed, sponsored, or approved by Wizards of the Coast.
+
 ## RU
 
 D&D-Flavored Markdown (DFM) — это надстройка над CommonMark с минимальным набором расширений, ориентированных на вёрстку
@@ -123,3 +134,15 @@ D&D-Flavored Markdown (DFM) — это надстройка над CommonMark с
 - или репозиторий наберёт **100 звёзд** на GitHub;
 - или я соберу **500 евро** на [PayPal](https://www.paypal.com/pool/9jC9seKdwL?sr=wccr) или
   [Boosty](https://boosty.to/zavoloklom/single-payment/donation/754957/target?share=target_link).
+
+## Лицензия
+
+[Лицензия MIT](./LICENSE).
+
+Этот проект предоставляет инструменты и стили для создания материалов настольных ролевых игр. Он не включает и не
+распространяет никакие охраняемые авторским правом материалы Wizards of the Coast или других издателей. Весь текст
+приключений, правила, изображения и другие ресурсы, создаваемые с помощью этого инструмента, предоставляются конечным
+пользователем, который несёт полную ответственность за наличие прав на их использование и публикацию. «Dungeons &
+Dragons», «D&D», «Player’s Handbook» и все связанные термины являются товарными знаками Wizards of the Coast LLC и
+используются здесь исключительно для целей идентификации и совместимости. Проект является неофициальным и не одобрен, не
+спонсирован и не утверждён Wizards of the Coast.
