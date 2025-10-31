@@ -48,14 +48,14 @@ ver 4.0.0
 
 ## Описание
 
-Приключение по системе D&D (2024) для 3–4 персонажей 1–3 уровня.
+Приключение для 3–4 персонажей 1–3 уровня, совместимое с правилами 5-й редакции (обновление 2024 года).
 
 ::: definition
 
 **Средняя продолжительность:** 10–16 часов.
 
-**Место действия:** Азалия, город Сан-Сопригаль (закрытая локация). Мир вдохновлён игрой Might & Magic X и циклом
-«Плоский мир» Терри Пратчетта.
+**Место действия:** Азалия, город Сан-Сопригаль (закрытая локация). Атмосфера и тон вдохновлены игрой Might & Magic X и
+циклом «Плоский мир» Терри Пратчетта.
 
 **Жанры:** детектив, социальное взаимодействие, мало боевых сцен.
 
@@ -78,19 +78,23 @@ ver 4.0.0
 
 ## Лицензия
 
-Все упоминания «Подземелий и Драконов» и связанные материалы принадлежат Wizards of the Coast. Данный материал не
-является официальным продуктом и не поддерживается или одобряется Wizards of the Coast. Все торговые марки и авторские
-права, связанные с «Подземельями и Драконами», принадлежат их владельцам.
+В данной работе используется материал из документа System Reference Document 5.2.1 («SRD 5.2.1») компании Wizards of the
+Coast LLC, доступного по адресу https://www.dndbeyond.com/srd. Документ SRD 5.2.1 лицензирован на условиях лицензии
+Creative Commons.
 
-Материал предназначен исключительно для личного использования и не для коммерческого распространения.
+В документе есть необязательные ссылки на материалы на D&D Beyond. Эти ссылки приведены только для удобства ведущих.
+Содержимое D&D Beyond регулируется условиями сервиса Wizards of the Coast / D&D Beyond, не входит в состав
+лицензируемого содержимого этого PDF, не перепродаётся здесь и не требуется для использования данного приключения.
 
-Приключение оформлено с помощью [DnD Flavored Markdown](https://github.com/zavoloklom/dnd-flavored-markdown). Все
-изображения сгенерированы с помощью ChatGPT.
+Карты созданы автором в [Inkarnate](https://inkarnate.com/). Изображения сгенерированы с помощью ChatGPT. Данные
+материалы являются авторской работой и не входят в состав содержимого SRD 5.2.
 
-Автор — [Сергей Куплетский](mailto:s.kupletsky@gmail.com).
+Приключение оформлено с помощью [D&D Flavored Markdown](https://github.com/zavoloklom/dnd-flavored-markdown).
+
+© 2025 [Сергей Куплетский](mailto:s.kupletsky@gmail.com). Все права защищены.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/streets.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:700px; width: 400px; bottom: 0px; object-position: center -100px;"}
+![Illustration](./assets/illustrations/streets.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:500px; width:400px; bottom:0; object-position: center -100px;"}
 
 ::: page {show-page-number="false"}
 
@@ -184,8 +188,8 @@ ver 4.0.0
 
 Любая несанкционированная магия ведёт к допросам, арестам и казням.
 
-При попытках использовать магию, связанную с иными планами (_Plane Shift_, _Gate_, _Summon Fiend_, _Contact Other Plane_
-и т.п.) возможны катастрофические эффекты, либо заклинание не сработает вовсе.
+При попытках использовать магию, связанную с иными планами (_plane shift_, _gate_, _contact other plane_ и т.п.)
+возможны катастрофические эффекты, либо заклинание не сработает вовсе.
 
 ## Жители Священной Империи
 
@@ -205,10 +209,6 @@ ver 4.0.0
 **Тифлинги** — результат экспериментов магов с демонической кровью последних двух лет. Никому, кроме создателей, они не
 известны. Разрешено играть за тифлинга, который каким-то образом сбежал. Немаскирующегося тифлинга, скорее всего, примут
 за демона и атакуют без раздумий.
-
-**Аасимары** — люди с подселённой душой ангела (они об этом не знают). На использование врождённых способностей наложены
-ограничения: в критической ситуации возможно самопроизвольное их проявление при провале спасброска Мудрости (СЛ 15). Чем
-чаще способности применяются, тем сильнее влияние ангела (контроль переходит к Мастеру).
 
 **Драконорождённые** отсутствуют (неиграбельная раса).
 
@@ -439,8 +439,8 @@ _13 Лотвиэля (апреля), среда_
 
 # Улики
 
-Для того чтобы "раскрыть дело" герои должны прийти к выводам перечисленным далее. На каждый из выводов должно вести не
-менее [трех](<(https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule)>) независимых улик либо
+Для того чтобы "раскрыть дело" герои должны прийти к выводам перечисленным далее. На каждый из выводов ведет не менее
+[трех](<(https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule)>) независимых улик либо
 источников. Ограничиваться только перечисленным необязательно, вы лучше знаете своих игроков и на что они способны.
 
 ::: box
@@ -469,7 +469,7 @@ _13 Лотвиэля (апреля), среда_
 
 - ! + [Дневник Марии](#дневник-марии): запись о встрече вечером.
 - ! + [Карра](#карра): Мария встречалась с парнем-стражником на сторожевой башне.
-- [Гюнтер](#гюнтер): они собирались встретиться на закате, но Мария не пришла.
+- - [Гюнтер](#гюнтер): они собирались встретиться на закате, но Мария не пришла.
 
 ## Вывод 3
 
@@ -478,8 +478,8 @@ _13 Лотвиэля (апреля), среда_
 - [Карра](#карра)/[Селина](#селина)/[Гюнтер](#гюнтер): Мария избегает Розу и ходит так, чтобы ни в коем случае не
   пересечься.
 - [Гюнтер](#гюнтер)/[горожане](#горожане): видели, как Мария идёт в сторону площади на закате.
-- [Гюнтер](#гюнтер)/[Селина](#селина)/[горожане](#горожане): видели, как Роза в это время возвращалась в город на
-  закате.
+- - [Гюнтер](#гюнтер)/[Селина](#селина)/[горожане](#горожане): видели, как Роза в это время возвращалась в город на
+    закате.
 - ! Следы [у колодца](#заброшенный-район): амулет Марии.
 - [Роза](#роза)/[дети](#горожане): видели, как Мария начала прятаться и пошла в Заброшенный район.
 
@@ -502,7 +502,7 @@ _13 Лотвиэля (апреля), среда_
 **Вывод:** В городе действует сеть контрабанды.
 
 - Хельмут/Кенки: история про загадочных «торговцев», которые приехали под странным предлогом и обсуждали «медуз».
-- ! Осмотр [оставленных вещей](#вещи-торговцев): очевидное прикрытие + фальшивые бумаги.
+- - ! Осмотр [оставленных вещей](#вещи-торговцев): очевидное прикрытие + фальшивые бумаги.
 - [Йонас](#йонас) рассказывает о своём деде так, что похоже — дед был контрабандистом.
 - ! Замок в [доме Абрахама](#дом-абрахама) особенный, редкий; такие просто так не получают и не вешают.
 - ! [Дневник Абрахама](#дневник-абрахама): «товар доставят друзья из Медузы».
@@ -525,11 +525,11 @@ _13 Лотвиэля (апреля), среда_
 
 **Вывод:** Петер, Бошир и Абрахам пропали
 
-- [Гюнтер](#гюнтер): расскажет, что пропали «торговцы», которые подрались с Розой (он их искал, чтобы узнать, не знакомы
-  ли они с Розой).
-- [Гюнтер](#гюнтер) сообщит, что пропал и Абрахам; утром он спрашивал про купцов.
+- - [Гюнтер](#гюнтер): расскажет, что пропали «торговцы», которые подрались с Розой (он их искал, чтобы узнать, не
+    знакомы ли они с Розой).
+- - [Гюнтер](#гюнтер) сообщит, что пропал и Абрахам; утром он спрашивал про купцов.
 - ! Осмотр [вещей торговцев](#вещи-торговцев): (фальшивые) бумаги очень ценные — такое не бросают.
-- !? В [Доме Абрахама](#дом-абрахама) выбито окно, самого его нет.
+- - !? В [Доме Абрахама](#дом-абрахама) выбито окно, самого его нет.
 - [Йонас](#йонас) скажет, что тот оплатил дом на год, но давно не показывался.
 - [Гастон](#гастон): сообщит, что знакомые торговцы везли заказ кому-то в городе, но затем пропали.
 
@@ -537,10 +537,10 @@ _13 Лотвиэля (апреля), среда_
 
 **Вывод:** Нарастающая активность пауков.
 
-- Первые люди пропали полтора месяца назад.
+- - Первые люди пропали полтора месяца назад.
 - Стражники/горожане замечают, что последние месяц-полтора ночами меньше слышно пьяных гуляк – как будто не только люди
   избегают выходить после заката, но и животные.
-- ! Месяц назад начали пропадать крысы из [подвала Таверны](#подвал-таверны).
+- - ! Две недели назад начали пропадать крысы из [подвала Таверны](#подвал-таверны).
 - Дети перестали ходить в Заброшенный район (~2 недели).
 - Пропажа собак/кошек в последние две недели.
 
@@ -549,8 +549,8 @@ _13 Лотвиэля (апреля), среда_
 **Вывод:** В подземелье пауки
 
 - Кенки: У контрабандистов при себе был противоядный состав от нейротоксина.
-- ! [Подвал таверны](#подвал-таверны): Небольшие пауки в подвале таверны ведут себя так, как будто им кто-то приказывает
-  (бросают добычу и тянутся в щели вниз).
+- - ! [Подвал таверны](#подвал-таверны): Небольшие пауки в подвале таверны ведут себя так, как будто им кто-то
+    приказывает (бросают добычу и тянутся в щели вниз).
 - [Дневник Абрахама](#дневник-абрахама): упоминания об экспериментах с паучьим ядом, формула нейтрализации (в подвале
   также есть пузырьки с противоядием и алхимический набор).
 - ! + Селина/Слухи: Некоторым горожанам снятся сны, в которых они превращаются в пауков. (Атмосферная улика.)
@@ -2820,7 +2820,7 @@ _квестовый предмет_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/9986926-ashes-urn)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/9986926-ashes-urn)
 
 ::::
 
@@ -2855,7 +2855,7 @@ _квестовый предмет_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10160053-garrison-permit-of-san-soprigal)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10160053-garrison-permit-of-san-soprigal)
 
 ::::
 
@@ -2904,7 +2904,7 @@ _квестовый предмет_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10160022-mariias-diary)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10160022-mariias-diary)
 
 ::::
 
@@ -2960,7 +2960,7 @@ _квестовый предмет_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10160115-merchants-clothes)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10160115-merchants-clothes)
 
 ::::
 
@@ -3014,7 +3014,7 @@ _квестовый предмет_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10163775-abrahams-diary)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10163775-abrahams-diary)
 
 ::::
 
@@ -3078,7 +3078,7 @@ _квестовый предмет_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10163791-strange-item)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item)
 
 ::::
 
@@ -3194,7 +3194,7 @@ _чудесный предмет, редкий_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10163825-magic-lamp)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10163825-magic-lamp)
 
 ::::
 
@@ -3265,7 +3265,7 @@ _чудесный предмет, редкий_
 :::: credit
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10232719-abrahams-amulet-broken)
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10232719-abrahams-amulet-broken)
 
 ::::
 
@@ -3316,7 +3316,7 @@ _чудесный предмет, редкий_
 ![Item](./assets/illustrations/abrahams-amulet.png) {class="image"}
 
 <!-- prettier-ignore -->
-Предмет на [DndBeyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amulet) {class="credit"}
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amulet) {class="credit"}
 
 :::
 
@@ -3423,7 +3423,7 @@ _Немного модифицированный [рой насекомых](htt
 ![Monster](./assets/monsters/spellwarp-spider.png){style="height:280px;width:100%;object-fit:cover;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Монстр на [DndBeyond](https://www.dndbeyond.com/monsters/5421517-spellwarp-spider) {class="credit" align="right"}
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/monsters/5421517-spellwarp-spider) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3488,7 +3488,7 @@ _Модифицированный [Giant Wolf Spider](https://www.dndbeyond.com/
 ![Monster](./assets/monsters/spellwarp-spider-matriarch.png){style="height:280px;width:100%;object-fit:cover;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Монстр на [DndBeyond](https://www.dndbeyond.com/monsters/5421537-spellwarp-spider-matriarch) {class="credit" align="right"}
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/monsters/5421537-spellwarp-spider-matriarch) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3560,7 +3560,7 @@ _Модифицированный [Giant Spider](https://www.dndbeyond.com/monst
 ![Monster](./assets/monsters/guards.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Монстр на [DndBeyond](https://www.dndbeyond.com/monsters/5566979-imperial-guard) {class="credit" align="right"}
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/monsters/5566979-imperial-guard) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3619,7 +3619,7 @@ _Модифицированный [Guard](https://www.dndbeyond.com/monsters/519
 ![Monster](./assets/monsters/guard-captian.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Монстр на [DndBeyond](https://www.dndbeyond.com/monsters/5311650-hurgkhan) {class="credit" align="right"}
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/monsters/5311650-hurgkhan) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3683,7 +3683,7 @@ _Модифицированный [Guard Captain](https://www.dndbeyond.com/mons
 ![Monster](./assets/monsters/paladin.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Монстр на [DndBeyond](https://www.dndbeyond.com/monsters/5559472-paladin-of-the-church-of-light) {class="credit" align="right"}
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/monsters/5559472-paladin-of-the-church-of-light) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3757,7 +3757,7 @@ _Мастерство:_ [Секущее](https://www.dndbeyond.com/sources/dnd/b
 ![Monster](./assets/monsters/smuggler.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Монстр на [DndBeyond](https://www.dndbeyond.com/monsters/5567107-black-meduza-bandit) {class="credit" align="right"}
+Онлайн-версия на [D&D Beyond](https://www.dndbeyond.com/monsters/5567107-black-meduza-bandit) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3805,7 +3805,7 @@ skills="Акробатика +5, Скрытность +7"
 ::: wide
 
 <!-- prettier-ignore -->
-_Модифицированный [Bandit Deceiver](https://www.dndbeyond.com/monsters/5194914-bandit-deceiver)_ {style="text-align:right;margin:0;font-size:.9em"}
+_Модифицированный [Bandit](https://www.dndbeyond.com/monsters/5194915-bandit)_ {style="text-align:right;margin:0;font-size:.9em"}
 
 :::
 

@@ -46,14 +46,14 @@ misdirect you, and a wrong accusation could spark fresh tragedy.
 
 ## Overview
 
-A D&D (2024) adventure for 3–4 characters of levels 1–3.
+An adventure for 3–4 characters of levels 1–3, compatible with the 5th edition rules (2024 revision).
 
 ::: definition
 
 **Estimated runtime:** 10–16 hours.
 
-**Setting:** San Soprigal (a contained, closed-town scenario). The world Azalia takes inspiration from _Might & Magic X_
-and Terry Pratchett’s _Discworld_.
+**Setting:** San Soprigal (a contained, closed-town scenario). Atmosphere and tone are inspired by _Might & Magic X_ and
+Terry Pratchett’s _Discworld_.
 
 **Genres:** investigation-forward, roleplay-heavy, light on combat.
 
@@ -75,19 +75,23 @@ The page numbers in the corner allow you to quickly return to the table of conte
 
 ## License
 
-All references to Dungeons & Dragons and related materials are the property of Wizards of the Coast. This material is
-not an official product and is not supported or endorsed by Wizards of the Coast. All trademarks and copyrights related
-to Dungeons & Dragons belong to their respective owners.
+This work includes material from the System Reference Document 5.2.1 (“SRD 5.2.1”) by Wizards of the Coast LLC,
+available at https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative Commons
 
-This material is for personal use only and not for commercial distribution.
+This product contains optional links to content on D&D Beyond. These links are provided only for the convenience of
+Dungeon Masters who run their games on D&D Beyond. All content on D&D Beyond is governed by Wizards of the Coast / D&D
+Beyond terms of use and is not included in the licensed content of this PDF, is not resold here, and is not required to
+use this adventure.
 
-The adventure is designed using [DnD Flavored Markdown](https://github.com/zavoloklom/dnd-flavored-markdown). All images
-were generated with ChatGPT.
+Maps were created by the author in [Inkarnate](https://inkarnate.com/). Images were generated with ChatGPT. These assets
+are the author’s own work and are not part of the SRD 5.2 content.
 
-Author — [Sergey Kupletsky](mailto:s.kupletsky@gmail.com).
+The adventure is designed using [D&D Flavored Markdown](https://github.com/zavoloklom/dnd-flavored-markdown).
+
+© 2025 [Sergey Kupletsky](mailto:s.kupletsky@gmail.com). All rights reserved.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/streets.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:700px; width: 400px; bottom: 60px; object-position: center -100px;"}
+![Illustration](./assets/illustrations/streets.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:500px; width:400px; bottom:0; object-position: center -100px;"}
 
 ::: page {show-page-number="false"}
 
@@ -180,8 +184,8 @@ All practitioners of magic must hold a permit to reside in the Holy Empire or a 
 
 Any unsanctioned magic leads to interrogation, arrest, or execution.
 
-Attempts to use magic tied to other planes (_plane shift_, _gate_, _summon fiend_, _contact other plane_, etc.) may have
-catastrophic effects, or the spell simply fails.
+Attempts to use magic tied to other planes (_plane shift_, _gate_, _contact other plane_, etc.) may have catastrophic
+effects, or the spell simply fails.
 
 ## Species of the Holy Empire
 
@@ -201,10 +205,6 @@ arm’s length.
 **Tieflings** — the result of mages experimenting with demonic blood over the last two years. Unknown to anyone but
 their creators. You may play a tiefling who somehow escaped. An unmasked tiefling will likely be taken for a demon and
 attacked on sight.
-
-**Aasimar** — humans bearing an implanted angelic soul (they don’t know this). Innate powers are restricted: in a
-critical moment, they may manifest involuntarily if the character fails a DC 15 Wisdom saving throw. The more often
-these powers are used, the stronger the angel’s influence grows (control passes to the DM).
 
 **Dragonborn** — absent (not a playable species).
 
@@ -2696,7 +2696,7 @@ _Quest Item_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/9986926-ashes-urn)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/9986926-ashes-urn)
 
 ::::
 
@@ -2730,7 +2730,7 @@ _Quest Item_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160053-garrison-permit-of-san-soprigal)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160053-garrison-permit-of-san-soprigal)
 
 ::::
 
@@ -2780,7 +2780,7 @@ _Quest Item_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160022-mariias-diary)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160022-mariias-diary)
 
 ::::
 
@@ -2837,7 +2837,7 @@ _Quest Item_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160115-merchants-clothes)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10160115-merchants-clothes)
 
 ::::
 
@@ -2892,7 +2892,7 @@ _Quest Item_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163775-abrahams-diary)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163775-abrahams-diary)
 
 ::::
 
@@ -2955,7 +2955,7 @@ _Quest Item_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163791-strange-item)
 
 ::::
 
@@ -3072,7 +3072,7 @@ _Wondrous Item, Rare_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163825-magic-lamp)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10163825-magic-lamp)
 
 ::::
 
@@ -3143,7 +3143,7 @@ _Wondrous Item, Rare_
 :::: credit
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232719-abrahams-amulet-broken)
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232719-abrahams-amulet-broken)
 
 ::::
 
@@ -3193,7 +3193,7 @@ unlocks the magic properties.
 ![Item](./assets/illustrations/abrahams-amulet.png) {class="image"}
 
 <!-- prettier-ignore -->
-Item on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amulet) {class="credit"}
+Online version on [D&D Beyond](https://www.dndbeyond.com/magic-items/10232700-abrahams-amulet) {class="credit"}
 
 :::
 
@@ -3301,7 +3301,7 @@ creature’s arcane structure.
 ![Monster](./assets/monsters/spellwarp-spider.png){style="height:280px;width:100%;object-fit:cover;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5421517-spellwarp-spider) {class="credit" align="right"}
+Online version on [D&D Beyond](https://www.dndbeyond.com/monsters/5421517-spellwarp-spider) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3366,7 +3366,7 @@ an extension of her will.
 ![Monster](./assets/monsters/spellwarp-spider-matriarch.png){style="height:280px;width:100%;object-fit:cover;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5421537-spellwarp-spider-matriarch) {class="credit" align="right"}
+Online version on [D&D Beyond](https://www.dndbeyond.com/monsters/5421537-spellwarp-spider-matriarch) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3439,7 +3439,7 @@ spells.
 ![Monster](./assets/monsters/guards.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5566979-imperial-guard) {class="credit" align="right"}
+Online version on [D&D Beyond](https://www.dndbeyond.com/monsters/5566979-imperial-guard) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3498,7 +3498,7 @@ leaves people in danger, even when it’s reckless.
 ![Monster](./assets/monsters/guard-captian.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5311650-hurgkhan) {class="credit" align="right"}
+Online version on [D&D Beyond](https://www.dndbeyond.com/monsters/5311650-hurgkhan) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3562,7 +3562,7 @@ leads to chaos.
 ![Monster](./assets/monsters/paladin.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5559472-paladin-of-the-church-of-light) {class="credit" align="right"}
+Online version on [D&D Beyond](https://www.dndbeyond.com/monsters/5559472-paladin-of-the-church-of-light) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3636,7 +3636,7 @@ for criminals and the nobility.
 ![Monster](./assets/monsters/smuggler.png){style="height:280px;width:100%;object-fit:cover;object-position:top;border-radius:2mm"} {align="right"}
 
 <!-- prettier-ignore -->
-Stat block on [D&D Beyond](https://www.dndbeyond.com/monsters/5567107-black-meduza-bandit) {class="credit" align="right"}
+Online version on [D&D Beyond](https://www.dndbeyond.com/monsters/5567107-black-meduza-bandit) {class="credit" align="right"}
 
 ::: column-reset
 
@@ -3682,7 +3682,7 @@ minute. A strong wind (such as the Gust of Wind spell) disperses the smoke.
 ::: wide
 
 <!-- prettier-ignore -->
-_Modified from the [Bandit Deceiver](https://www.dndbeyond.com/monsters/5194914-bandit-deceiver)._ {style="text-align:right;margin:0;font-size:.9em"}
+_Modified from the [Bandit](https://www.dndbeyond.com/monsters/5194915-bandit)._ {style="text-align:right;margin:0;font-size:.9em"}
 
 :::
 
