@@ -46,7 +46,7 @@ misdirect you, and a wrong accusation could spark fresh tragedy.
 
 ## Overview
 
-An adventure for 3–4 characters of levels 1–3, compatible with the 5th edition rules (2024 revision).
+An adventure for 3–4 characters of levels 1–3, compatible with the 5th edition rules (2024).
 
 ::: definition
 
@@ -91,7 +91,7 @@ The adventure is designed using [D&D Flavored Markdown](https://github.com/zavol
 © 2025 [Sergey Kupletsky](mailto:s.kupletsky@gmail.com). All rights reserved.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/streets.png){class="absolute-bottom-right mask mask--watercolor-03" style="height:500px; width:400px; bottom:0; object-position: center -100px;"}
+![Illustration](./assets/illustrations/streets.png){class="mask mask--watercolor-05" style="height:390px;width:320px;"}
 
 ::: page {show-page-number="false"}
 
@@ -159,7 +159,6 @@ The adventure is designed using [D&D Flavored Markdown](https://github.com/zavol
 - [Appendix: Pantheon](#appendix-pantheon)
 - [Appendix: Month Names](#appendix-month-names)
 - [Appendix: Books](#appendix-books)
-- [Appendix: Prices in Tavern](#appendix-prices-at-the-tavern-by-the-sea)
 - [Appendix: Maps for Players](#appendix-maps-for-players)
 - [Appendix: Music and Generators](#appendix-music-and-generators)
 
@@ -502,7 +501,7 @@ dialogue—use them as needed, or ignore them:
 - A dragon hunt in the mountains with **Duncan**.
 - A joint investigation with **Rosa** into the attacks on merchants.
 
-::: page {layout="auto"}
+::: page
 
 ::: chapter Chapter 1 | Arrival
 
@@ -540,7 +539,7 @@ As the party nears town, memories surface. Ask the players to briefly describe h
 how they met Jared.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/ship.png){class="absolute-bottom-right mask mask--watercolor-02" style="height:710px; width: 430px; bottom: 40px; object-position: -90px -90px;"}
+![Illustration](./assets/illustrations/ship.png) {style="width:320px;height:305px" class="framed-image"}
 
 ::: page
 
@@ -586,7 +585,7 @@ Locals can tell you the last time they heard this signal was during the demon on
 The scene moves to **[Maria’s House](#marias-house)**.
 
 <!-- prettier-ignore -->
-![Illustration](./assets/illustrations/city.png) {style="height:515px" class="framed-image"}
+![Illustration](./assets/illustrations/city.png) {style="height:520px" class="framed-image"}
 
 ::: page
 
@@ -3926,35 +3925,6 @@ living or sacred. In all other cases distortion occurs.
 
 What follows is a description of several methods by which a soul **must not, under any circumstances,** be kept in this
 world after death.
-
-::: page {layout="wide" chapter="Appendix | Tavern Prices"}
-
-# Appendix: Prices at the Tavern “By the Sea”
-
-#### Menu
-
-| Service                                  | Price | Notes                               |
-| :--------------------------------------- | :---- | :---------------------------------- |
-| Simple supper (fish, bread, ale)         | 5 cp  | Filling, a bit rough                |
-| Good supper (roast, bread, a mug of ale) | 2 sp  | Evenings only                       |
-| Dish to order (player’s choice)          | 5 sp+ | Helmut will sigh, but he’ll cook it |
-| Pitcher of cheap ale (1 L)               | 1 sp  | Enough for a small group            |
-| Carafe of local wine                     | 3 sp  | Suspiciously sweet                  |
-
-#### Lodging
-
-| Service                                            | Price | Notes                            |
-| :------------------------------------------------- | :---- | :------------------------------- |
-| Spot in the common room (on straw)                 | 1 sp  | In the corner, mice adjacent     |
-| Standard room for one (two if one sleeps on floor) | 5 sp  | Simple, with a lock              |
-| “For important guests” room                        | 1 gp  | Only one; best bed and hot water |
-
-#### Extras
-
-| Service                   | Price | Notes                       |
-| :------------------------ | :---- | :-------------------------- |
-| Laundry service           | 1 sp  | Ready the following morning |
-| Late checkout (till dusk) | +2 cp | If you don’t vacate on time |
 
 ::: page {chapter="Appendix | Maps for Players"}
 
