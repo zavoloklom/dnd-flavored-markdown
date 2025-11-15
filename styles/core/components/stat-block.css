@@ -1,4 +1,5 @@
 .stat-block {
+    position: relative;
     font-family: var(--font-sans, sans-serif), sans-serif;
 
     padding: 4mm;
@@ -9,9 +10,19 @@
     outline: 1px solid var(--stat-block-border-color, #afa47a);
     outline-offset: -1mm;
     border-radius: 2mm;
-    filter: drop-shadow(0 0 5px #979AA4);
+    /*filter: drop-shadow(0 0 5px #979AA4);*/
 
     break-inside: avoid;
+}
+
+.stat-block__fake-shadow {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    z-index: -1;
+    border-radius: 2mm;
+    filter: drop-shadow(0 0 5px #979AA4);
+    pointer-events: none;
 }
 
 .stat-block__title {

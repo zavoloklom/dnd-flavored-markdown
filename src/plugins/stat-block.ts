@@ -199,6 +199,7 @@ export function useStatBlock(md: MarkdownIt) {
 
         const html: string[] = []
         html.push(`<article${attrStr}>`)
+        html.push(`<div class="stat-block__fake-shadow"></div>`)
         html.push(`<header class="stat-block__header">`)
         html.push(`<h2 class="stat-block__title">${title}</h2>`)
         if (subTitle) html.push(`<p class="stat-block__meta">${subTitle}</p>`)
