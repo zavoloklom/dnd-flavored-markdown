@@ -52,11 +52,11 @@ In addition, whenever you cast that spell, you can choose one of the following a
 spell
 save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.
 
-![Illustration](./example/assets/illustrations/city.png) {style="height:520px" class="framed-image"}
+![Illustration](the-missing-merchant/assets/illustrations/city.png) {style="height:520px" class="framed-image"}
 
 ::: page {type="inside-cover"}
 
-![Monk Cover](./index/monk_official.png) {class="cover"}
+![Monk Cover](assets/monk_official.png) {class="cover"}
 
 # Monk
 
@@ -130,7 +130,7 @@ You gain the following benefits while you are unarmed or wielding only Monk weap
 
 ::::
 
-![Item](./index/background_guard.jpg) {class="cover"}
+![Item](assets/background_guard.jpg) {class="cover"}
 
 :::: credit
 
@@ -165,7 +165,7 @@ Your feet ache when you remember the countless hours you spent at your post in t
 
 ::::
 
-![Item](./index/background_guide.jpg) {class="cover"}
+![Item](assets/background_guide.jpg) {class="cover"}
 
 :::: credit
 
@@ -208,7 +208,7 @@ You came of age outdoors, far from settled lands. Your home was anywhere you cho
 
 ::: column
 
-![NPC: City Folk](./example/assets/npc/city-folk.png) {class="framed-image"}
+![NPC: City Folk](the-missing-merchant/assets/npc/city-folk.png) {class="framed-image"}
 
 _фоновые персонажи, отражающие атмосферу города_ {align="center"}
 

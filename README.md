@@ -44,7 +44,7 @@ improvements are possible only if:
 
 ## Examples
 
-The adventure source files are in the `content/example` folder, and you can view the generated PDF here: **[link]()**.
+The adventure source files are in the `content/the-missing-merchant` folder, and you can view the generated PDF here: **[link]()**.
 
 These are screenshots taken on macOS using **Preview**.
 
@@ -109,7 +109,7 @@ D&D-Flavored Markdown (DFM) — это надстройка над CommonMark с
 
 ## Примеры
 
-Исходные файлы находятся в папке `content/example`, а сгенерированный PDF можно посмотреть здесь: **[ссылка]()**.
+Исходные файлы находятся в папке `content/the-missing-merchant`, а сгенерированный PDF можно посмотреть здесь: **[ссылка]()**.
 
 Это скриншоты, сделанные на macOS в программе **Preview**.
 

@@ -4016,7 +4016,7 @@ Catacombs:
 
 ::: page {type="back-cover"}
 
-::: cover {style="background-image:url('/content/example/assets/covers/back-cover.png')"}
+::: cover {style="background-image:url('/content/the-missing-merchant/assets/covers/back-cover.png')"}
 
 # Thank You
 
