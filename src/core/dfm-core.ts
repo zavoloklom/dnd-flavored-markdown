@@ -2,22 +2,22 @@
 
 import MarkdownIt from 'markdown-it'
 import mkAttrs from 'markdown-it-attrs'
-import matter from 'gray-matter'
+import matter, {GrayMatterFile} from 'gray-matter'
 import { applyDfmPlugins } from './dfm-plugins';
 import { escapeHtml } from '../utils/escape-html';
 
 // --- Markdown factory (shared) ---
-export function createMarkdownIt(): MarkdownIt {
+export function createMarkdownIt(fm: GrayMatterFile<string>): MarkdownIt {
     const md = new MarkdownIt({ html: true, linkify: true, typographer: true })
         .use(mkAttrs)
-    applyDfmPlugins(md)
+    applyDfmPlugins(md, fm)
     return md
 }
 
 // --- Render pipeline (shared) ---
 export function renderMarkdownToBody(markdownSource: string) {
     const fm = matter(markdownSource) // { data, content }
-    const md = createMarkdownIt()
+    const md = createMarkdownIt(fm)
     const bodyHtml = md.render(fm.content)
     return { bodyHtml, frontmatter: (fm.data ?? {}) as Record<string, unknown> }
 }

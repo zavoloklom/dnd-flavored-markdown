@@ -63,7 +63,7 @@ p {
     padding: 0;
     margin: 1mm 0;
     overflow-wrap: break-word;
-    hyphens: auto;
+    hyphens: manual;
 }
 p + p  {
     text-indent: 2mm;
