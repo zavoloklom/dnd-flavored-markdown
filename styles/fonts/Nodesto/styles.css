@@ -1,6 +1,4 @@
 @font-face {
     font-family: "Nodesto Caps Condensed";
-    src:
-            local("Nodesto Caps Condensed"),
-            url('./NodestoCyrillicRegular.ttf');
+    src: url('./NodestoCyrillicRegular.ttf');
 }
