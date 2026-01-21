@@ -568,19 +568,19 @@ After passing the gate:
 
 > As you enter, a troubling scene unfolds:
 >
-> One house looks like it’s been broken into—the door is smashed, and armed guards stand on the threshold. A handful of
-> gawkers whisper among themselves. A half-orc in armor—the one in charge, by the look of it—scans the surroundings with
-> a scowl. Beside him stands a young guard, visibly shaken.
-
-Locals can tell you the last time they heard this signal was during the demon onslaught.
+> One house looks like it’s been broken into—the door is smashed, and two armed guards stand on the threshold. A handful
+> of gawkers whisper among themselves. A half-orc in armor—the one in charge, by the look of it—scans the surroundings
+> with a scowl. Beside him stands a young guard, visibly shaken.
 
 > The half-orc raises a horn to his lips and blows so the sound rolls across the cliffs and the bay—the whole town hears
 > it. He lifts a hand for silence and calls out:
 >
 > _“Soprigal is closed! No one leaves town without my say until we get to the bottom of this!”_
 >
-> The crowd buzzes; voices overlap. Your road to **Karthal** will have to wait—the town is sealed, and something strange
-> is afoot.
+> The crowd buzzes; voices overlap. Your road to Karthal will have to wait—the town is sealed, and something strange is
+> afoot.
+
+Locals can tell that the last time they heard this signal was during the demon incursion.
 
 The scene moves to **[Maria’s House](#marias-house)**.
 
@@ -604,7 +604,7 @@ _Visual reference—Mediterranean towns such as Atrani (Italy)._
 
 ## Districts
 
-The town is divided into several districts:
+The town is divided into several districts, each with its own atmosphere.
 
 ::: definition
 
@@ -616,29 +616,25 @@ alarm rigs.
 
 **Central District.** The town square, main buildings, and the market. Notices are posted here and crowds gather.
 
-**Craft District.** Stables, forges, and workshops run all day. Most residents here also work here.
+**Craft District.** Stables, forge, and workshops run all day. Most residents here also work here.
 
 **Abandoned District.** Half-ruined houses and vacant lots left after the demon incursion. Locals avoid the area.
 
-**Mountain District.** Terrace homes along the slope and steep stairs. Strong winds blow; stones come loose. Entrances
-to old—usually abandoned—mines are found here.
+**Mountain District.** Terrace homes along the slope and steep stone stairways. A strong wind blows, and landslides
+sometimes occur. Entrances to old mines, most of them abandoned.
 
 :::
 
 ::: column
 
-## Location Format
+## Public Order
 
-This chapter details San Soprigal’s key locations. Each location follows the same template: description, NPCs, items,
-information, encounters.
+Open use of weapons and magic (casting with visible effects) is prohibited in town.
 
-Information in locations is what can be learned **on site** (search, tracks, environmental context), whereas information
-in NPC cards (see “[Appendix: Characters](#appendix-characters)”) is what they can tell the party anywhere in town.
+Order is kept by a small guard force. If the players plan something shady, they can acquire the patrol schedule to
+choose a route and timing and avoid getting caught.
 
-## The Guard
-
-Open use of weapons and magic is prohibited in town. Order is kept by a small guard force. If the players plan something
-shady, they can acquire the patrol schedule to choose a route and timing and avoid getting caught.
+The prison is located in [the garrison](#garrison) building.
 
 #### Guard Schedule
 
@@ -650,6 +646,14 @@ shady, they can acquire the patrol schedule to choose a route and timing and avo
 | Old Tower   | 1 guard  | —        |
 | Town Patrol | 2 guards | 2 guards |
 | **Total:**  | **8**    | **4**    |
+
+## Location Format
+
+This chapter details San Soprigal’s key locations. Each location follows the same template: description, characters,
+items, information, events.
+
+Information in locations is what can be learned **on site** (search, tracks, environmental context), whereas information
+in NPC cards (see “[Appendix: Characters](#appendix-characters)”) is what they can tell the party anywhere in town.
 
 ::: page
 
@@ -704,7 +708,7 @@ _Number on the [map](#town-map)—**1**. Available only on the morning of Day On
 >
 > Noticing you, a cloaked man turns and watches intently.
 
-## NPCs
+## Characters
 
 - [Duncan](#duncan)—a former adventurer; speaking with the fishermen.
 - Local [fishermen](#city-folk).
@@ -736,15 +740,15 @@ _Number on the [map](#town-map)—**2**._
 A small one-story house with a smashed-in door.
 
 > You step over the threshold of a small but cozy home. It’s quiet and tidy inside. The air smells of incense and dried
-> herbs. On a low table sit vials of oils and bundles of oregano and lavender. Above the table—a shelf of books.
+> herbs. On a low table sit vials of oils and bundles of herbs. Above the table—a shelf of books.
 >
 > Beyond a light curtain you can see a tiny kitchen and bedroom.
 
-## NPCs
+## Characters
 
 - [Hurgkhan](#hurgkhan)—morning of Day One. Calm, businesslike.
 - [Günter](#günter)—morning of Day One. Pale, tense, clearly on edge.
-- [The Guard]()—after Hurgkhan and Günter leave, a watch remains at the door until it’s repaired.
+- [Guards](#guards)—after Hurgkhan and Günter leave, a watch remains at the door until it’s repaired.
 
 ## Items
 
@@ -769,18 +773,18 @@ A small one-story house with a smashed-in door.
 
 - **Kitchen.** A thin film has formed on the infusion—the cup has sat since last evening.
 - **Kitchen.** `@Nature 12`—the infusion is a calming draught.
-- **Oil table.** `@Survival 14`—among the usual herbs are poisonous ones (hemlock, buckthorn).
+- **Oil table.** `@Survival 14`—besides ordinary herbs, there are also poisonous ones (hemlock, buckthorn).
 - **Books.** `@Perception 13`—dried flowers and a small love note slip from between the pages.
 - **Bedroom.** `@Perception 10`—[Maria’s diary](#marias-diary) is hidden under the bed.
 - **Book hiding place.** `@Investigation 14` or `@Arcana 10`—a spell scroll with brief instructions is tucked between
-  pages.
+  books.
 
 ## Events
 
 **Searching the house.** If the characters ask about the lockdown: _“Can’t help you—the order’s given. But you can help
-the investigation: the sooner we find Maria, the sooner you’re on your way.”_ If the party hangs back, Hurgkhan notices
-them anyway, sizes them up as adventurers, and addresses them: _“You’re not locals. Will you help? We’re short on hands.
-There’ll be a modest reward.”_
+the investigation: the sooner we find Maria, the sooner you’re on your way.”_ If the party stand aside, Khurgan
+approaches them himself. He realizes they’re adventurers and says, _“You’re not locals. Will you help? We’re short on
+hands. There’ll be a modest reward.”_
 
 Hurgkhan **sends Günter to the garrison** and invites the characters to search the house under his supervision. Any
 attempt to remove items is stopped; he warns that it means arrest. If the characters confirm there was **no abduction
@@ -822,9 +826,9 @@ If the characters look around:
 > You also notice that **one of the market stalls is empty**: the counter is covered with canvas, and no vendor is in
 > sight.
 
-If the party doesn’t yet have a town map, you can hand it out after this description.
+If the party doesn’t yet have [a town map](#appendix-maps-for-players), you can hand it out after this description.
 
-## NPCs
+## Characters
 
 - [Karra](#karra)—a trinket seller. Her stall stands next to Maria’s (currently empty). If the party starts examining
   the empty stall, Karra will strike up a conversation.
@@ -880,7 +884,7 @@ If **Gaston** is in the tavern:
 
 ::: column
 
-## NPCs
+## Characters
 
 - [Helmut](#helmut)—the tavern owner. Greets the party and offers food and lodging.
 - [Kenki](#kenki)—a goblin server. If the party listens in or looks around, he offers to sell information.
@@ -983,7 +987,7 @@ Rosa’s cell:
 
 > A modest room: a wooden bed, a table, a prayer bench. On the table lie peninsula maps and a few notes.
 
-## NPCs
+## Characters
 
 - [Selina](#selina)—priestess. Greets the party and invites them inside.
 - [Rosa](#rosa)—paladin. In her cell.
@@ -1032,7 +1036,7 @@ _Number on the [map](#town-map)—**6**._
 
 Without a [Garrison Permit](#garrison-permit), the guard inside requires you to check your weapons at the entrance.
 
-## NPCs
+## Characters
 
 - [Hurgkhan](#hurgkhan)—garrison commander.
 - [Günter](#günter)—a guard, pinning a missing-person notice for Maria to the board.
@@ -1106,7 +1110,7 @@ _Number on the [map](#town-map)—**10**._
 > One spot catches your eye—a short stretch of shoreline vanishes behind the cliffs. It seems you can’t see the entire
 > coast from here; a small cove is hidden from view.
 
-## NPCs
+## Characters
 
 - [Guard](#guards)—the sentry on the platform. Displeased with visitors; without a [Garrison Permit](#garrison-permit)
   he asks you to leave the tower. `@Persuasion 12`—allows a brief lookaround.
@@ -1159,7 +1163,7 @@ _Number on the [map](#town-map)—**8**._
 
 ::: column
 
-## NPCs
+## Characters
 
 - [Guards](#guards). Stern and tight-lipped: no one passes without an order from **[Hurgkhan](#hurgkhan)**. A
   [Garrison Permit](#garrison-permit) does not apply here.
@@ -1264,7 +1268,7 @@ _Number on the [map](#town-map)—**9**._
 > Inside it’s dry and stuffy. Dust lies evenly across the wooden floor; motes dance in the light from the window. The
 > furniture is intact and neatly arranged, but it feels like no one has lived here for a long time.
 
-## NPCs
+## Characters
 
 - [Jonas](#jonas)—a coachman, the owner. If the party lingers outside, he comes by and offers to rent the house to them.
 - [Gaston](#gaston)—a smuggler. Keeps an eye on the place and will approach if the party is breaking in **in the
@@ -1382,7 +1386,7 @@ _Number on the [map](#town-map)—**5**._
 > At a desk buried in books, notes, and unsorted records sits an elderly librarian. His quill scratches on paper; he
 > barely seems to notice you. Without looking up, he mutters, “No noise. History likes quiet. So do I.”
 
-## NPCs
+## Characters
 
 **German**—an elderly librarian with tousled white hair and round spectacles forever sliding down his nose. He wears an
 old-fashioned vest and a patched, worn cloak. He prefers books to people, but warms to anyone who respects knowledge.
@@ -2532,7 +2536,7 @@ They can share rumors from **[Appendix: Rumors](#appendix-rumors)**.
 
 **Vendors:**
 
-- Maria was at the market until about **6:00 pm** yesterday, then headed home.
+- Maria was at the market yesterday, then headed home.
 - Noticed Maria avoiding Rosa. They’re uneasy around Rosa too.
 
 **Fishers:**
@@ -2548,8 +2552,8 @@ They can share rumors from **[Appendix: Rumors](#appendix-rumors)**.
 **Children:**
 
 - Used to play in the Abandoned District, but now it’s “really scary.”
-- Saw a **young woman** walking toward the Abandoned District at sunset, looking over her shoulder. It struck them as
-  odd—no one goes there now, not even they do.
+- Saw a young woman walking toward the Abandoned District at sunset, looking over her shoulder. It struck them as odd—no
+  one goes there now, not even they do.
 
 ::: page
 
