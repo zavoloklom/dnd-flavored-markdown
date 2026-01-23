@@ -802,7 +802,7 @@ for the on-duty guard.
 _Number on the [map](#town-map)—**3**._
 
 > A narrow cobbled street opens onto a broad square—the heart of San Soprigal. Traders call out over one another;
-> laughter, footsteps, and the clink of coins mingle in the air. It smells of fried fish and fresh bread.
+> laughter, conversations, and the clink of coins mingle in the air. It smells of fried fish and fresh bread.
 >
 > At the center stands a stone fountain with a figure of an angel above carved waves. Water murmurs over the
 > time-darkened rim. Under canvas awnings, rows of stalls crowd together. People weave between them—some hurrying on
@@ -843,7 +843,7 @@ If the party doesn’t yet have [a town map](#appendix-maps-for-players), you ca
 
 ## Events
 
-When the characters arrive at the square, one of the following may occur; intervention isn’t required.
+When the characters arrive at the square, one of the following may occur but intervention isn’t required.
 
 #### Random Events (d6)
 
@@ -889,9 +889,9 @@ If **Gaston** is in the tavern:
 - [Helmut](#helmut)—the tavern owner. Greets the party and offers food and lodging.
 - [Kenki](#kenki)—a goblin server. If the party listens in or looks around, he offers to sell information.
 - [Duncan](#duncan)—a former adventurer, the cloaked man.
-- [Gaston](#gaston)—a smuggler, the man at the bar. He makes contact if there’s a rogue in the party or if the
+- [Gaston](#gaston)—a smuggler, the man at the bar. He makes contact if there’s a _rogue_ in the party or if the
   characters talk about smuggling.
-- [Townsfolk](#city-folk). If you build rapport, they share rumors (`@Persuasion 10`); to eavesdrop on conversations,
+- [Townsfolk](#city-folk). If you build rapport `@Persuasion 10`, they share rumors; to eavesdrop on conversations,
   `@Perception 12`.
 
 ## Items
@@ -907,7 +907,7 @@ If **Gaston** is in the tavern:
 ## Events
 
 **Helmut’s Job.** He asks you to find out where the rats are disappearing to; reward—**10 gp**, plus a free meal and
-lodging.
+lodging in the best room.
 
 > Helmut raises rats in the cellar—plump fried river rats are a dwarven delicacy. Two weeks ago they started vanishing:
 > first one or two, now whole cages are empty. He suspects theft but can’t see who’d want them, and asks you to check
@@ -1010,11 +1010,10 @@ On the lower tier the characters can discover a chained man.
 > on the floor. On one wall, in chalk: “The Light does not dazzle—it burns.” It looks like someone tried to scrub it
 > off. The man rasps, as if trying to say something to you.
 
-If the party tries to free him, it turns out this is voluntary treatment and must not be interrupted. If **Selina**
-learns of it, her attitude becomes **hostile**.
+If the party tries to free him, it turns out this is voluntary treatment “the dry cell” and must not be interrupted. If
+**Selina** learns of it, her attitude becomes **hostile**.
 
-This man can tell you he used to drink with **Bertram**. At his family’s urging he agreed to temple care (“the dry
-cell”).
+This man can tell you he used to drink with **Bertram**. At his family’s urging he agreed to temple care.
 
 <!-- prettier-ignore -->
 ![Illustration](./assets/illustrations/temple-cell.png) {style="width:320px;height:240px;" class="framed-image"}
@@ -1034,7 +1033,7 @@ _Number on the [map](#town-map)—**6**._
 > Along one wall run barred cell doors—the town jail is here as well. **Hurgkhan**, arms folded, is speaking with a
 > guard.
 
-Without a [Garrison Permit](#garrison-permit), the guard inside requires you to check your weapons at the entrance.
+Without a [Garrison Permit](#garrison-permit), the guard requires you to check your weapons at the entrance.
 
 ## Characters
 
@@ -1048,9 +1047,9 @@ Without a [Garrison Permit](#garrison-permit), the guard inside requires you to 
 
 ## Events
 
-**Debate over independence.** The characters notice two guards arguing heatedly. One: “The Empire abandoned us during
-the siege—we managed on our own.” The other: “Without the Empire, the mages and elves will tear us apart.” If the party
-joins the debate, the guard whose stance they support becomes **friendly**.
+**Debate over independence.** The characters notice two guards arguing heatedly. One: _“The Empire abandoned us during
+the siege—we managed on our own.”_ The other: _“Without the Empire, the mages and elves will tear us apart.”_ If the
+party joins the debate, the guard whose stance they support becomes **friendly**.
 
 **Jail inspection.** In one cell—a drunk brawler. He mutters about spiders and begs you to “get the one in the corner”
 to stop watching him.
@@ -1100,10 +1099,10 @@ _Number on the [map](#town-map)—**10**._
 > arrow slits. At the summit a sentry’s silhouette stares into the horizon. Inside, a spiral staircase climbs to the
 > viewing platform.
 
-**View from the tower**
+View from the tower:
 
-> From the top, San Soprigal lies at your feet like a toy. Beyond the western wall, the road runs into fields and
-> groves. Somewhere out there, past the hills, lies the way to **Karthal**.
+> San Soprigal lies at your feet like a toy. Beyond the western wall, the road runs into fields and groves. Somewhere
+> out there, past the hills, lies the way to **Karthal**.
 
 `@Perception 15`:
 
@@ -1119,7 +1118,7 @@ _Number on the [map](#town-map)—**10**._
 
 - The sentry says **Günter** asked to take the watch early yesterday—“before sunset.”
 - When the sentry arrived this morning, the tower was cleaned up better than ever before.
-- `@Perception 15` the cove beneath the cliff cannot be seen from the tower.
+- `@Perception 15` the cove beneath the cliff cannot be seen from the tower (number on the [map](#town-map)—**11**).
 
 ::: column
 
@@ -1158,7 +1157,7 @@ _Number on the [map](#town-map)—**8**._
 >
 > A few guards stand by the gate, keeping order.
 >
-> Nearby, townsfolk cluster—exchanging glances and whispers but not drawing closer. There’s more worry than curiosity in
+> Nearby, several teenagers—exchanging glances and whispers but not drawing closer. There’s more worry than curiosity in
 > their eyes.
 
 ::: column
@@ -1168,7 +1167,7 @@ _Number on the [map](#town-map)—**8**._
 - [Guards](#guards). Stern and tight-lipped: no one passes without an order from **[Hurgkhan](#hurgkhan)**. A
   [Garrison Permit](#garrison-permit) does not apply here.
 - [Rosa](#rosa)—paladin. May attempt to leave, which can trigger a conflict with Hurgkhan.
-- [Townsfolk](#city-folk) at the gate; children play nearby.
+- [Townsfolk](#city-folk).
 
 ## Information
 
@@ -1191,23 +1190,23 @@ _Number on the [map](#town-map)—**8**._
 
 The characters hear an argument flaring at the gate:
 
-> Rosa stands before the gate, stance taut, fist clenched. A young guard looks nervous but doesn’t yield.
+> Rosa stands before the gate, stance taut, fists clenched. A young guard looks nervous but doesn’t yield.
 >
 > Townsfolk gather, holding their breath. One guard hurries off to fetch Hurgkhan.
 
 ## The Exchange
 
-> **Hurgkhan** strides up with two guards, face set. He gives Rosa a brief once-over, then turns to the sentry.
+> **Hurgkhan** strides up with two guards. He gives Rosa a brief once-over, then turns to the guard near the gate.
 >
-> **Hurgkhan (low):** Report.
+> **Hurgkhan:** Report.
 >
-> **Guard (steady):** Trying to leave town, sir. No permit.
+> **Guard:** Trying to leave town, sir. No permit.
 >
 > **Hurgkhan (to Rosa):** Town’s closed. Back to the temple, paladin.
 >
-> **Rosa (darkly):** My task outweighs your edicts. Do not anger the angels, orc.
+> **Rosa:** My task outweighs your edicts. Do not anger the angels, orc.
 >
-> Hurgkhan’s hand settles on his axe. Several guards reach for their weapons.
+> Hurgkhan’s hand settles on his axe. Guards reach for their weapons.
 
 ::: box
 
@@ -1239,7 +1238,7 @@ A second attempt is allowed with **+2 DC**. On a second failure—escalation.
 
 - Opponents for [Rosa](#paladin-of-the-church-of-light): [Hurgkhan](#guard-captain-hurgkhan) and three
   [guards](#imperial-guard).
-- The guards’ goal is **arrest**—minimize harm.
+- The guards’ goal is **arrest** and minimize harm.
 - Rosa’s goal is to **break through**.
 
 **Success → de-escalation:**
@@ -1250,9 +1249,9 @@ A second attempt is allowed with **+2 DC**. On a second failure—escalation.
 **If a fight breaks out:**
 
 - Attacking the guard marks the party as **outlaws**; Gaston may help smuggle them out via the cove.
-- If the guards “down” the party—the characters awaken in **jail without their gear** in **d4** hours. Gaston may
+- If the guards “kill” the party—the characters awaken in **jail without their gear** in **d4** hours. Gaston may
   arrange a night extraction.
-- If Rosa “downs” the party—they awaken in the **garrison** in **d4** hours.
+- If Rosa “kill” the party—they awaken in the **garrison** in **d4** hours.
 
 ::: page
 
@@ -1309,8 +1308,8 @@ attention.
 
 > A narrow wooden staircase drops away; the air grows cooler and damp. It smells of mildew, old wood, and something
 > faint—an herbal/alchemical mix. The walls are laid in massive stone blocks; part of the floor is covered by a worn
-> rug. Along one wall stands a table piled with jars, vials, and parchment notes. In the far corner: a framework of
-> metal struts and pipes. Against the middle of the wall sits an old wooden wardrobe.
+> rug. Along one wall stands a table piled with vials and parchment notes. In the far corner: a framework of metal
+> struts and pipes. Against the middle of the wall sits an old wooden wardrobe.
 
 ## Items
 
@@ -1328,11 +1327,11 @@ attention.
 
 **Identifying the vials:**
 
-- The liquid resembles what **[Kenki](#kenki)** could have supplied.
+- The liquid resembles what [Kenki](#kenki) could have supplied.
 - With an alchemist’s kit: 10 minutes—to identify as **antitoxin**.
 - Without a kit: `@Medicine 14`, 10 minutes—to identify as **antitoxin**.
 
-**The corner rig:**
+**The corner:**
 
 - `@Investigation 10`—the metal assembly forms a makeshift potion-brewing stand.
 - Among the tools is the [strange item](#strange-item): a handle with a tightly fitting rubbery cup.
@@ -1361,7 +1360,7 @@ must make a `@Constitution 13` saving throw. On a failure, it gains the
 ::: box
 
 **For the DM.** Instead of a “roll for the code,” offer the players a real mini-puzzle at the table to simulate dialing
-it in. Or just let them through if they propose a reasonable solution using hints from the diary.
+it in.
 
 :::
 
