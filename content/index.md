@@ -52,7 +52,7 @@ In addition, whenever you cast that spell, you can choose one of the following a
 spell
 save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn.
 
-![Illustration](the-missing-merchant/assets/illustrations/city.png) {style="height:520px" class="framed-image"}
+![Illustration](./assets/monk_official.png) {style="height:520px" class="framed-image"}
 
 ::: page {type="inside-cover"}
 

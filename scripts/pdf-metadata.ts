@@ -18,12 +18,15 @@ export async function addMetadataToPdf(
     const pdfBytes = await fs.readFile(inputPath);
     const pdfDoc = await PDFDocument.load(pdfBytes);
 
+    console.log(meta);
+
     if (meta.title) {
         // showInWindowTitleBar опционально
         pdfDoc.setTitle(meta.title, { showInWindowTitleBar: true });
     }
     if (meta.author) {
         pdfDoc.setAuthor(meta.author);
+        pdfDoc.setCreator(meta.author);
     }
     if (meta.subject) {
         pdfDoc.setSubject(meta.subject);
@@ -40,7 +43,6 @@ export async function addMetadataToPdf(
     pdfDoc.setCreationDate(now);
     pdfDoc.setModificationDate(now);
     pdfDoc.setProducer("D&D Flavored Markdown");
-    pdfDoc.setCreator("D&D Flavored Markdown");
 
     const updatedBytes = await pdfDoc.save();
     await fs.writeFile(outputPath, updatedBytes);

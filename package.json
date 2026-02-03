@@ -10,6 +10,7 @@
     "dev": "vite",
     "prettier_": "prettier --write \"README.md\"",
     "prettier": "prettier --write \"content/the-missing-merchant/ru.md\" && prettier --write \"content/the-missing-merchant/en.md\" && prettier --write \"content/the-missing-merchant/session-zero.md\"",
+    "prettier:ashes-to-ashes": "prettier --write 'content/ashes-to-ashes/ru.md'",
     "build:cli": "tsc -p tsconfig.json",
     "build:html": "tsx scripts/dfm.ts build content/index.md -o dist/index.html --inline-css",
     "watch:html": "tsx scripts/dfm.ts watch content/index.md -o dist/index.html --inline-css",
@@ -18,6 +19,7 @@
   "dependencies": {
     "buffer": "^6.0.3",
     "commander": "^12.1.0",
+    "dotenv": "^17.2.3",
     "gray-matter": "^4.0.3",
     "hyphen": "^1.10.6",
     "markdown-it": "^14.1.0",

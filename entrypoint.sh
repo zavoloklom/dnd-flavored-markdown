@@ -34,3 +34,6 @@ kill "${VITE_PID}" || true
 wait "${VITE_PID}" || true
 
 echo "Done."
+
+#npm run dev -- --host 0.0.0.0 </dev/null >/tmp/vite.log 2>&1 &
+#npm run generate-pdf

@@ -6,6 +6,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     ghostscript \
+    qpdf \
+    mupdf-tools \
   && rm -rf /var/lib/apt/lists/*
 
 # package.json и lock-файл
@@ -30,8 +32,6 @@ ENV VITE_HOST=0.0.0.0
 # Значение по умолчанию, чтобы образ был runnable
 ENV DOC_PATH=/content/the-missing-merchant/ru.md
 ENV OUTPUT_FILE=the-missing-merchant-ru.pdf
-
-VOLUME ["/app/generated"]
 
 EXPOSE 5173
 

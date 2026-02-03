@@ -1,5 +1,7 @@
 # The Copy-editor’s Guide to Writing D&D
 
+https://d1vzi28wh99zvq.cloudfront.net/pdf_previews/415504-sample.pdf
+
 IF YOU WRITE D UNGEONS & D RAGONS CONTENT , YOU will probably want to write it in a way that follows the style of the
 official books. For one thing, this style is going to be familiar to your readers, making it easy to follow. But more
 importantly, you can take advantage of the care that the authors and publishers of the books have put in to develop this

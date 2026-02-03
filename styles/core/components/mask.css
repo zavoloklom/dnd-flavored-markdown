@@ -62,7 +62,7 @@
     mask: url(/assets/masks/mask-04.png) luminance center / contain no-repeat;
 }
 .mask.mask--watercolor-05 {
-    mask: url(/assets/masks/mask-05.png) luminance center / contain no-repeat;
+    mask: url(/assets/masks/mask-05-new.png) center bottom / contain no-repeat;
 }
 .mask.mask--watercolor-06 {
     mask: url(/assets/masks/mask-06.png) luminance center / contain no-repeat;

@@ -1,23 +1,24 @@
 .banner {
-    width: 460px;
-    height: 100px;
+    width: 471px;
+    height: 75px;
 
     position: absolute;
     bottom: 200px;
     left: 0;
     z-index: 1;
 
-    background: transparent url("../../assets/themes/default/banner.svg") no-repeat -26px 50%;
+    background: transparent url("../../assets/themes/default/banner.svg") no-repeat 0 50%;
     background-size: contain;
+    filter: drop-shadow(3px 3px 6px black);
 }
 
 .banner p {
     font-family: 'Nodesto Caps Condensed', sans-serif;
     font-size: 24pt;
     color: #fff;
-    line-height: 1;
+    line-height: 75px;
 
-    padding: 33px 0 0 8mm;
+    margin: 0 0 0 8mm;
 
     overflow: clip;
 }

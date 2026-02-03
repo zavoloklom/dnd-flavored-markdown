@@ -24,8 +24,10 @@ function resolveDocPath(): string {
         '/content/index.md'
 
     // нормализуем к абсолютному пути под /content
-    if (!key.startsWith('/content/')) {
+    if (!key.startsWith('content/')) {
         key = '/content/' + key.replace(/^\.?\//, '')
+    } else {
+        key = "/" + key;
     }
 
     if (!files[key]) {
